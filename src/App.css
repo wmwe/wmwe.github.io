@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
 .App {
   text-align: center;
 }
@@ -38,6 +42,28 @@
 }
 
 /* Contact.js */
+.container {
+  position: fixed; 
+  right: 100px;
+  text-align: left;
+  height: 500px;
+}
+
+.header {
+  font-family: 'League Spartan', sans-serif;
+  color: #1B3A5D;
+  font-weight: 700;
+  font-size: 70px;
+  margin-left: 50;
+}
+
+.text {
+  font-family: 'Montserrat', sans-serif;
+  color: #1B3A5D;
+  font-weight: 500;
+  font-size: 30px;
+}
+
 .form {
   height: 100vh;
   display: flex;
