@@ -44,9 +44,11 @@
 /* Contact.js */
 .container {
   position: fixed; 
-  right: 100px;
+  right: 150px;
   text-align: left;
   height: 500px;
+  resize: both;
+  overflow: auto;
 }
 
 .header {
@@ -62,6 +64,7 @@
   color: #1B3A5D;
   font-weight: 500;
   font-size: 30px;
+  margin-bottom: -10;
 }
 
 .form {

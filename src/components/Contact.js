@@ -36,8 +36,6 @@ const Contact = () => {
 
   return (
     <div>
-      <h1>This is the About Page</h1>
-
       <div className="container">
         <h2 className="header">contact us.</h2>
         <p className="text">we'd love to hear from you</p>
