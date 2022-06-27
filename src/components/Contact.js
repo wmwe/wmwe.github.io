@@ -3,6 +3,7 @@ import "./ContactForm.css";
 import { db } from "../Firebase";
 import women_pic from "./women.png";
 
+
 const Contact = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -42,7 +43,7 @@ const Contact = () => {
 
         <div className="container">
           <h2 className="header">contact us.</h2>
-          <p className="text">we'd love to hear from you</p>
+          <p className="text">we'd love to hear from you!</p>
           <form className="form" onSubmit={handleSubmit}>
             <label>name</label>
             <input
@@ -74,6 +75,7 @@ const Contact = () => {
           </form>
         </div>
       </div>
+      <a className="email" target="_top" href="mailto: wmweatutdallas@gmail.com"> wmweatutdallas@gmail.com</a>
     </div>
   );
 };

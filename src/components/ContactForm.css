@@ -21,6 +21,17 @@
     width: 700px;
     margin-left: 80px;
   }
+
+  .email {
+    font-family: 'Montserrat', sans-serif;
+    color: #1B3A5D;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: -10;
+    line-height: 0.001em;
+    margin-right: 565px;
+
+  }
   
   .header {
     color: #1B3A5D;
