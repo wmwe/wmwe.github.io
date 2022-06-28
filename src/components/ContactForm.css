@@ -96,6 +96,7 @@
     height: 150px;
     max-width: 400px;
     min-height: 100px;
+    resize: none;
   }
   
   .form > label {
