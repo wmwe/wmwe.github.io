@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./ContactForm.css";
 import { db } from "../Firebase";
 import women_pic from "./women.png";
-
+import email_pic from "./email.png";
 
 const Contact = () => {
   const [name, setName] = useState("");
@@ -38,7 +38,7 @@ const Contact = () => {
 
   return (
     <div>
-      <div className="main" >
+      <div className="main">
         <img className="photo" src={women_pic} />
 
         <div className="container">
@@ -68,14 +68,16 @@ const Contact = () => {
 
             <button
               type="submit"
-              style={{ background: loader ? "#6DCFF6" : "rgb(0, 0, 196)" }}
+              style={{ background: loader ? "#6DCFF6" : "#1B3A5D" }}
             >
               {buttonText}
             </button>
           </form>
         </div>
       </div>
-      <a className="email" target="_top" href="mailto: wmweatutdallas@gmail.com"> wmweatutdallas@gmail.com</a>
+      <a className="email" target="_top" href="mailto: wmweatutd@gmail.com">
+          wmweatutd@gmail.com
+      </a>
     </div>
   );
 };
