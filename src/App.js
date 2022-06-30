@@ -13,6 +13,7 @@ import Login from "./components/Login";
 import Members from "./components/Members";
 import Officers from "./components/Officers";
 import SignUp from "./components/SignUp";
+import ResetPassword from "./components/ResetPassword";
 
 
 import Footer from './components/Footer';
