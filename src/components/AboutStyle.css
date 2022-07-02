@@ -1,0 +1,41 @@
+.mission, .pillars, .history {
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: left;
+    color: #1B3A5D
+}
+    
+.pic1, .pic2, .pic3 {
+    min-width: 256px;
+    min-height: 170.625px;
+    padding: 10px;
+}
+
+.support, .empowerment1, .mentorship {
+    min-width: 180px;
+    min-height: 180px;
+    padding: 10px;
+}
+    
+.missionpics, .pillarpics {
+    display: flex, inline-block;
+    position: relative;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+
+.aboutheader {
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: left;
+    font-family: 'League Spartan';
+    color:#1B3A5D
+}
+    
+.header {
+    text-align: left;
+    font-family: 'League Spartan';
+    color:#1B3A5D
+}
+
