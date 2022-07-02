@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&family=Montserrat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+.calendar {
+  position: absolute;
+  width: 611px;
+  height: 489px;
+  left: 659px;
+  top: 298px;
+  border-radius: 20px;
+}
+
+.header {
+  position: absolute;
+  width: 448px;
+  height: 28px;
+  left: 163px;
+  top: 100px;
+
+  font-family: "League Spartan";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  text-align: center;
+
+  color: #1b3a5d;
+}
+
+.event_block_1 {
+  position: absolute;
+  width: 396px;
+  height: 94px;
+  left: 189px;
+  top: 250px;
+
+  background: #6dcff6;
+  border-radius: 20px;
+  z-index: -1;
+}
+
+.event_block_2 {
+  position: absolute;
+  width: 396px;
+  height: 94px;
+  left: 189px;
+  top: 360px;
+
+  background: #6dcff6;
+  border-radius: 20px;
+  z-index: -1;
+}
+
+.event_block_3 {
+  position: absolute;
+  width: 396px;
+  height: 94px;
+  left: 189px;
+  top: 470px;
+
+  background: #6dcff6;
+  border-radius: 20px;
+  z-index: -1;
+}
+
+.event_font {
+  font-family: "League Spartan";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 15px;
+
+  color: #ffffff;
+}
+
+.event_info {
+  text-align: left;
+  margin-left: 20px;
+  margin-top: -33px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #ffffff;
+}
