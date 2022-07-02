@@ -10,11 +10,31 @@
   border-radius: 20px;
 }
 
+.button {
+  position: absolute;
+  width: 64px;
+  height: 28px;
+  left: 310px;
+  margin-top: -45px;
+
+  background: #1b3a5d;
+  border-radius: 10px;
+
+  font-family: "League Spartan";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 19px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
 .header {
   position: absolute;
   width: 448px;
   height: 28px;
-  left: 163px;
+  left: 165px;
   top: 100px;
 
   font-family: "League Spartan";
