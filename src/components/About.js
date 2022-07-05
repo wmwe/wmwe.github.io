@@ -4,9 +4,13 @@ import eventpic1 from './eventpic1.jpg'
 import eventpic2 from './eventpic2.jpg'
 import eventpic3 from './eventpic3.jpg'
 
-import support from './support.jpg'
-import empowerment1 from './empowerment1.jpg'
-import mentorship from './mentorship.jpg'
+// import support from './support.jpg'
+// import empowerment1 from './empowerment1.jpg'
+// import mentorship from './mentorship.jpg'
+
+import supportwithborder from './supportwithborder.jpg'
+import empowermentwithborder from './empowermentwithborder.jpg'
+import mentorshipwithborder from './mentorshipwithborder.jpg'
 
 function About(props) {
     return (
@@ -30,17 +34,17 @@ function About(props) {
 
              <div className="pillars">
              <h3 className='header'>our pillars.</h3>
-             <p><small>Support. We strive to provide support for all women through each other. 
+             <p><small><strong>Support.</strong> We strive to provide support for all women through each other. 
                 Your mentor, team, and everyone in WMWE is there to help you out 
                 whenever you need it. Before we are a University Wide Organization, 
                 we are just a group of people that want to help!</small></p>
 
-             <p><small>Empowerment. In the STEM field, women make up only 24% of the entire 
+             <p><small><strong>Empowerment.</strong> In the STEM field, women make up only 24% of the entire 
                 workforce, with the percentage only decreasing with higher positions.  
                 In WMWE, we strive to empower everyone and help make them stronger and more confident 
                 in whatever they do. After all, our slogan is “Empowered Women Empowering Women”.</small></p>
 
-             <p><small>  Mentorship. By linking you up with a professional 
+             <p><small><strong>Mentorship.</strong> By linking you up with a professional 
                 woman who is working in the STEM field in a semester long mentorship, 
                 you will learn everything you wanted to know. From professionalism in the workplace, 
                 to things you can do to upstart your career. In the mentee form, we ask for your major 
@@ -51,9 +55,10 @@ function About(props) {
 
              <div className='pillarpics'>
                 {/* images for pillars */}
-                <img className='support' src={support}/>
-                <img className='empowerment1' src={empowerment1}/>
-                <img className='mentorship' src={mentorship}/>
+
+                <img className='support' src={supportwithborder}/>
+                <img className='empowerment' src={empowermentwithborder}/>
+                <img className='mentorship' src={mentorshipwithborder}/>
              </div>
 
              <div className="history">
