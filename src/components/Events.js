@@ -4,7 +4,7 @@ import "./EventsStyle.css";
 function Events(props) {
   return (
     <div>
-      <p className="header">upcoming events.</p>
+      <p className="header"><b>upcoming events.</b></p>
       <div className="event_block_1">
         <p className="event_font">
           midsemester&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -45,6 +45,17 @@ function Events(props) {
           ECSW 1.315
         </p>
       </div>
+
+      <iframe className="calendar"
+        src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%236dcff6&amp;ctz=America%2FChicago&amp;src=M3VxaThqNTE1dXVjNXZrY3EwcTBvdml1bW9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23F09300"
+        style="border:solid 1px #777"
+        style={{
+          width: "46%",
+          height: "60vh",
+          frameborder: "0",
+          scrolling: "no",
+        }}
+      ></iframe>
     </div>
   );
 }

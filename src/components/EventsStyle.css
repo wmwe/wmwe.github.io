@@ -1,13 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&family=Montserrat:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap');
 
 .calendar {
   position: absolute;
   width: 611px;
   height: 489px;
-  left: 659px;
-  top: 298px;
-  border-radius: 20px;
+  left: 618px;
+  top: 260px;
+  border-radius: 10px;
+  border-color:#1b3a5d;
 }
 
 .button {
@@ -19,6 +21,7 @@
 
   background: #1b3a5d;
   border-radius: 10px;
+  border-color:#1b3a5d;
 
   font-family: "League Spartan";
   font-style: normal;
@@ -32,17 +35,19 @@
 
 .header {
   position: absolute;
-  width: 448px;
-  height: 28px;
-  left: 165px;
+  width: 700px;
+  height: 40px;
+  left: 140px;
   top: 100px;
+  margin-bottom: 30px;
 
-  font-family: "League Spartan";
-  font-style: normal;
+  font-family: 'League Spartan', sans-serif;
+  font-style: bold;
   font-weight: 700;
-  font-size: 48px;
+  font-size: 60px;
   line-height: 60px;
-  text-align: center;
+  text-align: left;
+  letter-spacing: -1px;
 
   color: #1b3a5d;
 }
@@ -51,8 +56,8 @@
   position: absolute;
   width: 396px;
   height: 94px;
-  left: 189px;
-  top: 250px;
+  left: 140px;
+  top: 260px;
 
   background: #6dcff6;
   border-radius: 20px;
@@ -63,8 +68,8 @@
   position: absolute;
   width: 396px;
   height: 94px;
-  left: 189px;
-  top: 360px;
+  left: 140px;
+  top: 370px;
 
   background: #6dcff6;
   border-radius: 20px;
@@ -75,8 +80,8 @@
   position: absolute;
   width: 396px;
   height: 94px;
-  left: 189px;
-  top: 470px;
+  left: 140px;
+  top: 480px;
 
   background: #6dcff6;
   border-radius: 20px;
