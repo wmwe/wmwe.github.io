@@ -1,8 +1,13 @@
 .mission, .pillars, .history {
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
     text-align: left;
     color: #1B3A5D
+}
+
+p {
+    font-size: 80%;
+    font-family: 'Montserrat', sans-serif;
 }
     
 .pic1, .pic2, .pic3 {
@@ -27,8 +32,8 @@
 
 
 .aboutheader {
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
     text-align: left;
     font-family: 'League Spartan';
     color:#1B3A5D
