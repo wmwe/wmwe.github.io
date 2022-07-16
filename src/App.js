@@ -56,6 +56,7 @@ function App() {
           <Route path="/signup" element={<SignUp />} />
           <Route path="/members" element={<Members />} />
           <Route path="/officers" element={<Officers />} />
+          <Route path="/resetpassword" element={<ResetPassword />} />
         </Routes>
         <Footer></Footer>
       </Router>

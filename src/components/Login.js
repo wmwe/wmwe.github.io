@@ -5,7 +5,7 @@ import './ResetPassword.js'
 import wmwelogo from "./wmwelogo.png"
 function Login() {
     return(
-      <div>
+      <div className="all">
         <div className="form">
         <img className="logo" src={wmwelogo}/>
         
@@ -17,15 +17,15 @@ function Login() {
         </div>
 
         
-            <hr class="leftline"/>
+            <hr className="leftline"/>
 
             <div className="form-body">
                 <div className="email">
-                    <label className="form__label" for="email">email{'\n'} </label>
+                    <strong><label className="form__label" for="email">email{'\n'} </label></strong>
                     <input className="form__input" type="email" id="email" placeholder="email" />
                 </div>
                 <div className="password">
-                    <label className="form__label" for="password">password </label>
+                    <strong><label className="form__label" for="password">password </label></strong>
                     <input className="form__input" type="password" id="password" placeholder="password" />
                 </div>
             </div>
@@ -35,8 +35,8 @@ function Login() {
         </div>
         
                 <div className="links">
-                    <p><small><u><a href="./ResetPassword">forgot password?</a></u></small></p>
-                    <p><small>new to WMWE? create an account <u><a href="./SignUp">here</a></u></small></p>
+                    <strong><p><u><a href="./ResetPassword">forgot password?</a></u></p></strong>
+                    <strong><p>new to WMWE? create an account <u><a href="./SignUp">here</a></u></p></strong>
                 </div>
         </div>    
     )       
