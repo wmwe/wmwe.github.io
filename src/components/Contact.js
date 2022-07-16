@@ -3,6 +3,7 @@ import "./ContactForm.css";
 import { db } from "../Firebase";
 import women_pic from "./women.png";
 import email_pic from "./email.png";
+import location_pic from "./location.png";
 
 const Contact = () => {
   const [name, setName] = useState("");
@@ -39,7 +40,33 @@ const Contact = () => {
   return (
     <div>
       <div className="main">
-        <img className="photo" src={women_pic} />
+        <div className="container_left">
+          <img className="photo" src={women_pic} />
+          <br></br>
+
+          <div className="styling">
+            <img className="icons" src={email_pic} />
+            <a
+              className="link"
+              target="blank"
+              href="mailto: wmweatutd@gmail.com"
+            >
+              wmweatutd@gmail.com
+            </a>
+          </div>
+          <br></br>
+
+          <div className="styling">
+            <img className="icons_2" src={location_pic} />
+            <a
+              className="link"
+              target="blank"
+              href="mailto: wmweatutd@gmail.com"
+            >
+              800 W Campbell Rd, Richardson, TX 75080
+            </a>
+          </div>
+        </div>
 
         <div className="container">
           <h2 className="header">contact us.</h2>
@@ -75,9 +102,6 @@ const Contact = () => {
           </form>
         </div>
       </div>
-      <a className="email" target="_top" href="mailto: wmweatutd@gmail.com">
-          wmweatutd@gmail.com
-      </a>
     </div>
   );
 };

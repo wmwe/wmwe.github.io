@@ -3,6 +3,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
 /* Contact.js */
+.container_left {
+  position: fixed; 
+  left: 150px;
+  text-align: left;
+  height: 600px;
+  overflow: auto;
+}
+
 .container {
     position: fixed; 
     right: 150px;
@@ -16,25 +24,38 @@
   }
 
   .photo {
-    height: 500px;
-    width: 700px;
+    height: 300px;
+    width: 400px;
     margin-left: 80px;
+    margin-top: 100px;
   }
 
-  .email_photo {
-    height: 20px;
-    width: 20px;
-    margin-left: 80px;
+  .icons {
+    height: 35px;
+    width: 35px;
+    margin-left: 109px;
   }
 
-  .email {
+  .icons_2 {
+    height: 35px;
+    width: 35px;
+    margin-left: 105.25px;
+  }
+
+  .styling {
+    display:inline-block;
+  }
+
+  .link {
     font-family: 'Montserrat', sans-serif;
     color: #1B3A5D;
-    font-weight: 500;
-    font-size: 20px;
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 13px;
     margin-top: -10;
-    line-height: 0.001em;
+    line-height: 1.6;
     margin-right: 563px;
+    text-decoration: none;
   }
   
   .header {
