@@ -2,6 +2,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap');
 
+.container_left {
+  position: relative; 
+  left: 150px;
+  text-align: left;
+  height: 600px;
+  overflow: auto;
+}
+
+.container {
+  position: relative; 
+  right: 150px;
+  text-align: left;
+  height: 600px;
+  overflow: auto;
+}
+
 .calendar {
   position: absolute;
   width: 611px;
