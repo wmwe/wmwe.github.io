@@ -4,35 +4,36 @@
 
 .container_left {
   position: relative; 
-  left: 150px;
   text-align: left;
   height: 600px;
-  overflow: auto;
+  overflow: hidden;
 }
 
 .container {
   position: relative; 
-  right: 150px;
   text-align: left;
   height: 600px;
-  overflow: auto;
+  overflow: hidden;
+  min-width: 100px;
 }
 
 .calendar {
-  position: absolute;
+  position: relative;
   width: 611px;
   height: 489px;
-  left: 618px;
-  top: 260px;
+  left: 18%;
+  top: 45px;
   border-radius: 10px;
   border-color:#1b3a5d;
+  overflow:hidden;
+  min-width: 100px;
 }
 
 .button {
   position: absolute;
   width: 64px;
   height: 28px;
-  left: 310px;
+  left: 78%;
   margin-top: -45px;
 
   background: #1b3a5d;
@@ -46,16 +47,16 @@
   line-height: 19px;
   text-align: center;
   cursor:pointer;
+  z-index: 1;
 
   color: #ffffff;
 }
 
 .header {
-  position: absolute;
-  width: 700px;
+  position: relative;
   height: 40px;
-  left: 140px;
-  top: 100px;
+  left: 8%;
+  top: 30px;
   margin-bottom: 30px;
 
   font-family: 'League Spartan', sans-serif;
@@ -73,7 +74,7 @@
   position: absolute;
   width: 396px;
   height: 94px;
-  left: 140px;
+  left: 8%;
   top: 260px;
 
   background: #6dcff6;
@@ -85,7 +86,7 @@
   position: absolute;
   width: 396px;
   height: 94px;
-  left: 140px;
+  left: 8%;
   top: 370px;
 
   background: #6dcff6;
@@ -97,7 +98,7 @@
   position: absolute;
   width: 396px;
   height: 94px;
-  left: 140px;
+  left: 8%;
   top: 480px;
 
   background: #6dcff6;
@@ -131,3 +132,4 @@
 
   color: #ffffff;
 }
+

@@ -7,6 +7,8 @@ function Events(props) {
       <p className="header">
         <b>upcoming events.</b>
       </p>
+
+
       <div className="event_block_1">
         <p className="event_font">
           midsemester&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -22,6 +24,8 @@ function Events(props) {
         </a>
       </div>
 
+
+
       <div className="event_block_2">
         <p className="event_font">
           JS
@@ -35,6 +39,8 @@ function Events(props) {
         </p>
       </div>
 
+
+
       <div className="event_block_3">
         <p className="event_font">
           end of
@@ -47,6 +53,8 @@ function Events(props) {
           ECSW 1.315
         </p>
       </div>
+
+
 
       <iframe
         className="calendar"
