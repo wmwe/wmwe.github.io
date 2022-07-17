@@ -3,6 +3,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
 /* Contact.js */
+
+.container_icons {
+  position: relative; 
+  left: 150px;
+  text-align: left;
+  height: 600px;
+  overflow: auto;
+}
+
 .container_left {
   position: relative; 
   left: 150px;
@@ -17,6 +26,7 @@
     text-align: left;
     height: 600px;
     overflow: auto;
+    margin-left: 30px;
   }
 
   .main {
@@ -92,7 +102,7 @@
   .form > input,
   textarea {
     padding: 15px;
-    border-radius: 3px;
+    border-radius: 10px;
     /* box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.137); */
     margin-bottom: 20px;
     border: 1px solid rgba(109, 207, 246, 1);
@@ -104,7 +114,6 @@
     font-family: 'Montserrat', sans-serif;
     color: #1B3A5D;
     font-weight: 500;
-    border-radius: 10px;
   }
   
   .form > input:focus,
@@ -115,7 +124,7 @@
   .form > textarea {
     height: 30px;
     max-width: 400px;
-    min-height: 30px;
+    min-height: 50px;
     resize: none;
   }
   
@@ -131,14 +140,14 @@
     padding: 15px;
     border: none;
     background-color: rgba(109, 207, 246, 1);
-    font-weight: 500;
-    font-size: 20px;
-    border-radius: 3px;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 15px;
     color: #fff;
     cursor: pointer;
     transition: 0.2s ease-in-out;
     width: 100px;
-    border-radius: 10px;
+    height: 50px;
   }
   
   .form > button:hover {

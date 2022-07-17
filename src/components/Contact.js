@@ -61,9 +61,9 @@ const Contact = () => {
             <a
               className="link"
               target="blank"
-              href="mailto: wmweatutd@gmail.com"
+              href="https://www.google.com/maps/place/University+of+Texas+at+Dallas/@32.9857019,-96.7524361,17z/data=!3m1!4b1!4m5!3m4!1s0x864c21ff895e4aa5:0xd9098b32e9aa1331!8m2!3d32.9856974!4d-96.7502474"
             >
-              800 W Campbell Rd, Richardson, TX 75080
+              800 W Campbell Rd
             </a>
           </div>
         </div>
