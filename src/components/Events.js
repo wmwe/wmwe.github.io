@@ -3,7 +3,7 @@ import "./EventsStyle.css";
 
 function Events(props) {
   return (
-    <div>
+    <div className="big_div">
       <p className="header">
         <b>upcoming events.</b>
       </p>
