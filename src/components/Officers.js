@@ -135,13 +135,6 @@ function Officers(props) {
 
              </section>
              
-             
-             <view style={{height:150}}> </view>
-            
-
-            
-             
-             
         </div>
     );
 }
