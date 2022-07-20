@@ -1,0 +1,87 @@
+.footerset {
+    background-color: #CBF0FF;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+
+    color: #1B3A5D;
+
+}
+
+.logo2 {
+    max-width: 180px;
+    max-height: 106.5px;
+    margin-right: 60%;
+    margin-top: 5%;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    
+}
+
+.linkedpages {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+.socials {
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+
+}
+
+.instagram {
+    max-height: 42px;
+    max-width: 42px;
+    margin-bottom: .001px;
+    padding-right: 1px;
+}
+
+.linkedin, .facebook {
+    max-height: 35px;
+    max-width: 35px;
+    margin-bottom: 2.5px;
+}
+
+.socialpics {
+    display: inline-block;
+}
+
+.mail {
+    max-height: 20px;
+    max-width: 20px;
+    float: left;
+    flex-basis: 70%;
+}
+
+.link {
+    padding-left: 6px;
+}
+
+.mail_link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+a:visited, a:link {
+    text-decoration: none;
+    color: #1B3A5D;
+}
+
+a:hover {
+    text-decoration-line: underline;
+}
+

@@ -1,3 +1,7 @@
+.textbody {
+    background-color: #F5FCFF;
+}
+
 .mission, .pillars, .history {
     margin-left: 15%;
     margin-right: 15%;
@@ -11,14 +15,14 @@ p {
 }
     
 .pic1, .pic2, .pic3 {
-    min-width: 256px;
-    min-height: 170.625px;
+    max-width: 256px;
+    max-height: 170.625px;
     padding: 10px;
 }
 
 .support, .empowerment, .mentorship {
-    min-width: 180px;
-    min-height: 180px;
+    max-width: 180px;
+    max-height: 180px;
     padding: 30px;
 }
     

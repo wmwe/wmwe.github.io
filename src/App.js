@@ -33,9 +33,9 @@ class App extends Component {
   
   }
   
-  componentDidMount() {
-      this.authListener();
-  }
+  // componentDidMount() {
+  //     this.authListener();
+  // }
   
   authListener() {
     firebaseApp.auth().onAuthStateChanged((user) => {
@@ -50,8 +50,7 @@ class App extends Component {
   render() {
     return(
         <div className="App">
-    
-          {this.state.user ? (<About />) : (<Login />)}
+  
     
           <Router>
             <Navbar></Navbar>
