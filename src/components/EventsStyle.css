@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap');
 
 .big_div {
-  display: block;
+  display: inline-block;
 }
 
 .container_left {
@@ -60,6 +60,10 @@
   z-index: 100;
 
   color: #ffffff;
+}
+
+a.hover {
+  background-color: yellow;
 }
 
 .header {
