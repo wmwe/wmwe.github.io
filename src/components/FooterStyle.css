@@ -37,15 +37,15 @@
 }
 
 .instagram {
-    max-height: 42px;
-    max-width: 42px;
-    margin-bottom: .001px;
+    max-height: 34px;
+    max-width: 34px;
+    margin-bottom: .1px;
     padding-right: 1px;
 }
 
 .linkedin, .facebook {
-    max-height: 35px;
-    max-width: 35px;
+    max-height: 29px;
+    max-width: 29px;
     margin-bottom: 2.5px;
 }
 
@@ -76,12 +76,12 @@
     padding-right: 20px;
 }
 
-a:visited, a:link {
-    text-decoration: none;
+a:link, a:visited  {
     color: #1B3A5D;
+    text-decoration: none;
 }
 
 a:hover {
-    text-decoration-line: underline;
+    color:#1B3A5D;
+    text-decoration: underline;
 }
-

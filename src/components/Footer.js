@@ -16,21 +16,25 @@ function Footer(props) {
             </div>
 
             <div className="linkedpages">
-                <p><strong>WMWE<br /></strong> 
-                <a href="./About">about</a><br /> 
-                <a href="./Events">events</a><br /> 
-                <a href="./Officers">officers</a><br /> 
-                <a href="./Members">members</a><br /> 
-                <a href="./Login">member login</a></p>
+                <p><strong>WMWE<br /></strong></p>
+                <div className="redirect">
+                <p>
+                    <a href="./About">about</a><br /> 
+                    <a href="./Events">events</a><br /> 
+                    <a href="./Officers">officers</a><br /> 
+                    <a href="./Members">members</a><br /> 
+                    <a href="./Login">member login</a>
+                </p>
+                </div>
             </div>
 
            
             <div className="socials">
                 <p><strong>connect with us!</strong></p>
                 <div className="socialpics">
-                    <img className="instagram" src={instagram}/>
-                    <img className="linkedin" src={linkedin}/>
-                    <img className="facebook" src={facebook}/>
+                    <a href="https://www.instagram.com/wmweatutd/" target="_blank"><img className="instagram" src={instagram}/></a>
+                    <a href="https://www.linkedin.com/in/wmweatutd/" target="_blank"><img className="linkedin" src={linkedin}/></a>
+                    <a href="https://www.facebook.com/wmweatutd/" target="_blank"><img className="facebook" src={facebook}/></a>
                 </div>
             </div>
 
