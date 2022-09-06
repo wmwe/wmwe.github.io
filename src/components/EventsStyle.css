@@ -29,7 +29,7 @@
   min-width: 611px;
   height: 489px;
   left: 18%;
-  top: 45px;
+  top: 7px;
   border-radius: 10px;
   border-color:#1b3a5d;
   overflow:hidden;
@@ -39,12 +39,12 @@
   overflow:hidden
 }
 
-.button {
+.button_2 {
   position: absolute;
   width: 64px;
   height: 28px;
-  left: 78%;
-  margin-top: -45px;
+  left: 24.5%;
+  top: 430.5px;
 
   background: #1b3a5d;
   border-radius: 10px;
@@ -57,7 +57,7 @@
   line-height: 19px;
   text-align: center;
   cursor:pointer;
-  z-index: 100;
+  z-index: 1900000000;
 
   color: #ffffff;
 }
@@ -66,7 +66,7 @@
   position: relative;
   height: 40px;
   left: 8%;
-  top: 30px;
+  top: -10px;
   margin-bottom: 30px;
 
   font-family: 'League Spartan', sans-serif;
@@ -85,7 +85,7 @@
   width: 396px;
   height: 94px;
   left: 8%;
-  top: 260px;
+  top: 270px;
 
   background: #6dcff6;
   border-radius: 20px;
@@ -97,7 +97,7 @@
   width: 396px;
   height: 94px;
   left: 8%;
-  top: 370px;
+  top: 380px;
 
   background: #6dcff6;
   border-radius: 20px;
@@ -109,7 +109,7 @@
   width: 396px;
   height: 94px;
   left: 8%;
-  top: 480px;
+  top: 490px;
 
   background: #6dcff6;
   border-radius: 20px;
@@ -125,6 +125,7 @@
   text-align: left;
   margin-left: 20px;
   margin-top: 15px;
+  z-index: 1;
 
   color: #ffffff;
 }
@@ -139,6 +140,7 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  z-index:1;
 
   color: #ffffff;
 }

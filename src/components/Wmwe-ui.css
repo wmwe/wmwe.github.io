@@ -1,0 +1,70 @@
+.officer-card{
+    display:flex;
+    flex-direction: column;
+    row-gap:0;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+
+.image{
+    max-width: 50%;
+    border-radius: 50%;
+    border-color: #1B3A5D;
+    border-width: thick;
+    border-style: solid;
+}
+
+.name{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #1B3A5D;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.officer-position{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #1B3A5D;
+    text-align: center;
+    
+    margin-right: 3%;
+  
+}
+
+.description{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #1B3A5D;
+    font-size: 0.9rem;
+    text-align: center;
+    width: 80%;
+}
+
+.position-line{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: -5%;
+  
+    width: 100%;
+
+}
+
+.linkedin-navy{
+    width: 20px;
+   
+
+}
+
+.link{
+    /* margin-top: 2%;
+    max-width: 12%;
+    max-height: 12%;
+    margin-left: 2%; */
+    height: 20px;
+   
+   
+}

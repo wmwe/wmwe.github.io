@@ -25,12 +25,10 @@ function Events(props) {
           <br></br>
           Location: in Discord
         </p>
-        <br></br>
-        <p className="event_info_2">
-          Meet all of our members and connect with your team and MTM to learn
-          more about WMWE. We've got cupcakes and some fun events planned!!
-        </p>
       </div>
+      <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSezKmHToa2cPXi1W2AT4MMtyF7yz5-w_Va8Q1BuUaH0gefriQ/viewform">
+        <button className="button_2">rsvp</button>
+      </a>
 
       <div className="event_block_2">
         <p className="event_font">
