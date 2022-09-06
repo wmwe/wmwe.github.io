@@ -41,7 +41,7 @@
 }
 
 .container {
-    position: fixed; 
+    position: relative; 
     right: 150px;
     text-align: left;
     height: 600px;
@@ -49,34 +49,34 @@
     margin-left: 30px;
   }
 
-.main {
+  .main {
     display: flex;
   }
 
-.photo {
+  .photo {
     height: 300px;
     width: 400px;
     margin-left: 70px;
     margin-top: 100px;
   }
 
-.icons {
+  .icons {
     height: 35px;
     width: 35px;
     margin-left: 109px;
   }
 
-.icons_2 {
+  .icons_2 {
     height: 35px;
     width: 35px;
     margin-left: 105.25px;
   }
 
-.styling {
+  .styling {
     display:inline-block;
   }
 
-.link {
+  .link {
     font-family: 'Montserrat', sans-serif;
     color: #1B3A5D;
     margin-left: 20px;
@@ -87,8 +87,8 @@
     margin-right: 563px;
     text-decoration: none;
   }
-
-.header {
+  
+  .header {
     color: #1B3A5D;
     margin-left: 50;
     font-family: 'League Spartan';
@@ -98,29 +98,28 @@
     margin-bottom: -50;
     line-height: 0.0002em;
   }
-
-.text {
+  
+  .text {
     font-family: 'Montserrat', sans-serif;
     color: #1B3A5D;
-    margin-left: 50;
     font-weight: 500;
     font-size: 30px;
     margin-top: -10;
     line-height: 0.0002em;
   }
-
-.form {
+  
+  .form {
     height: 55vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
-
-.form > h1 {
+  
+  .form > h1 {
     margin-bottom: 30px;
   }
-
-.form > input,
+  
+  .form > input,
   textarea {
     padding: 15px;
     border-radius: 10px;
@@ -136,28 +135,28 @@
     color: #1B3A5D;
     font-weight: 500;
   }
-
-.form > input:focus,
+  
+  .form > input:focus,
   textarea:focus {
     border: 1px solid rgba(109, 207, 246, 1);
   }
-
-.form > textarea {
+  
+  .form > textarea {
     height: 30px;
     max-width: 400px;
     min-height: 50px;
     resize: none;
   }
-
-.form > label {
+  
+  .form > label {
     padding-bottom: 10px;
     color: #1B3A5D;
     font-family: 'Montserrat', sans-serif;
     color: #1B3A5D;
     font-weight: 500;
   }
-
-.form > button {
+  
+  .form > button {
     padding: 15px;
     border: none;
     background-color: rgba(109, 207, 246, 1);
@@ -170,8 +169,8 @@
     width: 100px;
     height: 50px;
   }
-
-.form > button:hover {
+  
+  .form > button:hover {
     background-color: rgba(109, 207, 246, 1);
   }
   /* End of Contact.js */
