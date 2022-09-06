@@ -4,57 +4,56 @@ import "./EventsStyle.css";
 function Events(props) {
   return (
     <div className="big_div">
+      <div className="banner1">
+        <h3 className="banner-text">
+          Mentee applications for Fall 2022 are now open!
+        </h3>
+        <h3 className="banner-text">apply today</h3>
+      </div>
+
       <p className="header">
         <b>upcoming events.</b>
       </p>
 
-
       <div className="event_block_1">
         <p className="event_font">
-          midsemester&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          15
+          kickoff&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          07
         </p>
         <p className="event_info">
-          7:00 pm
+          5:30 pm
           <br></br>
-          ECSW 1.315
+          Location: in Discord
         </p>
-        <a target="_blank" href="https://www.youtube.com">
-          <button className="button">rsvp</button>
-        </a>
+        <br></br>
+        <p className="event_info_2">
+          Meet all of our members and connect with your team and MTM to learn
+          more about WMWE. We've got cupcakes and some fun events planned!!
+        </p>
       </div>
-
-
 
       <div className="event_block_2">
         <p className="event_font">
-          JS
-          workshop&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          20
+          women in consuting &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 12
         </p>
         <p className="event_info">
           7:00 pm
           <br></br>
-          ECSW 1.315
+          Location: SCI 2.235
         </p>
       </div>
-
-
 
       <div className="event_block_3">
         <p className="event_font">
-          end of
-          semester&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          29
+          salary negotiations &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          19
         </p>
         <p className="event_info">
-          7:00 pm
+          6:00 pm
           <br></br>
-          ECSW 1.315
+          Location: SSA 14.265
         </p>
       </div>
-
-
 
       <iframe
         className="calendar"
@@ -67,6 +66,8 @@ function Events(props) {
           scrolling: "no",
         }}
       ></iframe>
+      <br></br>
+      <br></br>
     </div>
   );
 }
