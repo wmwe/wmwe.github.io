@@ -10,7 +10,7 @@ function Officers(props) {
 
             <h1 className='header-text'>meet the team.</h1>
 
-             <section className='container'>
+             <section className='container_off'>
 
             <div className='item-1'>
             <OfficerCard
