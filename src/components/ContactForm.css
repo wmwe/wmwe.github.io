@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+/* Contact.js */
+.container {
+    position: fixed; 
+    right: 150px;
+    text-align: left;
+    height: 600px;
+    overflow: auto;
+  }
+
+  .main {
+    display: flex;
+  }
+
+  .photo {
+    height: 500px;
+    width: 700px;
+    margin-left: 80px;
+  }
+
+  .email_photo {
+    height: 20px;
+    width: 20px;
+    margin-left: 80px;
+  }
+
+  .email {
+    font-family: 'Montserrat', sans-serif;
+    color: #1B3A5D;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: -10;
+    line-height: 0.001em;
+    margin-right: 563px;
+  }
+  
+  .header {
+    color: #1B3A5D;
+    margin-left: 50;
+    font-family: 'League Spartan';
+    font-weight: 700;
+    font-size: 60px;
+    letter-spacing: 0.04em;
+    margin-bottom: -50;
+    line-height: 0.0002em;
+  }
+  
+  .text {
+    font-family: 'Montserrat', sans-serif;
+    color: #1B3A5D;
+    font-weight: 500;
+    font-size: 30px;
+    margin-top: -10;
+    line-height: 0.0002em;
+  }
+  
+  .form {
+    height: 59vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .form > h1 {
+    margin-bottom: 30px;
+  }
+  
+  .form > input,
+  textarea {
+    padding: 15px;
+    border-radius: 3px;
+    /* box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.137); */
+    margin-bottom: 20px;
+    border: 1px solid rgba(109, 207, 246, 1);
+    /* border: none; */
+    background: #fff;
+    font-size: 16px;
+    color: rgba(109, 207, 246, 1);
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+    color: #1B3A5D;
+    font-weight: 500;
+    border-radius: 10px;
+  }
+  
+  .form > input:focus,
+  textarea:focus {
+    border: 1px solid rgba(109, 207, 246, 1);
+  }
+  
+  .form > textarea {
+    height: 30px;
+    max-width: 400px;
+    min-height: 30px;
+    resize: none;
+  }
+  
+  .form > label {
+    padding-bottom: 10px;
+    color: #1B3A5D;
+    font-family: 'Montserrat', sans-serif;
+    color: #1B3A5D;
+    font-weight: 500;
+  }
+  
+  .form > button {
+    padding: 15px;
+    border: none;
+    background-color: rgba(109, 207, 246, 1);
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    width: 100px;
+    border-radius: 10px;
+  }
+  
+  .form > button:hover {
+    background-color: rgba(109, 207, 246, 1);
+  }
+  /* End of Contact.js */

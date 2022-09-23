@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&family=Montserrat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap');
+
+.big_div {
+  display: inline-block;
+}
+
+.container_left {
+  position: relative; 
+  text-align: left;
+  height: 600px;
+  overflow: hidden;
+}
+
+.container {
+  position: relative; 
+  text-align: left;
+  height: 600px;
+  overflow: hidden;
+  min-width: 611px;
+  margin-bottom: 30px;
+  resize: none;
+}
+
+.calendar {
+  position: relative;
+  width: 611px;
+  min-width: 611px;
+  height: 489px;
+  left: 18%;
+  top: 45px;
+  border-radius: 10px;
+  border-color:#1b3a5d;
+  overflow:hidden;
+  min-width: 100px;
+  margin-bottom: 50px;
+  resize: none;
+  overflow:hidden
+}
+
+.button {
+  position: absolute;
+  width: 64px;
+  height: 28px;
+  left: 78%;
+  margin-top: -45px;
+
+  background: #1b3a5d;
+  border-radius: 10px;
+  border-color:#1b3a5d;
+
+  font-family: "League Spartan";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 19px;
+  text-align: center;
+  cursor:pointer;
+  z-index: 100;
+
+  color: #ffffff;
+}
+
+a.hover {
+  background-color: yellow;
+}
+
+.header {
+  position: relative;
+  height: 40px;
+  left: 8%;
+  top: 30px;
+  margin-bottom: 30px;
+
+  font-family: 'League Spartan', sans-serif;
+  font-style: bold;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 60px;
+  text-align: left;
+  letter-spacing: -1px;
+
+  color: #1b3a5d;
+}
+
+.event_block_1 {
+  position: absolute;
+  width: 396px;
+  height: 94px;
+  left: 8%;
+  top: 260px;
+
+  background: #6dcff6;
+  border-radius: 20px;
+  z-index: -1;
+}
+
+.event_block_2 {
+  position: absolute;
+  width: 396px;
+  height: 94px;
+  left: 8%;
+  top: 370px;
+
+  background: #6dcff6;
+  border-radius: 20px;
+  z-index: -1;
+}
+
+.event_block_3 {
+  position: absolute;
+  width: 396px;
+  height: 94px;
+  left: 8%;
+  top: 480px;
+
+  background: #6dcff6;
+  border-radius: 20px;
+  z-index: -1;
+}
+
+.event_font {
+  font-family: "League Spartan";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 15px;
+
+  color: #ffffff;
+}
+
+.event_info {
+  text-align: left;
+  margin-left: 20px;
+  margin-top: -33px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #ffffff;
+}
+
