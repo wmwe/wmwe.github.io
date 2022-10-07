@@ -6,6 +6,37 @@
   display: block;
 }
 
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  width: 396px;
+  height: 94px;
+  left: 8%;
+  top: 260px;
+
+  background: #6dcff6;
+  border-radius: 20px;
+  z-index: -1;
+}
+
+.outer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.outer-container > .containerEvents {
+  width: 45%;
+  flex-direction: column;
+}
+
+.outer-container > .containerCalendar {
+  width: 55%;
+  justify-content: left;
+}
+
+
 .container_left {
   position: relative; 
   text-align: left;
@@ -24,19 +55,16 @@
 }
 
 .calendar {
-  position: relative;
-  width: 611px;
-  min-width: 611px;
+  width: 680px;
+  min-width: 680px;
   height: 489px;
-  left: 18%;
-  top: 45px;
   border-radius: 10px;
   border-color:#1b3a5d;
   overflow:hidden;
-  min-width: 100px;
   margin-bottom: 50px;
   resize: none;
-  overflow:hidden
+  justify-content: left;
+  margin-right: 20%;
 }
 
 .button {
