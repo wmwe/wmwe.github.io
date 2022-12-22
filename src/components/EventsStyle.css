@@ -29,6 +29,7 @@
 .outer-container > .containerEvents {
   width: 45%;
   flex-direction: column;
+  justify-content: center;
 }
 
 .outer-container > .containerCalendar {

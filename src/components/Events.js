@@ -13,55 +13,85 @@ function Events(props) {
 
       <div className="outer-container">
         <div className="containerEvents">
-          <div className="event_block_1">
-            <p className="event_font">
-              midsemester&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              15
-            </p>
-            <p className="event_info">
-              7:00 pm
-              <br></br>
-              ECSW 1.315
-            </p>
-            <a target="_blank" href="https://www.youtube.com">
-              <button className="button">rsvp</button>
-            </a>
+          <div class="wrapper">
+            <div class="one">
+              <p className="event_font">kickoff</p>
+            </div>
+            <div class="two">
+              <p className="event_font">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;15
+              </p>
+            </div>
+            <div class="three">
+              <p className="event_info">
+                7:00 pm
+                <br></br>
+                ECSW 1.315
+              </p>
+            </div>
+            <div class="four" style={{ marginTop: "-2em" }}>
+              <p>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a target="_blank" href="https://www.youtube.com">
+                  <button className="button">rsvp</button>
+                </a>
+              </p>
+            </div>
           </div>
 
-          <div className="event_block_2">
-            <p className="event_font">
-              JS
-              workshop&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              20
-            </p>
-            <p className="event_info">
-              7:00 pm
-              <br></br>
-              ECSW 1.315
-            </p>
-          </div>
-
-          <div className="event_block_3">
-            <p className="event_font">
-              end of
-              semester&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              29
-            </p>
-            <p className="event_info">
-              7:00 pm
-              <br></br>
-              ECSW 1.315
-            </p>
-          </div>
+          <br></br>
 
           <div class="wrapper">
-            <div class="one">One</div>
-            <div class="event_font">&nbsp;&nbsp;&nbsp;&nbsp;15</div>
-            <div class="three">Three</div>
-            <div>
-              <a target="_blank" href="https://www.youtube.com">
-                <button className="button">rsvp</button>
-              </a>
+            <div class="one">
+              <p className="event_font">midsemester</p>
+            </div>
+            <div class="two">
+              <p className="event_font">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;15
+              </p>
+            </div>
+            <div class="three">
+              <p className="event_info">
+                7:30 pm
+                <br></br>
+                Galaxy Rooms
+              </p>
+            </div>
+            <div class="four" style={{ marginTop: "-2em" }}>
+              <p>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a target="_blank" href="https://www.youtube.com">
+                  <button className="button">rsvp</button>
+                </a>
+              </p>
+            </div>
+          </div>
+
+          <br></br>
+
+          <div class="wrapper">
+            <div class="one">
+              <p className="event_font">end of semester</p>
+            </div>
+            <div class="two">
+              <p className="event_font">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;15
+              </p>
+            </div>
+            <div class="three">
+              <p className="event_info">
+                6:00 pm
+                <br></br>
+                ECSS 2.311
+              </p>
+            </div>
+            <div class="four" style={{ marginTop: "-2em" }}>
+              <p>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a target="_blank" href="https://www.youtube.com">
+                  <button className="button">rsvp</button>
+                </a>
+              </p>
             </div>
           </div>
         </div>
