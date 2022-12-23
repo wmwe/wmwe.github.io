@@ -57,7 +57,7 @@
   line-height: 19px;
   text-align: center;
   cursor:pointer;
-  z-index: 100;
+  /* z-index: 100; */
 
   color: #ffffff;
 }
@@ -85,7 +85,7 @@ a.hover {
 }
 
 .event_block_1 {
-  position: absolute;
+  /* position: absolute; */
   width: 396px;
   height: 94px;
   left: 8%;
@@ -97,11 +97,11 @@ a.hover {
 }
 
 .event_block_2 {
-  position: absolute;
+  /* position: absolute;
   width: 396px;
   height: 94px;
   left: 8%;
-  top: 370px;
+  top: 370px; */
 
   background: #6dcff6;
   border-radius: 20px;
