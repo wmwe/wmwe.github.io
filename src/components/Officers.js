@@ -39,7 +39,7 @@ function Officers(props) {
              name={"Lillie McMaster"}
              position={"Secretary"}
              image={"photos/officer-photos/Lillie-McMaster.png"}
-             description={'I’m Lillie, I go by she/her pronouns. I am a third year Computer Science student. This will be my second year as Secretary of WMWE. I’m super excited for a new way to track M-points through our website. I love to read fantasy and romance books in my free time. I have four fur-babies at home - two dogs and two cats.'}
+             description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ante quam, rhoncus eu sem convallis, ultrices scelerisque magna. Ut dapibus eu magna vel bibendum.'}
              linkedin={'https://www.linkedin.com/in/vyshnavi-nalla/'}
              font={'1.1'}
              ></OfficerCard>
@@ -104,7 +104,7 @@ function Officers(props) {
              name={"Illiana Rodriguez"}
              position={"Treasury Committee Member"}
              image={"photos/officer-photos/Illiana-Rodriguez.png"}
-             description={'My name’s Illiana, and it’s my third year as a Mechanical Engineering student. I love being a part of WMWE, and this semester I’ll be helping as part of the treasury committee. I’m an international student from Mexico, have two super cute dogs, and enjoy spending time with my friends. I’m really excited about meeting new people in the organization and seeing our community grow!'}
+             description={'My name’s Illiana, and it’s my third year as a Mechanical Engineering student. I love being a part of WMWE, and this semester I’ll be helping as part of the treasury committee.'}
              linkedin={'https://www.linkedin.com/in/vyshnavi-nalla/'}
              font={'0.9'}
              ></OfficerCard>
