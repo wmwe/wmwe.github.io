@@ -6,11 +6,11 @@ import './Home.css';
 
 function Officers(props) {
     return (
-        <div style={{position:'relative'}}>
+        <div>
 
             <h1 className='header-text'>meet the team.</h1>
 
-             <section className='container'>
+             <section className='containerx'>
 
             <div className='item-1'>
             <OfficerCard

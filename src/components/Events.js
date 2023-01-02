@@ -4,7 +4,7 @@ import "./EventsStyle.css";
 function Events(props) {
   return (
     <div className="big_div">
-      <div className="banner1">
+      {/* <div className="banner1">
         <h3 className="banner-text">
           Mentee applications for Fall 2022 are now open!
         </h3>
@@ -65,7 +65,7 @@ function Events(props) {
         }}
       ></iframe>
       <br></br>
-      <br></br>
+      <br></br> */}
     </div>
   );
 }

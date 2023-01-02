@@ -9,10 +9,10 @@ export const OfficerCard = ({name, position, image, description, linkedin, font}
 
       <img className='image' src={image}></img>
 
-      <h1 className='name'>{name}</h1>
+      <h1 className='names'>{name}</h1>
 
-      <div className='position-line'>
-      <h1 className='officer-position' style={{fontSize:`${font}rem`}}>{position}</h1>
+      <div className='position-linex'>
+      <h1 className='officer-positions' style={{fontSize:`${font}rem`}}>{position}</h1>
       <a href={linkedin} className='link'>
         <img src={linkedinNavy} className='linkedin-navy'></img>
       </a>
