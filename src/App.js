@@ -17,6 +17,7 @@ import SignUp from "./components/SignUp";
 
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
+import Navbar2 from './components/Navbar2';
 
 
 function App() {
@@ -45,7 +46,7 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Navbar></Navbar>
+        <Navbar2></Navbar2>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
