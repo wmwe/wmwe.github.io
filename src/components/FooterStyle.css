@@ -1,0 +1,89 @@
+/* updated footer css */
+
+.footerset {
+    background-color: #CBF0FF;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+
+    color: #1B3A5D;
+
+}
+
+.logo2 {
+    max-width: 180px;
+    max-height: 106.5px;
+    margin-right: 60%;
+    margin-top: 5%;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    
+}
+
+.linkedpages {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+.socials {
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+
+}
+
+.instagram {
+    max-height: 34px;
+    max-width: 34px;
+    margin-bottom: .1px;
+    padding-right: 1px;
+}
+
+.linkedin, .facebook {
+    max-height: 29px;
+    max-width: 29px;
+    margin-bottom: 2.5px;
+}
+
+.socialpics {
+    display: inline-block;
+}
+
+.mail {
+    max-height: 20px;
+    max-width: 20px;
+    float: left;
+    flex-basis: 70%;
+}
+
+.link {
+    padding-left: 6px;
+}
+
+.mail_link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+a:link, a:visited  {
+    color: #1B3A5D;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#1B3A5D;
+    text-decoration: underline;
+}
