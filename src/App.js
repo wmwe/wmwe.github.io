@@ -9,7 +9,8 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Events from "./components/Events";
 import Home from "./components/Home";
-import Login from "./components/Login";
+
+import {Login} from "./components/Login";
 import Members from "./components/Members";
 import Officers from "./components/Officers";
 import SignUp from "./components/SignUp";
