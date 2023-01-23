@@ -11,6 +11,7 @@ import Events from "./components/Events";
 import Home from "./components/Home";
 import Login from "./components/Login";
 import Members from "./components/Members";
+import Mentees from "./components/Mentees";
 import Officers from "./components/Officers";
 import SignUp from "./components/SignUp";
 
@@ -57,6 +58,7 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<SignUp />} />
           <Route path="/members" element={<Members />} />
+          <Route path="/mentees" element={<Mentees />} />
           <Route path="/officers" element={<Officers />} />
         </Routes>
         <Footer></Footer>

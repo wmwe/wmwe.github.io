@@ -6,7 +6,7 @@
     row-gap: .2%;
     align-items: center, top;
     justify-content: center;
-    margin-bottom: 80%;
+    margin-bottom: 40%;
     height: fit-content !important;
     /* overflow: hidden; */
   }
@@ -16,7 +16,22 @@
     position:relative;
  }
 
-  .header-text{
+ .mini__nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center !important;
+    align-items: top;
+ }
+
+ .header-text1 {
+  padding-right: 4rem;
+ }
+
+ .header-text2 {
+  float: right;
+ }
+
+  .header-text1, .header-text2 {
     font-family: 'League Spartan', sans-serif;
     font-weight: 600;
     font-size: 2.8rem;

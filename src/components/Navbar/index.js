@@ -48,6 +48,9 @@ const Navbar = () => {
             <NavLink to='/members' activeStyle>
               members
             </NavLink>
+            <NavLink to='/mentees' activeStyle>
+              mentees
+            </NavLink>
             <NavLink to='/contact' activeStyle>
               contact
             </NavLink>
