@@ -2,7 +2,7 @@
 .format{
     margin-left: 10rem;
     margin-right: 10rem;
-    
+    padding-bottom: 2rem;
 }
 
 .subheading1{
@@ -25,17 +25,18 @@
 }
 
 .homepage-image1{ 
-    max-width: 80%;
-    height: auto;
+    max-width: 500px;
+    min-width: 300px;
+    min-height: auto;
+    /* height: auto; */
     float: right;
-    
-    
-    
+    margin-left: 13rem;
 }
 
 .homepage-image2{ 
-    max-width: 100%;
-    height: auto;
+    max-width: 500px;
+    min-width: 300px;
+    min-height: auto;
     float: left;
     
     
@@ -127,5 +128,35 @@
     grid-column-end: 6;
     grid-row-start: 3;
     grid-row-end: 5;
+}
+
+@media screen and (max-width: 1210px) {
+    .layout1 {
+        display: flex, inline-block;
+        flex-direction: row;
+        justify-content: center !important;
+        float: none;
+        margin-top: 5rem;
+        position: relative;
+    }
+
+    .homepage-image1 {
+        max-width: 400px;
+        min-width: 200px;
+        min-height: auto;
+        float: none;
+        margin-left: 5rem;
+    }
+
+    .homepage-image2{ 
+        max-width: 400px;
+        min-width: 200px;
+        min-height: auto;
+        float: none;
+        margin-left: 5rem;
+        
+    }
+
+
 }
 

@@ -13,7 +13,7 @@ function About(props) {
         <div className= "textbody">
             <h1 className='aboutheader'>about us.</h1>
              <div className= "mission">
-             <h2 className='header'>our mission.</h2>
+             <h2 className='section__headers'>our mission.</h2>
              <p>WMWE aims to improve the retention rates of women 
                 in tech and STEM fields by giving them a head start 
                 on making valuable connections and gaining advice from 
@@ -29,7 +29,7 @@ function About(props) {
                 </div>
 
              <div className="pillars">
-             <h2 className='header'>our pillars.</h2>
+             <h2 className='section__headers'>our pillars.</h2>
              <p><strong>Support.</strong> We strive to provide support for all women through each other. 
                 Your mentor, team, and everyone in WMWE is there to help you out 
                 whenever you need it. Before we are a University Wide Organization, 
@@ -58,7 +58,7 @@ function About(props) {
              </div>
 
              <div className="history">
-                <h2 className='header'>history.</h2>
+                <h2 className='section__headers'>history.</h2>
                 <p>Founded at the University of Texas at Dallas in the summer of 2016, 
                     Women Mentoring Women in Engineering is a mentoring program that fosters 
                     mentorships between students of UTD and working women. Students are paired 

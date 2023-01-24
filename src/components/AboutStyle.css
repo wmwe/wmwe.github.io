@@ -1,5 +1,8 @@
 .textbody {
     background-color: #F5FCFF;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 2%;
 }
 
 .mission, .pillars, .history {
@@ -17,7 +20,7 @@ p {
 .pic1, .pic2, .pic3 {
     max-width: 256px;
     max-height: 170.625px;
-    padding: 10px;
+    padding: 1%;
 }
 
 .support, .empowerment, .mentorship {
@@ -36,16 +39,18 @@ p {
 
 
 .aboutheader {
-    margin-left: 15%;
-    margin-right: 15%;
     text-align: left;
     font-family: 'League Spartan';
-    color:#1B3A5D
+    color:#1B3A5D;
+    margin-left: 15%;
+    margin-right: 5%;
+    font-size: 3.75rem;
 }
     
-.header {
+.section__headers {
     text-align: left;
     font-family: 'League Spartan';
-    color:#1B3A5D
+    color:#1B3A5D;
+    font-size: 2rem;
 }
 
