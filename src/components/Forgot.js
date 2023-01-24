@@ -29,7 +29,7 @@ export const Forgot = (props) => {
 
   return (
     <div>
-      <div className="login">
+      <div className="forgot">
         <div className="banner1">
           <h3 className="banner-text">
             Mentee applications for Fall 2022 are now open!
@@ -37,6 +37,9 @@ export const Forgot = (props) => {
           <h3 className="banner-text">apply today</h3>
         </div>
 
+
+<br></br>
+<br></br>
         <div style={{ padding: "20px" }}>
           <img src={loginimg} style={{ maxWidth: "80px" }}></img>
         </div>
