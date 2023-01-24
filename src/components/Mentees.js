@@ -10,8 +10,8 @@ function Mentees(props) {
         <div style={{position:'relative'}}>
 
             <div className='mini__nav'>
-            <a href="/members"><h2 className='header-text1'>mentors</h2></a>
-            <a href="/mentees"><h2 className='header-text2'>mentees</h2></a>
+            <a href="/members"><h2 className='header-text3'>mentors</h2></a>
+            <a href="/mentees"><h2 className='header-text4'>mentees</h2></a>
             </div>
              <section className='container'>
 

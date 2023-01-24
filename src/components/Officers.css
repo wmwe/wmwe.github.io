@@ -20,18 +20,33 @@
     display: flex;
     flex-direction: row;
     justify-content: center !important;
-    align-items: top;
+    padding-right: 1rem;
+    /* align-items: top; */
+ }
+
+ .header-text1, .header-text3 {
+    padding-right: 4rem;
  }
 
  .header-text1 {
-  padding-right: 4rem;
+  text-decoration: underline;
  }
 
- .header-text2 {
+ .header-text4 {
+  text-decoration: underline;
+ }
+
+ .header-text2:hover {
+  text-decoration: underline;
+ }
+
+
+ .header-text2, .header-text4 {
+  margin-top: 39px;
   float: right;
  }
 
-  .header-text1, .header-text2 {
+  .header-text1, .header-text2, .header-text3, .header-text4 {
     font-family: 'League Spartan', sans-serif;
     font-weight: 600;
     font-size: 2.8rem;
