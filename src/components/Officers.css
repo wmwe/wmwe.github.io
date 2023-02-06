@@ -6,7 +6,7 @@
     row-gap: .2%;
     align-items: center, top;
     justify-content: center;
-    margin-bottom: 40%;
+    /* margin-bottom: 40%; */
     height: fit-content !important;
     /* overflow: hidden; */
   }
@@ -56,3 +56,17 @@
     padding-bottom: 3%;
     padding-top: 3%;
   }
+
+  .item-32mentors {
+      padding-bottom: 10rem;
+  }
+
+  .item-81mentees {
+      padding-bottom: 27rem;
+  }
+
+@media screen and (min-width: 900px) {
+   .container {
+      font-size: xx-large;
+   }
+}

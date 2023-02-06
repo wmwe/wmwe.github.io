@@ -6,7 +6,7 @@ import jpmorgan from '../assets/jpmorgan.png'
 
 function Home(props) {
     return (
-        <div>
+        <div className="full-layout">
             <div className='banner1'>
                 <h3 className='banner-text'>
                     Mentee applications for Fall 2022 are now open!

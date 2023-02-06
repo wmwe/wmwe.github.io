@@ -131,9 +131,9 @@
 }
 
 @media screen and (max-width: 1210px) {
-    .layout1 {
+    .full-layout {
         display: flex, inline-block;
-        flex-direction: row;
+        flex-direction: row !important;
         justify-content: center !important;
         float: none;
         margin-top: 5rem;
@@ -160,3 +160,11 @@
 
 }
 
+/* phone layout
+@media screen and (min-width: 428px) {
+    .full-layout {
+        display: flex, inline-flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+} */

@@ -37,7 +37,7 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     color: #1B3A5D;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     text-align: center;
     width: 80%;
 }
@@ -55,9 +55,11 @@
 
 .linkedin-navy{
     width: 20px;
-   
+    margin-bottom: 10px;
 
 }
+
+
 
 .link{
     /* margin-top: 2%;

@@ -84,7 +84,7 @@ function Members(props) {
              name={"Harita Nagendran"}
              position={"Mentor"}
              image={"photos/member-photos/HaritaNagendran.jpg"}
-             description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ante quam, rhoncus eu sem convallis, ultrices scelerisque magna. Ut dapibus eu magna vel bibendum.'}
+             description={'I completed my Masters in Biomedical Engineering from UT Dallas and interned as a Biomedical Engineer. Wearing multiple hats as an intern helped me land my first job as a Regulatory Affairs Specialist - Project Management in Smith+Nephew. Having gained 4 years of project management experience I then moved to my current role as a Project Manager within the Design and Development team of Varian, a Seimens Healthineers Company. '}
              linkedin={'https://www.linkedin.com/in/haritanagendran/'}
              font={'1.1'}
              ></OfficerCard>
@@ -356,7 +356,7 @@ function Members(props) {
              ></OfficerCard>
             </div>
 
-            <div className='item-32'>
+            <div className='item-32mentors'>
             <OfficerCard
              name={"Shahrzad Abri"}
              position={"Mentor"}
