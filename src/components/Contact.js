@@ -78,7 +78,7 @@ const Contact = () => {
           </div>
         </div>
 
-        <div className="container">
+        <div className="container1">
           <h2 className="header">contact us.</h2>
           <br></br>
           <br></br>
