@@ -9,7 +9,7 @@ const Account = () => {
   const handleLogout = async () => {
     try {
       await logout();
-      navigate("/Home");
+      navigate("/login");
       console.log("You are logged out");
     } catch (e) {
       console.log(e.message);
