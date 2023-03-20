@@ -3,15 +3,29 @@ import "./Home.css";
 import img1 from "../assets/homepage-photo1.png";
 import img2 from "../assets/homepage-photo2.png";
 import jpmorgan from "../assets/jpmorgan.png";
+import { Button } from "./Button/Button.js";
 
 function Home(props) {
   return (
     <div>
       <div className="banner1">
-        <h3 className="banner-text">
-          Mentee applications for Spring 2023 are now open!
+        <h3 className="banner-text" style={{marginRight: "20%", marginLeft:"20%"}}>
+          Applications for Spring 2023 are now open!
         </h3>
-        <h3 className="banner-text">apply today</h3>
+        <Button
+        onClick={(e) => {
+          e.preventDefault();
+          window.location.href="https://www.linkedin.com/in/wmweatutd/";
+          }}
+          children={"mentee"}
+        ></Button>
+        <Button
+        onClick={(e) => {
+          e.preventDefault();
+          window.location.href="https://www.linkedin.com/in/wmweatutd/";
+          }}
+          children={"mentor"}
+        ></Button>
       </div>
       <div className="format">
         <div className="layout1">

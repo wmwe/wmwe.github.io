@@ -35,7 +35,7 @@ const Navbar = ({ open }) => {
     
           <NavMenu open={open}>
           <NavLink to='/' activeStyle>
-              <img height="40px" width="40px" src={wmwelogo}/>
+              <img height="40px" src={wmwelogo}/>
             </NavLink>
             <NavLink to='/about' activeStyle>
               about
