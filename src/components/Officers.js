@@ -122,7 +122,7 @@ function Officers(props) {
              ></OfficerCard>
             </div>
 
-            <div className='item-11'>
+            <div className='item-11officers'>
             <OfficerCard
              name={"Manasi Vipat"}
              position={"Marketing Committee Member"}
