@@ -7,7 +7,7 @@
   
 }
 
-.image{
+.image-oc{
     max-width: 50%;
     border-radius: 50%;
     border-color: #1B3A5D;
@@ -15,7 +15,7 @@
     border-style: solid;
 }
 
-.name{
+.name-oc{
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     color: #1B3A5D;
@@ -23,7 +23,7 @@
     text-align: center;
 }
 
-.officer-position{
+.officer-position-oc{
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     color: #1B3A5D;
@@ -33,7 +33,7 @@
   
 }
 
-.description{
+.description-oc{
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     color: #1B3A5D;
@@ -42,7 +42,7 @@
     width: 80%;
 }
 
-.position-line{
+.position-line-oc{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -59,7 +59,7 @@
 
 }
 
-.link{
+.link-oc{
     /* margin-top: 2%;
     max-width: 12%;
     max-height: 12%;

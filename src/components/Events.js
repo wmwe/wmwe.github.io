@@ -21,18 +21,18 @@ function Events(props) {
         <div className="containerEvents">
           <div className="wrapper">
             <div class="one">
-              <p className="event_font">kickoff</p>
+              <p className="event_font">bracelet social</p>
             </div>
             <div class="two">
               <p className="event_font">
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;19
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9
               </p>
             </div>
             <div class="three">
               <p className="event_info">
                 7:00 pm
                 <br></br>
-                Location: See Discord!
+                Location: SCI 2.235
               </p>
             </div>
             <div class="four" style={{ marginTop: "-2em" }}>
@@ -40,7 +40,7 @@ function Events(props) {
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <a
                   target="_blank"
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSflvM2Nm7zAANhmygbbAnKeplSRPeo82Ic8G7JJ_wtfvPRkQA/viewform?usp=send_form"
+                  href="https://forms.gle/JW19TusAfwy1dt616"
                 >
                   <button className="button">rsvp</button>
                 </a>

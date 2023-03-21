@@ -1,4 +1,4 @@
-.container {
+.container2 {
     display: grid;
     grid-template-columns:23% 23% 23%;
     grid-template-rows: auto auto auto auto;
@@ -10,7 +10,7 @@
     margin-bottom: 15%;
   }
 
-  .container div {
+  .container-div {
     /* padding: 5%;  */
     position:relative;
  }

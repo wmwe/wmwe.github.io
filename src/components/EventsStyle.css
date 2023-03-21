@@ -2,8 +2,70 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap");
 
-.big_div {
-  display: block;
+@media only screen and (max-width: 414px) and (min-width: 360px) {
+  .outer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .outer-container > .containerEvents {
+    width: 45%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center !important;
+    padding-left: 2%;
+    margin-bottom: 20px !important;
+  }
+
+  /* calendar div */
+  .outer-container > .containerCalendar {
+    width: 55%;
+    justify-content: center;
+    padding-left: 2%;
+  }
+
+  .header {
+    height: 40px;
+    width: 370px !important;
+    top: 10px;
+    margin-bottom: 20px !important;
+
+    font-family: "League Spartan", sans-serif;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 47px !important;
+    line-height: 60px;
+    text-align: center !important;
+    letter-spacing: -1px;
+
+    color: #1b3a5d;
+  }
+
+  .calendar {
+    width: 300px !important;
+    height: 489px;
+    border-radius: 10px;
+    border-color: #1b3a5d;
+    overflow: hidden;
+    margin-bottom: 50px;
+    resize: none;
+    justify-content: left;
+  }
+
+  .wrapper {
+    display: grid;
+    align-items: center !important;
+    justify-content: center !important;
+    grid-template-columns: 2fr 1fr;
+    width: 350px !important;
+    height: 94px;
+    top: 260px;
+
+    background: #6dcff6;
+    border-radius: 20px;
+    z-index: -1;
+  }
 }
 
 /* for each event block */
@@ -22,7 +84,6 @@
 /* holds event block and calendar divs*/
 .outer-container {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   padding-left: 7%;
   padding-right: 8%;
