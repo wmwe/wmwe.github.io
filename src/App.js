@@ -18,6 +18,7 @@ import Home from "./components/Home";
 import Login from "./components/Login";
 import Forgot from "./components/Forgot";
 import Members from "./components/Members";
+import Mentees from "./components/Mentees";
 import Officers from "./components/Officers";
 
 import ProtectedRoute from "./components/ProtectedRoute";
@@ -62,6 +63,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/events" element={<Events />} />
           <Route path="/members" element={<Members />} />
+          <Route path="/mentees" element={<Mentees />} />
           <Route path="/officers" element={<Officers />} />
         </Routes>
 

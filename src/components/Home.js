@@ -31,12 +31,12 @@ function Home(props) {
         <div className="layout1">
           <div>
             <h1 className="subheading1">
-              lorem ipsum dolor sit amet, consectetur adipiscing
+            empowered women empowering women.
             </h1>
             <h2 className="body1">
-              rhoncus eu sem convallis, ultrices scelerisque magna. Ut dapibus
-              eu magna vel bibendum. Vestibulum vitae mauris ac erat hendrerit
-              eleifend nec sed metus.
+            Women Mentoring Women in Engineering is an organization formed at the University of 
+                        Texas at Dallas that is focused on helping women in STEM fields do their ultimate best. 
+                        We want to help you make connections with people out in the industry.
             </h2>
           </div>
 
@@ -53,9 +53,8 @@ function Home(props) {
           <div className="textlayout2">
             <h1 className="subheading1">how to join.</h1>
             <h2 className="body1">
-              rhoncus eu sem convallis, ultrices scelerisque magna. Ut dapibus
-              eu magna vel bibendum. Vestibulum vitae mauris ac erat hendrerit
-              eleifend nec sed metus.
+              If you’re interested in becoming a mentor or mentee in upcoming semesters, 
+                      please fill out the interest form and you will be contacted once applications open up!
             </h2>
           </div>
         </div>

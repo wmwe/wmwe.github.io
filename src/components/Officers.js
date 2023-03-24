@@ -47,18 +47,18 @@ function Officers(props) {
 
             <div className='item-4'>
             <OfficerCard
-             name={"Lac Ngo"}
-             position={"Media and Events Chair"}
+             name={"Kacie Yee"}
+             position={"Events Chair"}
              image={"photos/officer-photos/Lac-Ngo.png"}
              description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ante quam, rhoncus eu sem convallis, ultrices scelerisque magna. Ut dapibus eu magna vel bibendum.'}
              linkedin={'https://www.linkedin.com/in/vyshnavi-nalla/'}
-             font={'0.9'}
+             font={'1.1'}
              ></OfficerCard>
             </div>
 
             <div className='item-5'>
             <OfficerCard
-             name={"Anusha Jain"}
+             name={"Pooja Cheruku"}
              position={"Events Chair"}
              image={"photos/officer-photos/Anusha-Jain.png"}
              description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ante quam, rhoncus eu sem convallis, ultrices scelerisque magna. Ut dapibus eu magna vel bibendum.'}
@@ -67,7 +67,20 @@ function Officers(props) {
              
              ></OfficerCard>
             </div>
+
             <div className='item-6'>
+            <OfficerCard
+             name={"Emily Oh"}
+             position={"Media Chair"}
+             image={"photos/officer-photos/Anusha-Jain.png"}
+             description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ante quam, rhoncus eu sem convallis, ultrices scelerisque magna. Ut dapibus eu magna vel bibendum.'}
+             linkedin={'https://www.linkedin.com/in/vyshnavi-nalla/'}
+             font={'1.1'}
+             
+             ></OfficerCard>
+            </div>
+
+            <div className='item-7'>
             <OfficerCard
              name={"Aiman Rahman"}
              position={"Mentoring Team Coordinator"}
@@ -77,7 +90,7 @@ function Officers(props) {
              font={'0.9'}
              ></OfficerCard>
             </div>
-            <div className='item-7'>
+            <div className='item-8'>
             <OfficerCard
              name={"Zaina Rida"}
              position={"Mentoring Team Coordinator"}
@@ -88,7 +101,7 @@ function Officers(props) {
              ></OfficerCard>
             </div>
 
-            <div className='item-8'>
+            <div className='item-9'>
             <OfficerCard
              name={"Riya Gandhi"}
              position={"Treasurer"}
@@ -99,7 +112,7 @@ function Officers(props) {
              ></OfficerCard>
             </div>
 
-            <div className='item-9'>
+            <div className='item-10'>
             <OfficerCard
              name={"Illiana Rodriguez"}
              position={"Treasury Committee Member"}
@@ -111,7 +124,7 @@ function Officers(props) {
             </div>
 
 
-            <div className='item-10'>
+            <div className='item-11'>
             <OfficerCard
              name={"Sanjana Jadhav"}
              position={"Marketing Chair"}
@@ -122,7 +135,7 @@ function Officers(props) {
              ></OfficerCard>
             </div>
 
-            <div className='item-11'>
+            <div className='item-12'>
             <OfficerCard
              name={"Manasi Vipat"}
              position={"Marketing Committee Member"}
