@@ -1,7 +1,7 @@
 import React from 'react';
 import { OfficerCard } from './Wmwe-ui';
 import './Members.js'
-import './Officers.css';
+import './Members.css';
 import './Home.css';
 
 
