@@ -1,16 +1,11 @@
 import React from "react";
 import "./EventsStyle.css";
+import Banner from "./Banner/Banner";
 
 function Events(props) {
   return (
     <div>
-      <div className="banner1">
-        <h3 className="banner-text">
-          Mentee applications for Spring 2023 are now open!
-        </h3>
-        <h3 className="banner-text">apply today</h3>
-      </div>
-
+      <Banner></Banner>
       <p className="header">
         <b>upcoming events.</b>
       </p>
@@ -109,12 +104,13 @@ function Events(props) {
           <iframe
             className="calendar"
             src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%236dcff6&amp;ctz=America%2FChicago&amp;showTitle=0&amp;showNav=1&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=1&amp;src=M3VxaThqNTE1dXVjNXZrY3EwcTBvdml1bW9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%231b3a5d"
-            style="border:solid 1px #1b3a5d"
+            // style="border:solid 1px #1b3a5d"
             style={{
               width: "40%",
               height: "60vh",
               frameborder: "0",
               scrolling: "no",
+              border: "solid 1px #1b3a5d"
             }}
           ></iframe>
         </div>

@@ -7,6 +7,7 @@
     justify-content: center;
     flex-wrap: wrap;
     margin: 0 auto;
+    column-gap: 70px;
 
     color: #1B3A5D;
 
@@ -24,13 +25,13 @@
     
 }
 
-.linkedpages {
+.linkedpages-footer {
     padding-top: 20px;
     padding-bottom: 20px;
     padding-right: 20px;
 }
 
-.socials {
+.socials-footer {
     display: inline-block;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -62,8 +63,16 @@
     flex-basis: 70%;
 }
 
+.mail-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 .link {
     padding-left: 6px;
+    max-width: 50px;
 }
 
 .mail_link {
@@ -72,10 +81,18 @@
     justify-content: center;
 }
 
-.contact {
+.contact{
     padding-top: 20px;
     padding-bottom: 20px;
     padding-right: 20px;
+}
+
+.contact-footer{
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+
 }
 
 a:link, a:visited  {

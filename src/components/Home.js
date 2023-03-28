@@ -4,29 +4,12 @@ import img1 from "../assets/homepage-photo1.png";
 import img2 from "../assets/homepage-photo2.png";
 import jpmorgan from "../assets/jpmorgan.png";
 import { Button } from "./Button/Button.js";
+import Banner from "./Banner/Banner";
 
 function Home(props) {
   return (
     <div>
-      <div className="banner1">
-        <h3 className="banner-text" style={{marginRight: "20%", marginLeft:"20%"}}>
-          Applications for Spring 2023 are now open!
-        </h3>
-        <Button
-        onClick={(e) => {
-          e.preventDefault();
-          window.location.href="https://www.linkedin.com/in/wmweatutd/";
-          }}
-          children={"mentee"}
-        ></Button>
-        <Button
-        onClick={(e) => {
-          e.preventDefault();
-          window.location.href="https://www.linkedin.com/in/wmweatutd/";
-          }}
-          children={"mentor"}
-        ></Button>
-      </div>
+      <Banner></Banner>
       <div className="format">
         <div className="layout1">
           <div>
@@ -59,7 +42,7 @@ function Home(props) {
           </div>
         </div>
 
-        <div className="layout2">
+        {/* <div className="layout2">
           <h1 className="subheading1">our sponsors.</h1>
 
           <div class="gallery">
@@ -79,7 +62,7 @@ function Home(props) {
               <img src={jpmorgan} class="gallery__img" alt="jpmorgan" />
             </figure>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

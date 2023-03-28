@@ -1,6 +1,7 @@
 import React from 'react';
 
 import './FooterStyle.css'
+import "./Home.css"
 
 import wmwelogo from "./wmwelogo.png"
 import instagram from "./instagram.png"
@@ -16,7 +17,7 @@ function Footer(props) {
                 <img className="logo2" src={wmwelogo}/>
             </div>
 
-            <div className="linkedpages">
+            <div className="linkedpages-footer">
                 <p><strong>WMWE<br /></strong></p>
                 <div className="redirect">
                 <p>
@@ -29,8 +30,7 @@ function Footer(props) {
                 </div>
             </div>
 
-           
-            <div className="socials">
+            <div className="socials-footer">
                 <p><strong>connect with us!</strong></p>
                 <div className="socialpics">
                     <a href="https://www.instagram.com/wmweatutd/" target="_blank"><img className="instagram" src={instagram}/></a>
@@ -39,18 +39,19 @@ function Footer(props) {
                 </div>
             </div>
 
-            <div className="contact">
-                <p><strong>contact us</strong></p>
+            <div>
 
-                <div className="mail_link">
-                    <img className="mail" src={mail}/>
-
-                    <p><a className="link" target="blank" href="mailto: wmweatutd@gmail.com">
-                    wmweatutd@gmail.com
-                    </a></p>
-                </div>
             </div>
 
+            <div className="contact-footer">
+                <p><strong>contact us</strong></p>
+            <div className="socialpics">
+
+                    <a href="mailto: wmweatutd@gmail.com" target="_blank"><img className="mail" src={mail}/></a>
+                    <a style={{fontSize: "0.8rem", paddingLeft: 3}}> wmweatutd@gmail.com</a>
+                </div>
+
+            </div> 
         </div>
     );
 }

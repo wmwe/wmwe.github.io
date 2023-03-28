@@ -4,6 +4,7 @@ import { db } from "../Firebase";
 import women_pic from "../assets/women.png";
 import email_pic from "../assets/mail.png";
 import location_pic from "../assets/location.png";
+import Banner from "./Banner/Banner";
 
 const Contact = () => {
   const [name, setName] = useState("");
@@ -39,12 +40,7 @@ const Contact = () => {
 
   return (
     <div>
-      <div className="banner1">
-        <h3 className="banner-text">
-          Mentee applications for Fall 2022 are now open!
-        </h3>
-        <h3 className="banner-text">apply today</h3>
-      </div>
+      <Banner></Banner>
       <div className="main">
         <div className="container_left">
           <img className="photo" src={women_pic} />

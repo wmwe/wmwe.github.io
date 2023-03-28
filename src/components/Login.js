@@ -2,6 +2,7 @@ import React, { Component, useState } from "react";
 import loginimg from "./wmwelogo.png";
 import "./Login.css";
 import "./Home.css";
+import Banner from "./Banner/Banner";
 //import logingoogle from "./googleLogin.png";
 // export default class Login extends Component {
 
@@ -45,12 +46,7 @@ export const Login = (props) => {
   return (
     <div>
       <div className="login">
-        <div className="banner1">
-          <h3 className="banner-text">
-            Mentee applications for Fall 2022 are now open!
-          </h3>
-          <h3 className="banner-text">apply today</h3>
-        </div>
+        <Banner></Banner>
 
         <div style={{ padding: "20px" }}>
           <img src={loginimg} style={{ maxWidth: "80px" }}></img>
