@@ -4,122 +4,122 @@
 
 /* Contact.js */
 
-.container_icons {
-  position: relative;
-  left: 150px;
-  text-align: left;
-  height: 600px;
-  overflow: auto;
-}
+/* to make responsive, media query inline block for big div*/
 
-.new_icons {
-  position: absolute;
-  width: 25%;
-  float: left;
-  padding-left: 30px;
-}
-
-.new_links {
-  position: relative;
-  float: left;
-  width: 50%;
-  padding-left: 30px;
-  z-index: 10;
-  margin-right: 30px;
-  margin-left: 50px;
-  margin-top: 7px;
-  overflow: auto;
-  white-space: nowrap;
-}
-
-.container_left {
-  position: relative;
-  left: 150px;
-  text-align: left;
-  height: 600px;
-  overflow: auto;
-}
-
-.container1 {
-  position: relative;
-  right: 150px;
-  text-align: left;
-  height: 600px;
-  overflow: auto;
-  margin-left: 30px;
-}
-
-.main {
+/* holds image block and form divs*/
+.outer-container-contact {
   display: flex;
+  justify-content: center;
+  padding-left: 7%;
+  padding-right: 7%;
 }
 
-.photo {
+/* event block div */
+.outer-container-contact > .containerImage-contact {
+  width: 50%;
+}
+
+/* calendar div */
+.outer-container-contact > .containerForm-contact {
+  width: 50%;
+  justify-content: left;
+  align-items: left;
+}
+
+.img-div-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: -15%;
+}
+
+.photo-contact {
   height: 300px;
   width: 400px;
-  margin-left: 70px;
-  margin-top: 100px;
+  padding-right: 5%;
 }
 
-.icons {
+.icons-div-contact {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  padding-right: 5%;
+}
+
+.icons-div-contact-left {
+  height: 100%;
+  width: 66%;
+  flex-direction: column;
+  justify-content: right !important;
+  align-items: right !important;
+  padding-right: -10%;
+}
+
+.icons-div-contact-right {
+  height: 100%;
+  width: 40%;
+  margin-left: -28%;
+  padding-right: -10%;
+  text-align: left;
+  justify-content: left;
+  align-items: left;
+  margin-top: 0.5%;
+}
+
+.icons-contact {
   height: 35px;
   width: 35px;
-  margin-left: 109px;
+  justify-content: right !important;
+  align-items: right !important;
+  padding-right: -10%;
 }
 
-.icons_2 {
-  height: 35px;
-  width: 35px;
-  margin-left: 105.25px;
-}
-
-.styling {
-  display: inline-block;
-}
-
-.link {
-  font-family: "Montserrat", sans-serif;
+.header-contact {
   color: #1b3a5d;
-  margin-left: 20px;
-  font-weight: 600;
-  font-size: 13px;
-  margin-top: -10;
-  line-height: 1.6;
-  margin-right: 563px;
-  text-decoration: none;
-}
-
-.header {
-  color: #1b3a5d;
-  margin-left: 50;
   font-family: "League Spartan";
   font-weight: 700;
   font-size: 60px;
   letter-spacing: 0.04em;
   margin-bottom: -50;
   line-height: 0.0002em;
+  justify-content: left;
+  align-items: left;
+  text-align: left;
+  padding-left: 5%;
 }
 
-.text {
+.text-contact {
   font-family: "Montserrat", sans-serif;
   color: #1b3a5d;
   font-weight: 500;
   font-size: 30px;
-  margin-top: -10;
+  margin-top: 8%;
+  margin-bottom: 8%;
   line-height: 0.0002em;
+  align-items: left;
+  justify-content: left;
+  text-align: left;
+  padding-left: 5%;
 }
 
-.form {
+.form-contact {
   height: 55vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  text-align: left;
+  padding-left: 5%;
 }
 
-.form > h1 {
+.form-contact > h1 {
   margin-bottom: 30px;
 }
 
-.form > input,
+.form-contact > input,
 textarea {
   padding: 15px;
   border-radius: 10px;
@@ -134,21 +134,22 @@ textarea {
   font-family: "Montserrat", sans-serif;
   color: #1b3a5d;
   font-weight: 500;
+  width: 75%;
 }
 
-.form > input:focus,
+.form-contact > input:focus,
 textarea:focus {
   border: 1px solid rgba(109, 207, 246, 1);
 }
 
-.form > textarea {
+.form-contact > textarea {
   height: 30px;
-  max-width: 400px;
-  min-height: 50px;
+  min-height: 70px;
   resize: none;
+  width: 75%;
 }
 
-.form > label {
+.form-contact > label {
   padding-bottom: 10px;
   color: #1b3a5d;
   font-family: "Montserrat", sans-serif;
@@ -156,7 +157,7 @@ textarea:focus {
   font-weight: 500;
 }
 
-.form > button {
+.form-contact > button {
   padding: 15px;
   border: none;
   background-color: rgba(109, 207, 246, 1);
@@ -170,7 +171,21 @@ textarea:focus {
   height: 50px;
 }
 
-.form > button:hover {
+.form-contact > button:hover {
   background-color: rgba(109, 207, 246, 1);
 }
+
+.link {
+  font-family: "Montserrat", sans-serif;
+  color: #1b3a5d;
+  font-weight: 600;
+  font-size: 13px;
+  margin-top: -10;
+  line-height: 1.6;
+  text-decoration: none;
+  text-align: left;
+  justify-content: left;
+  align-items: left;
+}
+
 /* End of Contact.js */
