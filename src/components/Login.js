@@ -24,6 +24,7 @@ export const Login = (props) => {
       navigate("/Account");
     } catch (e) {
       setError(e.message);
+      alert("Incorrect email or password!")
       console.log(e.message);
     }
   };
