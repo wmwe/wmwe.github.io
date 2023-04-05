@@ -5,6 +5,21 @@
 /* Contact.js */
 
 /* to make responsive, media query inline block for big div*/
+@media only screen and (max-width: 414px) and (min-width: 360px) {
+  .outer-container-contact {
+    display: inline-block !important;
+    justify-content: center;
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+
+  .photo-contact {
+    height: 210px !important;
+    width: 310px !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+}
 
 /* holds image block and form divs*/
 .outer-container-contact {
@@ -56,7 +71,7 @@
   flex-direction: column;
   justify-content: right !important;
   align-items: right !important;
-  padding-right: -10%;
+  padding-right: -10.5%;
 }
 
 .icons-div-contact-right {
