@@ -23,6 +23,14 @@
     width: 30rem;
     margin-top: 2.5rem;
 }
+.body2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: left;
+    color:#1B3A5D;
+    margin-top: 2.5rem;
+}
 
 .homepage-image1{ 
     max-width: 80%;
@@ -126,5 +134,12 @@
     grid-column-end: 6;
     grid-row-start: 3;
     grid-row-end: 5;
+}
+
+.section__headers {
+    text-align: left;
+    font-family: 'League Spartan';
+    color: #1B3A5D;
+    font-size: 2rem;
 }
 

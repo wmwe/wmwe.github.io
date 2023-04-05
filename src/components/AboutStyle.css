@@ -40,7 +40,8 @@ p {
     margin-right: 15%;
     text-align: left;
     font-family: 'League Spartan';
-    color:#1B3A5D
+    color:#1B3A5D;
+    font-size:3.75rem;
 }
     
 .header {
