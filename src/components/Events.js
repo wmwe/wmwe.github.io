@@ -110,9 +110,11 @@ function Events(props) {
               height: "60vh",
               frameborder: "0",
               scrolling: "no",
-              border: "solid 1px #1b3a5d"
+              border: "solid 1px #1b3a5d",
             }}
           ></iframe>
+          <br></br>
+          <br></br>
         </div>
       </div>
     </div>
