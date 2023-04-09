@@ -5,7 +5,7 @@
   
    column-gap: 0%;
    row-gap: 3%;
-   align-items: center;
+   align-items: center, top;
    justify-content: center;
    margin-bottom: 15%;
  }
