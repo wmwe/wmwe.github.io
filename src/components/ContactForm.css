@@ -9,8 +9,18 @@
   .outer-container-contact {
     display: inline-block !important;
     justify-content: center;
-    padding-left: 7%;
-    padding-right: 7%;
+  }
+
+  /* event block div */
+  .outer-container-contact > .containerImage-contact {
+    width: 100%;
+  }
+
+  /* calendar div */
+  .outer-container-contact > .containerForm-contact {
+    width: 100%;
+    justify-content: left;
+    align-items: left;
   }
 
   .photo-contact {
@@ -18,6 +28,162 @@
     width: 310px !important;
     justify-content: center !important;
     align-items: center !important;
+    margin-top: 20% !important;
+  }
+
+  .icons-div-contact {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    padding-right: 5%;
+    margin-top: 30% !important;
+  }
+
+  .icons-contact {
+    height: 35px !important;
+    width: 35px !important;
+    justify-content: right !important;
+    align-items: right !important;
+    padding-right: -10%;
+  }
+
+  .icons-div-contact-left {
+    height: 100%;
+    width: 66%;
+    flex-direction: column;
+    justify-content: right !important;
+    align-items: right !important;
+    padding-right: -10.5%;
+    padding-left: 20% !important;
+  }
+  
+  .icons-div-contact-right {
+    height: 100%;
+    width: 40%;
+    margin-left: 1% !important;
+    text-align: left;
+    justify-content: left;
+    align-items: left;
+    margin-top: 3% !important;
+    width: 200px !important;
+  }
+
+  .link {
+    font-family: "Montserrat", sans-serif;
+    color: #1b3a5d;
+    font-weight: 600;
+    font-size: 13px !important;
+    margin-top: -10;
+    line-height: 1.6 !important;
+    text-decoration: none;
+    text-align: left;
+    justify-content: left;
+    align-items: left;
+    margin-left: 10% !important;
+    width: 300px !important;
+  }
+
+  .header-contact {
+    color: #1b3a5d !important;
+    font-family: "League Spartan" !important;
+    font-weight: 700 !important;
+    font-size: 40px !important;
+    letter-spacing: 0.04em !important;
+    margin-bottom: -50 !important;
+    line-height: 0.0002em !important;
+    justify-content: left !important;
+    align-items: left !important;
+    text-align: left !important;
+    margin-top: 10% !important;
+    padding-left: 5% !important;
+    width: 300px !important;
+    margin-right: -10% !important;
+  }
+
+  .text-contact {
+    font-family: "Montserrat", sans-serif !important;
+    color: #1b3a5d !important;
+    font-weight: 500 !important;
+    font-size: 19px !important;
+    margin-top: 8% !important;
+    margin-bottom: 8% !important;
+    line-height: 0.0002em !important;
+    align-items: left !important;
+    justify-content: left !important;
+    text-align: left !important;
+    padding-left: 5% !important;
+    width: 300px !important;
+  }
+
+  .form-contact {
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    padding-left: 5%;
+    width: 100% !important;
+  }
+
+  .form-contact > h1 {
+    margin-bottom: 30px;
+  }
+
+  .form-contact > input,
+  textarea {
+    padding: 15px;
+    border-radius: 10px;
+    /* box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.137); */
+    margin-bottom: 20px;
+    border: 1px solid rgba(109, 207, 246, 1);
+    /* border: none; */
+    background: #fff;
+    font-size: 16px;
+    color: rgba(109, 207, 246, 1);
+    outline: none;
+    font-family: "Montserrat", sans-serif;
+    color: #1b3a5d;
+    font-weight: 500;
+    width: 255px !important;
+  }
+
+  .form-contact > input:focus,
+  textarea:focus {
+    border: 1px solid rgba(109, 207, 246, 1);
+  }
+
+  .form-contact > textarea {
+    height: 30px;
+    min-height: 70px;
+    resize: none;
+    width: 75%;
+  }
+
+  .form-contact > label {
+    padding-bottom: 10px;
+    color: #1b3a5d;
+    font-family: "Montserrat", sans-serif;
+    color: #1b3a5d;
+    font-weight: 500;
+  }
+
+  .form-contact > button {
+    padding: 15px;
+    border: none;
+    background-color: rgba(109, 207, 246, 1);
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 15px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    width: 100px;
+    height: 50px;
+    margin-bottom: -20% !important;
+  }
+
+  .form-contact > button:hover {
+    background-color: rgba(109, 207, 246, 1);
   }
 }
 
