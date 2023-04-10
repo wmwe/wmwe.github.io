@@ -47,9 +47,12 @@ export const Login = (props) => {
   return (
     <div>
       <div className="login">
-        <Banner></Banner>
+      <Banner
+      children={"Applications for Fall 2023 are Now Open!"}
+      link={"https://www.linkedin.com/in/wmweatutd/"}
+      ></Banner>
 
-        <div style={{ padding: "20px" }}>
+        <div style={{ padding: "20px", paddingTop:"8%" }}>
           <img src={loginimg} style={{ maxWidth: "80px" }}></img>
         </div>
 
