@@ -40,7 +40,10 @@ const Contact = () => {
 
   return (
     <div>
-      <Banner></Banner>
+      <Banner
+      children={"Applications for Fall 2023 are Now Open!"}
+      link={"https://www.linkedin.com/in/wmweatutd/"}
+      ></Banner>
       <div className="outer-container-contact">
         <div className="containerImage-contact">
           <div className="img-div-contact">

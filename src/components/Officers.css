@@ -5,7 +5,7 @@
   
    column-gap: 0%;
    row-gap: 3%;
-   align-items: center;
+   align-items: top;
    justify-content: center;
    margin-bottom: 15%;
  }
@@ -25,3 +25,26 @@
    padding-bottom: 3%;
    padding-top: 3%;
  }
+
+ @media screen and (max-width: 550px){
+  .header-text{
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    text-align: left;
+    color: #1B3A5D;
+    margin-left: 18%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+  }
+
+  .item-12{
+
+      padding-bottom: 5rem;
+     
+  }
+
+
+
+ }
+

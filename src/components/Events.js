@@ -5,7 +5,10 @@ import Banner from "./Banner/Banner";
 function Events(props) {
   return (
     <div>
-      <Banner></Banner>
+      <Banner
+      children={"Applications for Fall 2023 are Now Open!"}
+      link={"https://www.linkedin.com/in/wmweatutd/"}
+      ></Banner>
       <p className="header">
         <b>upcoming events.</b>
       </p>

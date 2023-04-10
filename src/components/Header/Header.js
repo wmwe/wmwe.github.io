@@ -16,7 +16,7 @@ class Header extends Component {
         return(
             <nav className='NavbarItems'>
                 <a className='logo-flex' href='/'>
-                    <img style={{height: "40px", paddingLeft: "10px"}} src={wmweLogo}></img>
+                    <img className='logo-image' style={{height: "40px", paddingLeft: "10px"}} src={wmweLogo}></img>
                 </a>
                 
 

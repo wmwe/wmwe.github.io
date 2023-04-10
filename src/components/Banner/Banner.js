@@ -2,19 +2,20 @@ import React, { Component } from 'react'
 import Button from '../Button/Button';
 import "../Home.css"
 
-export default class Banner extends Component {
-  render() {
+export const Banner = ({children, link}) =>  {
     return (
         <div className="banner1">
-        <h3 className="banner-text" style={{marginRight: "20%", marginLeft:"20%"}}>
-          Applications for Spring 2023 are now open!
+        <h3 className="banner-text">
+          {children}
         </h3>
         <Button
         onClick={(e) => {
           e.preventDefault();
-          window.location.href="https://www.linkedin.com/in/wmweatutd/";
+          window.location.href=`${link}`;
           }}
           children={"mentee"}
+          buttonColor={"white"}
+          textColor={"#00B1F5"}
         ></Button>
         <Button
         onClick={(e) => {
@@ -22,8 +23,11 @@ export default class Banner extends Component {
           window.location.href="https://www.linkedin.com/in/wmweatutd/";
           }}
           children={"mentor"}
+          buttonColor={"white"}
+          textColor={"#00B1F5"}
         ></Button>
       </div>
     )
   }
-}
+
+  export default Banner

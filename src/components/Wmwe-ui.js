@@ -12,7 +12,7 @@ export const OfficerCard = ({name, position, image, description, linkedin, font}
       <h1 className='name-oc'>{name}</h1>
 
       <div className='position-line-oc'>
-      <h1 className='officer-position-oc' style={{fontSize:`${font}rem`}}>{position}</h1>
+      <h1 className='officer-position-oc'>{position}</h1>
       <a href={linkedin} className='link-oc'>
         <img src={linkedinNavy} className='linkedin-navy'></img>
       </a>

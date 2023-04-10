@@ -28,9 +28,8 @@
     font-weight: 500;
     color: #1B3A5D;
     text-align: center;
-    
+    font-size: 0.9rem;
     margin-right: 3%;
-  
 }
 
 .description-oc{
@@ -55,8 +54,6 @@
 
 .linkedin-navy{
     width: 20px;
-   
-
 }
 
 .link-oc{
@@ -67,4 +64,43 @@
     height: 20px;
    
    
+}
+
+@media screen and (max-width: 550px){
+
+
+    .description-oc{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        color: #1B3A5D;
+        font-size: 0.5rem;
+        text-align: center;
+        width: 80%;
+    }
+
+    .name-oc{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        color: #1B3A5D;
+        font-size: 1rem;
+        text-align: center;
+    }
+    
+    .officer-position-oc{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        color: #1B3A5D;
+        text-align: center;
+        font-size: 0.7rem;
+        margin-right: 3%;
+      
+    }
+
+    .linkedin-navy{
+        width: 10px;
+       
+    
+    }
+
+
 }

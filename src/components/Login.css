@@ -71,4 +71,15 @@
     text-decoration: underline;
     cursor: pointer;
   }
+
+  @media screen and (max-width: 550px){
+
+    .login {
+      height: 100vh;
+    }
+
+    .extratext-login {
+      padding-bottom: 5%;
+    }
+  }
   

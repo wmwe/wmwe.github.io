@@ -30,13 +30,6 @@ export const Forgot = (props) => {
   return (
     <div>
       <div className="forgot">
-        <div className="banner1">
-          <h3 className="banner-text">
-            Mentee applications for Fall 2022 are now open!
-          </h3>
-          <h3 className="banner-text">apply today</h3>
-        </div>
-
 
 <br></br>
 <br></br>

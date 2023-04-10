@@ -2,16 +2,118 @@ import React from "react";
 import "./Home.css";
 import img1 from "../assets/homepage-photo1.png";
 import img2 from "../assets/homepage-photo2.png";
+import mentoringImg from "../assets/mentoring-image-homepage.png"
+import eventsImg from "../assets/events-image-homepage.png"
 import jpmorgan from "../assets/jpmorgan.png";
 import { Button } from "./Button/Button.js";
 import Banner from "./Banner/Banner";
+import { useNavigate } from "react-router-dom";
 
 function Home(props) {
+  const navigate = useNavigate();
   return (
-    <div>
-      <Banner></Banner>
+    <div style={{width: "100vw"}}>
+      <Banner
+      children={"Applications for Fall 2023 are Now Open!"}
+      link={"https://www.linkedin.com/in/wmweatutd/"}
+      ></Banner>
       <div className="format">
-        <div className="layout1">
+        <div className="homepage-intro">
+          <div className="intro-text">
+          <h1  className="heading">
+            empowered women empowering women.
+            </h1>
+            <h2 className="body1" style={{textAlign:"center",paddingBottom: "3%"}}>
+            Women Mentoring Women in Engineering is an organization formed at the University of 
+                        Texas at Dallas that is focused on helping women in STEM fields do their ultimate best. 
+                        We want to help you make connections with people out in the industry.
+            </h2>
+            <Button
+             onClick={navigate("/about")}
+              children={"learn more about wmwe"}
+              buttonColor={"#6DCFF6"}
+              textColor={"#1B3A5D"}
+            >
+            </Button>
+          </div>
+          <img  className="home-page-intro-image" src={mentoringImg}></img>
+        </div>
+
+        <div style={{paddingLeft:"5%", paddingRight:"5%"}}>
+          <h2 className="subheading1">what we do.</h2>
+          <h2 className="body1">
+          WMWE organizes a semesterly mentoring program between undergraduate female students and 
+          working professionals. Once you are accepted into the program, we will be place you on a 
+          team of 4 mentees and 2 mentors that best suits you. From here on, you will be responsible 
+          to meet with your team at least twice a month and cover topics such as resumes, interview 
+          tips, and workplace advice. 
+            </h2>
+          
+          <img className="homepage-events" src={eventsImg} ></img>
+
+          <h2 className="body1" style={{paddingBottom: "2%", paddingTop: 0}}>
+          In addition to the mentoring program, WMWE also hosts events. We have sponsor events such as “
+          A Day in the Life of Software Engineer” and “Resume Tips and Tricks” in addition to Technical 
+          workshops led by our officers such as “Firebasics: All about Firebase”, “Intro to Figma and UI/UX”, 
+          “Intro to Python”, and so much more. These events are not limited to the members of the mentoring 
+          program, but are open to the public. So feel free to swing by! 
+            </h2>
+        </div>
+
+        <div style={{paddingLeft:"5%", paddingRight:"5%", paddingTop:"2%"}}>
+        <h2 className="subheading1">interested in joining the program?</h2>
+          <h2 className="body1">
+          If you are interested in joining as either a mentor or a mentee, fill out the interest form below. 
+          Our applications will officially open for the Fall 2023 Semester in August and we will contact you 
+          once they do so.
+            </h2>
+
+            <div className="buttons-div">
+            <Button
+             onClick={(e) => {
+              e.preventDefault();
+              window.location.href="https://www.linkedin.com/in/wmweatutd/";
+              }}
+              children={"mentee interest form"}
+              buttonColor={"#6DCFF6"}
+              textColor={"#1B3A5D"}
+            >
+            </Button>
+            <Button
+             onClick={(e) => {
+              e.preventDefault();
+              window.location.href="https://www.linkedin.com/in/wmweatutd/";
+              }}
+              children={"mentor interest form"}
+              buttonColor={"#6DCFF6"}
+              textColor={"#1B3A5D"}
+            >
+            </Button>
+
+            </div>
+
+
+        </div>
+
+        <div style={{paddingLeft:"5%", paddingRight:"5%", paddingTop:"3%", paddingBottom:"8%"}}>
+        <h2 className="subheading1">our past sponsors</h2>
+        <div className="sponsors-flex">
+          <img src={jpmorgan} className="sponsor-img"></img>
+          <img src={jpmorgan} className="sponsor-img"></img>
+          <img src={jpmorgan} className="sponsor-img"></img>
+          <img src={jpmorgan} className="sponsor-img"></img>
+          <img src={jpmorgan} className="sponsor-img"></img>
+        </div>
+
+        <h2 className="body1" style={{textAlign:"right", marginTop:"-3%", fontSize:"0.8rem"}}>
+          Interested in sponsoring? Reach out to us at wmweatutd@gmail.com
+            </h2>
+
+        </div>
+
+      
+
+        {/* <div className="layout1">
           <div>
             <h1 className="subheading1">
             empowered women empowering women.
@@ -40,7 +142,7 @@ function Home(props) {
                       please fill out the interest form and you will be contacted once applications open up!
             </h2>
           </div>
-        </div>
+        </div> */}
 
         {/* <div className="layout2">
           <h1 className="subheading1">our sponsors.</h1>
