@@ -26,6 +26,9 @@
    padding-top: 3%;
  }
 
+ .item-12 {
+  padding-bottom: 5rem;
+}
 
  @media screen and (max-width: 550px){
   .header-text{
@@ -38,8 +41,4 @@
     padding-bottom: 3%;
     padding-top: 3%;
   }
-
- .item-12 {
-    padding-bottom: 5rem;
- }
 }
