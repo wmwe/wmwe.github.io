@@ -46,6 +46,7 @@ export const Login = (props) => {
 
   return (
     <div>
+    <div className="login-page">
       <div className="login">
       <Banner
       children={"Applications for Fall 2023 are Now Open!"}
@@ -100,6 +101,7 @@ export const Login = (props) => {
           forgot password?
         </h3>
       </div>
+    </div>
     </div>
   );
 };

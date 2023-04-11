@@ -18,7 +18,7 @@ function Footer(props) {
             </div>
 
             <div className="linkedpages-footer">
-                <p><strong>WMWE<br /></strong></p>
+                <h3><strong>WMWE<br /></strong></h3>
                 <div className="redirect">
                 <p>
                     <a href="./About">about</a><br /> 
@@ -31,11 +31,11 @@ function Footer(props) {
             </div>
 
             <div className="socials-footer">
-                <p><strong>connect with us!</strong></p>
+                <h3><strong>Connect with us</strong></h3>
                 <div className="socialpics">
-                    <a href="https://www.instagram.com/wmweatutd/" target="_blank"><img className="instagram" src={instagram}/></a>
-                    <a href="https://www.linkedin.com/in/wmweatutd/" target="_blank"><img className="linkedin" src={linkedin}/></a>
-                    <a href="https://www.facebook.com/wmweatutd/" target="_blank"><img className="facebook" src={facebook}/></a>
+                    <a style={{padding: 5}} href="https://www.instagram.com/wmweatutd/" target="_blank"><img className="instagram" src={instagram}/></a>
+                    <a style={{padding: 5}} href="https://www.linkedin.com/in/wmweatutd/" target="_blank"><img className="linkedin" src={linkedin}/></a>
+                    <a style={{padding: 5}} href="https://www.facebook.com/wmweatutd/" target="_blank"><img className="facebook" src={facebook}/></a>
                 </div>
             </div>
 
@@ -44,7 +44,7 @@ function Footer(props) {
             </div>
 
             <div className="contact-footer">
-                <p><strong>contact us</strong></p>
+                <h3><strong>Contact us</strong></h3>
             <div className="socialpics">
 
                     <a href="mailto: wmweatutd@gmail.com" target="_blank"><img className="mail" src={mail}/></a>

@@ -7,7 +7,9 @@
     justify-content: center;
     flex-wrap: wrap;
     margin: 0 auto;
-    column-gap: 70px;
+    column-gap: 50px;
+    padding-bottom: 5%;
+    padding-top: 2%;
 
     color: #1B3A5D;
 
@@ -92,6 +94,7 @@
     padding-top: 20px;
     padding-bottom: 20px;
     padding-right: 20px;
+    margin-left: -30px;
 
 }
 
