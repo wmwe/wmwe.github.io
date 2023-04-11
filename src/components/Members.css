@@ -6,9 +6,22 @@
     row-gap: .2%;
     align-items: center, top;
     justify-content: center;
-    /* margin-bottom: 40%; */
+    margin-bottom: 1%;
     height: fit-content !important;
     /* overflow: hidden; */
+  }
+
+  .mentees-container {
+   display: grid;
+   grid-template-columns:23% 23% 23%;
+   grid-template-rows: auto auto auto auto;
+   column-gap: 0%;
+   row-gap: .2%;
+   align-items: center, top;
+   justify-content: center;
+   margin-bottom: 30%;
+   height: fit-content !important;
+   /* overflow: hidden; */
   }
 
   .container div {
@@ -62,7 +75,8 @@
   }
 
   .item-81mentees {
-      padding-bottom: 27rem;
+      padding-bottom: 5rem;
+      padding: 0px 0px 0px 0px
   }
 
 @media screen and (min-width: 900px) {

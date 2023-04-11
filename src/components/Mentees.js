@@ -13,7 +13,7 @@ function Mentees(props) {
             <a href="/members"><h2 className='header-text3'>mentors</h2></a>
             <a href="/mentees"><h2 className='header-text4'>mentees</h2></a>
             </div>
-             <section className='container'>
+             <section className='mentees-container'>
 
             <div className='item-1mentees'>
             <OfficerCard
