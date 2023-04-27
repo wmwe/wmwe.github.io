@@ -2,21 +2,21 @@ import React, { useEffect } from "react";
 import "./EventsStyle.css";
 import Banner from "./Banner/Banner";
 
-function Events(props) {
+function Events2(props) {
   useEffect(() => {
     getTemplate();
     window.addEventListener("resize", getTemplate);
     return () => window.removeEventListener("resize", getTemplate);
   }, []);
 
-  let CurrentPage = 'bigEvents';
+  let CurrentPage = "smallEvents";
 
   function getTemplate() {
-    if (window.screen.width >= 415 && CurrentPage !== 'bigEvents') {
+    if (window.screen.width >= 415 && CurrentPage !== "bigEvents") {
       return window.location.replace("Events.js");
     }
 
-    if (window.screen.width <= 414 && CurrentPage !== 'smallEvents') {
+    if (window.screen.width <= 414 && CurrentPage !== "smallEvents") {
       return window.location.replace("Events2.js");
     }
   }
@@ -142,4 +142,4 @@ function Events(props) {
   );
 }
 
-export default Events;
+export default Events2;
