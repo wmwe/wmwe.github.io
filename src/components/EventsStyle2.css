@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&family=Montserrat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap");
+
+@media only screen and (max-width: 414px) and (min-width: 360px) {
+  .outer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .outer-container > .containerEvents {
+    width: 45%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center !important;
+    padding-left: 2%;
+    margin-bottom: 20px !important;
+  }
+
+  /* calendar div */
+  .outer-container > .containerCalendar {
+    width: 55%;
+    justify-content: center;
+    padding-left: 2%;
+  }
+
+  .header {
+    height: 40px;
+    width: 315px !important;
+    top: 10px;
+    margin-bottom: 20px !important;
+
+    font-family: "League Spartan", sans-serif;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 40px !important;
+    line-height: 60px;
+    text-align: center !important;
+    letter-spacing: -1px;
+
+    color: #1b3a5d;
+  }
+
+  .calendar {
+    width: 300px !important;
+    height: 489px;
+    border-radius: 10px;
+    border-color: #1b3a5d;
+    overflow: hidden;
+    margin-bottom: 50px;
+    resize: none;
+    justify-content: center !important;
+  }
+
+  .wrapper {
+    margin-top: -8%;
+    margin-bottom: -2%;
+    display: grid;
+    align-items: center !important;
+    justify-content: center !important;
+    grid-template-columns: 2fr 1fr;
+    width: 295px !important;
+    height: 90px !important;
+    top: 260px;
+
+    background: #6dcff6;
+    border-radius: 20px;
+    z-index: -1;
+  }
+
+  /* font for event title */
+  .event_font {
+    font-family: "League Spartan";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px !important;
+    line-height: 30px;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 10px !important;
+
+    color: #ffffff;
+  }
+
+  /* font for event info */
+  .event_info {
+    text-align: left;
+    margin-left: 20px;
+    margin-top: -27px;
+
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px !important;
+    line-height: 20px;
+
+    color: #ffffff;
+  }
+
+  /* for rsvp button */
+  .button {
+    width: 55px !important;
+    height: 28px;
+    left: 78%;
+    margin-top: -45px;
+
+    background: #1b3a5d;
+    border-radius: 10px;
+    border-color: #1b3a5d;
+
+    font-family: "League Spartan";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px !important;
+    line-height: 19px;
+    text-align: center;
+    cursor: pointer;
+    z-index: 100;
+
+    color: #ffffff;
+  }
+}
