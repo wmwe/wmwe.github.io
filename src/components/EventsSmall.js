@@ -3,14 +3,14 @@ import "./EventsStyle2.css";
 import Banner from "./Banner/Banner";
 
 function EventsSmall(props) {
-  let CurrentPage = 'smallEvents';
+  let CurrentPage = "smallEvents";
 
   function getTemplate() {
-    if (window.screen.width >= 415 && CurrentPage !== 'bigEvents') {
+    if (window.screen.width >= 415 && CurrentPage !== "bigEvents") {
       return window.location.replace("Events");
     }
 
-    if (window.screen.width <= 414 && CurrentPage !== 'smallEvents') {
+    if (window.screen.width <= 414 && CurrentPage !== "smallEvents") {
       return window.location.replace("EventsSmall");
     }
   }
@@ -124,10 +124,9 @@ function EventsSmall(props) {
         <div className="containerCalendar">
           <iframe
             className="calendar"
-            src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%236dcff6&amp;ctz=America%2FChicago&amp;showTitle=0&amp;showNav=1&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=1&amp;src=M3VxaThqNTE1dXVjNXZrY3EwcTBvdml1bW9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%231b3a5d"
-            // style="border:solid 1px #1b3a5d"
+            src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%236dcff6&ctz=America%2FChicago&src=M3VxaThqNTE1dXVjNXZrY3EwcTBvdml1bW9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%231b3a5d"
             style={{
-              width: "40%",
+              width: "300px",
               height: "60vh",
               frameborder: "0",
               scrolling: "no",

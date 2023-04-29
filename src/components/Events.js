@@ -7,7 +7,7 @@ function Events(props) {
 
   function getTemplate() {
     if (window.screen.width >= 415 && CurrentPage !== 'bigEvents') {
-      return window.location.replace("Events");
+      return window.location.replace("Events.js");
     }
 
     if (window.screen.width <= 414 && CurrentPage !== 'smallEvents') {
