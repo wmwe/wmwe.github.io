@@ -23,7 +23,7 @@ p {
 .support, .empowerment, .mentorship {
     max-width: 180px;
     max-height: 180px;
-    padding: 30px;
+    padding: 0px;
 }
     
 .missionpics {
@@ -37,9 +37,6 @@ p {
 .pillarpics {
     display: flex, inline-block;
     position: relative;
-    margin-left: 20%;
-    margin-right: 20%;
-
 }
 
 .section__header {
