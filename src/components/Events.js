@@ -3,23 +3,23 @@ import "./EventsStyle.css";
 import Banner from "./Banner/Banner";
 
 function Events(props) {
+  let CurrentPage = 'bigEvents';
+
+  function getTemplate() {
+    if (window.screen.width >= 415 && CurrentPage !== 'bigEvents') {
+      return window.location.replace("Events");
+    }
+
+    if (window.screen.width <= 414 && CurrentPage !== 'smallEvents') {
+      return window.location.replace("EventsSmall");
+    }
+  }
+
   useEffect(() => {
     getTemplate();
     window.addEventListener("resize", getTemplate);
     return () => window.removeEventListener("resize", getTemplate);
   }, []);
-
-  let CurrentPage = 'bigEvents';
-
-  function getTemplate() {
-    if (window.screen.width >= 415 && CurrentPage !== 'bigEvents') {
-      return window.location.replace("Events.js");
-    }
-
-    if (window.screen.width <= 414 && CurrentPage !== 'smallEvents') {
-      return window.location.replace("Events2.js");
-    }
-  }
 
   return (
     <div>
