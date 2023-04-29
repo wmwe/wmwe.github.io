@@ -12,7 +12,7 @@
   }
 
   .outer-container > .containerEvents {
-    width: 298px;
+    width: 300px;
     flex-direction: column;
     justify-content: center !important;
     align-items: center !important;
@@ -30,7 +30,7 @@
 
   .header {
     height: 40px;
-    width: 338px !important;
+    width: 335px !important;
     top: 10px;
     margin-bottom: 20px !important;
 
