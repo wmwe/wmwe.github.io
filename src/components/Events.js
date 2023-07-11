@@ -35,7 +35,37 @@ function Events(props) {
 
       <div className="outer-container">
         <div className="containerEvents">
-          <div className="wrapper">
+
+        <div className="wrapper">
+            <div class="one">
+              <p className="event_font">applications due</p>
+            </div>
+            <div class="two">
+              <p className="event_font">
+                &nbsp;sept. 1
+              </p>
+            </div>
+            <div class="three">
+              <p className="event_info">
+                by 11:59 pm
+                <br></br>
+                for Mentors & Mentees
+              </p>
+            </div>
+            <div class="four" style={{ marginTop: "-2em" }}>
+              <p>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a
+                  target="_blank"
+                  href="https://linktr.ee/wmweutd"
+                >
+                  <button className="button">apply</button>
+                </a>
+              </p>
+            </div>
+          </div>
+
+          {/* <div className="wrapper">
             <div class="one">
               <p className="event_font">end of semester</p>
             </div>
@@ -62,9 +92,7 @@ function Events(props) {
                 </a>
               </p>
             </div>
-          </div>
-
-          <br></br>
+          </div> */}
 
           {/* <div className="wrapper">
             <div class="one">

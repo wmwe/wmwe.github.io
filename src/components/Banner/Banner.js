@@ -1,33 +1,39 @@
-import React, { Component } from 'react'
+import React from 'react';
 import Button from '../Button/Button';
-import "../Home.css"
+import '../Home.css';
 
-export const Banner = ({children, link}) =>  {
-    return (
-        <div className="banner1">
-        <h3 className="banner-text">
-          {children}
-        </h3>
-        <Button
-        onClick={(e) => {
-          e.preventDefault();
-          window.location.href=`${link}`;
-          }}
-          children={"mentee"}
-          buttonColor={"white"}
-          textColor={"#00B1F5"}
-        ></Button>
-        <Button
-        onClick={(e) => {
-          e.preventDefault();
-          window.location.href="https://www.linkedin.com/in/wmweatutd/";
-          }}
-          children={"mentor"}
-          buttonColor={"white"}
-          textColor={"#00B1F5"}
-        ></Button>
-      </div>
-    )
-  }
+const Banner = ({ children }) => {
+  const handleMenteeClick = (e) => {
+    e.preventDefault();
+    window.open('https://forms.gle/t3MQ2Hy96QMiBVh79', '_blank');
+  };
 
-  export default Banner
+  const handleMentorClick = (e) => {
+    e.preventDefault();
+    window.open('https://forms.gle/Qxg4JEP6fPNrkPw47', '_blank');
+  };
+
+  return (
+    <div className="banner1">
+      <h3 className="banner-text">
+        {children}
+      </h3>
+      <Button
+        onClick={handleMenteeClick}
+        buttonColor="white"
+        textColor="#00B1F5"
+      >
+        mentee
+      </Button>
+      <Button
+        onClick={handleMentorClick}
+        buttonColor="white"
+        textColor="#00B1F5"
+      >
+        mentor
+      </Button>
+    </div>
+  );
+};
+
+export default Banner;
