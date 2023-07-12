@@ -15,6 +15,10 @@ import { useNavigate } from "react-router-dom";
 
 function Home(props) {
   const navigate = useNavigate();
+  const navigateToAbout = () => {
+    navigate('/about');
+  };
+
   return (
     <div style={{width: "100vw"}}>
       <Banner
@@ -33,7 +37,7 @@ function Home(props) {
                         We want to help you make connections with people out in the industry.
             </h2>
             <Button
-             onClick={navigate("/about")}
+             onClick={navigateToAbout}
               children={"learn more about wmwe"}
               buttonColor={"#6DCFF6"}
               textColor={"#1B3A5D"}
