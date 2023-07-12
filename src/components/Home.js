@@ -5,6 +5,10 @@ import img2 from "../assets/homepage-photo2.png";
 import mentoringImg from "../assets/mentoring-image-homepage.png"
 import eventsImg from "../assets/events-image-homepage.png"
 import jpmorgan from "../assets/jpmorgan.png";
+import c1 from "../assets/CapitalOneLogo.png";
+import statefarm from "../assets/StateFarmLogo.png";
+import ti from "../assets/TILogo.png";
+import mathworks from "../assets/MathWorksLogo.png";
 import { Button } from "./Button/Button.js";
 import Banner from "./Banner/Banner";
 import { useNavigate } from "react-router-dom";
@@ -63,18 +67,17 @@ function Home(props) {
         <div style={{paddingLeft:"5%", paddingRight:"5%", paddingTop:"2%"}}>
         <h2 className="subheading1">interested in joining the program?</h2>
           <h2 className="body1">
-          If you are interested in joining as either a mentor or a mentee, fill out the interest form below. 
-          Our applications will officially open for the Fall 2023 Semester in August and we will contact you 
-          once they do so.
+          If you are interested in joining as either a mentor or a mentee, fill out the application form below. 
+          Our applications officially open for the Fall 2023 Semester for mentors on July 15th and mentees on August 13th.
             </h2>
 
             <div className="buttons-div">
             <Button
              onClick={(e) => {
               e.preventDefault();
-              window.location.href="https://www.linkedin.com/in/wmweatutd/";
+              window.location.href="https://forms.gle/Qxg4JEP6fPNrkPw47";
               }}
-              children={"mentee interest form"}
+              children={"mentor application (opens July 15th)"}
               buttonColor={"#6DCFF6"}
               textColor={"#1B3A5D"}
             >
@@ -82,9 +85,9 @@ function Home(props) {
             <Button
              onClick={(e) => {
               e.preventDefault();
-              window.location.href="https://www.linkedin.com/in/wmweatutd/";
+              window.location.href="https://forms.gle/t3MQ2Hy96QMiBVh79";
               }}
-              children={"mentor interest form"}
+              children={"mentee application (opens Aug. 13th)"}
               buttonColor={"#6DCFF6"}
               textColor={"#1B3A5D"}
             >
@@ -99,10 +102,10 @@ function Home(props) {
         <h2 className="subheading1">our past sponsors</h2>
         <div className="sponsors-flex">
           <img src={jpmorgan} className="sponsor-img"></img>
-          <img src={jpmorgan} className="sponsor-img"></img>
-          <img src={jpmorgan} className="sponsor-img"></img>
-          <img src={jpmorgan} className="sponsor-img"></img>
-          <img src={jpmorgan} className="sponsor-img"></img>
+          <img src={statefarm} className="sponsor-img"></img>
+          <img src={c1} className="sponsor-img"></img>
+          <img src={ti} className="sponsor-img"></img>
+          <img src={mathworks} className="sponsor-img"></img>
         </div>
 
         <h2 className="body1" style={{textAlign:"right", marginTop:"-3%", fontSize:"0.8rem"}}>
