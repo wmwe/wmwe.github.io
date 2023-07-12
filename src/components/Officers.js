@@ -52,7 +52,7 @@ function Officers(props) {
           <OfficerCard
             name={"Kacie Yee"}
             position={"Events Chair"}
-            image={"photos/officer-photos/Lac-Ngo.png"}
+            image={"photos/officer-photos/Kacie-Yee.png"}
             description={
               "Kacie is a junior in Computer Science. She joined WMWE as a freshman to connect with fellow women in STEM. A fun fact about her is that she likes to rollerblade around campus!"
             }
@@ -65,7 +65,7 @@ function Officers(props) {
           <OfficerCard
             name={"Pooja Cheruku"}
             position={"Events Chair"}
-            image={"photos/officer-photos/Anusha-Jain.png"}
+            image={"photos/officer-photos/Pooja-Cheruku.png"}
             description={
               "Pooja is a senior in Computer Science. She joined WMWE to form relationships with and learn from students/mentors in the industry! Fun fact, She has a goldendoodle named Chewie like Chewbacca :D"
             }
@@ -132,7 +132,7 @@ function Officers(props) {
           <OfficerCard
             name={"Illiana Rodriguez"}
             position={"Treasurer"}
-            image={"photos/officer-photos/Riya-Gandhi.png"}
+            image={"photos/officer-photos/Illiana-Rodriguez.png"}
             description={
               "Illiana is a junior in Computer Science. She joined WMWE because she wanted to meet other girls in her major, make connections, and receive mentorship from women in the engineering field!"
             }
