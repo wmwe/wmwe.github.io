@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/wmwe-website/static/css/main.7831c5c7.css",
+    "main.js": "/wmwe-website/static/js/main.1f792b8a.js",
+    "static/js/787.75877633.chunk.js": "/wmwe-website/static/js/787.75877633.chunk.js",
+    "static/media/homepage-photo1.png": "/wmwe-website/static/media/homepage-photo1.a06cc06df571f21274a0.png",
+    "static/media/homepage-photo2.png": "/wmwe-website/static/media/homepage-photo2.9b35d1764ec5c93c2f54.png",
+    "static/media/eventpic1.jpg": "/wmwe-website/static/media/eventpic1.a51e9b07a88e6ea53db8.jpg",
+    "static/media/eventpic3.jpg": "/wmwe-website/static/media/eventpic3.a27ffd202ac700ebb707.jpg",
+    "static/media/eventpic2.jpg": "/wmwe-website/static/media/eventpic2.6cbc5cca67798ef7dde9.jpg",
+    "static/media/events-image-homepage.png": "/wmwe-website/static/media/events-image-homepage.05ccd665fe1562f21878.png",
+    "static/media/mentoring-image-homepage.png": "/wmwe-website/static/media/mentoring-image-homepage.88310de48f8ca34b387e.png",
+    "static/media/empowermentwithborder.jpg": "/wmwe-website/static/media/empowermentwithborder.7c2dbf6af28623140f1a.jpg",
+    "static/media/mentorshipwithborder.jpg": "/wmwe-website/static/media/mentorshipwithborder.595935440c4e195742d0.jpg",
+    "static/media/supportwithborder.jpg": "/wmwe-website/static/media/supportwithborder.e7a81a6f4d2aae4feca0.jpg",
+    "static/media/women.png": "/wmwe-website/static/media/women.a4c39e2def53639c3b89.png",
+    "static/media/wmwelogo.png": "/wmwe-website/static/media/wmwelogo.09452a025745767ecfd4.png",
+    "static/media/CapitalOneLogo.png": "/wmwe-website/static/media/CapitalOneLogo.a9d574a1ba02a0e42e47.png",
+    "static/media/location.png": "/wmwe-website/static/media/location.c295bebb43bcd15edbdb.png",
+    "static/media/TILogo.png": "/wmwe-website/static/media/TILogo.dd613703e673adb72156.png",
+    "static/media/jpmorgan.png": "/wmwe-website/static/media/jpmorgan.afc03e8d1aba830fb0d6.png",
+    "static/media/StateFarmLogo.png": "/wmwe-website/static/media/StateFarmLogo.e0cfe203402d5a5dfd51.png",
+    "static/media/MathWorksLogo.png": "/wmwe-website/static/media/MathWorksLogo.ae9635c38eff586a37fb.png",
+    "static/media/logo.svg": "/wmwe-website/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/wmwe-website/index.html",
+    "main.7831c5c7.css.map": "/wmwe-website/static/css/main.7831c5c7.css.map",
+    "main.1f792b8a.js.map": "/wmwe-website/static/js/main.1f792b8a.js.map",
+    "787.75877633.chunk.js.map": "/wmwe-website/static/js/787.75877633.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7831c5c7.css",
+    "static/js/main.1f792b8a.js"
+  ]
+}
