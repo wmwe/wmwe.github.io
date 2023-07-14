@@ -15,7 +15,7 @@ function Officers(props) {
             position={"President"}
             image={"photos/officer-photos/Vyshnavi-Nalla.png"}
             description={
-              "Vyshnavi is a senior in Computer Science interested in mobile and web development. She joined WMWE to help the retention of Women in STEM and be part of a community."
+              "Vyshnavi is a senior in Computer Science interested in mobile and web development. She joined WMWE to help the retention of Women in STEM and be part of a community. In her free time, she loves to take photos and watch horror movies."
             }
             linkedin={"https://www.linkedin.com/in/vyshnavi-nalla/"}
             font={"1.1"}
@@ -28,7 +28,7 @@ function Officers(props) {
             position={"Vice President"}
             image={"photos/officer-photos/Manasi-Vipat.png"}
             description={
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ante quam, rhoncus eu sem convallis, ultrices scelerisque magna. Ut dapibus eu magna vel bibendum."
+              "Manasi is a junior studying computer science, with interest in user experience and mobile/web development. She joined WMWE as a freshman to encourage women in STEM to network and grow as a whole."
             }
             linkedin={"https://www.linkedin.com/in/manasivipat/"}
             font={"1.1"}
@@ -78,7 +78,7 @@ function Officers(props) {
           <OfficerCard
             name={"Gabrielle Kuruvilla"}
             position={"Outreach Chair"}
-            image={"photos/officer-photos/Anusha-Jain.png"}
+            image={"photos/officer-photos/Gabrielle-Kuruvilla.png"}
             description={
               "Gabrielle is a junior in Computer Science. Fun fact: She is allergic to gluten but loves bread. She joined WMWE to be a part of an organization that helps young women gain confidence and connections in a supportive, comfortable environment."
             }
@@ -93,7 +93,7 @@ function Officers(props) {
           <OfficerCard
             name={"Emily Oh"}
             position={"Media Chair"}
-            image={"photos/officer-photos/Anusha-Jain.png"}
+            image={"photos/officer-photos/Emily-Oh.png"}
             description={
               "Emily is a senior in Mechanical Engineering. She loves being involved with fellow STEM students. It keeps her motivated and inspired for her own life and studies."
             }
@@ -106,7 +106,7 @@ function Officers(props) {
           <OfficerCard
             name={"Hemal Pathak"}
             position={"Mentoring Team Coordinator"}
-            image={"photos/officer-photos/Aiman-Rahman.png"}
+            image={"photos/officer-photos/Hemal-Pathak.png"}
             description={
               "Hemal is a junior in Computer Science. Fun fact: She likes to read and bake in her free time! She joined WMWE to gain guidance from industry professionals and make lasting connections with other women engineers!"
             }
@@ -119,7 +119,7 @@ function Officers(props) {
           <OfficerCard
             name={"Clara Conner"}
             position={"Mentoring Team Coordinator"}
-            image={"photos/officer-photos/Zaina-Rida.png"}
+            image={"photos/officer-photos/Clara-Conner.png"}
             description={
               "Clara is a junior in Software Engineering. She joined WMWE for the opportunity to build connections with other women in engineering, including professionals and fellow students."
             }
@@ -145,7 +145,7 @@ function Officers(props) {
           <OfficerCard
             name={"Devika Amalkar"}
             position={"Treasury Committee Member"}
-            image={"photos/officer-photos/Illiana-Rodriguez.png"}
+            image={"photos/officer-photos/Devika-Amalkar.png"}
             description={
               "Devika is a sophomore in Computer Science. She believes that WMWE provides an uplifting and comfortable environment for girls pursuing a career in STEM as members are mentored by successful women who are able to guide them through their college years."
             }
@@ -171,7 +171,7 @@ function Officers(props) {
           <OfficerCard
             name={"Sanjana Kotha"}
             position={"Marketing Committee Member"}
-            image={"photos/officer-photos/Manasi-Vipat.png"}
+            image={"photos/officer-photos/Sanjana-Kotha.png"}
             description={
               "Sanjana is a sophomore in Computer Science. She joined WMWE to gain mentorship and guidance in an inclusive atmosphere. The relationships you build are helpful both personally and professionally!"
             }
