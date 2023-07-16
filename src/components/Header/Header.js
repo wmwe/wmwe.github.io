@@ -30,37 +30,37 @@ class Header extends Component {
 
                 <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
                             <li>
-                                <a className="nav-links" href="/about">
+                                <a className="nav-links" href="about">
                                     about
                                 </a>
                             </li>
 
                             <li>
-                                <a className="nav-links" href="/events">
+                                <a className="nav-links" href="events">
                                     events
                                 </a>
                             </li>
 
                             <li>
-                                <a className="nav-links" href="/officers">
+                                <a className="nav-links" href="officers">
                                     officers
                                 </a>
                             </li>
 
                             <li>
-                                <a className="nav-links" href="/members">
+                                <a className="nav-links" href="members">
                                     members
                                 </a>
                             </li>
 
                             <li>
-                                <a className="nav-links" href="/contact">
+                                <a className="nav-links" href="contact">
                                     contact
                                 </a>
                             </li>
 
                             <li>
-                                <a className="nav-links" href="/login">
+                                <a className="nav-links" href="login">
                                     member login
                                 </a>
                             </li>
