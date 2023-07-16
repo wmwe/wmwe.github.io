@@ -24,6 +24,14 @@
    /* overflow: hidden; */
   }
 
+  .navButton{
+   background-color: #F5FCFF;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
   .container div {
     /* padding: 5%;  */
     position:relative;
@@ -67,8 +75,7 @@
     text-align: left;
     color: #1B3A5D;
     margin-left: 18%;
-    padding-bottom: 3%;
-    padding-top: 3%;
+  
   }
 
   .item-32mentors {

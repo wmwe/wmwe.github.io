@@ -1,4 +1,4 @@
-@import "../Button/Button.css";
+
 
 .NavbarItems{
     height: 80px;
@@ -45,6 +45,10 @@
     text-decoration: none;
     padding: 0.5rem 1rem;
     cursor: pointer;
+    background-color: #F5FCFF;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
 }
 
 .icon-links{
@@ -70,6 +74,8 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    background-color: #F5FCFF;
+    border: none;
 }
 
 .logo-sphere-styling{

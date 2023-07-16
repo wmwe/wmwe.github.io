@@ -36,9 +36,9 @@ function Header(props) {
     }
         return(
             <nav className='NavbarItems'>
-                <a className='logo-flex' onClick={navigateToHome}>
+                <button className='logo-flex' onClick={navigateToHome}>
                     <img className='logo-image' style={{height: "40px", paddingLeft: "10px"}} src={wmweLogo}></img>
-                </a>
+                </button>
                 
 
                 <div className='menu-icon' onClick={handleClick}>
@@ -51,39 +51,39 @@ function Header(props) {
 
                 <ul className={state.clicked ? 'nav-menu active' : 'nav-menu'}>
                             <li>
-                                <a className="nav-links" onClick={navigateToAbout}>
+                                <button className="nav-links" onClick={navigateToAbout}>
                                     about
-                                </a>
+                                </button>
                             </li>
 
                             <li>
-                                <a className="nav-links" onClick={navigateToEvents}>
+                                <button className="nav-links" onClick={navigateToEvents}>
                                     events
-                                </a>
+                                </button>
                             </li>
 
                             <li>
-                                <a className="nav-links" onClick={navigateToOfficers}>
+                                <button className="nav-links" onClick={navigateToOfficers}>
                                     officers
-                                </a>
+                                </button>
                             </li>
 
                             <li>
-                                <a className="nav-links" onClick={navigateToMembers}>
+                                <button className="nav-links" onClick={navigateToMembers}>
                                     members
-                                </a>
+                                </button>
                             </li>
 
                             <li>
-                                <a className="nav-links" onClick={navigateToContact}>
+                                <button className="nav-links" onClick={navigateToContact}>
                                     contact
-                                </a>
+                                </button>
                             </li>
 
                             <li>
-                                <a className="nav-links" onClick={navigateToLogin}>
+                                <button className="nav-links" onClick={navigateToLogin}>
                                     member login
-                                </a>
+                                </button>
                             </li>
                 </ul>
               

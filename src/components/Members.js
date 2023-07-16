@@ -18,8 +18,8 @@ function Members(props) {
         <div style={{position:'relative'}}>
 
             <div className='mini__nav'>
-            <a onClick={navigateToMembers}><h2 className='header-text1'>mentors</h2></a>
-            <a onClick={navigateToMentees}><h2 className='header-text2'>mentees</h2></a>
+            <button className="navButton" onClick={navigateToMembers}><h2 className='header-text1'>mentors</h2></button>
+            <button className="navButton" onClick={navigateToMentees}><h2 className='header-text2'>mentees</h2></button>
             </div>
              <section className='container'>
 
@@ -258,7 +258,7 @@ function Members(props) {
              name={"Jahnavi Mesa"}
              position={"Mentor"}
              image={"photos/member-photos/Placeholder.png"}
-             description={'Hi, I\’m Jahnavi! I\'m a Software Engineer with 5+ years of experience in the industry. My expertise lies within back-end web development, and I\'m skilled in Java, Spring Boot, Microsoft Azure cloud. I have a passion for software development, as it enables me to apply my creativity in utilizing technology to find solutions to real-world problems.'}
+             description={'Hi, I’m Jahnavi! I\'m a Software Engineer with 5+ years of experience in the industry. My expertise lies within back-end web development, and I\'m skilled in Java, Spring Boot, Microsoft Azure cloud. I have a passion for software development, as it enables me to apply my creativity in utilizing technology to find solutions to real-world problems.'}
              linkedin={'https://www.linkedin.com/in/jahnavi-mesa-72b91447/'}
              font={'1.1'}
              ></OfficerCard>

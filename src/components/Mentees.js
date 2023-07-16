@@ -18,8 +18,8 @@ function Mentees(props) {
         <div style={{position:'relative'}}>
 
         <div className='mini__nav'>
-            <a onClick={navigateToMembers}><h2 className='header-text3'>mentors</h2></a>
-            <a onClick={navigateToMentees}><h2 className='header-text4'>mentees</h2></a>
+            <button className="navButton" onClick={navigateToMembers}><h2 className='header-text3'>mentors</h2></button>
+            <button className="navButton" onClick={navigateToMentees}><h2 className='header-text4'>mentees</h2></button>
             </div>
              <section className='mentees-container'>
 
