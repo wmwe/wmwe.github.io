@@ -46,7 +46,7 @@ export const Forgot = (props) => {
           return to log in?
         </h3>
 
-        <form className="login-form" onSubmit={handleForgot}>
+        <form className="login-form-2" onSubmit={handleForgot}>
           <div>
             <h3 className="text-login">email</h3>
             <input

@@ -1,75 +1,95 @@
-import React, {Component} from 'react';
+import React, {useState } from 'react';
 import "./Header.css"; 
 import wmweLogo from "./wmwelogo.png";
 import { FaBars, FaTimes } from 'react-icons/fa';
-import { NavLink as Link } from 'react-router-dom';
+import { useNavigate } from "react-router-dom";
 
-class Header extends Component {
+function Header(props) {
+    const navigate = useNavigate();
+    const navigateToHome = () => {
+        navigate('/');
+    };
+    const navigateToAbout = () => {
+        navigate('/about');
+    };
+    const navigateToEvents = () => {
+        navigate('/events');
+    };
+    const navigateToOfficers = () => {
+        navigate('/officers');
+    };
+    const navigateToMembers = () => {
+        navigate('/members');
+    };
+    const navigateToContact= () => {
+        navigate('/contact');
+    };
+    const navigateToLogin = () => {
+        navigate('/login');
+    };
+    
 
-    state = {clicked: false}
+    const [state, setState] = useState({clicked: false});
 
-    handleClick = () => {
-        this.setState({ clicked: !this.state.clicked})
+    const handleClick = () => {
+        setState({ clicked: !state.clicked})
     }
-
-    render(){
         return(
             <nav className='NavbarItems'>
-                <a className='logo-flex' href='/'>
+                <button className='logo-flex' onClick={navigateToHome}>
                     <img className='logo-image' style={{height: "40px", paddingLeft: "10px"}} src={wmweLogo}></img>
-                </a>
+                </button>
                 
 
-                <div className='menu-icon' onClick={this.handleClick}>
+                <div className='menu-icon' onClick={handleClick}>
             
-                    {this.state.clicked ? <FaTimes className='fa-times'></FaTimes>
+                    {state.clicked ? <FaTimes className='fa-times'></FaTimes>
                     : <FaBars className='fa-bars'></FaBars>}
                 </div>
 
                 
 
-                <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
+                <ul className={state.clicked ? 'nav-menu active' : 'nav-menu'}>
                             <li>
-                                <a className="nav-links" href="/about">
+                                <button className="nav-links" onClick={navigateToAbout}>
                                     about
-                                </a>
+                                </button>
                             </li>
 
                             <li>
-                                <a className="nav-links" href="/events">
+                                <button className="nav-links" onClick={navigateToEvents}>
                                     events
-                                </a>
+                                </button>
                             </li>
 
                             <li>
-                                <a className="nav-links" href="/officers">
+                                <button className="nav-links" onClick={navigateToOfficers}>
                                     officers
-                                </a>
+                                </button>
                             </li>
 
                             <li>
-                                <a className="nav-links" href="/members">
+                                <button className="nav-links" onClick={navigateToMembers}>
                                     members
-                                </a>
+                                </button>
                             </li>
 
                             <li>
-                                <a className="nav-links" href="/contact">
+                                <button className="nav-links" onClick={navigateToContact}>
                                     contact
-                                </a>
+                                </button>
                             </li>
 
                             <li>
-                                <a className="nav-links" href="/login">
+                                <button className="nav-links" onClick={navigateToLogin}>
                                     member login
-                                </a>
+                                </button>
                             </li>
                 </ul>
               
                 
             </nav>
         )
-    }
 }
 
 export default Header;

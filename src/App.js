@@ -13,9 +13,11 @@ import "./App.css";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Events from "./components/Events";
+import EventsSmall from "./components/EventsSmall";
 import Home from "./components/Home";
 
 import Login from "./components/Login";
+import SignUp from "./components/SignUp";
 import Forgot from "./components/Forgot";
 import Members from "./components/Members";
 import Mentees from "./components/Mentees";
@@ -40,6 +42,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/events" element={<Events />} />
+          <Route path="/eventsSmall" element={<EventsSmall />} />
           <Route path="/members" element={<Members />} />
           <Route path="/mentees" element={<Mentees />} />
           <Route path="/officers" element={<Officers />} />
@@ -48,6 +51,7 @@ function App() {
         <AuthContextProvider>
           <Routes>
             <Route path="/login" element={<Login />} />
+            <Route path="/signup" element={<SignUp />} />
             <Route path="/forgot" element={<Forgot />} />
             <Route
               path="/account"
