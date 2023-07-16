@@ -3,24 +3,6 @@ import "./EventsStyle.css";
 import Banner from "./Banner/Banner";
 
 function Events(props) {
-  let CurrentPage = 'bigEvents';
-
-  function getTemplate() {
-    if (window.screen.width >= 415 && CurrentPage !== 'bigEvents') {
-      return window.location.replace("Events.js");
-    }
-
-    if (window.screen.width <= 414 && CurrentPage !== 'smallEvents') {
-      return window.location.replace("EventsSmall");
-    }
-  }
-
-  useEffect(() => {
-    getTemplate();
-    window.addEventListener("resize", getTemplate);
-    return () => window.removeEventListener("resize", getTemplate);
-  }, []);
-
   return (
     <div>
       <Banner
@@ -35,15 +17,12 @@ function Events(props) {
 
       <div className="outer-container">
         <div className="containerEvents">
-
-        <div className="wrapper">
+          <div className="wrapper">
             <div class="one">
               <p className="event_font">applications due</p>
             </div>
             <div class="two">
-              <p className="event_font">
-                &nbsp;sept. 1
-              </p>
+              <p className="event_font">&nbsp;sept. 1</p>
             </div>
             <div class="three">
               <p className="event_info">
@@ -55,10 +34,7 @@ function Events(props) {
             <div class="four" style={{ marginTop: "-2em" }}>
               <p>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <a
-                  target="_blank"
-                  href="https://linktr.ee/wmweutd"
-                >
+                <a target="_blank" href="https://linktr.ee/wmweutd">
                   <button className="button">apply</button>
                 </a>
               </p>

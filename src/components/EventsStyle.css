@@ -7,27 +7,32 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center !important;
+    text-align: center !important;
   }
 
   .outer-container > .containerEvents {
-    width: 45%;
+    width: 300px;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center !important;
     align-items: center !important;
-    padding-left: 2%;
+    text-align: center !important;
     margin-bottom: 20px !important;
+    margin-left: -41%;
   }
 
   /* calendar div */
   .outer-container > .containerCalendar {
-    width: 55%;
+    width: 301px;
     justify-content: center;
-    padding-left: 2%;
+    align-items: center !important;
+    text-align: center !important;
+    margin-left: -30%;
   }
 
   .header {
     height: 40px;
-    width: 315px !important;
+    width: 335px !important;
     top: 10px;
     margin-bottom: 20px !important;
 
@@ -43,15 +48,14 @@
   }
 
   .calendar {
-    width: 300px !important;
-    height: 489px;
-    border-radius: 10px;
-    border-color: #1b3a5d;
-    overflow: hidden;
-    margin-bottom: 50px;
-    resize: none;
-    justify-content: center !important;
-  }
+    width: 100%!important;
+    height: 489px !important;
+    border-radius: 10px !important;
+    border-color: #1b3a5d !important;
+    overflow: hidden !important;
+    margin-bottom: 50px !important;
+    resize: none !important;
+  }  
 
   .wrapper {
     margin-top: -8%;

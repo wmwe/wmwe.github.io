@@ -13,7 +13,6 @@ import "./App.css";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Events from "./components/Events";
-import EventsSmall from "./components/EventsSmall";
 import Home from "./components/Home";
 
 import Login from "./components/Login";
@@ -42,7 +41,6 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/events" element={<Events />} />
-          <Route path="/eventsSmall" element={<EventsSmall />} />
           <Route path="/members" element={<Members />} />
           <Route path="/mentees" element={<Mentees />} />
           <Route path="/officers" element={<Officers />} />
