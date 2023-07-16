@@ -122,7 +122,7 @@ function Events(props) {
                 </a>
               </p>
             </div>
-          </div> */}
+  </div> */}
         </div>
 
         <div className="containerCalendar">
