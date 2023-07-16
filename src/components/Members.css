@@ -33,6 +33,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center !important;
+    align-items: center;
     padding-right: 1rem;
     /* align-items: top; */
  }

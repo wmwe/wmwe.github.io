@@ -3,15 +3,23 @@ import { OfficerCard } from './Wmwe-ui';
 import './Members.css';
 import './Home.css';
 import './Mentees.js'
+import { useNavigate } from "react-router-dom";
 
 
 function Members(props) {
+    const navigate = useNavigate();
+    const navigateToMembers = () => {
+        navigate('/members');
+    };
+    const navigateToMentees = () => {
+        navigate('/mentees');
+    };
     return (
         <div style={{position:'relative'}}>
 
             <div className='mini__nav'>
-            <a href="/members"><h2 className='header-text1'>mentors</h2></a>
-            <a href="/mentees"><h2 className='header-text2'>mentees</h2></a>
+            <a onClick={navigateToMembers}><h2 className='header-text1'>mentors</h2></a>
+            <a onClick={navigateToMentees}><h2 className='header-text2'>mentees</h2></a>
             </div>
              <section className='container'>
 
