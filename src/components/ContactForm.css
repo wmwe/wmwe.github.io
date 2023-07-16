@@ -5,7 +5,7 @@
 /* Contact.js */
 
 /* to make responsive, media query inline block for big div*/
-@media only screen and (max-width: 414px) and (min-width: 360px) {
+@media only screen and (max-width: 430px) and (min-width: 360px) {
   .outer-container-contact {
     display: inline-block !important;
     justify-content: center !important;
