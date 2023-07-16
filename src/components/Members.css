@@ -75,16 +75,14 @@
   }
 
   .item-81mentees {
-      padding-bottom: 5rem;
+      padding-bottom: 10rem;
       padding: 0px 0px 0px 0px
   }
 
 @media screen and (min-width: 900px) {
    .container {
       font-size: xx-large;
-   }
-
-   
+   } 
 }
 
 @media screen and (max-width: 550px){
@@ -92,6 +90,10 @@
    .header-text1, .header-text2, .header-text3, .header-text4 {
       font-size: 2rem;
     }
+
+   .mentees-container {
+      margin-bottom: 60%;
+   }
 
 
 }
