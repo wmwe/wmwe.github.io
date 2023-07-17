@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.56106dd1.css",
-    "main.js": "/static/js/main.3d942867.js",
+    "main.css": "/static/css/main.9f85bfb4.css",
+    "main.js": "/static/js/main.6e388609.js",
     "static/js/787.75877633.chunk.js": "/static/js/787.75877633.chunk.js",
     "static/media/homepage-photo1.png": "/static/media/homepage-photo1.a06cc06df571f21274a0.png",
     "static/media/homepage-photo2.png": "/static/media/homepage-photo2.9b35d1764ec5c93c2f54.png",
@@ -23,12 +23,12 @@
     "static/media/MathWorksLogo.png": "/static/media/MathWorksLogo.ae9635c38eff586a37fb.png",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.56106dd1.css.map": "/static/css/main.56106dd1.css.map",
-    "main.3d942867.js.map": "/static/js/main.3d942867.js.map",
+    "main.9f85bfb4.css.map": "/static/css/main.9f85bfb4.css.map",
+    "main.6e388609.js.map": "/static/js/main.6e388609.js.map",
     "787.75877633.chunk.js.map": "/static/js/787.75877633.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.56106dd1.css",
-    "static/js/main.3d942867.js"
+    "static/css/main.9f85bfb4.css",
+    "static/js/main.6e388609.js"
   ]
 }
