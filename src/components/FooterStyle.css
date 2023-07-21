@@ -5,6 +5,7 @@
     font-family: 'Montserrat', sans-serif;
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     margin: 0 auto;
     column-gap: 50px;
@@ -106,4 +107,45 @@ a:link, a:visited  {
 a:hover {
     color:#1B3A5D;
     text-decoration: underline;
+}
+
+.footer-links{
+    color: #1B3A5D;
+    
+    cursor: pointer;
+    background-color: #CBF0FF;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    list-style-type: none 
+}
+
+.footer-links-container{
+
+    list-style-type: none 
+}
+
+@media screen and (max-width: 550px){
+
+    .socials-footer {
+        display: inline-block;
+        padding-top: 20px;
+        padding-bottom: 0px;
+        padding-right: 0px;
+    
+    }
+
+    .contact-footer{
+        display: inline-block;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 0px;
+        margin-left: 0px;
+    
+    }
+
+    .footerset {
+        column-gap: 75px;
+    }
+
 }
