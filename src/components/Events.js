@@ -1,8 +1,22 @@
 import React, { useEffect } from "react";
 import "./EventsStyle.css";
 import Banner from "./Banner/Banner";
+import Iframe from 'react-iframe'
+
+
+function getHeight(innerWidth) {
+  if (innerWidth >= 550) return "520px" 
+  else return "420px" 
+}
+
+function getWidth(innerWidth) {
+  if (innerWidth >= 550) return "650px" 
+  else return "300px" 
+}
 
 function Events(props) {
+  const innerWidth = window.innerWidth
+  const innerHeight = window.innerHeight
   return (
     <div>
       <Banner
@@ -126,18 +140,13 @@ function Events(props) {
         </div>
 
         <div className="containerCalendar">
-          <iframe
-            className="calendar"
-            src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%236dcff6&amp;ctz=America%2FChicago&amp;showTitle=0&amp;showNav=1&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=1&amp;src=M3VxaThqNTE1dXVjNXZrY3EwcTBvdml1bW9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%231b3a5d"
-            // style="border:solid 1px #1b3a5d"
-            style={{
-              width: "40%",
-              height: "60vh",
-              frameborder: "0",
-              scrolling: "no",
-              border: "solid 1px #1b3a5d",
-            }}
-          ></iframe>
+          <Iframe url="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%236dcff6&amp;ctz=America%2FChicago&amp;showTitle=0&amp;showNav=1&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=1&amp;src=M3VxaThqNTE1dXVjNXZrY3EwcTBvdml1bW9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%231b3a5d"
+            width= {getWidth(innerWidth)}
+            height= {getHeight(innerWidth)}
+            id=""
+            className=""
+            display="block"
+            position="relative" />
           <br></br>
           <br></br>
         </div>
