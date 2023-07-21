@@ -118,7 +118,7 @@
     font-weight: 700;
     font-size: 15px !important;
     line-height: 19px;
-    text-align: center;
+    text-align: left;
     cursor: pointer;
     z-index: 100;
     justify-content: center;
@@ -191,7 +191,7 @@
   font-weight: 700;
   font-size: 20px;
   line-height: 19px;
-  text-align: center;
+  text-align: left;
   cursor: pointer;
   z-index: 100;
 

@@ -62,13 +62,12 @@ function Events(props) {
                 for Mentors & Mentees
               </p>
             </div>
-            <div class="four" style={{ marginTop: "-2em" }}>
-              <p>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <div class="four" style={{ marginTop: "-1em", width:"50%", marginLeft: "2em" }}>
+              <div>
                 <a target="_blank" href="https://linktr.ee/wmweutd">
                   <button className="button">apply</button>
                 </a>
-              </p>
+              </div>
             </div>
           </div>
 
