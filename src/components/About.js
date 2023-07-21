@@ -64,10 +64,7 @@ function About(props) {
             By linking you up with a professional woman who is working in the
             STEM field in a semester long mentorship, you will learn everything
             you wanted to know. From professionalism in the workplace, to things
-            you can do to upstart your career. In the mentee form, we ask for
-            your major and what fields of that major you are interested in so we
-            can pair you up with a mentor who is doing exactly that. At the end
-            of the semester, you will be walking out with tons of more
+            you can do to upstart your career.
             knowledge!
           </h3>
         </div>
