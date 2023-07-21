@@ -19,11 +19,29 @@ function Home(props) {
     navigate('/about');
   };
 
+  const handleMenteeClick = (e) => {
+    e.preventDefault();
+    window.open('https://forms.gle/t3MQ2Hy96QMiBVh79', '_blank');
+  };
+  
+  const handleMentorClick = (e) => {
+    e.preventDefault();
+    window.open('https://forms.gle/Qxg4JEP6fPNrkPw47', '_blank');
+  };
+  
+  
+
   return (
     <div style={{width: "100vw"}}>
       <Banner
-      children={"Applications for Fall 2023 are Now Open!"}
-      link={"https://www.linkedin.com/in/wmweatutd/"}
+        children={"Mentor Applications for Fall 2023 are Now Open!"}
+        buttons={<Button
+          onClick={handleMentorClick}
+          buttonColor="white"
+          textColor="#00B1F5"
+        >
+          apply now
+        </Button>}
       ></Banner>
       <div className="format">
         <div className="homepage-intro">

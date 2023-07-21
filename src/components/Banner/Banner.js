@@ -2,7 +2,7 @@ import React from 'react';
 import Button from '../Button/Button';
 import '../Home.css';
 
-const Banner = ({ children }) => {
+const Banner = ({ children, buttons }) => {
   const handleMenteeClick = (e) => {
     e.preventDefault();
     window.open('https://forms.gle/t3MQ2Hy96QMiBVh79', '_blank');
@@ -18,7 +18,9 @@ const Banner = ({ children }) => {
       <h3 className="banner-text">
         {children}
       </h3>
-      <Button
+      {buttons}
+      
+      {/* <Button
         onClick={handleMenteeClick}
         buttonColor="white"
         textColor="#00B1F5"
@@ -31,7 +33,7 @@ const Banner = ({ children }) => {
         textColor="#00B1F5"
       >
         mentor
-      </Button>
+      </Button> */}
     </div>
   );
 };

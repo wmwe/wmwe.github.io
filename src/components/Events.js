@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import "./EventsStyle.css";
 import Banner from "./Banner/Banner";
 import Iframe from 'react-iframe'
+import Button from "./Button/Button";
 
 
 function getHeight(innerWidth) {
@@ -13,6 +14,16 @@ function getWidth(innerWidth) {
   if (innerWidth >= 550) return "650px" 
   else return "300px" 
 }
+const handleMenteeClick = (e) => {
+  e.preventDefault();
+  window.open('https://forms.gle/t3MQ2Hy96QMiBVh79', '_blank');
+};
+
+const handleMentorClick = (e) => {
+  e.preventDefault();
+  window.open('https://forms.gle/Qxg4JEP6fPNrkPw47', '_blank');
+};
+
 
 function Events(props) {
   const innerWidth = window.innerWidth
@@ -20,8 +31,14 @@ function Events(props) {
   return (
     <div>
       <Banner
-        children={"Applications for Fall 2023 are Now Open!"}
-        link={"https://www.linkedin.com/in/wmweatutd/"}
+        children={"Mentor Applications for Fall 2023 are Now Open!"}
+        buttons={<Button
+          onClick={handleMentorClick}
+          buttonColor="white"
+          textColor="#00B1F5"
+        >
+          apply now
+        </Button>}
       ></Banner>
       <p className="header">
         <b>upcoming events.</b>

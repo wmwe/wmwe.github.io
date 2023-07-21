@@ -3,6 +3,7 @@ import loginimg from "./wmwelogo.png";
 import "./Login.css";
 import "./Home.css";
 import Banner from "./Banner/Banner";
+import Button from "./Button/Button";
 //import logingoogle from "./googleLogin.png";
 // export default class Login extends Component {
 
@@ -44,14 +45,30 @@ export const Login = (props) => {
     }
   };
 
+  const handleMenteeClick = (e) => {
+    e.preventDefault();
+    window.open('https://forms.gle/t3MQ2Hy96QMiBVh79', '_blank');
+  };
+  
+  const handleMentorClick = (e) => {
+    e.preventDefault();
+    window.open('https://forms.gle/Qxg4JEP6fPNrkPw47', '_blank');
+  };
+
   return (
     <div>
       <div className="login-page">
         <div className="login">
-          <Banner
-            children={"Applications for Fall 2023 are Now Open!"}
-            link={"https://www.linkedin.com/in/wmweatutd/"}
-          ></Banner>
+        <Banner
+        children={"Mentor Applications for Fall 2023 are Now Open!"}
+        buttons={<Button
+          onClick={handleMentorClick}
+          buttonColor="white"
+          textColor="#00B1F5"
+        >
+          apply now
+        </Button>}
+      ></Banner>
 
           <div style={{ padding: "20px", paddingTop: "8%" }}>
             <img src={loginimg} style={{ maxWidth: "80px" }}></img>
