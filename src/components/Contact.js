@@ -6,6 +6,7 @@ import email_pic from "../assets/mail.png";
 import location_pic from "../assets/location.png";
 import Banner from "./Banner/Banner";
 import Button from "./Button/Button";
+import { useNavigate } from "react-router-dom";
 
 const Contact = () => {
   const [name, setName] = useState("");
@@ -48,16 +49,21 @@ const Contact = () => {
     window.open('https://forms.gle/Qxg4JEP6fPNrkPw47', '_blank');
   };
   
+  const navigate = useNavigate();
+  const navigateToEvents = () => {
+    navigate('/events');
+  };
+
   return (
     <div>
       <Banner
-        children={"Mentor Applications for Fall 2023 are Now Open!"}
+        children={"Check out our events page to stay updated with our upcoming events!"}
         buttons={<Button
-          onClick={handleMentorClick}
+          onClick={navigateToEvents}
           buttonColor="white"
           textColor="#00B1F5"
         >
-          apply now
+          events
         </Button>}
       ></Banner>
       <div className="outer-container-contact">

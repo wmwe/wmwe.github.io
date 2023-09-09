@@ -19,6 +19,10 @@ function Home(props) {
     navigate('/about');
   };
 
+  const navigateToEvents = () => {
+    navigate('/events');
+  };
+
   const handleMenteeClick = (e) => {
     e.preventDefault();
     window.open('https://forms.gle/t3MQ2Hy96QMiBVh79', '_blank');
@@ -34,13 +38,13 @@ function Home(props) {
   return (
     <div style={{width: "100vw"}}>
       <Banner
-        children={"Mentor Applications for Fall 2023 are Now Open!"}
+        children={"Check out our events page to stay updated with our upcoming events!"}
         buttons={<Button
-          onClick={handleMentorClick}
+          onClick={navigateToEvents}
           buttonColor="white"
           textColor="#00B1F5"
         >
-          apply now
+          events
         </Button>}
       ></Banner>
       <div className="format">
@@ -69,7 +73,7 @@ function Home(props) {
           <h2 className="subheading1">what we do.</h2>
           <h2 className="body1">
           WMWE organizes a semesterly mentoring program between undergraduate female students and 
-          working professionals. Once you are accepted into the program, we will be place you on a 
+          working professionals. Once you are accepted into the program, we will place you on a 
           team of 4 mentees and 2 mentors that best suits you. From here on, you will be responsible 
           to meet with your team at least twice a month and cover topics such as resumes, interview 
           tips, and workplace advice. 
@@ -89,11 +93,14 @@ function Home(props) {
         <div style={{paddingLeft:"5%", paddingRight:"5%", paddingTop:"2%"}}>
         <h2 className="subheading1">interested in joining the program?</h2>
           <h2 className="body1">
-          If you are interested in joining as either a mentor or a mentee, fill out the application form below. 
-          Our applications officially open for the Fall 2023 Semester for mentors on July 15th and mentees on August 13th.
+          Our applications for Fall 2023 are now closed. But, we'd love to have you join in the Spring! Please 
+          send us an email at wmweatutd@gmail.com indicating your interest and we'll be sure to remind you when the 
+          applications open up again! 
+          {/* If you are interested in joining as either a mentor or a mentee, fill out the application form below. 
+          Our applications officially open for the Fall 2023 Semester for mentors on July 15th and mentees on August 13th. */}
             </h2>
 
-            <div className="buttons-div">
+            {/* <div className="buttons-div">
             <Button
              onClick={(e) => {
               e.preventDefault();
@@ -115,7 +122,7 @@ function Home(props) {
             >
             </Button>
 
-            </div>
+            </div> */}
 
 
         </div>

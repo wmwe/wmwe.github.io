@@ -3,6 +3,7 @@ import "./EventsStyle.css";
 import Banner from "./Banner/Banner";
 import Iframe from 'react-iframe'
 import Button from "./Button/Button";
+import { useNavigate } from "react-router-dom";
 
 
 function getHeight(innerWidth) {
@@ -26,18 +27,22 @@ const handleMentorClick = (e) => {
 
 
 function Events(props) {
+  const navigate = useNavigate();
+  const navigateToEvents = () => {
+    navigate('/events');
+  };
   const innerWidth = window.innerWidth
   const innerHeight = window.innerHeight
   return (
     <div>
       <Banner
-        children={"Mentor Applications for Fall 2023 are Now Open!"}
+        children={"Check out our events page to stay updated with our upcoming events!"}
         buttons={<Button
-          onClick={handleMentorClick}
+          onClick={navigateToEvents}
           buttonColor="white"
           textColor="#00B1F5"
         >
-          apply now
+          events
         </Button>}
       ></Banner>
       <p className="header">
@@ -50,24 +55,24 @@ function Events(props) {
         <div className="containerEvents">
           <div className="wrapper">
             <div class="one">
-              <p className="event_font">applications due</p>
+              <p className="event_font">program kickoff</p>
             </div>
             <div class="two">
-              <p className="event_font">&nbsp;sept. 1</p>
+              <p className="event_font">&nbsp;sept. 14</p>
             </div>
             <div class="three">
               <p className="event_info">
-                by 11:59 pm
+                at 7:00 PM
                 <br></br>
                 for Mentors & Mentees
               </p>
             </div>
             <div class="four" style={{ marginTop: "-1em", width:"50%", marginLeft: "2em" }}>
-              <div>
+              {/* <div>
                 <a target="_blank" href="https://linktr.ee/wmweutd">
                   <button className="button">apply</button>
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
 
