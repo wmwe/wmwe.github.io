@@ -58,13 +58,13 @@ function Events(props) {
               <p className="event_font">program kickoff</p>
             </div>
             <div class="two">
-              <p className="event_font">&nbsp;sept. 14</p>
+              <p className="event_font">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;14</p>
             </div>
             <div class="three">
               <p className="event_info">
                 at 7:00 PM
                 <br></br>
-                for Mentors & Mentees
+                Virtual for Mentors & Mentees
               </p>
             </div>
             <div class="four" style={{ marginTop: "-1em", width:"50%", marginLeft: "2em" }}>
@@ -76,64 +76,68 @@ function Events(props) {
             </div>
           </div>
 
-          {/* <div className="wrapper">
+          <br></br>
+
+          <div className="wrapper">
             <div class="one">
-              <p className="event_font">end of semester</p>
+              <p className="event_font">bracelet social</p>
             </div>
             <div class="two">
               <p className="event_font">
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;14
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;21
               </p>
             </div>
             <div class="three">
               <p className="event_info">
                 7:00 pm
                 <br></br>
-                Location: Artemis Halls
+                SCI 3.230
               </p>
             </div>
-            <div class="four" style={{ marginTop: "-2em" }}>
+            {/* <div class="four" style={{ marginTop: "-2em" }}>
               <p>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <a
                   target="_blank"
                   href="https://docs.google.com/forms/d/e/1FAIpQLSe-5bhIdpCg0ryozzocLurfOKCEMt7IsJMe2YxY2Bwk4UPY7g/viewform"
                 >
-                  <button className="button">rsvp</button>
+                  <button className="button">&nbsp;rsvp</button>
                 </a>
               </p>
-            </div>
-          </div> */}
+            </div> */}
+          </div>
 
-          {/* <div className="wrapper">
+          <br></br>
+
+          <div className="wrapper">
             <div class="one">
-              <p className="event_font">midsemester</p>
+              <p className="event_font">officer workshop</p>
             </div>
             <div class="two">
               <p className="event_font">
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;15
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;28
               </p>
             </div>
             <div class="three">
               <p className="event_info">
                 7:30 pm
                 <br></br>
-                Galaxy Rooms
+                SCI 3.240
               </p>
             </div>
-            <div class="four" style={{ marginTop: "-2em" }}>
+            {/* <div class="four" style={{ marginTop: "-2em" }}>
               <p>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <a target="_blank" href="https://www.youtube.com">
-                  <button className="button">rsvp</button>
+                  <button className="button">&nbsp;rsvp</button>
                 </a>
               </p>
-            </div>
+            </div> */}
           </div>
 
           <br></br>
 
-          <div className="wrapper">
+          {/* <div className="wrapper">
             <div class="one">
               <p className="event_font">end of semester</p>
             </div>
@@ -157,7 +161,7 @@ function Events(props) {
                 </a>
               </p>
             </div>
-  </div> */}
+  </div>  */}
         </div>
 
         <div className="containerCalendar">
