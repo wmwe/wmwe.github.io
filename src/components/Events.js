@@ -1,49 +1,51 @@
 import React, { useEffect } from "react";
 import "./EventsStyle.css";
 import Banner from "./Banner/Banner";
-import Iframe from 'react-iframe'
+import Iframe from "react-iframe";
 import Button from "./Button/Button";
 import { useNavigate } from "react-router-dom";
 
-
 function getHeight(innerWidth) {
-  if (innerWidth >= 550) return "520px" 
-  else return "420px" 
+  if (innerWidth >= 550) return "520px";
+  else return "420px";
 }
 
 function getWidth(innerWidth) {
-  if (innerWidth >= 550) return "650px" 
-  else return "300px" 
+  if (innerWidth >= 550) return "650px";
+  else return "300px";
 }
 const handleMenteeClick = (e) => {
   e.preventDefault();
-  window.open('https://forms.gle/t3MQ2Hy96QMiBVh79', '_blank');
+  window.open("https://forms.gle/t3MQ2Hy96QMiBVh79", "_blank");
 };
 
 const handleMentorClick = (e) => {
   e.preventDefault();
-  window.open('https://forms.gle/Qxg4JEP6fPNrkPw47', '_blank');
+  window.open("https://forms.gle/Qxg4JEP6fPNrkPw47", "_blank");
 };
-
 
 function Events(props) {
   const navigate = useNavigate();
   const navigateToEvents = () => {
-    navigate('/events');
+    navigate("/events");
   };
-  const innerWidth = window.innerWidth
-  const innerHeight = window.innerHeight
+  const innerWidth = window.innerWidth;
+  const innerHeight = window.innerHeight;
   return (
     <div>
       <Banner
-        children={"Check out our events page to stay updated with our upcoming events!"}
-        buttons={<Button
-          onClick={navigateToEvents}
-          buttonColor="white"
-          textColor="#00B1F5"
-        >
-          events
-        </Button>}
+        children={
+          "Check out our events page to stay updated with our upcoming events!"
+        }
+        buttons={
+          <Button
+            onClick={navigateToEvents}
+            buttonColor="white"
+            textColor="#00B1F5"
+          >
+            events
+          </Button>
+        }
       ></Banner>
       <p className="header">
         <b>upcoming events.</b>
@@ -58,7 +60,9 @@ function Events(props) {
               <p className="event_font">studio ghibli night</p>
             </div>
             <div class="two">
-              <p className="event_font">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;01</p>
+              <p className="event_font">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;01
+              </p>
             </div>
             <div class="three">
               <p className="event_info">
@@ -67,7 +71,10 @@ function Events(props) {
                 SCI 2.210
               </p>
             </div>
-            <div class="four" style={{ marginTop: "1.5em", width:"50%", marginLeft: "2.75em" }}>
+            <div
+              class="four"
+              style={{ marginTop: "1.5em", width: "50%", marginLeft: "2.75em" }}
+            >
               <div>
                 <a target="_blank" href="https://forms.gle/CzkVJezFhwZuqTUAA">
                   <button className="button">rsvp</button>
@@ -83,7 +90,9 @@ function Events(props) {
               <p className="event_font">mentor workshop</p>
             </div>
             <div class="two">
-              <p className="event_font">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08</p>
+              <p className="event_font">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08
+              </p>
             </div>
             <div class="three">
               <p className="event_info">
@@ -92,7 +101,10 @@ function Events(props) {
                 location: TBD
               </p>
             </div>
-            <div class="four" style={{ marginTop: "1.5em", width:"50%", marginLeft: "2.75em" }}>
+            <div
+              class="four"
+              style={{ marginTop: "1.5em", width: "50%", marginLeft: "2.75em" }}
+            >
               {/* <div>
                 <a target="_blank" href="https://forms.gle/CzkVJezFhwZuqTUAA">
                   <button className="button">rsvp</button>
@@ -108,7 +120,9 @@ function Events(props) {
               <p className="event_font">wmwe x winstem</p>
             </div>
             <div class="two">
-              <p className="event_font">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;13</p>
+              <p className="event_font">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;13
+              </p>
             </div>
             <div class="three">
               <p className="event_info">
@@ -117,7 +131,10 @@ function Events(props) {
                 location: TBD
               </p>
             </div>
-            <div class="four" style={{ marginTop: "1.5em", width:"50%", marginLeft: "2.75em" }}>
+            <div
+              class="four"
+              style={{ marginTop: "1.5em", width: "50%", marginLeft: "2.75em" }}
+            >
               {/* <div>
                 <a target="_blank" href="https://forms.gle/CzkVJezFhwZuqTUAA">
                   <button className="button">rsvp</button>
@@ -133,7 +150,9 @@ function Events(props) {
               <p className="event_font">wmwe x corelogic</p>
             </div>
             <div class="two">
-              <p className="event_font">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;16</p>
+              <p className="event_font">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;16
+              </p>
             </div>
             <div class="three">
               <p className="event_info">
@@ -142,7 +161,10 @@ function Events(props) {
                 location: TBD
               </p>
             </div>
-            <div class="four" style={{ marginTop: "1.5em", width:"50%", marginLeft: "2.75em" }}>
+            <div
+              class="four"
+              style={{ marginTop: "1.5em", width: "50%", marginLeft: "2.75em" }}
+            >
               {/* <div>
                 <a target="_blank" href="https://forms.gle/CzkVJezFhwZuqTUAA">
                   <button className="button">rsvp</button>
@@ -158,7 +180,9 @@ function Events(props) {
               <p className="event_font">end of semester</p>
             </div>
             <div class="two">
-              <p className="event_font">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;27</p>
+              <p className="event_font">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;27
+              </p>
             </div>
             <div class="three">
               <p className="event_info">
@@ -167,7 +191,10 @@ function Events(props) {
                 location: TBD
               </p>
             </div>
-            <div class="four" style={{ marginTop: "1.5em", width:"50%", marginLeft: "2.75em" }}>
+            <div
+              class="four"
+              style={{ marginTop: "1.5em", width: "50%", marginLeft: "2.75em" }}
+            >
               {/* <div>
                 <a target="_blank" href="https://forms.gle/CzkVJezFhwZuqTUAA">
                   <button className="button">rsvp</button>
@@ -175,17 +202,18 @@ function Events(props) {
               </div> */}
             </div>
           </div>
-
         </div>
 
         <div className="containerCalendar">
-          <Iframe url="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%236dcff6&amp;ctz=America%2FChicago&amp;showTitle=0&amp;showNav=1&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=1&amp;src=M3VxaThqNTE1dXVjNXZrY3EwcTBvdml1bW9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%231b3a5d"
-            width= {getWidth(innerWidth)}
-            height= {getHeight(innerWidth)}
+          <Iframe
+            url="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%236dcff6&amp;ctz=America%2FChicago&amp;showTitle=0&amp;showNav=1&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=1&amp;src=M3VxaThqNTE1dXVjNXZrY3EwcTBvdml1bW9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%231b3a5d"
+            width={getWidth(innerWidth)}
+            height={getHeight(innerWidth)}
             id=""
             className=""
             display="block"
-            position="relative" />
+            position="relative"
+          />
           <br></br>
           <br></br>
         </div>
