@@ -48,14 +48,14 @@
   }
 
   .calendar {
-    width: 100%!important;
+    width: 100% !important;
     height: 489px !important;
     border-radius: 10px !important;
     border-color: #1b3a5d !important;
     overflow: hidden !important;
     margin-bottom: 50px !important;
     resize: none !important;
-  }  
+  }
 
   .wrapper {
     margin-top: -8%;
@@ -118,10 +118,12 @@
     font-weight: 700;
     font-size: 15px !important;
     line-height: 19px;
-    text-align: left;
+    text-align: center;
     cursor: pointer;
-    z-index: 100;
+    display: flex;
+    align-items: center;
     justify-content: center;
+    z-index: 100;
 
     color: #ffffff;
   }
@@ -191,8 +193,11 @@
   font-weight: 700;
   font-size: 20px;
   line-height: 19px;
-  text-align: left;
+  text-align: center;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   z-index: 100;
 
   color: #ffffff;

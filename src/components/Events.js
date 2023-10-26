@@ -55,22 +55,47 @@ function Events(props) {
         <div className="containerEvents">
           <div className="wrapper">
             <div class="one">
-              <p className="event_font">program kickoff</p>
+              <p className="event_font">studio ghibli night</p>
             </div>
             <div class="two">
-              <p className="event_font">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;14</p>
+              <p className="event_font">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;01</p>
             </div>
             <div class="three">
               <p className="event_info">
-                at 7:00 PM
+                7:00 PM
                 <br></br>
-                Virtual for Mentors & Mentees
+                SCI 2.210
               </p>
             </div>
-            <div class="four" style={{ marginTop: "-1em", width:"50%", marginLeft: "2em" }}>
+            <div class="four" style={{ marginTop: "1.5em", width:"50%", marginLeft: "2.75em" }}>
+              <div>
+                <a target="_blank" href="https://forms.gle/CzkVJezFhwZuqTUAA">
+                  <button className="button">rsvp</button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <br></br>
+
+          <div className="wrapper">
+            <div class="one">
+              <p className="event_font">mentor workshop</p>
+            </div>
+            <div class="two">
+              <p className="event_font">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08</p>
+            </div>
+            <div class="three">
+              <p className="event_info">
+                7:00 PM
+                <br></br>
+                location: TBD
+              </p>
+            </div>
+            <div class="four" style={{ marginTop: "1.5em", width:"50%", marginLeft: "2.75em" }}>
               {/* <div>
-                <a target="_blank" href="https://linktr.ee/wmweutd">
-                  <button className="button">apply</button>
+                <a target="_blank" href="https://forms.gle/CzkVJezFhwZuqTUAA">
+                  <button className="button">rsvp</button>
                 </a>
               </div> */}
             </div>
@@ -80,88 +105,77 @@ function Events(props) {
 
           <div className="wrapper">
             <div class="one">
-              <p className="event_font">bracelet social</p>
+              <p className="event_font">wmwe x winstem</p>
             </div>
             <div class="two">
-              <p className="event_font">
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;21
-              </p>
+              <p className="event_font">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;13</p>
             </div>
             <div class="three">
               <p className="event_info">
-                7:00 pm
+                7:00 PM
                 <br></br>
-                SCI 3.230
+                location: TBD
               </p>
             </div>
-            {/* <div class="four" style={{ marginTop: "-2em" }}>
-              <p>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <a
-                  target="_blank"
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSe-5bhIdpCg0ryozzocLurfOKCEMt7IsJMe2YxY2Bwk4UPY7g/viewform"
-                >
-                  <button className="button">&nbsp;rsvp</button>
+            <div class="four" style={{ marginTop: "1.5em", width:"50%", marginLeft: "2.75em" }}>
+              {/* <div>
+                <a target="_blank" href="https://forms.gle/CzkVJezFhwZuqTUAA">
+                  <button className="button">rsvp</button>
                 </a>
-              </p>
-            </div> */}
+              </div> */}
+            </div>
           </div>
 
           <br></br>
 
           <div className="wrapper">
             <div class="one">
-              <p className="event_font">officer workshop</p>
+              <p className="event_font">wmwe x corelogic</p>
             </div>
             <div class="two">
-              <p className="event_font">
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;28
-              </p>
+              <p className="event_font">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;16</p>
             </div>
             <div class="three">
               <p className="event_info">
-                7:30 pm
+                7:00 PM
                 <br></br>
-                SCI 3.240
+                location: TBD
               </p>
             </div>
-            {/* <div class="four" style={{ marginTop: "-2em" }}>
-              <p>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <a target="_blank" href="https://www.youtube.com">
-                  <button className="button">&nbsp;rsvp</button>
+            <div class="four" style={{ marginTop: "1.5em", width:"50%", marginLeft: "2.75em" }}>
+              {/* <div>
+                <a target="_blank" href="https://forms.gle/CzkVJezFhwZuqTUAA">
+                  <button className="button">rsvp</button>
                 </a>
-              </p>
-            </div> */}
+              </div> */}
+            </div>
           </div>
 
           <br></br>
 
-          {/* <div className="wrapper">
+          <div className="wrapper">
             <div class="one">
               <p className="event_font">end of semester</p>
             </div>
             <div class="two">
-              <p className="event_font">
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;15
-              </p>
+              <p className="event_font">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;27</p>
             </div>
             <div class="three">
               <p className="event_info">
-                6:00 pm
+                7:00 PM
                 <br></br>
-                ECSS 2.311
+                location: TBD
               </p>
             </div>
-            <div class="four" style={{ marginTop: "-2em" }}>
-              <p>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <a target="_blank" href="https://www.youtube.com">
+            <div class="four" style={{ marginTop: "1.5em", width:"50%", marginLeft: "2.75em" }}>
+              {/* <div>
+                <a target="_blank" href="https://forms.gle/CzkVJezFhwZuqTUAA">
                   <button className="button">rsvp</button>
                 </a>
-              </p>
+              </div> */}
             </div>
-  </div>  */}
+          </div>
+
         </div>
 
         <div className="containerCalendar">
