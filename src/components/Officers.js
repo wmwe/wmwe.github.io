@@ -9,23 +9,11 @@ function Officers(props) {
       <h1 className="header-text">meet the team.</h1>
 
       <section className="container2">
-        <div className="item-1">
-          <OfficerCard
-            name={"Vyshnavi Nalla"}
-            position={"President"}
-            image={"photos/officer-photos/Vyshnavi-Nalla.png"}
-            description={
-              "Vyshnavi is a senior in Computer Science interested in mobile and web development. She joined WMWE to help the retention of Women in STEM and be part of a community. In her free time, she loves to take photos and watch horror movies."
-            }
-            linkedin={"https://www.linkedin.com/in/vyshnavi-nalla/"}
-            font={"1.1"}
-          ></OfficerCard>
-        </div>
 
-        <div className="item-2">
+      <div className="item-1">
           <OfficerCard
             name={"Manasi Vipat"}
-            position={"Vice President"}
+            position={"President"}
             image={"photos/officer-photos/Manasi-Vipat.png"}
             description={
               "Manasi is a junior studying computer science, with interest in user experience and mobile/web development. She joined WMWE as a freshman to encourage women in STEM to network and grow as a whole."
@@ -35,15 +23,29 @@ function Officers(props) {
           ></OfficerCard>
         </div>
 
+        <div className="item-2">
+          <OfficerCard
+            name={"Illiana Rodriguez"}
+            position={"Vice President"}
+            image={"photos/officer-photos/Illiana-Rodriguez.png"}
+            description={
+              "Illiana is a junior in Computer Science. She joined WMWE because she wanted to meet other girls in her major, make connections, and receive mentorship from women in the engineering field!"
+            }
+            linkedin={"https://www.linkedin.com/in/illiana-rodriguez/"}
+            font={"1.1"}
+          ></OfficerCard>
+        </div>
+
+
         <div className="item-3">
           <OfficerCard
-            name={"Lillie McMaster"}
+            name={"Harper Wood"}
             position={"Secretary"}
-            image={"photos/officer-photos/Lillie-McMaster.png"}
+            image={"photos/officer-photos/Harper-Wood.png"}
             description={
-              "Lillie is a senior majoring in Software Engineering. She loves to read fiction novels and her reading goal is 40 books this year. She also loves to travel!"
+              ""
             }
-            linkedin={"https://www.linkedin.com/in/lillie-mcmaster/"}
+            linkedin={"https://www.linkedin.com/in/harper-wood-560138223/"}
             font={"1.1"}
           ></OfficerCard>
         </div>
@@ -89,7 +91,7 @@ function Officers(props) {
           ></OfficerCard>
         </div>
 
-        <div className="item-6">
+        <div className="item-7">
           <OfficerCard
             name={"Emily Oh"}
             position={"Media Chair"}
@@ -102,7 +104,7 @@ function Officers(props) {
           ></OfficerCard>
         </div>
 
-        <div className="item-7">
+        <div className="item-8">
           <OfficerCard
             name={"Hemal Pathak"}
             position={"Mentoring Team Coordinator"}
@@ -115,7 +117,7 @@ function Officers(props) {
           ></OfficerCard>
         </div>
 
-        <div className="item-8">
+        <div className="item-9">
           <OfficerCard
             name={"Clara Conner"}
             position={"Mentoring Team Coordinator"}
@@ -128,23 +130,10 @@ function Officers(props) {
           ></OfficerCard>
         </div>
 
-        <div className="item-9">
-          <OfficerCard
-            name={"Illiana Rodriguez"}
-            position={"Treasurer"}
-            image={"photos/officer-photos/Illiana-Rodriguez.png"}
-            description={
-              "Illiana is a junior in Computer Science. She joined WMWE because she wanted to meet other girls in her major, make connections, and receive mentorship from women in the engineering field!"
-            }
-            linkedin={"https://www.linkedin.com/in/illiana-rodriguez/"}
-            font={"1.1"}
-          ></OfficerCard>
-        </div>
-
         <div className="item-10">
           <OfficerCard
             name={"Devika Amalkar"}
-            position={"Treasury Committee Member"}
+            position={"Treasurer"}
             image={"photos/officer-photos/Devika-Amalkar.png"}
             description={
               "Devika is a sophomore in Computer Science. She believes that WMWE provides an uplifting and comfortable environment for girls pursuing a career in STEM as members are mentored by successful women who are able to guide them through their college years."
@@ -154,15 +143,16 @@ function Officers(props) {
           ></OfficerCard>
         </div>
 
+        
         <div className="item-11">
           <OfficerCard
-            name={"Sanjana Jadhav"}
-            position={"Marketing Chair"}
-            image={"photos/officer-photos/Sanjana-Jadhav.png"}
+            name={"Oviya Selvakumar"}
+            position={"Treasury Committee Member"}
+            image={"photos/officer-photos/Oviya-Selvakumar.png"}
             description={
-              "Sanjana is a senior in Computer Science. She joined WMWE to connect with women in tech & create opportunities for all of us to succeed. Also, she knows how to speak 5+ languages!"
+              ""
             }
-            linkedin={"https://www.linkedin.com/in/sanjanajadhavv/"}
+            linkedin={"https://www.linkedin.com/in/oviya-selvakumar/"}
             font={"1.1"}
           ></OfficerCard>
         </div>
@@ -179,6 +169,20 @@ function Officers(props) {
             font={"0.9"}
           ></OfficerCard>
         </div>
+
+        <div className="item-13">
+          <OfficerCard
+            name={"Anjali Singh"}
+            position={"Marketing Committee Member"}
+            image={"photos/officer-photos/Anjali-Singh.png"}
+            description={
+              ""
+            }
+            linkedin={"https://www.linkedin.com/in/anjali-singh-6514b520b/"}
+            font={"1.1"}
+          ></OfficerCard>
+        </div>
+
       </section>
     </div>
   );
