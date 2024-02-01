@@ -57,29 +57,29 @@ function Events(props) {
         <div className="containerEvents">
           <div className="wrapper">
             <div class="one">
-              <p className="event_font">studio ghibli night</p>
+              <p className="event_font">kickoff</p>
             </div>
             <div class="two">
               <p className="event_font">
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;01
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;12
               </p>
             </div>
             <div class="three">
               <p className="event_info">
                 7:00 PM
                 <br></br>
-                SCI 2.210
+                Virtual
               </p>
             </div>
             <div
               class="four"
               style={{ marginTop: "1.5em", width: "50%", marginLeft: "2.75em" }}
             >
-              <div>
+             {/*} <div>
                 <a target="_blank" href="https://forms.gle/CzkVJezFhwZuqTUAA">
                   <button className="button">rsvp</button>
                 </a>
-              </div>
+              </div>*/}
             </div>
           </div>
 
@@ -87,11 +87,41 @@ function Events(props) {
 
           <div className="wrapper">
             <div class="one">
-              <p className="event_font">mentor workshop</p>
+              <p className="event_font">bake sale</p>
             </div>
             <div class="two">
               <p className="event_font">
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;12,13,15
+              </p>
+            </div>
+            <div class="three">
+              <p className="event_info">
+                11:00 AM - 2:00 PM
+                <br></br>
+                SU first floor
+              </p>
+            </div>
+            <div
+              class="four"
+              style={{ marginTop: "1.5em", width: "50%", marginLeft: "2.75em" }}
+            >
+              {/* <div>
+                <a target="_blank" href="https://forms.gle/CzkVJezFhwZuqTUAA">
+                  <button className="button">rsvp</button>
+                </a>
+              </div> */}
+            </div>
+          </div>
+
+          <br></br>
+
+          <div className="wrapper">
+            <div class="one">
+              <p className="event_font">vision board social</p>
+            </div>
+            <div class="two">
+              <p className="event_font">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;20
               </p>
             </div>
             <div class="three">
@@ -117,11 +147,11 @@ function Events(props) {
 
           <div className="wrapper">
             <div class="one">
-              <p className="event_font">wmwe x winstem</p>
+              <p className="event_font">intro to react</p>
             </div>
             <div class="two">
               <p className="event_font">
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;13
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;28
               </p>
             </div>
             <div class="three">
@@ -144,65 +174,9 @@ function Events(props) {
           </div>
 
           <br></br>
-
-          <div className="wrapper">
-            <div class="one">
-              <p className="event_font">wmwe x corelogic</p>
-            </div>
-            <div class="two">
-              <p className="event_font">
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;16
-              </p>
-            </div>
-            <div class="three">
-              <p className="event_info">
-                7:00 PM
-                <br></br>
-                location: TBD
-              </p>
-            </div>
-            <div
-              class="four"
-              style={{ marginTop: "1.5em", width: "50%", marginLeft: "2.75em" }}
-            >
-              {/* <div>
-                <a target="_blank" href="https://forms.gle/CzkVJezFhwZuqTUAA">
-                  <button className="button">rsvp</button>
-                </a>
-              </div> */}
-            </div>
-          </div>
-
-          <br></br>
-
-          <div className="wrapper">
-            <div class="one">
-              <p className="event_font">end of semester</p>
-            </div>
-            <div class="two">
-              <p className="event_font">
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;27
-              </p>
-            </div>
-            <div class="three">
-              <p className="event_info">
-                7:00 PM
-                <br></br>
-                location: TBD
-              </p>
-            </div>
-            <div
-              class="four"
-              style={{ marginTop: "1.5em", width: "50%", marginLeft: "2.75em" }}
-            >
-              {/* <div>
-                <a target="_blank" href="https://forms.gle/CzkVJezFhwZuqTUAA">
-                  <button className="button">rsvp</button>
-                </a>
-              </div> */}
-            </div>
-          </div>
+        
         </div>
+        
 
         <div className="containerCalendar">
           <Iframe
