@@ -43,7 +43,7 @@ function Officers(props) {
             position={"Secretary"}
             image={"photos/officer-photos/Harper-Wood.png"}
             description={
-              ""
+              "Harper is a junior in Computer Science. She loves WMWE because it brings women in engineering together to help each other grow personally and professionally. In her free time, she enjoys solving puzzles: jigsaws, sudoku, crosswords, and lately the NYT Connections."
             }
             linkedin={"https://www.linkedin.com/in/harper-wood-560138223/"}
             font={"1.1"}
@@ -150,7 +150,7 @@ function Officers(props) {
             position={"Treasury Committee Member"}
             image={"photos/officer-photos/Oviya-Selvakumar.png"}
             description={
-              ""
+              "Oviya is a sophomore in computer science. She joined WMWE to make friends in the same field and build lasting relationships. Fun fact: she loves puzzles and currently learning how to crochet!"
             }
             linkedin={"https://www.linkedin.com/in/oviya-selvakumar/"}
             font={"1.1"}
@@ -176,7 +176,7 @@ function Officers(props) {
             position={"Marketing Committee Member"}
             image={"photos/officer-photos/Anjali-Singh.png"}
             description={
-              ""
+              "Anjali is a junior majoring in Computer Science. What drew her into WMWE was the supportive community for women in STEM and the various opportunities for personal and professional growth provided. Outside of WMWE, she spends her free time dancing in multiple, competitive hip-hop and kpop dance teams!"
             }
             linkedin={"https://www.linkedin.com/in/anjali-singh-6514b520b/"}
             font={"1.1"}
