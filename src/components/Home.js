@@ -93,7 +93,7 @@ function Home(props) {
         <div style={{paddingLeft:"5%", paddingRight:"5%", paddingTop:"2%"}}>
         <h2 className="subheading1">interested in joining the program?</h2>
           <h2 className="body1">
-          Our applications for Fall 2023 are now closed. But, we'd love to have you join in the Spring! Please 
+          Our applications for Spring 2024 are now closed. But, we'd love to have you join in the Fall! Please 
           send us an email at wmweatutd@gmail.com indicating your interest and we'll be sure to remind you when the 
           applications open up again! 
           {/* If you are interested in joining as either a mentor or a mentee, fill out the application form below. 

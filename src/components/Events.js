@@ -89,7 +89,10 @@ function Events(props) {
             <div class="one">
               <p className="event_font">bake sale</p>
             </div>
-            <div class="two">
+            <div 
+              class="two"
+              style={{ marginRight: "15px" }}
+              >
               <p className="event_font">
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;12,13,15
               </p>
