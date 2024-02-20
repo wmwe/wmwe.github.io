@@ -78,8 +78,19 @@ function Members(props) {
              ></OfficerCard>
             </div>
 
-
             <div className='item-6'>
+            <OfficerCard
+             name={"Ayushi Trivedi"}
+             position={"Mentor"}
+             image={"photos/member-photos/AyushiTrivedi.jpeg"}
+             description={'I am Ayushi Trivedi, a Physical Design Engineer at IBM, pursuing an M.S. in Electrical and Computer Engineering from UT Austin and holds a B.S. in Computer Engineering from UT Dallas. My journey into technology began with a fascination for the logic behind machines, driving my passion for integrated circuits and systems. Throughout my academic and professional journey, I have cultivated expertise in chip design, testing, and automation. I thrive in collaborative environments, where I value diverse perspectives and innovative problem-solving approaches. As a mentor, I am dedicated to empowering others and fostering growth in technical proficiency and collaborative skills. With my experience and passion for technology, I am committed to inspiring and guiding the next generation of engineers on their path to success.'}
+             linkedin={'https://www.linkedin.com/in/ayushi-trivedi1/'}
+             font={'1.1'}
+             ></OfficerCard>
+            </div>
+
+
+            <div className='item-7'>
             <OfficerCard
               name={"Charli Rust"}
               position={"Mentor"}
@@ -91,7 +102,7 @@ function Members(props) {
             </div>
 
 
-            <div className='item-7'>
+            <div className='item-8'>
             <OfficerCard
              name={"Diana Cogan"}
              position={"Mentor"}
@@ -102,7 +113,7 @@ function Members(props) {
              ></OfficerCard>
             </div>
 
-            <div className='item-8'>
+            <div className='item-9'>
             <OfficerCard
              name={"Diana Glass"}
              position={"Mentor"}
@@ -113,7 +124,7 @@ function Members(props) {
              ></OfficerCard>
             </div>
 
-            <div className='item-9'>
+            <div className='item-10'>
             <OfficerCard
              name={"Dominique Tran"}
              position={"Mentor"}
@@ -124,7 +135,7 @@ function Members(props) {
              ></OfficerCard>
             </div>
 
-            <div className='item-10'>
+            <div className='item-11'>
             <OfficerCard
              name={"Dona Maria Jose"}
              position={"Mentor"}
@@ -135,7 +146,7 @@ function Members(props) {
              ></OfficerCard>
             </div>
 
-            <div className='item-11'>
+            <div className='item-12'>
             <OfficerCard
              name={"Ekaterina Lepekhina"}
              position={"Mentor"}
@@ -146,7 +157,7 @@ function Members(props) {
              ></OfficerCard>
             </div>
 
-            <div className='item-12'>
+            <div className='item-13'>
             <OfficerCard
              name={"Hui Ouyang"}
              position={"Mentor"}
@@ -158,7 +169,7 @@ function Members(props) {
             </div>
 
 
-            <div className='item-13'>
+            <div className='item-14'>
             <OfficerCard
              name={"Jeshna Gupta"}
              position={"Mentor"}
@@ -169,7 +180,7 @@ function Members(props) {
              ></OfficerCard>
             </div>
 
-            <div className='item-14'>
+            <div className='item-15'>
             <OfficerCard
              name={"Joanna Borba"}
              position={"Mentor"}
@@ -180,7 +191,7 @@ function Members(props) {
              ></OfficerCard>
             </div>
 
-            <div className='item-15'>
+            <div className='item-16'>
             <OfficerCard
              name={"Juman Alshraiedeh "}
              position={"Mentor"}
@@ -191,7 +202,7 @@ function Members(props) {
              ></OfficerCard>
             </div>
             
-            <div className='item-16'>
+            <div className='item-17'>
             <OfficerCard
              name={"Katie Myers"}
              position={"Mentor"}
@@ -202,7 +213,7 @@ function Members(props) {
              ></OfficerCard>
             </div>
 
-            <div className='item-17'>
+            <div className='item-18'>
             <OfficerCard
             name={"Katy Brown"}
             position={"Mentor"}
@@ -213,7 +224,7 @@ function Members(props) {
              ></OfficerCard>
             </div>
 
-            <div className='item-18'>
+            <div className='item-19'>
             <OfficerCard
              name={"Kiara Madeam"}
              position={"Mentor"}
@@ -224,7 +235,7 @@ function Members(props) {
              ></OfficerCard>
             </div>
 
-            <div className='item-19'>
+            <div className='item-20'>
             <OfficerCard
              name={"Niruti Dhoble"}
              position={"Mentor"}
@@ -235,7 +246,7 @@ function Members(props) {
              ></OfficerCard>
             </div>
 
-            <div className='item-20'>
+            <div className='item-21'>
             <OfficerCard
             name={"Priyanka Das"}
             position={"Mentor"}
@@ -247,7 +258,7 @@ function Members(props) {
             </div>
 
 
-            <div className='item-21'>
+            <div className='item-22'>
             <OfficerCard
              name={"Purvi Dave"}
              position={"Mentor"}
@@ -258,7 +269,7 @@ function Members(props) {
              ></OfficerCard>
             </div>
 
-            <div className='item-22'>
+            <div className='item-23'>
             <OfficerCard
              name={"Sabrina Jehanzeb"}
              position={"Mentor"}
@@ -269,7 +280,7 @@ function Members(props) {
              ></OfficerCard>
             </div>
 
-            <div className='item-23'>
+            <div className='item-24'>
             <OfficerCard
              name={"Sanjana Srinath"}
              position={"Mentor"}
@@ -280,7 +291,7 @@ function Members(props) {
              ></OfficerCard>
             </div>
 
-            <div className='item-24'>
+            <div className='item-25'>
             <OfficerCard
              name={"Sara Akbarzadeh"}
              position={"Mentor"}
@@ -291,7 +302,7 @@ function Members(props) {
              ></OfficerCard>
             </div>
 
-            <div className='item-25'>
+            <div className='item-26'>
             <OfficerCard
              name={"Sara Santos"}
              position={"Mentor"}
@@ -302,7 +313,7 @@ function Members(props) {
              ></OfficerCard>
             </div>
 
-            <div className='item-26'>
+            <div className='item-27'>
             <OfficerCard
              name={"Seemanthini Mahadev"}
              position={"Mentor"}
@@ -313,7 +324,7 @@ function Members(props) {
              ></OfficerCard>
             </div>
 
-            <div className='item-27'>
+            <div className='item-28'>
             <OfficerCard
              name={"Tina Thomas"}
              position={"Mentor"}
@@ -326,7 +337,7 @@ function Members(props) {
 
 
 
-            <div className='item-28'>
+            <div className='item-29'>
             <OfficerCard
              name={"Umaymah Sultana"}
              position={"Mentor"}
@@ -338,7 +349,7 @@ function Members(props) {
             </div>
 
             
-            <div className='item-29'>
+            <div className='item-30'>
             <OfficerCard
              name={"Vibha Tyagi"}
              position={"Mentor"}
