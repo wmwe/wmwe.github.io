@@ -589,7 +589,7 @@ function Mentees(props) {
             <OfficerCard
              name={"Damini Putti"}
              position={"Mentee"}
-             image={"photos/member-photos/Placeholder.png"}
+             image={"photos/member-photos/DaminiPutti.jpg"}
              description={'  '}
              linkedin={'www.linkedin.com/in/damini-putti'}
              font={'1.1'}

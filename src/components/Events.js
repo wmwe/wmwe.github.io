@@ -131,7 +131,7 @@ function Events(props) {
               <p className="event_info">
                 7:00 PM
                 <br></br>
-                location: TBD
+                SCI 2.235
               </p>
             </div>
             <div
@@ -161,7 +161,7 @@ function Events(props) {
               <p className="event_info">
                 7:00 PM
                 <br></br>
-                location: TBD
+                GR 4.208
               </p>
             </div>
             <div
