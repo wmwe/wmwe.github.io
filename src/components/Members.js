@@ -95,7 +95,7 @@ function Members(props) {
             <OfficerCard
              name={"Diana Cogan"}
              position={"Mentor"}
-             image={"photos/member-photos/DianaCogan.jpg"}
+             image={"photos/member-photos/DianaCogan.JPG"}
              description={'Bachelors & Masters from TAMU, 1981 & 1983. E-Systems Garland, 1983 - 1986. Stay-at-home, home-school mom 1986 - 2010. UTD PhD student 2010 - 2016. Part-time UTD Math faculty 2011 - 2015. Full-time ECE faculty 2016 - now.'}
              linkedin={'https://www.linkedin.com/in/diana-cogan-24b58a34'}
              font={'1.1'}
@@ -330,7 +330,7 @@ function Members(props) {
             <OfficerCard
              name={"Umaymah Sultana"}
              position={"Mentor"}
-             image={"photos/member-photos/UmaymahSultana.jpg"}
+             image={"photos/member-photos/UmaymahSultana.JPG"}
              description={'My name is Umaymah, and I\'m currently a Software Engineer at Toyota Connected, and a former CS student at UTD! I love meeting new people and chasing adventures, and if I\'m not at a coffee shop working, I\'m probably somewhere in the mountains watching sunsets with the people I love. For me, one of the best parts of working as a Software Engineer is being able to work alongside other talented engineers, and constantly learn skills (and shortcuts lol) from them. Engineering is all about solving problems and developing new ideas while being creative and having fun, and I hope to be able to share some of my hacks on doing just that :) '}
              linkedin={'https://www.linkedin.com/in/umaymahsultana'}
              font={'1.1'}
