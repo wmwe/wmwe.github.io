@@ -57,18 +57,18 @@ function Events(props) {
         <div className="containerEvents">
           <div className="wrapper">
             <div class="one">
-              <p className="event_font">technical interview prep</p>
+              <p className="event_font">linux cli workshop</p>
             </div>
             <div class="two">
               <p className="event_font">
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1
               </p>
             </div>
             <div class="three">
               <p className="event_info">
                 7:00 PM
                 <br></br>
-                FO 1.502
+                SCI 3.230
               </p>
             </div>
             <div
@@ -87,21 +87,21 @@ function Events(props) {
 
           <div className="wrapper">
             <div class="one">
-              <p className="event_font">midsemester</p>
+              <p className="event_font">improving panel</p>
             </div>
             <div 
               class="two"
               style={{ marginRight: "15px" }}
               >
               <p className="event_font">
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;20
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11
               </p>
             </div>
             <div class="three">
               <p className="event_info">
                 7:00 PM
                 <br></br>
-                UV phase 5 firepit
+                SCI 2.230
               </p>
             </div>
             <div
@@ -120,18 +120,78 @@ function Events(props) {
 
           <div className="wrapper">
             <div class="one">
-              <p className="event_font">wmwe x acm projects collab</p>
+              <p className="event_font">personal branding</p>
             </div>
             <div class="two">
               <p className="event_font">
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;26
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;18
               </p>
             </div>
             <div class="three">
               <p className="event_info">
                 7:00 PM
                 <br></br>
-                SCI 2.235
+                GR 4.208
+              </p>
+            </div>
+            <div
+              class="four"
+              style={{ marginTop: "1.5em", width: "50%", marginLeft: "2.75em" }}
+            >
+              {/* <div>
+                <a target="_blank" href="https://forms.gle/CzkVJezFhwZuqTUAA">
+                  <button className="button">rsvp</button>
+                </a>
+              </div> */}
+            </div>
+          </div>
+
+          <br></br>
+
+          <div className="wrapper">
+            <div class="one">
+              <p className="event_font">movie social</p>
+            </div>
+            <div class="two">
+              <p className="event_font">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;23
+              </p>
+            </div>
+            <div class="three">
+              <p className="event_info">
+                7:00 PM
+                <br></br>
+                TBD
+              </p>
+            </div>
+            <div
+              class="four"
+              style={{ marginTop: "1.5em", width: "50%", marginLeft: "2.75em" }}
+            >
+              {/* <div>
+                <a target="_blank" href="https://forms.gle/CzkVJezFhwZuqTUAA">
+                  <button className="button">rsvp</button>
+                </a>
+              </div> */}
+            </div>
+          </div>
+
+          <br></br>
+
+          <div className="wrapper">
+            <div class="one">
+              <p className="event_font">end of semester!</p>
+            </div>
+            <div class="two">
+              <p className="event_font">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;29
+              </p>
+            </div>
+            <div class="three">
+              <p className="event_info">
+                7:00 PM
+                <br></br>
+                TBD
               </p>
             </div>
             <div
