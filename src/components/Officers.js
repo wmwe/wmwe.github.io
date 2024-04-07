@@ -173,7 +173,7 @@ function Officers(props) {
         <div className="item-13">
           <OfficerCard
             name={"Anjali Singh"}
-            position={"Marketing Committee Member"}
+            position={"Marketing Chair"}
             image={"photos/officer-photos/Anjali-Singh.png"}
             description={
               "Anjali is a junior majoring in Computer Science. What drew her into WMWE was the supportive community for women in STEM and the various opportunities for personal and professional growth provided. Outside of WMWE, she spends her free time dancing in multiple, competitive hip-hop and kpop dance teams!"
