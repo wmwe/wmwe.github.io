@@ -57,18 +57,18 @@ function Events(props) {
         <div className="containerEvents">
           <div className="wrapper">
             <div class="one">
-              <p className="event_font">kickoff</p>
+              <p className="event_font">bracelet social</p>
             </div>
             <div class="two">
               <p className="event_font">
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10
               </p>
             </div>
             <div class="three">
               <p className="event_info">
-                7:00 PM
+                5:30 PM
                 <br></br>
-                Virtual
+                SCI 2.230
               </p>
             </div>
             <div
@@ -87,7 +87,7 @@ function Events(props) {
 
           <div className="wrapper">
             <div class="one">
-              <p className="event_font">resume review</p>
+              <p className="event_font">corelogic</p>
             </div>
             <div 
               class="two"
@@ -99,9 +99,9 @@ function Events(props) {
             </div>
             <div class="three">
               <p className="event_info">
-                5:30 PM
+                7:00 PM
                 <br></br>
-                SCI 2.230
+                TBD
               </p>
             </div>
             <div
@@ -120,18 +120,18 @@ function Events(props) {
 
           <div className="wrapper">
             <div class="one">
-              <p className="event_font">bake sale</p>
+              <p className="event_font">midsem</p>
             </div>
             <div class="two">
               <p className="event_font">
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;25
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;21
               </p>
             </div>
             <div class="three">
               <p className="event_info">
                 7:00 PM
                 <br></br>
-                GR 4.208
+                TBD
               </p>
             </div>
             <div
