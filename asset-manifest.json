@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.8cd3f10b.css",
-    "main.js": "/static/js/main.80b2e393.js",
-    "static/js/787.75877633.chunk.js": "/static/js/787.75877633.chunk.js",
-    "static/media/homepage-photo1.png": "/static/media/homepage-photo1.a06cc06df571f21274a0.png",
-    "static/media/homepage-photo2.png": "/static/media/homepage-photo2.9b35d1764ec5c93c2f54.png",
-    "static/media/eventpic1.jpg": "/static/media/eventpic1.a51e9b07a88e6ea53db8.jpg",
-    "static/media/eventpic3.jpg": "/static/media/eventpic3.a27ffd202ac700ebb707.jpg",
-    "static/media/eventpic2.jpg": "/static/media/eventpic2.6cbc5cca67798ef7dde9.jpg",
-    "static/media/events-image-homepage.png": "/static/media/events-image-homepage.05ccd665fe1562f21878.png",
-    "static/media/mentoring-image-homepage.png": "/static/media/mentoring-image-homepage.88310de48f8ca34b387e.png",
+    "main.css": "/static/css/main.b1735767.css",
+    "main.js": "/static/js/main.ed1bdc8a.js",
+    "static/js/453.c2a22ff2.chunk.js": "/static/js/453.c2a22ff2.chunk.js",
+    "static/media/events.png": "/static/media/events.e6fcaf9683991d627d75.png",
+    "static/media/midsemester.JPG": "/static/media/midsemester.8975d623d38059f6a38f.JPG",
+    "static/media/midsemester2.png": "/static/media/midsemester2.7fd240bc815051c40b0f.png",
+    "static/media/eventpic1.jpg": "/static/media/eventpic1.70a78112833b5053a727.jpg",
+    "static/media/officers.jpg": "/static/media/officers.ab9c37213e19ec931823.jpg",
+    "static/media/eventpic3.jpg": "/static/media/eventpic3.b1714037097902d671fd.jpg",
+    "static/media/eventpic2.jpg": "/static/media/eventpic2.f3d365d05bbb101404a9.jpg",
+    "static/media/we.jpg": "/static/media/we.8a486b51ac4b907737e9.jpg",
     "static/media/empowermentwithborder.jpg": "/static/media/empowermentwithborder.7c2dbf6af28623140f1a.jpg",
     "static/media/mentorshipwithborder.jpg": "/static/media/mentorshipwithborder.595935440c4e195742d0.jpg",
     "static/media/supportwithborder.jpg": "/static/media/supportwithborder.e7a81a6f4d2aae4feca0.jpg",
@@ -22,13 +23,17 @@
     "static/media/StateFarmLogo.png": "/static/media/StateFarmLogo.e0cfe203402d5a5dfd51.png",
     "static/media/MathWorksLogo.png": "/static/media/MathWorksLogo.ae9635c38eff586a37fb.png",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "index.html": "/index.html",
-    "main.8cd3f10b.css.map": "/static/css/main.8cd3f10b.css.map",
-    "main.80b2e393.js.map": "/static/js/main.80b2e393.js.map",
-    "787.75877633.chunk.js.map": "/static/js/787.75877633.chunk.js.map"
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "main.b1735767.css.map": "/static/css/main.b1735767.css.map",
+    "main.ed1bdc8a.js.map": "/static/js/main.ed1bdc8a.js.map",
+    "453.c2a22ff2.chunk.js.map": "/static/js/453.c2a22ff2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8cd3f10b.css",
-    "static/js/main.80b2e393.js"
+    "static/css/main.b1735767.css",
+    "static/js/main.ed1bdc8a.js"
   ]
 }
