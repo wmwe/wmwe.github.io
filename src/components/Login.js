@@ -64,16 +64,17 @@ export const Login = (props) => {
       <div className="login-page">
         <div className="login">
         <Banner
-        children={"Check out our events page to stay updated with our upcoming events!"}
-        buttons={<Button
-          onClick={navigateToEvents}
-          buttonColor="white"
-          textColor="#00B1F5"
-        >
-          events
-        </Button>}
-      ></Banner>
-
+            children={"Our Spring 2025 Mentee Applications are now open!"}
+            buttons={
+              <Button
+                onClick={() => window.open("https://forms.gle/dGrj7uycvH9kJEnf8", "_blank")}
+                buttonColor="white"
+                textColor="#00B1F5"
+              >
+                apply today
+              </Button>
+            }
+          />
           <div style={{ padding: "20px", paddingTop: "8%" }}>
             <img src={loginimg} style={{ maxWidth: "80px" }}></img>
           </div>

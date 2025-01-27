@@ -1,3 +1,5 @@
+@import '~slick-carousel/slick/slick.css';
+@import '~slick-carousel/slick/slick-theme.css';
 
 .format{
     margin-left: 10rem;
@@ -5,6 +7,31 @@
     
 }
 
+.instagram-media {
+    max-width: 400px;
+    margin: 0 auto; 
+    border: none; 
+  }
+  
+  .instagram-media a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+.carousel-container {
+    width: 100%;
+    max-width: 520px; 
+    margin: 0 auto;
+    align-self: flex-end;
+    padding-right: 3%;
+  }
+  
+.carousel-image {
+    width: 100%;
+    height: auto;
+}
+
+  
 .subheading1{
     font-family: 'League Spartan', sans-serif;
     font-weight: 600;
@@ -21,7 +48,7 @@
     text-align: left;
     color:#1B3A5D;
     
-    margin-top: 2.5rem;
+    margin-top: 1.5rem;
     width: 100%
 }
 
@@ -29,29 +56,23 @@
     max-width: 80%;
     height: auto;
     float: right;
-    
-    
-    
+
 }
 
 .homepage-image2{ 
     max-width: 100%;
     height: auto;
-    float: left;
-    
-    
+    float: left;  
 }
 
 .layout1{
     display: flex;
     flex-direction: row;
     margin-top: 5rem;
-
 }
 
 .layout2{
     margin-top: 5rem;
-
 }
 
 .textlayout2{
@@ -63,7 +84,6 @@
     justify-content: space-between;
     grid-template-columns: auto auto;
 }
-
 
 .banner1{
     background-color: #00B1F5;
@@ -163,7 +183,6 @@
     align-items: center;
     margin-top: -3%;
     flex-wrap: wrap;
-  
 }
 
 .home-page-intro-image{
@@ -188,10 +207,20 @@
 
 .homepage-events{
     visibility: visible;
-    max-height:170px;
-    padding-top: 3%;
-    padding-bottom:1%;
+    max-height: 220px;
 }
+
+@media (max-width: 768px) {
+    .instagram-media {
+      max-width: 250px; /* Smaller size for smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .instagram-media {
+      max-width: 200px; /* Further reduce size */
+    }
+  }
 
 @media screen and (max-width: 550px){
 
@@ -279,8 +308,4 @@
         max-height:40px;
         margin-bottom: -10%;
     }
-    
-
-
-
 }

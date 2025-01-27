@@ -34,19 +34,17 @@ function Events(props) {
   return (
     <div>
       <Banner
-        children={
-          "Check out our events page to stay updated with our upcoming events!"
-        }
+        children={"Our Spring 2025 Mentee Applications are now open!"}
         buttons={
           <Button
-            onClick={navigateToEvents}
+            onClick={() => window.open("https://forms.gle/dGrj7uycvH9kJEnf8", "_blank")}
             buttonColor="white"
             textColor="#00B1F5"
           >
-            events
+            apply today
           </Button>
         }
-      ></Banner>
+      />
       <p className="header">
         <b>upcoming events.</b>
       </p>
@@ -57,110 +55,61 @@ function Events(props) {
         <div className="containerEvents">
           <div className="wrapper">
             <div class="one">
-              <p className="event_font">bracelet social</p>
+              <p className="event_font">interest session</p>
             </div>
             <div class="two">
               <p className="event_font">
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10
-              </p>
-            </div>
-            <div class="three">
-              <p className="event_info">
-                5:30 PM
-                <br></br>
-                SCI 2.230
-              </p>
-            </div>
-            <div
-              class="four"
-              style={{ marginTop: "1.5em", width: "50%", marginLeft: "2.75em" }}
-            >
-             {/*} <div>
-                <a target="_blank" href="https://forms.gle/CzkVJezFhwZuqTUAA">
-                  <button className="button">rsvp</button>
-                </a>
-              </div>*/}
-            </div>
-          </div>
-
-          <br></br>
-
-          <div className="wrapper">
-            <div class="one">
-              <p className="event_font">corelogic</p>
-            </div>
-            <div 
-              class="two"
-              style={{ marginRight: "15px" }}
-              >
-              <p className="event_font">
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;17
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;27
               </p>
             </div>
             <div class="three">
               <p className="event_info">
                 7:00 PM
                 <br></br>
-                TBD
+                SCI 3.220
               </p>
             </div>
             <div
               class="four"
               style={{ marginTop: "1.5em", width: "50%", marginLeft: "2.75em" }}
             >
-              {/* <div>
-                <a target="_blank" href="https://forms.gle/CzkVJezFhwZuqTUAA">
-                  <button className="button">rsvp</button>
-                </a>
-              </div> */}
             </div>
           </div>
 
           <br></br>
 
-          <div className="wrapper">
-            <div class="one">
-              <p className="event_font">midsem</p>
+          <div style={{ display: "flex", gap: "1rem", justifyContent: "center" }}>
+              <blockquote
+                className="instagram-media"
+                data-instgrm-permalink="https://www.instagram.com/p/DFDoPACOCnZ/?utm_source=ig_embed&amp;utm_campaign=loading"
+                data-instgrm-version="14"
+                style={{
+                  background: "#FFF",
+                  border: 0,
+                  borderRadius: "3px",
+                  boxShadow: "0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15)",
+                  margin: "1px auto",
+                  maxWidth: "400x",
+                  minWidth: "280px",
+                  padding: 0,
+                  width: "90%",
+                }}>
+              </blockquote>
             </div>
-            <div class="two">
-              <p className="event_font">
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;21
-              </p>
-            </div>
-            <div class="three">
-              <p className="event_info">
-                7:00 PM
-                <br></br>
-                TBD
-              </p>
-            </div>
-            <div
-              class="four"
-              style={{ marginTop: "1.5em", width: "50%", marginLeft: "2.75em" }}
-            >
-              {/* <div>
-                <a target="_blank" href="https://forms.gle/CzkVJezFhwZuqTUAA">
-                  <button className="button">rsvp</button>
-                </a>
-              </div> */}
-            </div>
-          </div>
-
-          <br></br>
         
         </div>
         
 
         <div className="containerCalendar">
-          <Iframe
-            url="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%236dcff6&amp;ctz=America%2FChicago&amp;showTitle=0&amp;showNav=1&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=1&amp;src=M3VxaThqNTE1dXVjNXZrY3EwcTBvdml1bW9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%231b3a5d"
-            width={getWidth(innerWidth)}
-            height={getHeight(innerWidth)}
-            id=""
-            className=""
-            display="block"
-            position="relative"
-          />
+        <Iframe
+          url="https://calendar.google.com/calendar/embed?src=d74738de82325736227a6d91ea22d96658c92f111473a246499dcc5d6162c3d5%40group.calendar.google.com&ctz=America%2FChicago&showTitle=1&showNav=0&showTabs=0&showCalendars=0&showPrint=0&showBorder=0"
+          width={getWidth(innerWidth)}
+          height={getHeight(innerWidth)}
+          id=""
+          className=""
+          display="block"
+          position="relative"
+        />
           <br></br>
           <br></br>
         </div>
