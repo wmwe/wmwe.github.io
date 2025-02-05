@@ -34,14 +34,14 @@ function Events(props) {
   return (
     <div>
       <Banner
-        children={"Our Spring 2025 Mentee Applications are now open!"}
+        children={"Check out our upcoming events this month!"}
         buttons={
           <Button
             onClick={() => window.open("https://forms.gle/dGrj7uycvH9kJEnf8", "_blank")}
             buttonColor="white"
             textColor="#00B1F5"
           >
-            apply today
+            events
           </Button>
         }
       />
@@ -55,11 +55,61 @@ function Events(props) {
         <div className="containerEvents">
           <div className="wrapper">
             <div class="one">
-              <p className="event_font">interest session</p>
+              <p className="event_font">kickoff</p>
             </div>
             <div class="two">
               <p className="event_font">
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;27
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;12
+              </p>
+            </div>
+            <div class="three">
+              <p className="event_info">
+                7:00 PM
+                <br></br>
+                Virtual
+              </p>
+            </div>
+            <div
+              class="four"
+              style={{ marginTop: "1.5em", width: "50%", marginLeft: "2.75em" }}
+            >
+            </div>
+          </div>
+
+          <br></br>
+
+          <div className="wrapper">
+            <div class="one">
+              <p className="event_font">bake sale</p>
+            </div>
+            <div class="two">
+              <p className="event_font">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;17
+              </p>
+            </div>
+            <div class="three">
+              <p className="event_info">
+                11:00 AM - 2:00 PM
+                <br></br>
+                Student Union
+              </p>
+            </div>
+            <div
+              class="four"
+              style={{ marginTop: "1.5em", width: "50%", marginLeft: "2.75em" }}
+            >
+            </div>
+          </div>
+
+          <br></br>
+
+          <div className="wrapper">
+            <div class="one">
+              <p className="event_font">galentine's social</p>
+            </div>
+            <div class="two">
+              <p className="event_font">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;19
               </p>
             </div>
             <div class="three">
@@ -75,27 +125,6 @@ function Events(props) {
             >
             </div>
           </div>
-
-          <br></br>
-
-          <div style={{ display: "flex", gap: "1rem", justifyContent: "center" }}>
-              <blockquote
-                className="instagram-media"
-                data-instgrm-permalink="https://www.instagram.com/p/DFDoPACOCnZ/?utm_source=ig_embed&amp;utm_campaign=loading"
-                data-instgrm-version="14"
-                style={{
-                  background: "#FFF",
-                  border: 0,
-                  borderRadius: "3px",
-                  boxShadow: "0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15)",
-                  margin: "1px auto",
-                  maxWidth: "400x",
-                  minWidth: "280px",
-                  padding: 0,
-                  width: "90%",
-                }}>
-              </blockquote>
-            </div>
         
         </div>
         

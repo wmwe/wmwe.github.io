@@ -57,14 +57,14 @@ const Contact = () => {
   return (
     <div>
       <Banner
-        children={"Our Spring 2025 Mentee Applications are now open!"}
+        children={"Check out our upcoming events this month!"}
         buttons={
           <Button
             onClick={() => window.open("https://forms.gle/dGrj7uycvH9kJEnf8", "_blank")}
             buttonColor="white"
             textColor="#00B1F5"
           >
-            apply today
+            events
           </Button>
         }
       />

@@ -10,10 +10,14 @@ import mathworks from "../assets/MathWorksLogo.png";
 import { Button } from "./Button/Button.js";
 import Banner from "./Banner/Banner";
 import { useNavigate } from "react-router-dom";
+
 import pic1 from "../assets/midsemester.JPG";
 import pic2 from "../assets/midsemester2.png";
 import pic3 from "../assets/officers.jpg";
 import pic4 from "../assets/we.jpg";
+import pic5 from "../assets/galentinesocial.png";
+import pic6 from "../assets/programdetails.png";
+import pic7 from "../assets/menteeinfo.png";
 
 function Home(props) {
   const navigate = useNavigate();
@@ -57,14 +61,14 @@ function Home(props) {
   return (
     <div style={{width: "100vw"}}>
       <Banner
-        children={"Our Spring 2025 Mentee Applications are now open!"}
+        children={"Check out our upcoming events this month!"}
         buttons={
           <Button
             onClick={() => window.open("https://forms.gle/dGrj7uycvH9kJEnf8", "_blank")}
             buttonColor="white"
             textColor="#00B1F5"
           >
-            apply today
+            events
           </Button>
         }
       />
@@ -134,11 +138,30 @@ function Home(props) {
             <img src={mathworks} className="sponsor-img"></img>
           </div>
 
-          <h2 className="body1" style={{textAlign:"right", marginTop:"-3%", fontSize:"0.8rem", marginBottom:"5%",}}>
+          <h2 className="body1" style={{textAlign:"right", marginTop:"-3%", fontSize:"0.8rem", marginBottom:"1%",}}>
             Interested in sponsoring? Reach out to us at wmweatutd@gmail.com</h2>
         </div>
-        
+
+        <div style={{ paddingLeft: "5%", paddingRight: "5%", paddingTop: "3%", paddingBottom: "5%" }}>
+          <h2 className="subheading1">follow us on social media!</h2>
+          
+          <div style={{ display: "flex", gap: "1rem", justifyContent: "left", flexWrap: "wrap" }}>
+            <a href="https://www.instagram.com/p/DFDoPACOCnZ/?img_index=1" target="_blank" rel="noopener noreferrer">
+              <img src={pic7} alt="Instagram Post 1" className="social-media-img" />
+            </a>
+
+            <a href="https://www.instagram.com/p/DFDoPACOCnZ/?img_index=2" target="_blank" rel="noopener noreferrer">
+              <img src={pic6} alt="Instagram Post 2" className="social-media-img" />
+            </a>
+
+            <a href="" target="_blank" rel="noopener noreferrer">
+              <img src={pic5} alt="Instagram Post 3" className="social-media-img" />
+            </a>
+          </div>
         </div>
+
+        
+      </div>
     </div>
   );
 }

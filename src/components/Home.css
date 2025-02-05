@@ -7,6 +7,16 @@
     
 }
 
+.social-media-img {
+    max-width: 400px;
+    border-radius: 8px;
+    transition: transform 0.2s ease-in-out;
+}
+  
+.social-media-img:hover {
+    transform: scale(1.05);
+}
+  
 .instagram-media {
     max-width: 400px;
     margin: 0 auto; 
