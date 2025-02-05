@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b1735767.css",
-    "main.js": "/static/js/main.ed1bdc8a.js",
+    "main.css": "/static/css/main.00a2470b.css",
+    "main.js": "/static/js/main.3adf43be.js",
     "static/js/453.c2a22ff2.chunk.js": "/static/js/453.c2a22ff2.chunk.js",
     "static/media/events.png": "/static/media/events.e6fcaf9683991d627d75.png",
     "static/media/midsemester.JPG": "/static/media/midsemester.8975d623d38059f6a38f.JPG",
@@ -11,9 +11,12 @@
     "static/media/eventpic3.jpg": "/static/media/eventpic3.b1714037097902d671fd.jpg",
     "static/media/eventpic2.jpg": "/static/media/eventpic2.f3d365d05bbb101404a9.jpg",
     "static/media/we.jpg": "/static/media/we.8a486b51ac4b907737e9.jpg",
+    "static/media/galentinesocial.png": "/static/media/galentinesocial.9fbf805333093d5782e3.png",
     "static/media/empowermentwithborder.jpg": "/static/media/empowermentwithborder.7c2dbf6af28623140f1a.jpg",
     "static/media/mentorshipwithborder.jpg": "/static/media/mentorshipwithborder.595935440c4e195742d0.jpg",
     "static/media/supportwithborder.jpg": "/static/media/supportwithborder.e7a81a6f4d2aae4feca0.jpg",
+    "static/media/menteeinfo.png": "/static/media/menteeinfo.39cb8efc07af0b05e335.png",
+    "static/media/programdetails.png": "/static/media/programdetails.6afb08bd058600119f56.png",
     "static/media/women.png": "/static/media/women.a4c39e2def53639c3b89.png",
     "static/media/wmwelogo.png": "/static/media/wmwelogo.09452a025745767ecfd4.png",
     "static/media/CapitalOneLogo.png": "/static/media/CapitalOneLogo.a9d574a1ba02a0e42e47.png",
@@ -28,12 +31,12 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "index.html": "/index.html",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "main.b1735767.css.map": "/static/css/main.b1735767.css.map",
-    "main.ed1bdc8a.js.map": "/static/js/main.ed1bdc8a.js.map",
+    "main.00a2470b.css.map": "/static/css/main.00a2470b.css.map",
+    "main.3adf43be.js.map": "/static/js/main.3adf43be.js.map",
     "453.c2a22ff2.chunk.js.map": "/static/js/453.c2a22ff2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b1735767.css",
-    "static/js/main.ed1bdc8a.js"
+    "static/css/main.00a2470b.css",
+    "static/js/main.3adf43be.js"
   ]
 }
