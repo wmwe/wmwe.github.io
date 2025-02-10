@@ -88,6 +88,19 @@ function Officers(props) {
           ></OfficerCard>
         </div>
 
+        <div className="item-7">
+          <OfficerCard
+            name={"Charitha Sarraju"}
+            position={"Marketing Committee Member"}
+            image={"photos/officer-photos/Charitha-Sarraju.png"}
+            description={
+              "Charitha is a sophomore in Computer Science. She joined WMWE to gain mentorship, guidance, and build meaningful connections. In her free time she likes read and crochet."
+            }
+            linkedin={"https://www.linkedin.com/in/charitha-sarraju/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"}
+            font={"1.1"}
+          ></OfficerCard>
+        </div>
+
         <div className="item-8">
           <OfficerCard
             name={"Uma Uppuloori"}
