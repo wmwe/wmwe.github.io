@@ -37,7 +37,7 @@ function Events(props) {
         children={"Check out our upcoming events this month!"}
         buttons={
           <Button
-            onClick={() => window.open("https://forms.gle/dGrj7uycvH9kJEnf8", "_blank")}
+            onClick={() => (window.location.href = "/events")}
             buttonColor="white"
             textColor="#00B1F5"
           >

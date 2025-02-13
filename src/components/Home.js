@@ -64,7 +64,7 @@ function Home(props) {
         children={"Check out our upcoming events this month!"}
         buttons={
           <Button
-            onClick={() => window.open("https://forms.gle/dGrj7uycvH9kJEnf8", "_blank")}
+            onClick={() => (window.location.href = "/events")}
             buttonColor="white"
             textColor="#00B1F5"
           >
@@ -154,7 +154,7 @@ function Home(props) {
               <img src={pic6} alt="Instagram Post 2" className="social-media-img" />
             </a>
 
-            <a href="" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/p/DF-2fVCOFDI/" target="_blank" rel="noopener noreferrer">
               <img src={pic5} alt="Instagram Post 3" className="social-media-img" />
             </a>
           </div>
