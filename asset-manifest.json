@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.00a2470b.css",
-    "main.js": "/static/js/main.e3982ca6.js",
+    "main.js": "/static/js/main.cb08e6f5.js",
     "static/js/453.c2a22ff2.chunk.js": "/static/js/453.c2a22ff2.chunk.js",
     "static/media/events.png": "/static/media/events.e6fcaf9683991d627d75.png",
     "static/media/midsemester.JPG": "/static/media/midsemester.8975d623d38059f6a38f.JPG",
@@ -15,6 +15,8 @@
     "static/media/empowermentwithborder.jpg": "/static/media/empowermentwithborder.7c2dbf6af28623140f1a.jpg",
     "static/media/mentorshipwithborder.jpg": "/static/media/mentorshipwithborder.595935440c4e195742d0.jpg",
     "static/media/supportwithborder.jpg": "/static/media/supportwithborder.e7a81a6f4d2aae4feca0.jpg",
+    "static/media/capitalonetourpost.png": "/static/media/capitalonetourpost.3b493bc7bfa58feaaf76.png",
+    "static/media/bakesale.png": "/static/media/bakesale.dc807fdf65e3405ab54d.png",
     "static/media/menteeinfo.png": "/static/media/menteeinfo.39cb8efc07af0b05e335.png",
     "static/media/programdetails.png": "/static/media/programdetails.6afb08bd058600119f56.png",
     "static/media/women.png": "/static/media/women.a4c39e2def53639c3b89.png",
@@ -32,11 +34,11 @@
     "index.html": "/index.html",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "main.00a2470b.css.map": "/static/css/main.00a2470b.css.map",
-    "main.e3982ca6.js.map": "/static/js/main.e3982ca6.js.map",
+    "main.cb08e6f5.js.map": "/static/js/main.cb08e6f5.js.map",
     "453.c2a22ff2.chunk.js.map": "/static/js/453.c2a22ff2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.00a2470b.css",
-    "static/js/main.e3982ca6.js"
+    "static/js/main.cb08e6f5.js"
   ]
 }
