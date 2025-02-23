@@ -1,10 +1,10 @@
+
 import React from 'react';
 import { OfficerCard } from './Wmwe-ui';
 import './Members.js'
 import './Members.css';
 import './Home.css';
 import { useNavigate } from 'react-router-dom';
-
 
 function Mentees(props) {
     const navigate = useNavigate();
@@ -25,843 +25,907 @@ function Mentees(props) {
 
             <div className='item-1mentees'>
             <OfficerCard
-             name={"Kamya Arora"}
-             position={"Mentee"}
-             image={"photos/member-photos/Placeholder.png"}
-             description={'  '}
-             linkedin={'https://www.linkedin.com/in/kamya-arora-3a689b211'}
-             font={'1.1'}
+             name="Joanna Abraham"
+             position="Mentee"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin=""
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-2mentees'>
             <OfficerCard
-             name={"Anh Nguyen"}
-             position={"Mentee"}
-             image={"photos/member-photos/Placeholder.png"}
-             description={'  '}
-             linkedin={'https://www.linkedin.com/in/anh-nguyen-h-n/'}
-             font={'1.1'}
+             name="Mikaila Meintjes"
+             position="Mentee"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin=""
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-3mentees'>
             <OfficerCard
-             name={"Dharshini Mahesh"}
-             position={"Mentee"}
-             image={"photos/member-photos/DharshiniMahesh.JPG"}
-             description={'  '}
-             linkedin={'https://www.linkedin.com/in/dharshini-mahesh/'}  
-             font={'1.1'}
+             name="Charlotte Marasigan"
+             position="Mentee"
+             image="photos/member-photos/CharlotteMarasigan.png"
+             description=""
+             linkedin="https://www.linkedin.com/in/charlottemarasigan"
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-4mentees'>
             <OfficerCard
-             name={"Arya Koirala "}
-             position={"Mentee"}
-             image={"photos/member-photos/Placeholder.png"}
-             description={'  '}
-             linkedin={'https://www.linkedin.com/'} /* not provided */ 
-             font={'1.1'}
+             name="Lujain Saleem"
+             position="Mentee"
+             image="photos/member-photos/LujainJauoosi.png"
+             description=""
+             linkedin="https://www.linkedin.com/in/lujain-saleem-348271309?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-5mentees'>
             <OfficerCard
-             name={"Timage Abubaker"}
-             position={"Mentee"}
-             image={"photos/member-photos/Placeholder.png"}
-             description={'  '}
-             linkedin={'https://www.linkedin.com/in/timage-abubaker/'}  
-             font={'1.1'}
+             name="Tanisha Mazumder"
+             position="Mentee"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin="https://www.linkedin.com/in/tanisha-mazumder-79a51b221?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-6mentees'>
             <OfficerCard
-             name={"Tina Nguyen "}
-             position={"Mentee"}
-             image={"photos/member-photos/Placeholder.png"}
-             description={'  '}
-             linkedin={'http://linkedin.com/in/tina-nguyen-665420254'} 
-             font={'1.1'}
+             name="Diya Mathew"
+             position="Mentee"
+             image="photos/member-photos/DiyaMathew.png"
+             description=""
+             linkedin="https://www.linkedin.com/in/diya-mathew-1382ba2a8/"
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-7mentees'>
             <OfficerCard
-             name={"Toby Estipona"}
-             position={"Mentee"}
-             image={"photos/member-photos/Placeholder.png"}
-             description={'  '}
-             linkedin={'http://linkedin.com/in/toby-estipona-97136b270'}
-             font={'1.1'}
+             name="Layla Imamovic"
+             position="Mentee"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin="https://www.linkedin.com/in/layla-imamovic-042532328/"
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-8mentees'>
             <OfficerCard
-             name={"Anusha Patel"}
-             position={"Mentee"}
-             image={"photos/member-photos/Placeholder.png"}
-             description={'  '}
-             linkedin={'https://www.linkedin.com/in/anushapatel6571/'}
-             font={'1.1'}
+             name="Namyuktha Prakash"
+             position="Mentee"
+             image="photos/member-photos/NamyukthaPrakash.png"
+             description=""
+             linkedin="https://www.linkedin.com/in/namyuktha-prakash/"
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-9mentees'>
             <OfficerCard
-             name={"Vivian Phuong Hoang Nguyen"}
-             position={"Mentee"}
-             image={"photos/member-photos/Placeholder.png"}
-             description={'  '}
-             linkedin={'https://www.linkedin.com/in/vivian-nguyen-38a0b1290/'} 
-             font={'1.1'}
+             name="Vidhya Yemparala"
+             position="Mentee"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin="https://www.linkedin.com/in/vidhya-y-695580274"
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-10mentees'>
             <OfficerCard
-             name={"Jahnavi Dhulipalla"}
-             position={"Mentee"}
-             image={"photos/member-photos/Placeholder.png"}
-             description={'  '}
-             linkedin={'https://www.linkedin.com/in/jahnavi-dhulipalla-b60b60166/'}
-             font={'1.1'}
+             name="Ankita Saha"
+             position="Mentee"
+             image="photos/member-photos/AnkitaSaha.png"
+             description=""
+             linkedin="https://www.linkedin.com/in/ankitasaha-ce"
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-11mentees'>
             <OfficerCard
-             name={"Sachi Hansalia"}
-             position={"Mentee"}
-             image={"photos/member-photos/Placeholder.png"}
-             description={'  '}
-             linkedin={'https://www.linkedin.com/in/sachi-hansalia-a1a725216/'}
-             font={'1.1'}
+             name="Mahalakshmi Pandian"
+             position="Mentee"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin=""
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-12mentees'>
             <OfficerCard
-             name={"Afiya Syed"}
-             position={"Mentee"}
-             image={"photos/member-photos/AfiyaSyed.JPG"}
-             description={'  '}
-             linkedin={'https://linkedin.com/in/afiya-syed-7aa941279/'}
-             font={'1.1'}
+             name="Rachel Prakasham"
+             position="Mentee"
+             image="photos/member-photos/RachelP.png"
+             description=""
+             linkedin="https://www.linkedin.com/in/rachelprakasham"
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-13mentees'>
             <OfficerCard
-             name={"Waverly Souvannachack"}
-             position={"Mentee"}
-             image={"photos/member-photos/Placeholder.png"}
-             description={'  '}
-             linkedin={'https://www.linkedin.com/in/wsouvannachack'} 
-             font={'1.1'}
+             name="Arya Rane"
+             position="Mentee"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin="https://www.linkedin.com/in/arya-rane-a17983284/"
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-14mentees'>
             <OfficerCard
-             name={"Lana Tran"}
-             position={"Mentee"}
-             image={"photos/member-photos/Placeholder.png"}
-             description={'  '}
-             linkedin={'https://linkedin.com/in/lana-tran-pie/'}
-             font={'1.1'}
+             name="Sally Duru"
+             position="Mentee"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin=""
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-15mentees'>
             <OfficerCard
-             name={"Valeria Gallardo"}
-             position={"Mentee"}
-             image={"photos/member-photos/ValeriaGallardo.png"}
-             description={'  '}
-             linkedin={'https://www.linkedin.com/in/valeria-gallardo-617ab820b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'} 
-             font={'1.1'}
+             name="Claudia Nguyen"
+             position="Mentee"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin="https://www.linkedin.com/in/claudia-nguyen-6b429a1a9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-16mentees'>
             <OfficerCard
-             name={"Emma Hockett"}
-             position={"Mentee"}
-             image={"photos/member-photos/Placeholder.png"}
-             description={'  '}
-             linkedin={'https://www.linkedin.com/in/emmahockett'} 
-             font={'1.1'}
+             name="Nidhi Santosh"
+             position="Mentee"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin="https://www.linkedin.com/in/nidhi-santosh-4070682aa"
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-17mentees'>
             <OfficerCard
-             name={"Parisa Nawar"}
-             position={"Mentee"}
-             image={"photos/member-photos/Placeholder.png"}
-             description={'  '}
-             linkedin={'https://www.linkedin.com/in/parisanawar/'}
-             font={'1.1'}
+             name="Inaaya Rana"
+             position="Mentee"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin=""
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-18mentees'>
             <OfficerCard
-             name={"Sakina Ali"}
-             position={"Mentee"}
-             image={"photos/member-photos/Placeholder.png"}
-             description={'  '}
-             linkedin={'https://www.linkedin.com/in/sakina-ali36'}
-             font={'1.1'}
+             name="Afra Ibnat"
+             position="Mentee"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin="https://www.linkedin.com/in/afra-ibnat-9621a4263/"
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-19mentees'>
             <OfficerCard
-             name={"Shreya Krishnan"}
-             position={"Mentee"}
-             image={"photos/member-photos/Placeholder.png"}
-             description={'  '}
-             linkedin={'https://www.linkedin.com/in/shreya-krishnan2004'}
-             font={'1.1'}
+             name="Nishi Sam Satheesh"
+             position="Mentee"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin=""
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-20mentees'>
             <OfficerCard
-             name={"Courtney Dickenson"}
-             position={"Mentee"}
-             image={"photos/member-photos/Placeholder.png"}
-             description={'  '}
-             linkedin={'https://www.linkedin.com/in/courtneyspencer12/'} 
-             font={'1.1'}
+             name="Isabella Ran"
+             position="Mentee"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin=""
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-21mentees'>
             <OfficerCard
-             name={"Rupali Nagendra"}
-             position={"Mentee"}
-             image={"photos/member-photos/RupaliNagendra.JPG"}
-             description={'  '}
-             linkedin={'https://www.linkedin.com/in/rupalinagendra'}
-             font={'1.1'}
+             name="Marilyn Mathews"
+             position="Mentee"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin="https://www.linkedin.com/in/marilynmathews/"
+             font="1.1"
+             ></OfficerCard>
+            </div>
+
+            <div className='item-22mentees'>
+            <OfficerCard
+             name="Drashti Sha"
+             position="Mentee"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin="https://www.linkedin.com/in/drashti-shah-08796b325/"
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-23mentees'>
             <OfficerCard
-             name={"Muskan Dolani"}
-             position={"Mentee"}
-             image={"photos/member-photos/MuskanDolani.JPG"}
-             description={'  '}
-             linkedin={'https://www.linkedin.com/in/muskandolani/'}
-             font={'1.1'}
+             name="Gayatri Rajesh Mangire"
+             position="Mentee"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin="https://www.linkedin.com/in/gayatri-mangire"
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-24mentees'>
             <OfficerCard
-             name={"Medha Saraswathy Govindan"}
-             position={"Mentee"}
-             image={"photos/member-photos/Placeholder.png"}
-             description={'  '}
-             linkedin={'https://www.linkedin.com/'} /* not provided */
-             font={'1.1'}
+             name="Daisy Nguyen"
+             position="Mentee"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin="https://www.linkedin.com/in/daisy-nguyen-688a621a9"
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-25mentees'>
             <OfficerCard
-             name={"Meenakshi Sundar Rajan"}
-             position={"Mentee"}
-             image={"photos/member-photos/Placeholder.png"}
-             description={'  '}
-             linkedin={'https://www.linkedin.com/in/meenakshi-s-0902751ab/'}
-             font={'1.1'}
+             name="Sarina Iesha Mahmud"
+             position="Mentee"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin="https://www.linkedin.com/in/sarina-mahmud/"
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-26mentees'>
             <OfficerCard
-             name={"Zainab Faisal"}
-             position={"Mentee"}
-             image={"photos/member-photos/Placeholder.png"}
-             description={'  '}
-             linkedin={'https://www.linkedin.com/in/zainab-faisal-34b292273'}
-             font={'1.1'}
+             name="Poojasri Sundaresan"
+             position="Mentee"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin="https://www.linkedin.com/in/poojasri-sundaresan"
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-27mentees'>
             <OfficerCard
-             name={"Taylor Beers"}
-             position={"Mentee"}
-             image={"photos/member-photos/Placeholder.png"}
-             description={'  '}
-             linkedin={'https://www.linkedin.com'} /* not provided */
-             font={'1.1'}
+             name="Hania Shuaib"
+             position="Mentee"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin="https://www.linkedin.com/in/hania-shuaib-b54258303"
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-28mentees'>
             <OfficerCard
-             name={"Rashika Maheshwari"}
-             position={"Mentee"}
-             image={"photos/member-photos/Placeholder.png"}
-             description={'  '}
-             linkedin={'https://www.linkedin.com'} /* not provided */
-             font={'1.1'}
+             name="Akhila Susarla"
+             position="Mentee"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin="https://www.linkedin.com/in/akhila-susarla-1803b41b6/"
+             font="1.1"
              ></OfficerCard>
             </div>
 
-
             <div className='item-29mentees'>
             <OfficerCard
-             name={"Shelley Nguyen"}
-             position={"Mentee"}
-             image={"photos/member-photos/Placeholder.png"}
-             description={'  '}
-             linkedin={'https://www.linkedin.com/in/shelley-nguyen-03bb8028b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'}
-             font={'1.1'}
+             name="Nikita Chaudhry"
+             position="Mentee"
+             image="photos/member-photos/NikitaChaudhry.png"
+             description=""
+             linkedin="https://www.linkedin.com/in/nikita-chaudhry/"
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-30mentees'>
             <OfficerCard
-             name={"Joyce Dong"}
-             position={"Mentee"}
-             image={"photos/member-photos/Placeholder.png"}
-             description={'  '}
-             linkedin={'https://www.linkedin.com/in/joyce-dong-328b8628b/'}
-             font={'1.1'}
+             name="Ammara Siddiqui"
+             position="Mentee"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin="https://www.linkedin.com/in/ammara-siddiqui-74b996317/"
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-31mentees'>
             <OfficerCard
-             name={"Mahum Rana"}
-             position={"Mentee"}
-             image={"photos/member-photos/Placeholder.png"}
-             description={'  '}
-             linkedin={'https://www.linkedin.com/in/mahum-rana-3935701aa'}
-             font={'1.1'}
+             name="Anahita Rismani"
+             position="Mentee"
+             image="photos/member-photos/AnahitaRismani.png"
+             description=""
+             linkedin="https://www.linkedin.com/in/anahita-rismani-0abb80280"
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-32mentees'>
             <OfficerCard
-             name={"Elizabeth Diaz"}
-             position={"Mentee"}
-             image={"photos/member-photos/Placeholder.png"}
-             description={'  '}
-             linkedin={'https://www.linkedin.com/'}  /* not provided */
-             font={'1.1'}
+             name="Kavimayil P K"
+             position="Mentee"
+             image="photos/member-photos/KavimayilPK.png"
+             description=""
+             linkedin="https://www.linkedin.com/in/kavimayilpk"
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-33mentees'>
             <OfficerCard
-             name={"Zoe Lao"}
-             position={"Mentee"}
-             image={"photos/member-photos/ZoeLao.JPG"}
-             description={'  '}
-             linkedin={'https://www.linkedin.com/in/zoe-lao'} 
-             font={'1.1'}
+             name="Sanya Oak"
+             position="Mentee"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin="https://www.linkedin.com/in/sanyaoak/"
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-34mentees'>
             <OfficerCard
-             name={"Favour Osuji"}
-             position={"Mentee"}
-             image={"photos/member-photos/Placeholder.png"}
-             description={'  '}
-             linkedin={'http://linkedin.com/in/favour-osuji-1a272b231'}
-             font={'1.1'}
+             name="Hafsah Navaid"
+             position="Mentee"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin="https://www.linkedin.com/in/hafsah-n-8442832a3"
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-35mentees'>
             <OfficerCard
-             name={"Prachi Bohra"}
-             position={"Mentee"}
-             image={"photos/member-photos/Placeholder.png"}
-             description={'  '}
-             linkedin={'https://www.linkedin.com'} /* not provided */
-             font={'1.1'}
+             name="Lakshmi Vyshnavi Ummadisetti"
+             position="Mentee"
+             image="photos/member-photos/LakshmiVyshnaviUmmadisetti.png"
+             description=""
+             linkedin="https://www.linkedin.com/in/vyshnavi-ummadisetti176/"
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-36mentees'>
             <OfficerCard
-             name={"Lana Musmar"}
-             position={"Mentee"}
-             image={"photos/member-photos/Placeholder.png"}
-             description={'  '}
-             linkedin={'https://www.linkedin.com/in/lana-musmar-248a74293'} 
-             font={'1.1'}
+             name="Reeva Aryal"
+             position="Mentee"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin="https://www.linkedin.com/in/reeva-aryal-84222a23a/"
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-37mentees'>
             <OfficerCard
-             name={"Brooke Dion"}
-             position={"Mentee"}
-             image={"photos/member-photos/Placeholder.png"}
-             description={'  '}
-             linkedin={'https://www.linkedin.com'} /* not provided */
-             font={'1.1'}
+             name="Swarna Sre Ganesh Shankar"
+             position="Mentee"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin="https://www.linkedin.com/in/swarnasreg"
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-38mentees'>
             <OfficerCard
-             name={"Angela Gonzalez"}
-             position={"Mentee"}
-             image={"photos/member-photos/Placeholder.png"}
-             description={'  '}
-             linkedin={'https://www.linkedin.com'} /* not provided */
-             font={'1.1'}
+             name="Srinidhi Sivakaminathan"
+             position="Mentee"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin=""
+             font="1.1"
+             ></OfficerCard>
+            </div>
+
+            <div className='item-39mentees'>
+            <OfficerCard
+             name="Anusha Patel"
+             position="Mentee"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin="https://www.linkedin.com/in/anushapatel6571/"
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-40mentees'>
             <OfficerCard
-             name={"Moxaben Bhupatbhai Zalawadia"}
-             position={"Mentee"}
-             image={"photos/member-photos/MoxabenZalawadia.JPG"}
-             description={'  '}
-             linkedin={'https://www.linkedin.com/in/moksha-zalavadiya/'} 
-             font={'1.1'}
+             name="Vaishnavi Boppana"
+             position="Mentee"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin="https://www.linkedin.com/in/vaishnavi-boppana-0ab60729a/"
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-41mentees'>
             <OfficerCard
-             name={"Nishtha Shukla"}
-             position={"Mentee"}
-             image={"photos/member-photos/Placeholder.png"}
-             description={'  '}
-             linkedin={'https://www.linkedin.com/in/nishtha-shukla-47940b182/'} 
-             font={'1.1'}
+             name="Jenna Jan"
+             position="Mentee"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin="https://www.linkedin.com/in/jenna-jan-801ab0251/"
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-42mentees'>
             <OfficerCard
-             name={"Wenting Wang"}
-             position={"Mentee"}
-             image={"photos/member-photos/Placeholder.png"}
-             description={'  '}
-             linkedin={'https://www.linkedin.com'} /* not provided */
-             font={'1.1'}
+             name="Kaia Sonoda"
+             position="Mentee"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin="https://www.linkedin.com/in/kaia-sonoda-233618291"
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-43mentees'>
             <OfficerCard
-             name={"Vinaya Uttam Bomnale"}
-             position={"Mentee"}
-             image={"photos/member-photos/Placeholder.png"}
-             description={'  '}
-             linkedin={'https://www.linkedin.com/in/vinayabomnale/'}
-             font={'1.1'}
+             name="Vedanshi Sreeramoju"
+             position="Mentee"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin="https://www.linkedin.com/in/vedanshi-sreeramoju-b26b32215/"
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-44mentees'>
             <OfficerCard
-             name={"Zongyang Du"}
-             position={"Mentee"}
-             image={"photos/member-photos/Placeholder.png"}
-             description={'  '}
-             linkedin={'https://www.linkedin.com/'} /* not provided */
-             font={'1.1'}
+             name="Srujana Ponduri"
+             position="Mentee"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin="Srujana Reddy"
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-45mentees'>
             <OfficerCard
-             name={"Tejaswini Indala"}
-             position={"Mentee"}
-             image={"photos/member-photos/Placeholder.png"}
-             description={'  '}
-             linkedin={'https://www.linkedin.com/in/tejaswini-indala'}
-             font={'1.1'}
+             name="Linh Nguyen"
+             position="Mentee"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin="https://www.linkedin.com/in/linh-nguyen-885740328?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-46mentees'>
             <OfficerCard
-             name={"Adithya Pradeep"}
-             position={"Mentee"}
-             image={"photos/member-photos/Placeholder.png"}
-             description={'  '}
-             linkedin={'https://www.linkedin.com/in/adithya-pradeep-vp24'}
-             font={'1.1'}
+             name="Jazmin Gutierrez"
+             position="Mentee"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin="https://www.linkedin.com/in/jazmin-gutierrez-a42559327"
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-47mentees'>
             <OfficerCard
-             name={"Naeeme Modir"}
-             position={"Mentee"}
-             image={"photos/member-photos/Placeholder.png"}
-             description={'  '}
-             linkedin={'https://www.linkedin.com/'} /* not provided */
-             font={'1.1'}
+             name="Snigdha Tadi"
+             position="Mentee"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin="https://www.linkedin.com/in/snigdha-tadi/253321219/"
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-48mentees'>
             <OfficerCard
-             name={"Charlotte Marasigan"}
-             position={"Mentee"}
-             image={"photos/member-photos/CharlotteMarasigan.JPG"}
-             description={'  '}
-             linkedin={'https://www.linkedin.com/in/charlottemarasigan/'} 
-             font={'1.1'}
+             name="Olivia Anderson"
+             position="Mentee"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin="https://www.linkedin.com/in/olivia-anderson-043172254?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+             font="1.1"
+             ></OfficerCard>
+            </div>
+
+            <div className='item-49mentees'>
+            <OfficerCard
+             name="Cristina Angelica Adame"
+             position="Mentee"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin="https://www.linkedin.com/in/cristina-adame-3b17981ba"
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-50mentees'>
             <OfficerCard
-             name={"Sharvari More"}
-             position={"Mentee"}
-             image={"photos/member-photos/Placeholder.png"}
-             description={'  '}
-             linkedin={'https://www.linkedin.com/in/shavari-more/'}
-             font={'1.1'}
+             name="Sarah Park"
+             position="Mentee"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin="https://www.linkedin.com/in/sjpsarah/"
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-51mentees'>
             <OfficerCard
-             name={"Laksha Arora"}
-             position={"Mentee"}
-             image={"photos/member-photos/Placeholder.png"}
-             description={'  '}
-             linkedin={'https://www.linkedin.com/in/laksha-arora-98458a205'}
-             font={'1.1'}
+             name="Sanvi Gudipati"
+             position="Mentee"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin="https://www.linkedin.com/in/sanvi-gudipati-57554534a/"
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-52mentees'>
             <OfficerCard
-             name={"Erin Turgut"}
-             position={"Mentee"}
-             image={"photos/member-photos/Placeholder.png"}
-             description={'  '}
-             linkedin={'https://www.linkedin.com'} /* not provided */
-             font={'1.1'}
+             name="Neha Senthil Kumar"
+             position="Mentee"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin="https://www.linkedin.com/in/neha-senthil-kumar/"
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-53mentees'>
             <OfficerCard
-             name={"Nandini Paidesetty "}
-             position={"Mentee"}
-             image={"photos/member-photos/Placeholder.png"}
-             description={'  '}
-             linkedin={'https://www.linkedin.com/in/nandini-paidesetty-9b997220a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'}
-             font={'1.1'}
+             name="Tamanna Khurana"
+             position="Mentee"
+             image="photos/member-photos/TamannaKhurana.png"
+             description=""
+             linkedin="https://www.linkedin.com/in/tamanna-khurana-48a6a1230/"
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-54mentees'>
             <OfficerCard
-             name={"Uma Uppuloori"}
-             position={"Mentee"}
-             image={"photos/member-photos/Placeholder.png"}
-             description={'  '}
-             linkedin={'https://www.linkedin.com/in/uma-uppuloori/'}
-             font={'1.1'}
+             name="Tulasi Janjanam"
+             position="Mentee"
+             image="photos/member-photos/HemanthaTulasiJanjanam.png"
+             description=""
+             linkedin="https://www.linkedin.com/in/tulasi-janjanam123"
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-55mentees'>
             <OfficerCard
-             name={"Damini Putti"}
-             position={"Mentee"}
-             image={"photos/member-photos/DaminiPutti.jpg"}
-             description={'  '}
-             linkedin={'www.linkedin.com/in/damini-putti'}
-             font={'1.1'}
+             name="Janhavi Tamhankar"
+             position="Mentee"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin="https://www.linkedin.com/in/janhavitamhankar/"
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-56mentees'>
             <OfficerCard
-             name={"Shelby Vo"}
-             position={"Mentee"}
-             image={"photos/member-photos/ShelbyVo.JPG"}
-             description={'  '}
-             linkedin={'https://www.linkedin.com/in/shelby-vo/'}
-             font={'1.1'}
+             name="Vaishnavi Josyula"
+             position="Mentee"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin="https://www.linkedin.com/in/vaishnavi-josyula-4591a5267/"
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-57mentees'>
             <OfficerCard
-             name={"Stephanie Barnard"}
-             position={"Mentee"}
-             image={"photos/member-photos/StephanieBarnard.JPG"}
-             description={'  '}
-             linkedin={'https://www.linkedin.com/in/stephanie-barnard/'}
-             font={'1.1'}
+             name="Mia Sorola Yoshida"
+             position="Mentee"
+             image="photos/member-photos/MiaSorola.png"
+             description=""
+             linkedin="https://www.linkedin.com/in/miasorolayoshida/"
+             font="1.1"
              ></OfficerCard>
-             </div>
-            
+            </div>
+
             <div className='item-58mentees'>
             <OfficerCard
-             name={"Awino Odak"}
-             position={"Mentee"}
-             image={"photos/member-photos/Placeholder.png"}
-             description={'  '}
-             linkedin={'https://www.linkedin.com/in/awino-odak?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BA%2BDtyelhQhqYhD26gv4r6A%3D%3D'}
-             font={'1.1'}
+             name="Aashna Kothari"
+             position="Mentee"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin="https://www.linkedin.com/in/aashna-kothari-461804257"
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-59mentees'>
             <OfficerCard
-             name={"Swathi Kote"}
-             position={"Mentee"}
-             image={"photos/member-photos/Placeholder.png"}
-             description={'  '}
-             linkedin={'https://www.linkedin.com/in/swathikote/'}
-             font={'1.1'}
+             name="Tanaz Lodi"
+             position="Mentee"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin="https://www.linkedin.com/in/tanazlodi/"
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-60mentees'>
             <OfficerCard
-             name={"Shruthi Chittanooru"}
-             position={"Mentee"}
-             image={"photos/member-photos/Placeholder.png"}
-             description={'  '}
-             linkedin={'https://www.linkedin.com/'} /* not provided */
-             font={'1.1'}
+             name="Stephanie Barnard"
+             position="Mentee"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin=""
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-61mentees'>
             <OfficerCard
-             name={"Queensley Umeh"}
-             position={"Mentee"}
-             image={"photos/member-photos/Placeholder.png"}
-             description={'  '}
-             linkedin={'https://www.linkedin.com/'} /* not provided */
-             font={'1.1'}
+             name="Amin Fathima Sadique"
+             position="Mentee"
+             image="photos/member-photos/AminFathimaSadique.png"
+             description=""
+             linkedin="https://www.linkedin.com/in/amin-fathima-sadique-121945212/"
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-62mentees'>
             <OfficerCard
-             name={"Sarah Jacob"}
-             position={"Mentee"}
-             image={"photos/member-photos/Placeholder.png"}
-             description={'  '}
-             linkedin={'https://www.linkedin.com/in/sarah-ann-jacob/'}
-             font={'1.1'}
+             name="Amber Kaur"
+             position="Mentee"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin="https://www.linkedin.com/in/amber-kaur-377bb1331?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-63mentees'>
             <OfficerCard
-             name={"Mytri Nair"}
-             position={"Mentee"}
-             image={"photos/member-photos/Placeholder.png"}
-             description={'  '}
-             linkedin={'www.linkedin.com/in/mytrinair'} 
-             font={'1.1'}
+             name="Samiya Sahu"
+             position="Mentee"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin="https://linkedin.com/in/samiya-sahu-a3042824a/"
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-64mentees'>
             <OfficerCard
-             name={"Ximena Perez"}
-             position={"Mentee"}
-             image={"photos/member-photos/Placeholder.png"}
-             description={'  '}
-             linkedin={'https://www.linkedin.com/me?trk=p_mwlite_wvmp-secondary_nav'} 
-             font={'1.1'}
+             name="Sidrah Rashad"
+             position="Mentee"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin="https://www.linkedin.com/in/sidrah-r-8546842a1/"
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-65mentees'>
             <OfficerCard
-             name={"Victoria Vynnychok"}
-             position={"Mentee"}
-             image={"photos/member-photos/Placeholder.png"}
-             description={'  '}
-             linkedin={'https://www.linkedin.com/in/vvyn/'}
-             font={'1.1'}
+             name="Hannah Madsen"
+             position="Mentee"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin="https://www.linkedin.com/in/hannah-madsen-141439327/"
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-66mentees'>
             <OfficerCard
-             name={"Paola De La Cruz"}
-             position={"Mentee"}
-             image={"photos/member-photos/Placeholder.png"}
-             description={'  '}
-             linkedin={'https://www.linkedin.com/in/paola-de-la-cruz-279197263?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'}
-             font={'1.1'}
+             name="Andrea Roman"
+             position="Mentee"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin="https://www.linkedin.com/in/andrea-roman-444998313/"
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-67mentees'>
             <OfficerCard
-             name={"Tanmayi Akasapu"}
-             position={"Mentee"}
-             image={"photos/member-photos/Placeholder.png"}
-             description={'  '}
-             linkedin={'https://www.linkedin.com/in/tanmayi-akasapu/'} 
-             font={'1.1'}
+             name="Toluwalase Adeyemi"
+             position="Mentee"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin=""
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-68mentees'>
             <OfficerCard
-             name={"Sneha Mandal"}
-             position={"Mentee"}
-             image={"photos/member-photos/Placeholder.png"}
-             description={'  '}
-             linkedin={'https://www.linkedin.com/in/sneha-mandal/'} 
-             font={'1.1'}
+             name="Ami Dholakia"
+             position="Mentee"
+             image="photos/member-photos/AmiDholakia.png"
+             description=""
+             linkedin="https:/www.linkedin.com/in/ami-dholakia/"
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-69mentees'>
             <OfficerCard
-             name={"Leah Kovarnik"}
-             position={"Mentee"}
-             image={"photos/member-photos/Placeholder.png"}
-             description={'  '}
-             linkedin={'https://www.linkedin.com/in/leah-k-90a636206'}
-             font={'1.1'}
+             name="Sumayyah Hasan"
+             position="Mentee"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin=""
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-70mentees'>
             <OfficerCard
-             name={"Amal Saeed"}
-             position={"Mentee"}
-             image={"photos/member-photos/Placeholder.png"}
-             description={'  '}
-             linkedin={'https://www.linkedin.com/in/amal-saeed-9876b92b0'}
-             font={'1.1'}
+             name="Xochitl Juarez Morgan"
+             position="Mentee"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin="https://wwww.linkedin.com/in/xochitl-juarez-morgan/"
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-71mentees'>
             <OfficerCard
-             name={"Mahasin Makki"}
-             position={"Mentee"}
-             image={"photos/member-photos/Placeholder.png"}
-             description={'  '}
-             linkedin={'www.linkedin.com/in/mahasin-makki-570744283'}
-             font={'1.1'}
+             name="Hongyen Thi Nguyen"
+             position="Mentee"
+             image="photos/member-photos/HongyenThiNguyen.png"
+             description=""
+             linkedin="https://www.linkedin.com/in/crmqueen/"
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-72mentees'>
             <OfficerCard
-             name={"Shraddha Patel"}
-             position={"Mentee"}
-             image={"photos/member-photos/Placeholder.png"}
-             description={'  '}
-             linkedin={'https://www.linkedin.com/in/spatel510/'}
-             font={'1.1'}
+             name="Rika Bryant"
+             position="Mentee"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin=""
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-73mentees'>
             <OfficerCard
-             name={"Farah Khalil Ahamed Munavary"}
-             position={"Mentee"}
-             image={"photos/member-photos/Placeholder.png"}
-             description={'  '}
-             linkedin={'www.linkedin.com/in/farah-khalil-ahamed-munavary-a65baa249'}
-             font={'1.1'}
+             name="Niloufar Adab"
+             position="Mentee"
+             image="photos/member-photos/NiloofarAdab.png"
+             description=""
+             linkedin="Niloufar Adab"
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-74mentees'>
             <OfficerCard
-             name={"Shraddha Subash"}
-             position={"Mentee"}
-             image={"photos/member-photos/ShraddhaSubash.JPG"}
-             description={'  '}
-             linkedin={'https://www.linkedin.com/in/shraddha-subash-53936a1a9/'}
-             font={'1.1'}
+             name="Aashika Kishore"
+             position="Mentee"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin="https://www.linkedin.com/in/aashikakishore/"
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-75mentees'>
             <OfficerCard
-             name={"Cynthia Hernandez"}
-             position={"Mentee"}
-             image={"photos/member-photos/Placeholder.png"}
-             description={'  '}
-             linkedin={'https://www.linkedin.com'} /* not provided */
-             font={'1.1'}
+             name="Tramanh Trinh"
+             position="Mentee"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin="https://www.linkedin.com/in/tramanhtrinh/"
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-76mentees'>
             <OfficerCard
-             name={"Sandra Luo"}
-             position={"Mentee"}
-             image={"photos/member-photos/Placeholder.png"}
-             description={'  '}
-             linkedin={'https://www.linkedin.com/in/sandradeluo'} 
-             font={'1.1'}
+             name="Nowsin Anzum Mozumder"
+             position="Mentee"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin="https://www.linkedin.com/in/nowsinanzummozumder/"
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-77mentees'>
             <OfficerCard
-             name={"Nihita Soma"}
-             position={"Mentee"}
-             image={"photos/member-photos/Placeholder.png"}
-             description={'  '}
-             linkedin={'https://www.linkedin.com/in/nihitasoma/'}
-             font={'1.1'}
+             name="Karen Pinedo"
+             position="Mentee"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin="https://www.linkedin.com/in/karen-pinedo/"
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-78mentees'>
             <OfficerCard
-             name={"Leena Nur Hussein"}
-             position={"Mentee"}
-             image={"photos/member-photos/Placeholder.png"}
-             description={'  '}
-             linkedin={'https://www.linkedin.com/in/leena-hussein-ab0a8b166?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'} 
-             font={'1.1'}
+             name="Sansita Gajavelli"
+             position="Mentee"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin=""
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-79mentees'>
             <OfficerCard
-             name={"Sophie Johannesen"}
-             position={"Mentee"}
-             image={"photos/member-photos/SophieJohannesen.JPG"}
-             description={'  '}
-             linkedin={'https://www.linkedin.com/in/sophia-johannesen-b5a878238?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'} 
-             font={'1.1'}
+             name="Charitha Sarraju"
+             position="Mentee"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin=""
+             font="1.1"
              ></OfficerCard>
             </div>
 
-            </section>
-             
+            <div className='item-80mentees'>
+            <OfficerCard
+             name="Madhumita (Maggie) Buvanendiran"
+             position="Mentee"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin=""
+             font="1.1"
+             ></OfficerCard>
+            </div>
+
+            <div className='item-81mentees'>
+            <OfficerCard
+             name="Durre Adan"
+             position="Mentee"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin=""
+             font="1.1"
+             ></OfficerCard>
+            </div>
+
+            <div className='item-82mentees'>
+            <OfficerCard
+             name="Hemal Pathak"
+             position="Mentee"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin="https://www.linkedin.com/in/hemal-pathak/"
+             font="1.1"
+             ></OfficerCard>
+            </div>
+
+            </section>   
         </div>
     );
 }

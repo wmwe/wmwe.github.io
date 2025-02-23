@@ -18,6 +18,8 @@ import pic4 from "../assets/we.jpg";
 import pic5 from "../assets/galentinesocial.png";
 import pic6 from "../assets/programdetails.png";
 import pic7 from "../assets/menteeinfo.png";
+import pic8 from "../assets/bakesale.png";
+import pic9 from "../assets/capitalonetourpost.png";
 
 function Home(props) {
   const navigate = useNavigate();
@@ -37,11 +39,30 @@ function Home(props) {
     arrows: true,
   };
 
+  const socialMediaCarouselSettings = {
+    dots: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    arrows: true,
+    autoplay: true,
+    autoplaySpeed: 2500,
+  };
+
   const images = [
     pic1,
     pic2,
     pic3,
     pic4,
+  ];
+
+  const socialMediaImages = [
+    { src: pic7, link: "https://www.instagram.com/p/DFDoPACOCnZ/?img_index=1", alt: "Instagram Post 1" },
+    { src: pic6, link: "https://www.instagram.com/p/DFDoPACOCnZ/?img_index=2", alt: "Instagram Post 2" },
+    { src: pic5, link: "https://www.instagram.com/p/DF-2fVCOFDI/", alt: "Instagram Post 3" },
+    { src: pic8, link: "https://www.instagram.com/p/DGEACbeOTMJ/", alt: "Extra Image 1" },
+    { src: pic9, link: "https://www.instagram.com/p/DGVz388ujp3/", alt: "Extra Image 2" }
   ];
 
   const navigateToEvents = () => {
@@ -145,19 +166,15 @@ function Home(props) {
         <div style={{ paddingLeft: "5%", paddingRight: "5%", paddingTop: "3%", paddingBottom: "5%" }}>
           <h2 className="subheading1">follow us on social media!</h2>
           
-          <div style={{ display: "flex", gap: "1rem", justifyContent: "left", flexWrap: "wrap" }}>
-            <a href="https://www.instagram.com/p/DFDoPACOCnZ/?img_index=1" target="_blank" rel="noopener noreferrer">
-              <img src={pic7} alt="Instagram Post 1" className="social-media-img" />
-            </a>
-
-            <a href="https://www.instagram.com/p/DFDoPACOCnZ/?img_index=2" target="_blank" rel="noopener noreferrer">
-              <img src={pic6} alt="Instagram Post 2" className="social-media-img" />
-            </a>
-
-            <a href="https://www.instagram.com/p/DF-2fVCOFDI/" target="_blank" rel="noopener noreferrer">
-              <img src={pic5} alt="Instagram Post 3" className="social-media-img" />
-            </a>
-          </div>
+          <Slider {...socialMediaCarouselSettings}>
+            {socialMediaImages.map((item, index) => (
+              <div key={index}>
+                <a href={item.link} target="_blank" rel="noopener noreferrer">
+                  <img src={item.src} alt={item.alt} className="social-media-img" />
+                </a>
+              </div>
+            ))}
+          </Slider>
         </div>
 
         

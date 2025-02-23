@@ -5,7 +5,6 @@ import './Home.css';
 import './Mentees.js'
 import { useNavigate } from "react-router-dom";
 
-
 function Members(props) {
     const navigate = useNavigate();
     const navigateToMembers = () => {
@@ -25,343 +24,404 @@ function Members(props) {
 
             <div className='item-1'>
             <OfficerCard
-             name={"Afarin Famili"}
-             position={"Mentor"}
-             image={"photos/member-photos/AfarinFamili.jpeg"}
-             description={'As a Technical Product Manager at PwC, Afarin is passionate about the intersection of Art, Science, and Technology for a Human-Led, Tech-Enabled future. She holds a BS in CS and an MS in BMEN. Afarin is enthusiastic about guiding individuals in fostering personal growth, facilitating networking, and supporting leadership development.'}
-             linkedin={'https://www.linkedin.com/in/afarinfamili/'}
-             font={'1.1'}
+             name="Vibha Tyagi"
+             position="Mentor"
+             image="photos/member-photos/Placeholder.png"
+             description="Vibha Tyagi is a seasoned Pre-Sales Leader with 20+ years driving multimillion-dollar revenue growth through strategic solutions, AI, and CRM implementations. An author (My First Book of World Religions), youth advocate (100+ interviews), and community mentor (Women Mentoring Women in Engineering), she also founded a non-profit for disadvantaged students in India. With an MBA from the University of Chicago and an MS in Engineering, she's a PMP-certified expert, speaker on diversity and business preparedness, and an avid traveler and athlete (Everest Base Camp trek, national-level cricket)."
+             linkedin="https://www.linkedin.com/in/vibha-tyagi-8b6794/"
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-2'>
             <OfficerCard
-             name={"Anusha Jain"}
-             position={"Mentor"}
-             image={"photos/member-photos/AnushaJain.jpeg"}
-             description={'My name is Anusha Jain and I work as a software engineer at JP Morgan Chase! I graduated from UT Dallas with a Computer Engineering degree fall of 2022. During my time at UT Dallas, I joined this organization as a mentee and a mentoring team manager. I enjoyed networking with so many professionals and learning so much about the engineering industry. The semester after, I became the Social Events Coordinator of WMWE. I learned so many useful skills in this organization and I’d like to give back to the org by mentoring!'}
-             linkedin={'https://www.linkedin.com/in/anushajain01?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'}
-             font={'1.1'}
+             name="Deepthi Ramesh"
+             position="Mentor"
+             image="photos/member-photos/DeepthiRamesh.png"
+             description="Deepthi Ramesh did her Bachelor's of Engineering in Biotechnology at PESIT, Bangalore and then completed a Master's in Biomedical Engineering at UTD, Texas. Then went on to work in Regulatory Affairs for medical devices at Abbott Laboratories, ACell, Inc, and Integra LifeSciences."
+             linkedin="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-3'>
             <OfficerCard
-             name={"Ariel Inman"}
-             position={"Mentor"}
-             image={"photos/member-photos/ArielInman.jpg"}
-             description={'Graduate of Stephen F. Austin State University (SFASU) and Allstate\'s Technology Leadership Development Program (TLDP). I have worked as a Geek Squad agent, an IT consultant at a small startup, an Agile/XP Software Engineer, and a Product Manager. Excited to share what I have learned in my 8+ years of working in the tech industry.'}
-             linkedin={'https://www.linkedin.com/in/marlinda-ariel-inman-63816a164?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'}
-             font={'1.1'}
+             name="Aathira Satheesh Nair"
+             position="Mentor"
+             image="photos/member-photos/Placeholder.png"
+             description="I’m Aathira Satheesh Nair, a Software Developer with a passion for coding. With a Master’s in Computer Science from UT Dallas, I enjoy tackling challenging problems and constantly learning new technologies. Beyond coding, I love mentoring aspiring developers and sharing knowledge. In my free time, I like to cook , travel and watch movies. I’m always seeking opportunities to grow, connect with people, and make a positive impact through my work and personal endeavors."
+             linkedin="https://www.linkedin.com/in/aathira0304"
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-4'>
             <OfficerCard
-             name={"Ashley Liddiard"}
-             position={"Mentor"}
-             image={"photos/member-photos/Placeholder.png"}
-             description={'Hi! I am a data science supervisor in the automotive industry. I hold a PhD in Mechanical engineering MSc in Electrical and BSc (Hon) in Mechatronics but I work in AI! '}
-             linkedin={'https://www.linkedin.com/in/ashleyliddiard/'}
-             font={'1.1'}
+             name="Morgan McHugh"
+             position="Mentor"
+             image="photos/member-photos/MorganMcHugh.png"
+             description="I'm a graduate of RPI with a degree in Mechanical and Aeronautical Engineering and a minor in Sustainability Studies. With over two years of experience as a Nightshift Airframe Engineer at American Airlines, I support operations around the clock. Originally from Upstate NY, I enjoy traveling, reading, and the outdoors."
+             linkedin="www.linkedin.com/in/morgan-mchugh-815934223"
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-5'>
             <OfficerCard
-             name={"Ayesha Ali"}
-             position={"Mentor"}
-             image={"photos/member-photos/AyeshaAli.jpg"}
-             description={'Experienced Senior Information Security Consultant and Architect with a demonstrated history of working in the insurance industry, IT company and Exucation Institute. Skilled in Cloud Security, Secure Coding, DevSecOps, Amazon Web Services (AWS), Microsoft Azure, Generative AI, Data Security, Risk Management and compliance. Strong information technology professional with a Bachelor of Engineering - major Computer Systems Technology'}
-             linkedin={'https://www.linkedin.com/in/ayesha-ali-286763198?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'}
-             font={'1.1'}
+             name="Alexa Marie (Kintanar) Litten"
+             position="Mentor"
+             image="photos/member-photos/AlexaMarieLitten.png
+"
+             description="Alexa Marie (Kintanar) Litten is a 777 Aircraft Engineer at American Airlines, with an Electrical Engineering degree from Christian Brothers University. Her career began at FedEx Express as an Avionics Engineer. Passionate about empowering others through technology, she previously worked as an Apple Genius and mentors high school and first-generation college students. She looks forward to mentoring with WMWE."
+             linkedin="linkedin.com/in/akintanar"
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-6'>
             <OfficerCard
-             name={"Ayushi Trivedi"}
-             position={"Mentor"}
-             image={"photos/member-photos/AyushiTrivedi.jpeg"}
-             description={'I am Ayushi Trivedi, a Physical Design Engineer at IBM, pursuing an M.S. in Electrical and Computer Engineering from UT Austin and holds a B.S. in Computer Engineering from UT Dallas. My journey into technology began with a fascination for the logic behind machines, driving my passion for integrated circuits and systems. Throughout my academic and professional journey, I have cultivated expertise in chip design, testing, and automation. I thrive in collaborative environments, where I value diverse perspectives and innovative problem-solving approaches. As a mentor, I am dedicated to empowering others and fostering growth in technical proficiency and collaborative skills. With my experience and passion for technology, I am committed to inspiring and guiding the next generation of engineers on their path to success.'}
-             linkedin={'https://www.linkedin.com/in/ayushi-trivedi1/'}
-             font={'1.1'}
+             name="Shrishti Singh"
+             position="Mentor"
+             image="photos/member-photos/ShrishtiSingh.png"
+             description="Dr. Shrishti Singh holds a PhD in Bioengo tineering (2022) from George Mason University. Her research contributed to the development of a new imaging agent that enhances the contrast of tumors when compared to healthy cells. Dr. Singh headed the commercialization of her research and participated in several entrepreneurial development programs. Currently, she works at the University of Michigan Innovation Partnerships as an Innovation Fellow helping Michigan faculty with IP, commercialization, and marketing strategy, including start-up development."
+             linkedin="https://www.linkedin.com/in/shrishti-singh-for-dr/"
+             font="1.1"
              ></OfficerCard>
             </div>
-
 
             <div className='item-7'>
             <OfficerCard
-              name={"Charli Rust"}
-              position={"Mentor"}
-              image={"photos/member-photos/Placeholder.png"}
-              description={'Hi! I\'m Charles Rust, a female engineer (with an unusual name for a female), and I go by Charli. I was named after my father, who is also an engineer. I have been teaching engineering classes at Dallas College for 7 years, and I love teaching, mentoring, and encouraging students. I am a passionate advocate for promoting gender diversity in engineering. I have a B.S. in Architectural Engineering and M.S. in Civil Engineering from the University of Texas at Austin. I have experience in construction materials research, reinforced concrete bridge design, project management, teaching in higher education, resume-building, and service industry. I love traveling, and my most recent excursion was to Rome, Italy. I have two dogs, I live in Dallas, and I love documentary films and documentary series.'}
-              //linkedin={''} /* did not provide */
-              font={'1.1'}
+             name="Katie McNeeley-Myers"
+             position="Mentor"
+             image="photos/member-photos/Placeholder.png"
+             description="My passion is teaching. I am truly fortunate to have a fulfilling career doing what I love. As an instructor, I take great pride in seeing my students succeed both in the classroom and in their future endeavors. I am fully committed to the training of the next generation of engineers and scientists by taking an interactive approach to assist students in building a firm foundation in knowledge while inspiring them to be life-long learners."
+             linkedin="https://www.linkedin.com/in/kathleenmcneeley/"
+             font="1.1"
              ></OfficerCard>
             </div>
 
-
             <div className='item-8'>
             <OfficerCard
-             name={"Diana Cogan"}
-             position={"Mentor"}
-             image={"photos/member-photos/DianaCogan.JPG"}
-             description={'Bachelors & Masters from TAMU, 1981 & 1983. E-Systems Garland, 1983 - 1986. Stay-at-home, home-school mom 1986 - 2010. UTD PhD student 2010 - 2016. Part-time UTD Math faculty 2011 - 2015. Full-time ECE faculty 2016 - now.'}
-             linkedin={'https://www.linkedin.com/in/diana-cogan-24b58a34'}
-             font={'1.1'}
+             name="Rym Zalila-Wenkstern"
+             position="Mentor"
+             image="photos/member-photos/RymWenkstern.png"
+             description="Dr. Rym Z. Wenkstern is a Professor of Computer Science at the Erik Jonsson School of Engineering and Computer Science. She is the Founding Director of the UT Dallas Center for Smart Mobility and the Director of the Smart Cities Applied Research Lab. Her research focuses on all aspects of engineering large, complex, real-world systems using the agent paradigm, with an emphasis on Smart Cities challenges."
+             linkedin="https://www.linkedin.com/in/rym-zalila-wenkstern-031bab/"
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-9'>
             <OfficerCard
-             name={"Diana Glass"}
-             position={"Mentor"}
-             image={"photos/member-photos/Placeholder.png"}
-             description={'Diana graduated in Electrical Engineering from the University of Toledo, and has worked at Ford Motor Company for the past 30 years in various automotive engineering roles.  She has two children, one a paralegal in Nashville, and the other an engineer in the automotive industry in Michigan.  In addition, she has an MBA from University of Michigan, and an MS in Electrical and Computer Control Systems from Wayne State University.'}
-            //  linkedin={'https://www.linkedin.com/in/jborbs/'} /* cannot find */
-             font={'1.1'}
-             ></OfficerCard>
-            </div>
-
-            <div className='item-10'>
-            <OfficerCard
-             name={"Dominique Tran"}
-             position={"Mentor"}
-             image={"photos/member-photos/Placeholder.png"}
-             description={'Hello! My name is Dominique Tran, and I‘ve been a Software Developer at JPMC for 3 years doing backend work. I’m excited to help out and give guidance in whatever way I can! I want to support women in engineering and encourage them to follow their passions!'}
-            linkedin={'https://www.linkedin.com/in/dominique-tran'} 
-             font={'1.1'}
+             name="Dominique Tran"
+             position="Mentor"
+             image="photos/member-photos/Placeholder.png"
+             description="Hello! My name is Dominique Tran, and I‘ve been a Software Developer at JPMC for 4 years doing backend work. I’m excited to help out and give guidance in whatever way I can! I want to support women in engineering and encourage them to follow their passions!"
+             linkedin="https://www.linkedin.com/in/dominique-tran"
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-11'>
             <OfficerCard
-             name={"Dona Maria Jose"}
-             position={"Mentor"}
-             image={"photos/member-photos/DonaMariaJose.png"}
-             description={'Dona Maria Jose is an experienced software engineer with a passion for programming. She has worked at Visa Inc., Microsoft, and currently at Dropbox, contributing to cutting-edge technology solutions. Dona is also an advocate for diversity and inclusion in tech, leading the AnitaB.org Dallas Local Community and participating in women in tech groups. She is committed to mentoring junior engineers and international students, helping them achieve their professional and educational goals.'}
-             linkedin={'https://www.linkedin.com/in/donamj/'}
-             font={'1.1'}
+             name="Leslie Marquez Arroyo"
+             position="Mentor"
+             image="photos/member-photos/Placeholder.png"
+             description="Leslie has 13 years of semiconductor experience at Texas Instruments, currently as an Applications Manager in High Voltage Power. She previously served as a Systems Engineer and Applications Engineer, supporting high-power drivers and industrial/automotive customers. She also managed a validation team for Automotive Battery Management. Leslie holds BSEE and MSEE degrees and was elected to TI's Technical Ladder in 2018 and 2024."
+             linkedin="LinkedIn Profile Address:	https://www.linkedin.com/in/leslie-marquez-arroyo-38298b4a/"
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-12'>
             <OfficerCard
-             name={"Ekaterina Lepekhina"}
-             position={"Mentor"}
-             image={"photos/member-photos/EkaterinaLepekhina.png"}
-             description={'I switched industries from law to software, graduated with MS in Computer Science in 2023 and now I am working as a full-stack software engineer in professional audio industry'}
-             linkedin={'https://www.linkedin.com/in/ekaterina-lepekhina/'}
-             font={'1.1'}
+             name="Malak Al-Delahmawi"
+             position="Mentor"
+             image="photos/member-photos/MalakAl-Delahmawi.png"
+             description="Hi, I'm Malak Al-Delahmawi from Dearborn, Michigan. I work as a Infotainment Software Engineer at Ford Motor Company and have a background in Software Engineering from the University of Michigan - Dearborn. Outside of work, I enjoy travelling, spending time in nature, and spoiling my cat!"
+             linkedin="https://www.linkedin.com/in/maldelah/"
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-13'>
             <OfficerCard
-             name={"Hui Ouyang"}
-             position={"Mentor"}
-             image={"photos/member-photos/Placeholder.png"}
-             description={''}
-             linkedin={'https://www.linkedin.com/in/hui-ouyang-90508420/'}
-             font={'1.1'}
+             name="Reena Joseph"
+             position="Mentor"
+             image="photos/member-photos/Placeholder.png"
+             description="With a wealth of experience, a passion for excellence, and a deep love for my work, I am an Innovator, Complex Problem Solver, and Game Changer. My commitment to choosing compassion, love, and joy drives my approach to project management and customer experience, allowing me to make a meaningful impact and inspire others on this beautiful journey we call life"
+             linkedin="https://www.linkedin.com/in/reejosep/"
+             font="1.1"
              ></OfficerCard>
             </div>
 
-
             <div className='item-14'>
             <OfficerCard
-             name={"Jeshna Gupta"}
-             position={"Mentor"}
-             image={"photos/member-photos/Placeholder.png"}
-             description={'Hi!! My name is Jeshna Gupta! I currently work as a frontend developer for Chase Travel at J.P. Morgan Chase & Co. I attended UTD and graduated in Fall 2022! I was in WMWE as a student and was even president! I love this organization so much and am excited to come back as a mentor. '}
-             linkedin={'http://linkedin.com/in/jeshna-gupta'}
-             font={'1.1'}
+             name="Sabrina Jehanzeb"
+             position="Mentor"
+             image="photos/member-photos/Placeholder.png"
+             description="I am a Vice President - Lead Software Engineer at JPMorganChase. I am part of a team that helps accelerate the adoption of best engineering practices in Cloud (AWS), DevOps, Testing, Front-End, and anything that engineers work on, ranging from internal to external customer-facing applications. 
+
+I am passionate about new architecture patterns, continuous improvement, and creating scalable and reliable applications utilizing the cloud with observability in place. Along with my daily work, I have led several successful trainings, workshops, and hackathons ranging from AWS to internal tooling to over 500+ engineers."
+             linkedin="https://www.linkedin.com/in/sabrina-jehanzeb/"
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-15'>
             <OfficerCard
-             name={"Joanna Borba"}
-             position={"Mentor"}
-             image={"photos/member-photos/JoannaBorba.jpg"}
-             description={'Joanna is currently a Software Engineer at Toyota Connected in Plano, Texas. She graduated from Old Dominion University with a Bachelor of Science in Computer Science. With over 5 years of working experience she is passionate about not only technology but also empowering the next generation of women in STEM!'}
-             linkedin={'https://www.linkedin.com/in/jborbs/'}
-             font={'1.1'}
+             name="Preethi Venkatesh"
+             position="Mentor"
+             image="photos/member-photos/PreethiVenkatesh.png"
+             description="Preethi Venkatesh, AI Solutions Manager at Intel enabling developers/CSP/ ISVs/ Partners with Intel's optimizations for PyTorch on Intel Xeon and Gaudi processors. Preethi also leads a team of Solutions Engineer to help deploy optimized solutions/applications on LLM, RAG and Visual LLMs utilizing Intel optimized AI tools."
+             linkedin="https://www.linkedin.com/in/venk4"
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-16'>
             <OfficerCard
-             name={"Juman Alshraiedeh "}
-             position={"Mentor"}
-             image={"photos/member-photos/Placeholder.png"}
-             description={'I have a master degree in EE and bachelor in Computer Engineering. I am passionate about helping humanity which drives every decision of my day! I am fortunate to be working in Med device companies that drive innovation and help people. As an engineer, I lead teams through complex projects with compassion, data and accountability.'}
-             linkedin={'www.linkedin.com/in/juman-alshraiedeh'}
-             font={'1.1'}
+             name="Chen Cao"
+             position="Mentor"
+             image="photos/member-photos/Placeholder.png"
+             description="I am an Assistant Professor of Bioengineering researching lineage commitment and cell type evolution, specializing in single-cell sequencing, bioinformatics, and regulatory network reconstruction. I am dedicated to student mentorship across all levels and serve on the department's Graduate Student Search Committee. I also participate in professional development panels and university safety committees. I contribute to the scientific community as a poster competition judge and journal reviewer (Nucleic Acid Research, Developmental Biology)."
+             linkedin="www.linkedin.com/in/chen-cao-80416b49"
+             font="1.1"
              ></OfficerCard>
             </div>
-            
+
             <div className='item-17'>
             <OfficerCard
-             name={"Katie Myers"}
-             position={"Mentor"}
-             image={"photos/member-photos/Placeholder.png"}
-             description={'My passion is teaching. I am truly fortunate to have a fulfilling career doing what I love. As an instructor, I take great pride in seeing my students succeed both in the classroom and in their future endeavors. I am fully committed to the training of the next generation of engineers and scientists by taking an interactive approach to assist students in building a firm foundation in knowledge while inspiring them to be life-long learners.'}
-             linkedin={'https://www.linkedin.com/in/kathleenmcneeley'}
-             font={'1.1'}
+             name="Sanjana Srinath"
+             position="Mentor"
+             image="photos/member-photos/Placeholder.png"
+             description="Hi! I graduated from UT Austin with B.S. and M.S.E. degrees in Biomedical Engineering and am currently pursuing an M.S. in Biostatistics and Data Science from UTHealth Houston. I'm passionate about the intersection between engineering, healthcare, and business and developing innovative and need-based medical solutions that bridge gaps in health equity. In my free time I love cooking, yoga, rewatching my favorite TV shows, and traveling."
+             linkedin="https://www.linkedin.com/in/sanjana-srinath/"
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-18'>
             <OfficerCard
-            name={"Katy Brown"}
-            position={"Mentor"}
-            image={"photos/member-photos/KatyBrown.jpg"}
-            description={'Hi! My name is Katy and I am a Software Engineer at Lockheed Martin. This will be my 7th semester mentoring with WMWE. I get so much joy helping women find their path in STEM and I am looking forward to another semester! '}
-            linkedin={'https://www.linkedin.com/in/kathryn-brown-362455160'}
-            font={'1.1'}
+             name="Isabel Stavros"
+             position="Mentor"
+             image="photos/member-photos/Placeholder.png"
+             description="Isabel Stavros is a Mechanical Engineer at Garver with experience in HVAC design. Originally from Mexico, she moved to the U.S. 20 years ago and earned a Mechanical Engineering degree from UTD. She worked as an engineer at AOS Engineering before joining Garver, where she continues to develop her skills and knowledge. She enjoys mentoring students at UTD, offering guidance and support to help them succeed in their careers as engineers."
+             linkedin="http://linkedin.com/in/istavros"
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-19'>
             <OfficerCard
-             name={"Kiara Madeam"}
-             position={"Mentor"}
-             image={"photos/member-photos/Placeholder.png"}
-             description={'I am a software developer in the DFW area with mentoring and leadership experience from my time at UTD. I love trying new restaurants and my cat, Sheldon.'}
-             linkedin={'https://www.linkedin.com/in/kiara-madeam'} 
-             font={'1.1'}
+             name="Marigrace Seaton"
+             position="Mentor"
+             image="photos/member-photos/Placeholder.png"
+             description="Hi! I’m Marigrace (also go by MG!) and I’m an Associate Software Engineer at JPMorganChase. I started after graduating from UNC-Chapel Hill in 2021 in Plano, TX, and have since worked on four different projects for several teams. I currently work on the Chase Account Summary team in NYC. I specialize in backend microservice APIs, particularly in the cloud."
+             linkedin="linkedin.com/in/marigraceseaton"
+             font="1.1"
+             ></OfficerCard>
+            </div>
+
+            <div className='item-10'>
+            <OfficerCard
+             name="Seemanthini Mahadev"
+             position="Mentor"
+             image="photos/member-photos/Placeholder.png"
+             description="Leading identity and access management teams in JPmorgan Chase"
+             linkedin="https://www.linkedin.com/in/seemanthini-mahadev-67421212?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-20'>
             <OfficerCard
-             name={"Niruti Dhoble"}
-             position={"Mentor"}
-             image={"photos/member-photos/NirutiDhoble.jpeg"}
-             description={'Hi! My name is Niruti Dhoble. I am a software engineer, at JPMorgan Chase. I graduated from UT Austin in May 2022, with a degree in electrical and computer engineering as well as a minor business. I love to travel and am a big foodie! I love exploring coffee spots and meetings new people! '}
-             linkedin={'https://www.linkedin.com/in/niruti-dhoble'}
-             font={'1.1'}
+             name="Jessica Hawkins"
+             position="Mentor"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin="https://www.linkedin.com/in/jessicahawkins-phd/"
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-21'>
             <OfficerCard
-            name={"Priyanka Das"}
-            position={"Mentor"}
-            image={"photos/member-photos/Placeholder.png"}
-            description={'I am a UTD alum with a B.S. in Biomedical Engineering and M.S. in Systems Engineering. I worked at the TxBDC within UTD as a research volunteer and eventually as a Research Assistant for nearly the entire 4-6 years at the university. I eventually transitioned to a full time position at a startup company for a few year before gaining an opportunity to work for Medtronic.'}
-            linkedin={'www.linkedin.com/in/pridas'}
-            font={'1.1'}
+             name="Sneha Pankaj"
+             position="Mentor"
+             image="photos/member-photos/SnehaPankaj.png"
+             description=""
+             linkedin="linkedin.com/in/snehapankaj"
+             font="1.1"
              ></OfficerCard>
             </div>
 
-
             <div className='item-22'>
             <OfficerCard
-             name={"Purvi Dave"}
-             position={"Mentor"}
-             image={"photos/member-photos/Placeholder.png"}
-             description={'Bachelors in Chemical Engineering with Masters in Orthopedic Regulatory and Clinical Affairs'}
-             //linkedin={''}  /* cannot find */
-             font={'1.1'}
+             name="Adi Weissfield"
+             position="Mentor"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin="https://www.linkedin.com/in/adiweissfield"
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-23'>
             <OfficerCard
-             name={"Sabrina Jehanzeb"}
-             position={"Mentor"}
-             image={"photos/member-photos/Placeholder.png"}
-             description={'Helo! I am currently a Senior Software Engineer at JPMorgan Chase & Co. I work on various applications and platforms, ranging from back-end, front-end, and infrastructure (private / public) as a SME to help teams adopt the best engineering practices. In my free time I like to read too many books. '}
-             linkedin={'https://www.linkedin.com/in/sabrina-jehanzeb/'}
-             font={'1.1'}
+             name="Monica Arellano"
+             position="Mentor"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin=""
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-24'>
             <OfficerCard
-             name={"Sanjana Srinath"}
-             position={"Mentor"}
-             image={"photos/member-photos/SanjanaSrinath.jpg"}
-             description={'Hi! I graduated from UT Austin with B.S. and M.S.E. degrees in Biomedical Engineering. I\'m passionate about the intersection between engineering, healthcare, and business and developing innovative and need-based medical solutions that bridge gaps in health equity. In my free time I love cooking, yoga, rewatching my favorite TV shows, and traveling.'}
-             linkedin={'https://www.linkedin.com/in/sanjana-srinath/'}
-             font={'1.1'}
+             name="Dr. Lucy Chikwetu"
+             position="Mentor"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin=""
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-25'>
             <OfficerCard
-             name={"Sara Akbarzadeh"}
-             position={"Mentor"}
-             image={"photos/member-photos/Placeholder.png"}
-             description={'Sara joined UTD in 2017 as a PhD student in Electrical Engineering working in the field of auditory neuroscience, digital signal processing and machine learning. In Summer 2021, she worked with Starkey Hearing as a DSP and ML research intern. After finishing her PhD, she joined FDA as scientific reviewer in August 2022. At the same time, she instructed “Random Process” course at UT Tyler for one semester. She enjoys traveling, reading, baking and playing violin in her free time.'}
-             linkedin={'https://www.linkedin.com/in/sara-akbarzadeh-88b1a498?original_referer='}
-             font={'1.1'}
+             name="Divya Vanhi Chinnapanuganti"
+             position="Mentor"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin=""
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-26'>
             <OfficerCard
-             name={"Sara Santos"}
-             position={"Mentor"}
-             image={"photos/member-photos/Placeholder.png"}
-             description={'My name is Sara, and I’m a manufacturing engineer at Medtronic. I graduated from UT Austin with a bachelor’s degree in biomedical engineering. Since then, I have worked in the medical device industry for about 5 years and am passionate about applying engineering skills to improve the lives of others.'}
-             linkedin={'https://www.linkedin.com/in/sara-santos-35a161157'}
-             font={'1.1'}
+             name="Stephanie Hines"
+             position="Mentor"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin=""
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-27'>
             <OfficerCard
-             name={"Seemanthini Mahadev"}
-             position={"Mentor"}
-             image={"photos/member-photos/Placeholder.png"}
-             description={'15 years IT experience. Built from ground up.'}
-             linkedin={'https://www.linkedin.com/in/seemanthini-mahadev-67421212'}
-             font={'1.1'}
+             name="Sydney Wong"
+             position="Mentor"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin=""
+             font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-28'>
             <OfficerCard
-             name={"Tina Thomas"}
-             position={"Mentor"}
-             image={"photos/member-photos/TinaThomas.jpg"}
-             description={'Upon receiving my MBA from UT Dallas in 2011, I decided to utilize both my engineering and business background to transition into technical sales, because I truly enjoy helping customers solve their problems so they can, in turn, provide competitive solutions and services to their own customers. My passion is helping other young people recognize their own talents and passions within this industry, and thus preparing them for the future.'}
-             linkedin={'https://www.linkedin.com/in/tinareneethomas/'}
-             font={'1.1'}
+             name="Keerthiha Arangarajan"
+             position="Mentor"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin=""
+             font="1.1"
              ></OfficerCard>
             </div>
-
-
 
             <div className='item-29'>
             <OfficerCard
-             name={"Umaymah Sultana"}
-             position={"Mentor"}
-             image={"photos/member-photos/UmaymahSultana.JPG"}
-             description={'My name is Umaymah, and I\'m currently a Software Engineer at Toyota Connected, and a former CS student at UTD! I love meeting new people and chasing adventures, and if I\'m not at a coffee shop working, I\'m probably somewhere in the mountains watching sunsets with the people I love. For me, one of the best parts of working as a Software Engineer is being able to work alongside other talented engineers, and constantly learn skills (and shortcuts lol) from them. Engineering is all about solving problems and developing new ideas while being creative and having fun, and I hope to be able to share some of my hacks on doing just that :) '}
-             linkedin={'https://www.linkedin.com/in/umaymahsultana'}
-             font={'1.1'}
+             name="Sandhya Rani Dodda"
+             position="Mentor"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin=""
+             font="1.1"
              ></OfficerCard>
             </div>
 
-            
             <div className='item-30'>
             <OfficerCard
-             name={"Vibha Tyagi"}
-             position={"Mentor"}
-             image={"photos/member-photos/Placeholder.png"}
-             description={'More than two decades of experience.'}
-             linkedin={'https://www.linkedin.com/in/vibha-tyagi-8b6794/'}
-             font={'1.1'}
+             name="Roopa Bhamidipati"
+             position="Mentor"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin=""
+             font="1.1"
              ></OfficerCard>
             </div>
-            
-            </section>
-             
+
+            <div className='item-31'>
+            <OfficerCard
+             name="Chidinma Princess Ohagwa"
+             position="Mentor"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin=""
+             font="1.1"
+             ></OfficerCard>
+            </div>
+
+            <div className='item-32'>
+            <OfficerCard
+             name="Deeptha Parsi Diwakar"
+             position="Mentor"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin=""
+             font="1.1"
+             ></OfficerCard>
+            </div>
+
+            <div className='item-33'>
+            <OfficerCard
+             name="Anoushka Shahani"
+             position="Mentor"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin=""
+             font="1.1"
+             ></OfficerCard>
+            </div>
+
+            <div className='item-34'>
+            <OfficerCard
+             name="Shilpi Singh"
+             position="Mentor"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin=""
+             font="1.1"
+             ></OfficerCard>
+            </div>
+
+            <div className='item-35'>
+            <OfficerCard
+             name="Vyshnavi Nalla"
+             position="Mentor"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin=""
+             font="1.1"
+             ></OfficerCard>
+            </div>
+
+            <div className='item-36'>
+            <OfficerCard
+             name="Sanjana Jadhav"
+             position="Mentor"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin=""
+             font="1.1"
+             ></OfficerCard>
+            </div>
+
+            </section>   
         </div>
     );
 }
