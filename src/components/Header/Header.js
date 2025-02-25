@@ -23,11 +23,7 @@ function Header(props) {
     };
     const navigateToContact= () => {
         navigate('/contact');
-    };
-    const navigateToLogin = () => {
-        navigate('/login');
-    };
-    
+    };    
 
     const [state, setState] = useState({clicked: false});
 
@@ -77,12 +73,6 @@ function Header(props) {
                             <li>
                                 <button className="nav-links" onClick={navigateToContact}>
                                     contact
-                                </button>
-                            </li>
-
-                            <li>
-                                <button className="nav-links" onClick={navigateToLogin}>
-                                    member login
                                 </button>
                             </li>
                 </ul>
