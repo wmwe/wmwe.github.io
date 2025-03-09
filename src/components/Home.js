@@ -20,6 +20,8 @@ import pic6 from "../assets/programdetails.png";
 import pic7 from "../assets/menteeinfo.png";
 import pic8 from "../assets/bakesale.png";
 import pic9 from "../assets/capitalonetourpost.png";
+import pic10 from "../assets/ssmxstatefarm.png";
+import pic11 from "../assets/wmwexostem.png";
 
 function Home(props) {
   const navigate = useNavigate();
@@ -58,11 +60,13 @@ function Home(props) {
   ];
 
   const socialMediaImages = [
-    { src: pic7, link: "https://www.instagram.com/p/DFDoPACOCnZ/?img_index=1", alt: "Instagram Post 1" },
-    { src: pic6, link: "https://www.instagram.com/p/DFDoPACOCnZ/?img_index=2", alt: "Instagram Post 2" },
-    { src: pic5, link: "https://www.instagram.com/p/DF-2fVCOFDI/", alt: "Instagram Post 3" },
-    { src: pic8, link: "https://www.instagram.com/p/DGEACbeOTMJ/", alt: "Extra Image 1" },
-    { src: pic9, link: "https://www.instagram.com/p/DGVz388ujp3/", alt: "Extra Image 2" }
+    { src: pic7, link: "https://www.instagram.com/p/DFDoPACOCnZ/?img_index=1"},
+    { src: pic6, link: "https://www.instagram.com/p/DFDoPACOCnZ/?img_index=2"},
+    { src: pic5, link: "https://www.instagram.com/p/DF-2fVCOFDI/"},
+    { src: pic8, link: "https://www.instagram.com/p/DGEACbeOTMJ/"},
+    { src: pic9, link: "https://www.instagram.com/p/DGVz388ujp3/"},
+    { src: pic10},
+    { src: pic11, link: "https://www.instagram.com/p/DG9W8JuvqHW/"}
   ];
 
   const navigateToEvents = () => {
