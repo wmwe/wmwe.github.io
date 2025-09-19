@@ -154,7 +154,7 @@ function Home(props) {
         </div>
 
         <div style={{paddingLeft:"5%", paddingRight:"5%", paddingTop:"3%"}}>
-          <h2 className="subheading1">our past sponsors.</h2>
+          <h2 className="subheading1">our current and past sponsors.</h2>
           <div className="sponsors-flex">
             <img src={jpmorgan} className="sponsor-img"></img>
             <img src={statefarm} className="sponsor-img"></img>
