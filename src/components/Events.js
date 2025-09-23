@@ -55,7 +55,81 @@ function Events(props) {
         <div className="containerEvents">
         <div className="wrapper">
             <div class="one">
-              <p className="event_font">ssm</p>
+              <p className="event_font">bake sale!!💕💕</p>
+            </div>
+            <div class="two">
+              <p className="event_font">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;22
+              </p>
+            </div>
+            <div class="three">
+              <p className="event_info">
+                11:30 AM - 3:30 PM
+                <br></br>
+                Lower/Upper SU
+              </p>
+            </div>
+            <div
+              class="four"
+              style={{ marginTop: "1.5em", width: "50%", marginLeft: "2.75em" }}
+            >
+            </div>
+          </div>
+
+          <br></br>
+
+          <div className="wrapper">
+            <div class="one">
+              <p className="event_font">resume review workshop.</p>
+            </div>
+            <div class="two">
+              <p className="event_font">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;24
+              </p>
+            </div>
+            <div class="three">
+              <p className="event_info">
+              7:00 PM @ SCI 3.270
+                <br></br>
+                SCI 3.270
+              </p>
+            </div>
+            <div
+              class="four"
+              style={{ marginTop: "1.5em", width: "50%", marginLeft: "2.75em" }}
+            >
+            </div>
+          </div>
+
+          <br></br>
+
+          <div className="wrapper">
+            <div class="one">
+              <p className="event_font">outdoor bake sale!!💕💕</p>
+            </div>
+            <div class="two">
+              <p className="event_font">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;30
+              </p>
+            </div>
+            <div class="three">
+              <p className="event_info">
+                11:30AM-3:30PM, Outdoor SU
+                
+              </p>
+            </div>
+            <div
+              class="four"
+              style={{ marginTop: "1.5em", width: "50%", marginLeft: "2.75em" }}
+            >
+            </div>
+          </div>
+
+          <br></br>
+
+          <div className="wrapper">
+            <div class="one">
+              <p className="event_font">charm bracelet social.</p>
             </div>
             <div class="two">
               <p className="event_font">
@@ -64,84 +138,9 @@ function Events(props) {
             </div>
             <div class="three">
               <p className="event_info">
-                7:00 PM
+                7:00 PM @ SCI 3.230
                 <br></br>
-                SU Artemis Hall II
-              </p>
-            </div>
-            <div
-              class="four"
-              style={{ marginTop: "1.5em", width: "50%", marginLeft: "2.75em" }}
-            >
-            </div>
-          </div>
-
-          <br></br>
-
-          <div className="wrapper">
-            <div class="one">
-              <p className="event_font">sip & study</p>
-            </div>
-            <div class="two">
-              <p className="event_font">
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10
-              </p>
-            </div>
-            <div class="three">
-              <p className="event_info">
-              7:00 PM
-                <br></br>
-                SCI 3.250
-              </p>
-            </div>
-            <div
-              class="four"
-              style={{ marginTop: "1.5em", width: "50%", marginLeft: "2.75em" }}
-            >
-            </div>
-          </div>
-
-          <br></br>
-
-          <div className="wrapper">
-            <div class="one">
-              <p className="event_font">easter egg social</p>
-            </div>
-            <div class="two">
-              <p className="event_font">
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;23
-              </p>
-            </div>
-            <div class="three">
-              <p className="event_info">
-                7:00 PM
-                <br></br>
-                SCI 3.220
-              </p>
-            </div>
-            <div
-              class="four"
-              style={{ marginTop: "1.5em", width: "50%", marginLeft: "2.75em" }}
-            >
-            </div>
-          </div>
-
-          <br></br>
-
-          <div className="wrapper">
-            <div class="one">
-              <p className="event_font">end of semester</p>
-            </div>
-            <div class="two">
-              <p className="event_font">
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;28
-              </p>
-            </div>
-            <div class="three">
-              <p className="event_info">
-                7:00 PM
-                <br></br>
-                HH 2.402
+                
               </p>
             </div>
             <div
