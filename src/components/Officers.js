@@ -53,7 +53,7 @@ function Officers(props) {
           <OfficerCard
             name={"Ankita Saha"}
             position={"Mentoring Team Coordinator"}
-            image={"photos/officer-photos/Ankita-Saha.jpg"}
+            image={"photos/member-photos/AnkitaSaha.png"}
             description={
               "Hi, my name is Ankita Saha, and I am a computer engineering sophomore. I love participating in extracurriculars such as music, dance, and digital art. Fun fact: my hair used to be three feet long!"
             }
@@ -66,7 +66,7 @@ function Officers(props) {
           <OfficerCard
             name={"Anusha Patel"}
             position={"Mentoring Team Coordinator"}
-            image={"photos/officer-photos/Clara-Conner.jpg"}
+            image={"photos/member-photos/Placeholder.png"}
             description={
               "Clara is a senior studying Software Engineering with a minor in Spanish. Clara has been a part of WMWE ever since she was a freshman! She loves how it helps her grow meaningful connections with her peers and industry professionals. In her free time, Clara likes to craft and read."
             }
@@ -90,9 +90,9 @@ function Officers(props) {
 
         <div className="item-7">
           <OfficerCard
-            name={"Taylor Beer"}
+            name={"Taylor Beers"}
             position={"Marketing Committee Member"}
-            image={"photos/officer-photos/Clara-Conner.jpg"}
+            image={"photos/member-photos/Placeholder.png"}
             description={
               "Hello! I am a senior in Computer Engineering, graduating in August 2026. I have been a mentee twice, Fall 2023, Spring 2024. I have also been a MTM, Fall 2024. Fun fact: I am from Houston and I grew up on a farm."
             }
@@ -118,7 +118,7 @@ function Officers(props) {
           <OfficerCard
             name={"Rose"}
             position={"Treasury Committee Member"}
-            image={"photos/officer-photos/Clara-Conner.jpg"}
+            image={"photos/member-photos/HongyenThiNguyen.png"}
             description={
               ""
             }
@@ -157,7 +157,7 @@ function Officers(props) {
           <OfficerCard
             name={"Swarna Sre G"}
             position={"Outreach Chair"}
-            image={"photos/officer-photos/Gabrielle-Kuruvilla.jpeg"}
+            image={"photos/member-photos/Placeholder.png"}
             description={
               "Gabby is a senior in Computer Science, minoring in Psychology. She joined WMWE to meet supportive women that will be lasting connections. In her free time she likes to dance, watch disney, and obsess over her dogs!"
             }

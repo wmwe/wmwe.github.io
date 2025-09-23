@@ -25,9 +25,9 @@ function Mentees(props) {
 
             <div className='item-1mentees'>
             <OfficerCard
-             name="Joanna Abraham"
+             name="Krutika Shinde"
              position="Mentee"
-             image="photos/member-photos/Placeholder.png"
+             image="photos/member-photos/Krutika_Shinde.jpeg"
              description=""
              linkedin=""
              font="1.1"
@@ -36,7 +36,7 @@ function Mentees(props) {
 
             <div className='item-2mentees'>
             <OfficerCard
-             name="Mikaila Meintjes"
+             name="Johana Hernandez"
              position="Mentee"
              image="photos/member-photos/Placeholder.png"
              description=""
@@ -47,33 +47,33 @@ function Mentees(props) {
 
             <div className='item-3mentees'>
             <OfficerCard
-             name="Charlotte Marasigan"
+             name="Nabeeha Uddin"
              position="Mentee"
-             image="photos/member-photos/CharlotteMarasigan.png"
+             image="photos/member-photos/PlaceHolder.png"
              description=""
-             linkedin="https://www.linkedin.com/in/charlottemarasigan"
+             linkedin=""
              font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-4mentees'>
             <OfficerCard
-             name="Lujain Saleem"
+             name="Varsha Shashishekar"
              position="Mentee"
-             image="photos/member-photos/LujainJauoosi.png"
+             image="photos/member-photos/Headshot - Varsha Shashishekar.jpg"
              description=""
-             linkedin="https://www.linkedin.com/in/lujain-saleem-348271309?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+             linkedin=""
              font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-5mentees'>
             <OfficerCard
-             name="Tanisha Mazumder"
+             name="Mallika Nagarkatti"
              position="Mentee"
-             image="photos/member-photos/Placeholder.png"
+             image="photos/member-photos/MallikaN.jpeg"
              description=""
-             linkedin="https://www.linkedin.com/in/tanisha-mazumder-79a51b221?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+             linkedin=""
              font="1.1"
              ></OfficerCard>
             </div>
@@ -91,33 +91,33 @@ function Mentees(props) {
 
             <div className='item-7mentees'>
             <OfficerCard
-             name="Layla Imamovic"
+             name="Krista Caparas"
              position="Mentee"
              image="photos/member-photos/Placeholder.png"
              description=""
-             linkedin="https://www.linkedin.com/in/layla-imamovic-042532328/"
+             linkedin=""
              font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-8mentees'>
             <OfficerCard
-             name="Namyuktha Prakash"
+             name="Rachel Mannon"
              position="Mentee"
-             image="photos/member-photos/NamyukthaPrakash.png"
+             image="photos/member-photos/PlaceHolder.png"
              description=""
-             linkedin="https://www.linkedin.com/in/namyuktha-prakash/"
+             linkedin=""
              font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-9mentees'>
             <OfficerCard
-             name="Vidhya Yemparala"
+             name="Sana Dantulwar"
              position="Mentee"
              image="photos/member-photos/Placeholder.png"
              description=""
-             linkedin="https://www.linkedin.com/in/vidhya-y-695580274"
+             linkedin=""
              font="1.1"
              ></OfficerCard>
             </div>
@@ -135,7 +135,7 @@ function Mentees(props) {
 
             <div className='item-11mentees'>
             <OfficerCard
-             name="Mahalakshmi Pandian"
+             name="Architha TCA"
              position="Mentee"
              image="photos/member-photos/Placeholder.png"
              description=""
@@ -146,29 +146,29 @@ function Mentees(props) {
 
             <div className='item-12mentees'>
             <OfficerCard
-             name="Rachel Prakasham"
+             name="Neha Midatana"
              position="Mentee"
-             image="photos/member-photos/RachelP.png"
+             image="photos/member-photos/PlaceHolder.png"
              description=""
-             linkedin="https://www.linkedin.com/in/rachelprakasham"
+             linkedin=""
              font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-13mentees'>
             <OfficerCard
-             name="Arya Rane"
+             name="Tasneem Akram"
              position="Mentee"
              image="photos/member-photos/Placeholder.png"
              description=""
-             linkedin="https://www.linkedin.com/in/arya-rane-a17983284/"
+             linkedin=""
              font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-14mentees'>
             <OfficerCard
-             name="Sally Duru"
+             name="Abigail (Abby) Bazyn"
              position="Mentee"
              image="photos/member-photos/Placeholder.png"
              description=""
@@ -179,11 +179,11 @@ function Mentees(props) {
 
             <div className='item-15mentees'>
             <OfficerCard
-             name="Claudia Nguyen"
+             name="Ciara Gomez"
              position="Mentee"
              image="photos/member-photos/Placeholder.png"
              description=""
-             linkedin="https://www.linkedin.com/in/claudia-nguyen-6b429a1a9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+             linkedin=""
              font="1.1"
              ></OfficerCard>
             </div>
@@ -223,7 +223,7 @@ function Mentees(props) {
 
             <div className='item-19mentees'>
             <OfficerCard
-             name="Nishi Sam Satheesh"
+             name="Pranathi Uppuloori"
              position="Mentee"
              image="photos/member-photos/Placeholder.png"
              description=""
@@ -234,7 +234,7 @@ function Mentees(props) {
 
             <div className='item-20mentees'>
             <OfficerCard
-             name="Isabella Ran"
+             name="Michelle Rivas"
              position="Mentee"
              image="photos/member-photos/Placeholder.png"
              description=""
@@ -245,18 +245,18 @@ function Mentees(props) {
 
             <div className='item-21mentees'>
             <OfficerCard
-             name="Marilyn Mathews"
+             name="Sravani Ravipudi"
              position="Mentee"
              image="photos/member-photos/Placeholder.png"
              description=""
-             linkedin="https://www.linkedin.com/in/marilynmathews/"
+             linkedin=""
              font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-22mentees'>
             <OfficerCard
-             name="Drashti Sha"
+             name="Drashti Shah"
              position="Mentee"
              image="photos/member-photos/Placeholder.png"
              description=""
@@ -267,22 +267,22 @@ function Mentees(props) {
 
             <div className='item-23mentees'>
             <OfficerCard
-             name="Gayatri Rajesh Mangire"
+             name="Zain Alkhatib"
              position="Mentee"
              image="photos/member-photos/Placeholder.png"
              description=""
-             linkedin="https://www.linkedin.com/in/gayatri-mangire"
+             linkedin=""
              font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-24mentees'>
             <OfficerCard
-             name="Daisy Nguyen"
+             name="Thi My Linh Le"
              position="Mentee"
              image="photos/member-photos/Placeholder.png"
              description=""
-             linkedin="https://www.linkedin.com/in/daisy-nguyen-688a621a9"
+             linkedin=""
              font="1.1"
              ></OfficerCard>
             </div>
@@ -311,110 +311,110 @@ function Mentees(props) {
 
             <div className='item-27mentees'>
             <OfficerCard
-             name="Hania Shuaib"
+             name="Kirsten Mba"
              position="Mentee"
              image="photos/member-photos/Placeholder.png"
              description=""
-             linkedin="https://www.linkedin.com/in/hania-shuaib-b54258303"
+             linkedin=""
              font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-28mentees'>
             <OfficerCard
-             name="Akhila Susarla"
+             name="Namrata Kulkarni"
              position="Mentee"
              image="photos/member-photos/Placeholder.png"
              description=""
-             linkedin="https://www.linkedin.com/in/akhila-susarla-1803b41b6/"
+             linkedin=""
              font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-29mentees'>
             <OfficerCard
-             name="Nikita Chaudhry"
+             name="Reina Rout"
              position="Mentee"
-             image="photos/member-photos/NikitaChaudhry.png"
+             image="photos/member-photos/PlaceHolder.png"
              description=""
-             linkedin="https://www.linkedin.com/in/nikita-chaudhry/"
+             linkedin=""
              font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-30mentees'>
             <OfficerCard
-             name="Ammara Siddiqui"
+             name="Jayne Srinivas"
              position="Mentee"
              image="photos/member-photos/Placeholder.png"
              description=""
-             linkedin="https://www.linkedin.com/in/ammara-siddiqui-74b996317/"
+             linkedin=""
              font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-31mentees'>
             <OfficerCard
-             name="Anahita Rismani"
+             name="Srija Vuppala"
              position="Mentee"
-             image="photos/member-photos/AnahitaRismani.png"
+             image="photos/member-photos/SrijaVuppala.jpeg"
              description=""
-             linkedin="https://www.linkedin.com/in/anahita-rismani-0abb80280"
+             linkedin=""
              font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-32mentees'>
             <OfficerCard
-             name="Kavimayil P K"
+             name="Kinsey Lee Groves"
              position="Mentee"
-             image="photos/member-photos/KavimayilPK.png"
+             image="photos/member-photos/PlaceHolder.png"
              description=""
-             linkedin="https://www.linkedin.com/in/kavimayilpk"
+             linkedin=""
              font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-33mentees'>
             <OfficerCard
-             name="Sanya Oak"
+             name="Melissa Mejia"
              position="Mentee"
              image="photos/member-photos/Placeholder.png"
              description=""
-             linkedin="https://www.linkedin.com/in/sanyaoak/"
+             linkedin=""
              font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-34mentees'>
             <OfficerCard
-             name="Hafsah Navaid"
+             name="Arya Rane"
              position="Mentee"
              image="photos/member-photos/Placeholder.png"
              description=""
-             linkedin="https://www.linkedin.com/in/hafsah-n-8442832a3"
+             linkedin=""
              font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-35mentees'>
             <OfficerCard
-             name="Lakshmi Vyshnavi Ummadisetti"
+             name="Kasish Jain"
              position="Mentee"
-             image="photos/member-photos/LakshmiVyshnaviUmmadisetti.png"
+             image="photos/member-photos/PlaceHolder.png"
              description=""
-             linkedin="https://www.linkedin.com/in/vyshnavi-ummadisetti176/"
+             linkedin=""
              font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-36mentees'>
             <OfficerCard
-             name="Reeva Aryal"
+             name="Layna Burrow"
              position="Mentee"
              image="photos/member-photos/Placeholder.png"
              description=""
-             linkedin="https://www.linkedin.com/in/reeva-aryal-84222a23a/"
+             linkedin=""
              font="1.1"
              ></OfficerCard>
             </div>
@@ -432,7 +432,7 @@ function Mentees(props) {
 
             <div className='item-38mentees'>
             <OfficerCard
-             name="Srinidhi Sivakaminathan"
+             name="Venkata Sri Pravallika Bysani"
              position="Mentee"
              image="photos/member-photos/Placeholder.png"
              description=""
@@ -443,154 +443,154 @@ function Mentees(props) {
 
             <div className='item-39mentees'>
             <OfficerCard
-             name="Anusha Patel"
+             name="Beatriz Ferreira Riccardi"
              position="Mentee"
              image="photos/member-photos/Placeholder.png"
              description=""
-             linkedin="https://www.linkedin.com/in/anushapatel6571/"
+             linkedin=""
              font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-40mentees'>
             <OfficerCard
-             name="Vaishnavi Boppana"
+             name="Pragya Singh "
              position="Mentee"
              image="photos/member-photos/Placeholder.png"
              description=""
-             linkedin="https://www.linkedin.com/in/vaishnavi-boppana-0ab60729a/"
+             linkedin=""
              font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-41mentees'>
             <OfficerCard
-             name="Jenna Jan"
+             name="Lana Tran"
              position="Mentee"
              image="photos/member-photos/Placeholder.png"
              description=""
-             linkedin="https://www.linkedin.com/in/jenna-jan-801ab0251/"
+             linkedin=""
              font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-42mentees'>
             <OfficerCard
-             name="Kaia Sonoda"
+             name="Ramsha Mazhar"
              position="Mentee"
              image="photos/member-photos/Placeholder.png"
              description=""
-             linkedin="https://www.linkedin.com/in/kaia-sonoda-233618291"
+             linkedin=""
              font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-43mentees'>
             <OfficerCard
-             name="Vedanshi Sreeramoju"
+             name="Shreeya Parajuli"
              position="Mentee"
              image="photos/member-photos/Placeholder.png"
              description=""
-             linkedin="https://www.linkedin.com/in/vedanshi-sreeramoju-b26b32215/"
+             linkedin=""
              font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-44mentees'>
             <OfficerCard
-             name="Srujana Ponduri"
+             name="Avneet Kaur"
              position="Mentee"
              image="photos/member-photos/Placeholder.png"
              description=""
-             linkedin="Srujana Reddy"
+             linkedin=""
              font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-45mentees'>
             <OfficerCard
-             name="Linh Nguyen"
+             name="Cassidy Pena"
              position="Mentee"
              image="photos/member-photos/Placeholder.png"
              description=""
-             linkedin="https://www.linkedin.com/in/linh-nguyen-885740328?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+             linkedin=""
              font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-46mentees'>
             <OfficerCard
-             name="Jazmin Gutierrez"
+             name="Mourede Otchere"
              position="Mentee"
              image="photos/member-photos/Placeholder.png"
              description=""
-             linkedin="https://www.linkedin.com/in/jazmin-gutierrez-a42559327"
+             linkedin=""
              font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-47mentees'>
             <OfficerCard
-             name="Snigdha Tadi"
+             name="Nhi Tran"
              position="Mentee"
              image="photos/member-photos/Placeholder.png"
              description=""
-             linkedin="https://www.linkedin.com/in/snigdha-tadi/253321219/"
+             linkedin=""
              font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-48mentees'>
             <OfficerCard
-             name="Olivia Anderson"
+             name="Roha Fatima"
              position="Mentee"
              image="photos/member-photos/Placeholder.png"
              description=""
-             linkedin="https://www.linkedin.com/in/olivia-anderson-043172254?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+             linkedin=""
              font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-49mentees'>
             <OfficerCard
-             name="Cristina Angelica Adame"
+             name="Nandhana Kamalabaskaran"
              position="Mentee"
              image="photos/member-photos/Placeholder.png"
              description=""
-             linkedin="https://www.linkedin.com/in/cristina-adame-3b17981ba"
+             linkedin=""
              font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-50mentees'>
             <OfficerCard
-             name="Sarah Park"
+             name="Shahim Panjwani"
              position="Mentee"
              image="photos/member-photos/Placeholder.png"
              description=""
-             linkedin="https://www.linkedin.com/in/sjpsarah/"
+             linkedin=""
              font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-51mentees'>
             <OfficerCard
-             name="Sanvi Gudipati"
+             name="Tammy Tran"
              position="Mentee"
              image="photos/member-photos/Placeholder.png"
              description=""
-             linkedin="https://www.linkedin.com/in/sanvi-gudipati-57554534a/"
+             linkedin=""
              font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-52mentees'>
             <OfficerCard
-             name="Neha Senthil Kumar"
+             name="Sammy Pandey"
              position="Mentee"
              image="photos/member-photos/Placeholder.png"
              description=""
-             linkedin="https://www.linkedin.com/in/neha-senthil-kumar/"
+             linkedin=""
              font="1.1"
              ></OfficerCard>
             </div>
@@ -608,22 +608,22 @@ function Mentees(props) {
 
             <div className='item-54mentees'>
             <OfficerCard
-             name="Tulasi Janjanam"
+             name="Hadeel Hassanien"
              position="Mentee"
-             image="photos/member-photos/HemanthaTulasiJanjanam.png"
+             image="photos/member-photos/PlaceHolder.png"
              description=""
-             linkedin="https://www.linkedin.com/in/tulasi-janjanam123"
+             linkedin=""
              font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-55mentees'>
             <OfficerCard
-             name="Janhavi Tamhankar"
+             name="Farah Khalil Ahamed Munavary"
              position="Mentee"
              image="photos/member-photos/Placeholder.png"
              description=""
-             linkedin="https://www.linkedin.com/in/janhavitamhankar/"
+             linkedin=""
              font="1.1"
              ></OfficerCard>
             </div>
@@ -652,29 +652,7 @@ function Mentees(props) {
 
             <div className='item-58mentees'>
             <OfficerCard
-             name="Aashna Kothari"
-             position="Mentee"
-             image="photos/member-photos/Placeholder.png"
-             description=""
-             linkedin="https://www.linkedin.com/in/aashna-kothari-461804257"
-             font="1.1"
-             ></OfficerCard>
-            </div>
-
-            <div className='item-59mentees'>
-            <OfficerCard
-             name="Tanaz Lodi"
-             position="Mentee"
-             image="photos/member-photos/Placeholder.png"
-             description=""
-             linkedin="https://www.linkedin.com/in/tanazlodi/"
-             font="1.1"
-             ></OfficerCard>
-            </div>
-
-            <div className='item-60mentees'>
-            <OfficerCard
-             name="Stephanie Barnard"
+             name="Enaya Jawed"
              position="Mentee"
              image="photos/member-photos/Placeholder.png"
              description=""
@@ -683,46 +661,68 @@ function Mentees(props) {
              ></OfficerCard>
             </div>
 
+            <div className='item-59mentees'>
+            <OfficerCard
+             name="Lauren Spitz"
+             position="Mentee"
+             image="photos/member-photos/Placeholder.png"
+             description=""
+             linkedin=""
+             font="1.1"
+             ></OfficerCard>
+            </div>
+
+            <div className='item-60mentees'>
+            <OfficerCard
+             name="Shriya Kalyan"
+             position="Mentee"
+             image="photos/member-photos/ShriyaKalyan.jpg"
+             description=""
+             linkedin=""
+             font="1.1"
+             ></OfficerCard>
+            </div> 
+
             <div className='item-61mentees'>
             <OfficerCard
-             name="Amin Fathima Sadique"
+             name="Trisha Chalikandi"
              position="Mentee"
-             image="photos/member-photos/AminFathimaSadique.png"
+             image="photos/member-photos/PlaceHolder.png"
              description=""
-             linkedin="https://www.linkedin.com/in/amin-fathima-sadique-121945212/"
+             linkedin=""
              font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-62mentees'>
             <OfficerCard
-             name="Amber Kaur"
+             name="Alison Kao"
              position="Mentee"
              image="photos/member-photos/Placeholder.png"
              description=""
-             linkedin="https://www.linkedin.com/in/amber-kaur-377bb1331?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+             linkedin=""
              font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-63mentees'>
             <OfficerCard
-             name="Samiya Sahu"
+             name="Akshi Biswal"
              position="Mentee"
              image="photos/member-photos/Placeholder.png"
              description=""
-             linkedin="https://linkedin.com/in/samiya-sahu-a3042824a/"
+             linkedin=""
              font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-64mentees'>
             <OfficerCard
-             name="Sidrah Rashad"
+             name="Wenddy He"
              position="Mentee"
              image="photos/member-photos/Placeholder.png"
              description=""
-             linkedin="https://www.linkedin.com/in/sidrah-r-8546842a1/"
+             linkedin=""
              font="1.1"
              ></OfficerCard>
             </div>
@@ -740,18 +740,7 @@ function Mentees(props) {
 
             <div className='item-66mentees'>
             <OfficerCard
-             name="Andrea Roman"
-             position="Mentee"
-             image="photos/member-photos/Placeholder.png"
-             description=""
-             linkedin="https://www.linkedin.com/in/andrea-roman-444998313/"
-             font="1.1"
-             ></OfficerCard>
-            </div>
-
-            <div className='item-67mentees'>
-            <OfficerCard
-             name="Toluwalase Adeyemi"
+             name="Prakrithi Subha Sai Grandhi"
              position="Mentee"
              image="photos/member-photos/Placeholder.png"
              description=""
@@ -760,20 +749,31 @@ function Mentees(props) {
              ></OfficerCard>
             </div>
 
+            <div className='item-67mentees'>
+            <OfficerCard
+             name="Toluwalase Adeyemi"
+             position="Mentee"
+             image="photos/member-photos/ToluAdeyemi.jpeg"
+             description=""
+             linkedin=""
+             font="1.1"
+             ></OfficerCard>
+            </div>
+
             <div className='item-68mentees'>
             <OfficerCard
-             name="Ami Dholakia"
+             name="Aashita Jain"
              position="Mentee"
-             image="photos/member-photos/AmiDholakia.png"
+             image="photos/member-photos/AashitaJain.JPG"
              description=""
-             linkedin="https:/www.linkedin.com/in/ami-dholakia/"
+             linkedin=""
              font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-69mentees'>
             <OfficerCard
-             name="Sumayyah Hasan"
+             name="Aishwarya Pazhani Kumar Sujatha"
              position="Mentee"
              image="photos/member-photos/Placeholder.png"
              description=""
@@ -784,29 +784,51 @@ function Mentees(props) {
 
             <div className='item-70mentees'>
             <OfficerCard
-             name="Xochitl Juarez Morgan"
+             name="Chinmayee Kale"
              position="Mentee"
-             image="photos/member-photos/Placeholder.png"
+             image="photos/member-photos/Chinmayee_Kale.jpeg"
              description=""
-             linkedin="https://wwww.linkedin.com/in/xochitl-juarez-morgan/"
+             linkedin=""
              font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-71mentees'>
             <OfficerCard
-             name="Hongyen Thi Nguyen"
+             name="Vedangi Shah"
              position="Mentee"
-             image="photos/member-photos/HongyenThiNguyen.png"
+             image="photos/member-photos/PlaceHolder.png"
              description=""
-             linkedin="https://www.linkedin.com/in/crmqueen/"
+             linkedin=""
              font="1.1"
              ></OfficerCard>
             </div>
 
-            <div className='item-72mentees'>
+            {/* <div className='item-72mentees'>
             <OfficerCard
-             name="Rika Bryant"
+             name="Katy Brown"
+             position="Mentee"
+             image="photos/member-photos/Katy_Brown.jpg"
+             description=""
+             linkedin=""
+             font="1.1"
+             ></OfficerCard>
+            </div> */}
+
+            <div className='item-73mentees'>
+            <OfficerCard
+             name="Simar Rekhi"
+             position="Mentee"
+             image="photos/member-photos/SimarRekhi.png"
+             description=""
+             linkedin=""
+             font="1.1"
+             ></OfficerCard>
+            </div>
+
+            <div className='item-74mentees'>
+            <OfficerCard
+             name="Purva Patel"
              position="Mentee"
              image="photos/member-photos/Placeholder.png"
              description=""
@@ -815,57 +837,35 @@ function Mentees(props) {
              ></OfficerCard>
             </div>
 
-            <div className='item-73mentees'>
-            <OfficerCard
-             name="Niloufar Adab"
-             position="Mentee"
-             image="photos/member-photos/NiloofarAdab.png"
-             description=""
-             linkedin="Niloufar Adab"
-             font="1.1"
-             ></OfficerCard>
-            </div>
-
-            <div className='item-74mentees'>
-            <OfficerCard
-             name="Aashika Kishore"
-             position="Mentee"
-             image="photos/member-photos/Placeholder.png"
-             description=""
-             linkedin="https://www.linkedin.com/in/aashikakishore/"
-             font="1.1"
-             ></OfficerCard>
-            </div>
-
             <div className='item-75mentees'>
             <OfficerCard
-             name="Tramanh Trinh"
+             name="Laxmi Akshaya Komaragiri"
              position="Mentee"
              image="photos/member-photos/Placeholder.png"
              description=""
-             linkedin="https://www.linkedin.com/in/tramanhtrinh/"
+             linkedin=""
              font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-76mentees'>
             <OfficerCard
-             name="Nowsin Anzum Mozumder"
+             name="Charvisree Koripella"
              position="Mentee"
              image="photos/member-photos/Placeholder.png"
              description=""
-             linkedin="https://www.linkedin.com/in/nowsinanzummozumder/"
+             linkedin=""
              font="1.1"
              ></OfficerCard>
             </div>
 
             <div className='item-77mentees'>
             <OfficerCard
-             name="Karen Pinedo"
+             name="Tanmayi Alapati"
              position="Mentee"
              image="photos/member-photos/Placeholder.png"
              description=""
-             linkedin="https://www.linkedin.com/in/karen-pinedo/"
+             linkedin=""
              font="1.1"
              ></OfficerCard>
             </div>
@@ -894,7 +894,7 @@ function Mentees(props) {
 
             <div className='item-80mentees'>
             <OfficerCard
-             name="Madhumita (Maggie) Buvanendiran"
+             name="Maggie Buvanendiran"
              position="Mentee"
              image="photos/member-photos/Placeholder.png"
              description=""
@@ -905,22 +905,11 @@ function Mentees(props) {
 
             <div className='item-81mentees'>
             <OfficerCard
-             name="Durre Adan"
+             name="Nida Rathichith"
              position="Mentee"
              image="photos/member-photos/Placeholder.png"
              description=""
              linkedin=""
-             font="1.1"
-             ></OfficerCard>
-            </div>
-
-            <div className='item-82mentees'>
-            <OfficerCard
-             name="Hemal Pathak"
-             position="Mentee"
-             image="photos/member-photos/Placeholder.png"
-             description=""
-             linkedin="https://www.linkedin.com/in/hemal-pathak/"
              font="1.1"
              ></OfficerCard>
             </div>
