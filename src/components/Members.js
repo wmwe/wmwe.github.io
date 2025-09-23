@@ -81,7 +81,7 @@ function Members(props) {
             <OfficerCard
              name="Myanh Tran"
              position="Mentor"
-             image="photos/member-photos/PlaceHolder.png"
+             image="photos/member-photos/Placeholder.png"
              description=""
              linkedin=""
              font="1.1"
@@ -125,7 +125,7 @@ function Members(props) {
             <OfficerCard
              name="Katy Brown"
              position="Mentor"
-             image="photos/member-photos/Katy_brown.jpg"
+             image="photos/member-photos/Katy_Brown.jpg"
              description=""
              linkedin=""
              font="1.1"
@@ -147,7 +147,7 @@ function Members(props) {
             <OfficerCard
              name="Tynesha Heard"
              position="Mentor"
-             image="photos/member-photos/PlaceHolder.png"
+             image="photos/member-photos/Placeholder.png"
              description=""
              linkedin=""
              font="1.1"
