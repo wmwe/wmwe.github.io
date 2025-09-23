@@ -49,7 +49,7 @@ function Mentees(props) {
             <OfficerCard
              name="Nabeeha Uddin"
              position="Mentee"
-             image="photos/member-photos/PlaceHolder.png"
+             image="photos/member-photos/Placeholder.png"
              description=""
              linkedin=""
              font="1.1"
@@ -104,7 +104,7 @@ function Mentees(props) {
             <OfficerCard
              name="Rachel Mannon"
              position="Mentee"
-             image="photos/member-photos/PlaceHolder.png"
+             image="photos/member-photos/Placeholder.png"
              description=""
              linkedin=""
              font="1.1"
@@ -148,7 +148,7 @@ function Mentees(props) {
             <OfficerCard
              name="Neha Midatana"
              position="Mentee"
-             image="photos/member-photos/PlaceHolder.png"
+             image="photos/member-photos/Placeholder.png"
              description=""
              linkedin=""
              font="1.1"
@@ -335,7 +335,7 @@ function Mentees(props) {
             <OfficerCard
              name="Reina Rout"
              position="Mentee"
-             image="photos/member-photos/PlaceHolder.png"
+             image="photos/member-photos/Placeholder.png"
              description=""
              linkedin=""
              font="1.1"
@@ -368,7 +368,7 @@ function Mentees(props) {
             <OfficerCard
              name="Kinsey Lee Groves"
              position="Mentee"
-             image="photos/member-photos/PlaceHolder.png"
+             image="photos/member-photos/Placeholder.png"
              description=""
              linkedin=""
              font="1.1"
@@ -401,7 +401,7 @@ function Mentees(props) {
             <OfficerCard
              name="Kasish Jain"
              position="Mentee"
-             image="photos/member-photos/PlaceHolder.png"
+             image="photos/member-photos/Placeholder.png"
              description=""
              linkedin=""
              font="1.1"
@@ -610,7 +610,7 @@ function Mentees(props) {
             <OfficerCard
              name="Hadeel Hassanien"
              position="Mentee"
-             image="photos/member-photos/PlaceHolder.png"
+             image="photos/member-photos/Placeholder.png"
              description=""
              linkedin=""
              font="1.1"
@@ -687,7 +687,7 @@ function Mentees(props) {
             <OfficerCard
              name="Trisha Chalikandi"
              position="Mentee"
-             image="photos/member-photos/PlaceHolder.png"
+             image="photos/member-photos/Placeholder.png"
              description=""
              linkedin=""
              font="1.1"
@@ -797,7 +797,7 @@ function Mentees(props) {
             <OfficerCard
              name="Vedangi Shah"
              position="Mentee"
-             image="photos/member-photos/PlaceHolder.png"
+             image="photos/member-photos/Placeholder.png"
              description=""
              linkedin=""
              font="1.1"
