@@ -14,7 +14,7 @@ function Officers(props) {
       <OfficerCard
             name={"Oviya Selvakumar"}
             position={"President"}
-            image={"photos/officer-photos/Oviya-Selvakumar.jpeg"}
+            image={"photos/officer-photos/OviyaOfficer.JPG"}
             description={
               "Oviya is a senior in computer science. She joined WMWE to make friends in the same field and build lasting relationships. Fun fact: she loves puzzles and currently learning how to crochet!"
             }
@@ -27,7 +27,7 @@ function Officers(props) {
           <OfficerCard
             name={"Uma Uppuloori"}
             position={"Vice President"}
-            image={"photos/officer-photos/Uma-Uppuloori.jpg"}
+            image={"photos/officer-photos/umaOfficer.JPG"}
             description={
               "Uma is a senior CS major who has been with WMWE for the past year. She joined WMWE to build a network of like-minded people and gain valuable feedback from supportive industry professionals."
             }
@@ -40,7 +40,7 @@ function Officers(props) {
           <OfficerCard
             name={"Soujanya Kamalapur"}
             position={"Secretary"}
-            image={"photos/officer-photos/Soujanya-Kamalapur.jpeg"}
+            image={"photos/officer-photos/soujanyaOfficer.png"}
             description={
               "Soujanya is a junior majoring in Computer Science. She loves WMWE because it gives women the opportunity to build connections and network with like-minded peers. In her free time, she enjoys watching movies, working out, and reading."
             }
@@ -53,7 +53,7 @@ function Officers(props) {
           <OfficerCard
             name={"Ankita Saha"}
             position={"Mentoring Team Coordinator"}
-            image={"photos/member-photos/AnkitaSaha.png"}
+            image={"photos/officer-photos/ankitaOfficer.JPG"}
             description={
               "Hi, my name is Ankita Saha, and I am a computer engineering sophomore. I love participating in extracurriculars such as music, dance, and digital art. Fun fact: my hair used to be three feet long!"
             }
@@ -66,7 +66,7 @@ function Officers(props) {
           <OfficerCard
             name={"Anusha Patel"}
             position={"Mentoring Team Coordinator"}
-            image={"photos/member-photos/Placeholder.png"}
+            image={"photos/officer-photos/anushaOfficer.JPG"}
             description={
               "Clara is a senior studying Software Engineering with a minor in Spanish. Clara has been a part of WMWE ever since she was a freshman! She loves how it helps her grow meaningful connections with her peers and industry professionals. In her free time, Clara likes to craft and read."
             }
@@ -92,7 +92,7 @@ function Officers(props) {
           <OfficerCard
             name={"Taylor Beers"}
             position={"Marketing Committee Member"}
-            image={"photos/member-photos/Placeholder.png"}
+            image={"photos/officer-photos/TaylorBeers.jpg"}
             description={
               "Hello! I am a senior in Computer Engineering, graduating in August 2026. I have been a mentee twice, Fall 2023, Spring 2024. I have also been a MTM, Fall 2024. Fun fact: I am from Houston and I grew up on a farm."
             }
@@ -105,7 +105,7 @@ function Officers(props) {
           <OfficerCard
             name={"Shannon Carter"}
             position={"Treasury Committee Member"}
-            image={"photos/officer-photos/Shannon-Carter.png"}
+            image={"photos/officer-photos/shannonOfficer.JPG"}
             description={
               "Shannon is a senior studying Computer Science and has been part of WMWE since her freshman year. She is passionate about empowering women in technology through mentorship and networking. Outside of WMWE, Shannon loves spending time with her friends and exploring new restaurants."
             }
@@ -118,11 +118,11 @@ function Officers(props) {
           <OfficerCard
             name={"Rose"}
             position={"Treasury Committee Member"}
-            image={"photos/member-photos/HongyenThiNguyen.png"}
+            image={"photos/officer-photos/roseOfficerPic.JPG"}
             description={
-              ""
+              "Rose Nguyen is a senior majoring in Mechanical Engineering at UT Dallas. She joined WMWE after building meaningful connections through the mentoring program and was inspired by the supportive officer team. With prior experience as a small business owner and CRM consultant, Rose brings strong organizational and financial skills to her role as Treasurer. In her free time, she enjoys cooking with her pressure cooker."
             }
-            linkedin={""}
+            linkedin={"https://www.linkedin.com/in/crmqueen/"}
             font={"1.1"}
           ></OfficerCard>
         </div>
@@ -131,7 +131,7 @@ function Officers(props) {
           <OfficerCard
             name={"Safa Mohammed"}
             position={"Events Chair"}
-            image={"photos/officer-photos/Safa-Mohammed.jpeg"}
+            image={"photos/officer-photos/Safa2025Pic.JPG"}
             description={
               "Safa is a grad student studying computer science. She joined wmwe to meet like-minded individuals and build a supporting network. The wholesome community and program introduced her to many helpful opportunities as a freshman shaping her time at UTD. She's also a big reader and loves to travel!"
             }
@@ -144,7 +144,7 @@ function Officers(props) {
           <OfficerCard
             name={"Sanjana Kotha"}
             position={"Events Chair"}
-            image={"photos/officer-photos/Sanjana-Kotha.jpg"}
+            image={"photos/officer-photos/sanjanaOfficer.JPG"}
             description={
               "Sanjana is a senior in Computer Science. She joined WMWE to gain mentorship and guidance in an inclusive atmosphere. The relationships you build are long lasting and allow you to succeed personally and professionally!"
             }
@@ -168,7 +168,7 @@ function Officers(props) {
           ></OfficerCard>
         </div>
 
-        <div className="item-13">
+        {/* <div className="item-13">
           <OfficerCard
             name={"Shraddha Subash"}
             position={"Media Chair"}
@@ -179,7 +179,7 @@ function Officers(props) {
             linkedin={"https://www.linkedin.com/in/shraddha-subash/"}
             font={"1.1"}
           ></OfficerCard>
-        </div>
+        </div> */}
 
       </section>
     </div>
