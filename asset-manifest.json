@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.00a2470b.css",
-    "main.js": "/static/js/main.941ad536.js",
+    "main.js": "/static/js/main.0653af12.js",
     "static/js/453.c2a22ff2.chunk.js": "/static/js/453.c2a22ff2.chunk.js",
     "static/media/events.png": "/static/media/events.e6fcaf9683991d627d75.png",
     "static/media/midsemester.JPG": "/static/media/midsemester.8975d623d38059f6a38f.JPG",
@@ -36,11 +36,11 @@
     "index.html": "/index.html",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "main.00a2470b.css.map": "/static/css/main.00a2470b.css.map",
-    "main.941ad536.js.map": "/static/js/main.941ad536.js.map",
+    "main.0653af12.js.map": "/static/js/main.0653af12.js.map",
     "453.c2a22ff2.chunk.js.map": "/static/js/453.c2a22ff2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.00a2470b.css",
-    "static/js/main.941ad536.js"
+    "static/js/main.0653af12.js"
   ]
 }
