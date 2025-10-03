@@ -29,7 +29,7 @@ function Officers(props) {
             position={"Vice President"}
             image={"photos/officer-photos/umaOfficer.JPG"}
             description={
-              "Uma is a senior CS major who has been with WMWE for the past year. She joined WMWE to build a network of like-minded people and gain valuable feedback from supportive industry professionals."
+              "Uma is a senior CS major who has been with WMWE for the past 2 years. She joined WMWE to build a network of like-minded people and gain valuable feedback from supportive industry professionals."
             }
             linkedin={"https://www.linkedin.com/in/uma-uppuloori/"}
             font={"1.1"}
@@ -68,7 +68,7 @@ function Officers(props) {
             position={"Mentoring Team Coordinator"}
             image={"photos/officer-photos/anushaOfficer.JPG"}
             description={
-              "Clara is a senior studying Software Engineering with a minor in Spanish. Clara has been a part of WMWE ever since she was a freshman! She loves how it helps her grow meaningful connections with her peers and industry professionals. In her free time, Clara likes to craft and read."
+              "Hi, I’m a junior in cs and am one of the current MTCs for WMWE. I’m also an officer for acm events and acm developerment under sage. I love ranking places on beli and casually playing tennis."
             }
             linkedin={"https://www.linkedin.com/in/anushapatel6571/"}
             font={"0.9"}
@@ -79,7 +79,7 @@ function Officers(props) {
           <OfficerCard
             name={"Charitha Sarraju"}
             position={"Marketing Chair"}
-            image={"photos/officer-photos/Charitha-Sarraju.png"}
+            image={"photos/officer-photos/charithaOfficerPic.JPG"}
             description={
               "Charitha is a junior in Computer Science. She joined WMWE to gain mentorship, guidance, and build meaningful connections. In her free time she likes read and crochet."
             }
@@ -157,9 +157,9 @@ function Officers(props) {
           <OfficerCard
             name={"Swarna Sre G"}
             position={"Outreach Chair"}
-            image={"photos/member-photos/Placeholder.png"}
+            image={"photos/officer-photos/swarnaOfficer.JPG"}
             description={
-              "Gabby is a senior in Computer Science, minoring in Psychology. She joined WMWE to meet supportive women that will be lasting connections. In her free time she likes to dance, watch disney, and obsess over her dogs!"
+              "Hey, this is Swarna Sre! I am a sophomore majoring in computer science. Along with the technical side, I am also interested in the business aspect of things, so I am doing a certificate in Innovation and Entrepreneurship."
             }
             linkedin={
               "https://www.linkedin.com/in/gabrielle-kuruvilla-445812229/"
