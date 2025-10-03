@@ -91,7 +91,7 @@ function Officers(props) {
         <div className="item-7">
           <OfficerCard
             name={"Taylor Beers"}
-            position={"Marketing Committee Member"}
+            position={"Marketing Chair"}
             image={"photos/officer-photos/TaylorBeers.jpg"}
             description={
               "Hello! I am a senior in Computer Engineering, graduating in August 2026. I have been a mentee twice, Fall 2023, Spring 2024. I have also been a MTM, Fall 2024. Fun fact: I am from Houston and I grew up on a farm."
@@ -104,7 +104,7 @@ function Officers(props) {
         <div className="item-8">
           <OfficerCard
             name={"Shannon Carter"}
-            position={"Treasury Committee Member"}
+            position={"Treasury Chair"}
             image={"photos/officer-photos/shannonOfficer.JPG"}
             description={
               "Shannon is a senior studying Computer Science and has been part of WMWE since her freshman year. She is passionate about empowering women in technology through mentorship and networking. Outside of WMWE, Shannon loves spending time with her friends and exploring new restaurants."
@@ -117,7 +117,7 @@ function Officers(props) {
         <div className="item-9">
           <OfficerCard
             name={"Rose"}
-            position={"Treasury Committee Member"}
+            position={"Treasury Chair"}
             image={"photos/officer-photos/roseOfficerPic.JPG"}
             description={
               "Rose Nguyen is a senior majoring in Mechanical Engineering at UT Dallas. She joined WMWE after building meaningful connections through the mentoring program and was inspired by the supportive officer team. With prior experience as a small business owner and CRM consultant, Rose brings strong organizational and financial skills to her role as Treasurer. In her free time, she enjoys cooking with her pressure cooker."
@@ -167,20 +167,6 @@ function Officers(props) {
             font={"1.1"}
           ></OfficerCard>
         </div>
-
-        {/* <div className="item-13">
-          <OfficerCard
-            name={"Shraddha Subash"}
-            position={"Media Chair"}
-            image={"photos/officer-photos/Shraddha-Subash.jpeg"}
-            description={
-              "Shraddha is a senior studying computer science. She joined WMWE to network with other women in engineering and connect with industry mentors. She loves to dance and paint in her free time."
-            }
-            linkedin={"https://www.linkedin.com/in/shraddha-subash/"}
-            font={"1.1"}
-          ></OfficerCard>
-        </div> */}
-
       </section>
     </div>
   );
