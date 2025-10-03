@@ -13,7 +13,7 @@ import { useNavigate } from "react-router-dom";
 
 import pic1 from "../assets/midsemester.JPG";
 import pic2 from "../assets/midsemester2.png";
-import pic3 from "../assets/officers.jpg";
+import pic3 from "../assets/groupPic.JPG";
 import pic4 from "../assets/we.jpg";
 import pic5 from "../assets/galentinesocial.png";
 import pic6 from "../assets/programdetails.png";
