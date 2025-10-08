@@ -15,6 +15,9 @@ function Header(props) {
     const navigateToEvents = () => {
         navigate('/events');
     };
+    const navigateToMPoints = () => {
+        navigate('/m-points');
+    };
     const navigateToOfficers = () => {
         navigate('/officers');
     };
@@ -55,6 +58,12 @@ function Header(props) {
                             <li>
                                 <button className="nav-links" onClick={navigateToEvents}>
                                     events
+                                </button>
+                            </li>
+
+                            <li>
+                                <button className="nav-links" onClick={navigateToMPoints}>
+                                    m-points
                                 </button>
                             </li>
 

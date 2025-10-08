@@ -42,6 +42,9 @@ const Navbar = () => {
             <NavLink to='/events' activeStyle>
               events
             </NavLink>
+            <NavLink to='/m-points' activeStyle>
+              m-points
+            </NavLink>
             <NavLink to='/officers' activeStyle>
               officers
             </NavLink>
