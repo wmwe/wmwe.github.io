@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&family=Montserrat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap");
+
+.mpoint-tracker {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.tracker-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.tracker-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.tracker-title {
+  font-family: "League Spartan", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  color: #1b3a5d;
+  margin-bottom: 10px;
+  letter-spacing: -1px;
+}
+
+.last-updated {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #666;
+  margin: 0;
+}
+
+.bar-chart-container {
+  background: white;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.bar-chart-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+  padding: 0;
+  transition: all 0.3s ease;
+}
+
+.bar-chart-row:hover {
+  transform: translateY(-2px);
+}
+
+.bar-chart-row.top-three {
+  background: linear-gradient(135deg, rgba(109, 207, 246, 0.1) 0%, rgba(79, 195, 247, 0.1) 100%);
+  padding: 15px;
+  border-radius: 15px;
+  border-left: 4px solid #6dcff6;
+}
+
+.bar-label {
+  display: flex;
+  align-items: center;
+  min-width: 200px;
+  margin-right: 20px;
+}
+
+.team-rank {
+  font-family: "League Spartan", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  background: #6dcff6;
+  color: #1b3a5d;
+  padding: 8px 12px;
+  border-radius: 50%;
+  min-width: 40px;
+  text-align: center;
+  margin-right: 15px;
+}
+
+.bar-chart-row.top-three .team-rank {
+  background: #1b3a5d;
+  color: white;
+}
+
+.team-name {
+  font-family: "League Spartan", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #1b3a5d;
+}
+
+.bar-chart-row.top-three .team-name {
+  color: #1b3a5d;
+}
+
+.bar-container {
+  flex: 1;
+  height: 40px;
+  background: rgba(27, 58, 93, 0.1);
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #6dcff6 0%, #4fc3f7 100%);
+  border-radius: 20px;
+  transition: width 0.8s ease;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 15px;
+  position: relative;
+  min-width: 60px;
+}
+
+.bar-chart-row.top-three .bar-fill {
+  background: linear-gradient(90deg, #1b3a5d 0%, #2c5aa0 100%);
+}
+
+.bar-value {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: white;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.no-data-message {
+  text-align: center;
+  padding: 40px 20px;
+  color: #666;
+}
+
+.no-data-message p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  margin: 0 0 15px 0;
+}
+
+.retry-button {
+  background: #6dcff6;
+  color: #1b3a5d;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.retry-button:hover {
+  background: #4fc3f7;
+  transform: translateY(-2px);
+}
+
+.tracker-footer {
+  text-align: center;
+}
+
+.refresh-info {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #666;
+  margin: 0;
+}
+
+/* Mobile Responsive */
+@media only screen and (max-width: 768px) {
+  .tracker-container {
+    padding: 20px 15px;
+  }
+  
+  .tracker-title {
+    font-size: 36px;
+  }
+  
+  .bar-chart-container {
+    padding: 20px;
+  }
+  
+  .bar-chart-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  
+  .bar-label {
+    min-width: auto;
+    margin-right: 0;
+    width: 100%;
+  }
+  
+  .team-name {
+    font-size: 18px;
+  }
+  
+  .team-rank {
+    font-size: 16px;
+    padding: 6px 10px;
+    min-width: 35px;
+  }
+  
+  .bar-container {
+    width: 100%;
+    height: 35px;
+  }
+  
+  .bar-value {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .tracker-title {
+    font-size: 28px;
+  }
+  
+  .bar-chart-row {
+    padding: 10px;
+  }
+  
+  .team-name {
+    font-size: 16px;
+  }
+  
+  .bar-value {
+    font-size: 12px;
+  }
+  
+  .bar-chart-container {
+    padding: 15px;
+  }
+  
+  .bar-container {
+    height: 30px;
+  }
+}
