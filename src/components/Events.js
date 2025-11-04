@@ -55,7 +55,7 @@ function Events(props) {
         <div className="containerEvents">
         <div className="wrapper">
             <div class="one">
-              <p className="event_font">charm bracelet social.</p>
+              <p className="event_font">bonfire banter.</p>
             </div>
             <div class="two">
               <p className="event_font">
@@ -64,7 +64,7 @@ function Events(props) {
             </div>
             <div class="three">
               <p className="event_info">
-                7:00 PM @ SCI 3.230
+                7:00 PM @ UV Fire Pit
                 <br></br>
               </p>
             </div>
@@ -79,7 +79,7 @@ function Events(props) {
 
           <div className="wrapper">
             <div class="one">
-              <p className="event_font">speed skills mentoring.</p>
+              <p className="event_font">gitHub workshop.</p>
             </div>
             <div class="two">
               <p className="event_font">
@@ -88,9 +88,9 @@ function Events(props) {
             </div>
             <div class="three">
               <p className="event_info">
-              7:00 PM @ HH 2.402
+              6:00 PM @ GR 4.208
                 <br></br>
-                SCI 3.270
+              
               </p>
             </div>
             <div
@@ -104,7 +104,7 @@ function Events(props) {
 
           <div className="wrapper">
             <div class="one">
-              <p className="event_font">coding interview workshop.</p>
+              <p className="event_font">end of semester.</p>
             </div>
             <div class="two">
               <p className="event_font">
@@ -113,7 +113,7 @@ function Events(props) {
             </div>
             <div class="three">
               <p className="event_info">
-                TBD.
+                7:00PM @ GR 4.428
                 
               </p>
             </div>
@@ -126,7 +126,7 @@ function Events(props) {
 
           <br></br>
 
-          <div className="wrapper">
+          {/* <div className="wrapper">
             <div class="one">
               <p className="event_font">midsemester.</p>
             </div>
@@ -147,7 +147,7 @@ function Events(props) {
               style={{ marginTop: "1.5em", width: "50%", marginLeft: "2.75em" }}
             >
             </div>
-          </div>
+          </div> */}
 
           <br></br>
         
