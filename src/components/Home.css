@@ -8,13 +8,52 @@
 }
 
 .social-media-img {
-    max-width: 400px;
+    max-width: 280px;
+    width: 100%;
+    height: auto;
     border-radius: 8px;
     transition: transform 0.2s ease-in-out;
+    display: block;
+    margin: 0 auto;
 }
   
 .social-media-img:hover {
     transform: scale(1.05);
+}
+
+/* Social media carousel container */
+.social-media-carousel {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Social media carousel slide styling - scoped to only affect this carousel */
+.social-media-carousel .slick-slide > div {
+    padding: 0 15px;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.social-media-carousel .slick-slide {
+    padding: 0;
+    height: auto;
+}
+
+.social-media-carousel .slick-list {
+    margin: 0 -15px;
+    overflow: hidden;
+}
+
+.social-media-carousel .slick-track {
+    display: flex;
+    align-items: stretch;
+}
+
+/* Ensure each slide container has proper width */
+.social-media-carousel .slick-slide > div > a {
+    display: block;
+    width: 100%;
+    text-align: center;
 }
   
 .instagram-media {

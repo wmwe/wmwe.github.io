@@ -50,6 +50,8 @@ function Home(props) {
     arrows: true,
     autoplay: true,
     autoplaySpeed: 2500,
+    centerMode: false,
+    variableWidth: false,
   };
 
   const images = [
@@ -170,15 +172,17 @@ function Home(props) {
         <div style={{ paddingLeft: "5%", paddingRight: "5%", paddingTop: "3%", paddingBottom: "5%" }}>
           <h2 className="subheading1">follow us on social media!</h2>
           
-          <Slider {...socialMediaCarouselSettings}>
-            {socialMediaImages.map((item, index) => (
-              <div key={index}>
-                <a href={item.link} target="_blank" rel="noopener noreferrer">
-                  <img src={item.src} alt={item.alt} className="social-media-img" />
-                </a>
-              </div>
-            ))}
-          </Slider>
+          <div className="social-media-carousel">
+            <Slider {...socialMediaCarouselSettings}>
+              {socialMediaImages.map((item, index) => (
+                <div key={index}>
+                  <a href={item.link} target="_blank" rel="noopener noreferrer">
+                    <img src={item.src} alt={item.alt || `Social media post ${index + 1}`} className="social-media-img" />
+                  </a>
+                </div>
+              ))}
+            </Slider>
+          </div>
         </div>
 
         
