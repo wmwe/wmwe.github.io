@@ -109,21 +109,21 @@ const Contact = () => {
           <form className="form-contact" onSubmit={handleSubmit}>
             <label>name</label>
             <input
-              placeholder="name"
+              // placeholder="name"
               value={name}
               onChange={(e) => setName(e.target.value)}
             />
 
             <label>email</label>
             <input
-              placeholder="email"
+              // placeholder="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
             />
 
             <label>message</label>
             <textarea
-              placeholder="message"
+              // placeholder="message"
               value={message}
               onChange={(e) => setMessage(e.target.value)}
             ></textarea>
