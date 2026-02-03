@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.986aaf73.css",
-    "main.js": "/static/js/main.bc3fec35.js",
+    "main.css": "/static/css/main.1d59ab27.css",
+    "main.js": "/static/js/main.2648b07a.js",
     "static/js/453.c2a22ff2.chunk.js": "/static/js/453.c2a22ff2.chunk.js",
+    "static/media/EOS2025.PNG": "/static/media/EOS2025.c7b4653583699017a684.PNG",
     "static/media/groupPic.JPG": "/static/media/groupPic.86a8aa0d660d879a54b2.JPG",
     "static/media/events.png": "/static/media/events.e6fcaf9683991d627d75.png",
     "static/media/midsemester.JPG": "/static/media/midsemester.8975d623d38059f6a38f.JPG",
-    "static/media/midsemester2.png": "/static/media/midsemester2.7fd240bc815051c40b0f.png",
     "static/media/wmwexostem.png": "/static/media/wmwexostem.0b6edbeb247e04f3e3fb.png",
     "static/media/eventpic1.jpg": "/static/media/eventpic1.70a78112833b5053a727.jpg",
-    "static/media/eventpic3.jpg": "/static/media/eventpic3.b1714037097902d671fd.jpg",
-    "static/media/eventpic2.jpg": "/static/media/eventpic2.f3d365d05bbb101404a9.jpg",
-    "static/media/we.jpg": "/static/media/we.8a486b51ac4b907737e9.jpg",
+    "static/media/aboutUsPic2.jpg": "/static/media/aboutUsPic2.8b973f92637637e3d4bd.jpg",
+    "static/media/aboutUsPic1.jpg": "/static/media/aboutUsPic1.770ffb050966b087a4ea.jpg",
+    "static/media/swe2025.jpg": "/static/media/swe2025.e077788021b209277ab9.jpg",
     "static/media/galentinesocial.png": "/static/media/galentinesocial.9fbf805333093d5782e3.png",
     "static/media/ssmxstatefarm.png": "/static/media/ssmxstatefarm.95eba65267bdebf02a15.png",
     "static/media/empowermentwithborder.jpg": "/static/media/empowermentwithborder.7c2dbf6af28623140f1a.jpg",
@@ -35,12 +35,12 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "index.html": "/index.html",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "main.986aaf73.css.map": "/static/css/main.986aaf73.css.map",
-    "main.bc3fec35.js.map": "/static/js/main.bc3fec35.js.map",
+    "main.1d59ab27.css.map": "/static/css/main.1d59ab27.css.map",
+    "main.2648b07a.js.map": "/static/js/main.2648b07a.js.map",
     "453.c2a22ff2.chunk.js.map": "/static/js/453.c2a22ff2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.986aaf73.css",
-    "static/js/main.bc3fec35.js"
+    "static/css/main.1d59ab27.css",
+    "static/js/main.2648b07a.js"
   ]
 }
