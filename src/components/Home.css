@@ -36,7 +36,7 @@
 
 .social-media-carousel .slick-slide {
     padding: 0;
-    height: auto;
+    height: 100%;
 }
 
 .social-media-carousel .slick-list {
