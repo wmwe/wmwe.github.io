@@ -1,8 +1,8 @@
 import React from "react";
 import "./AboutStyle.css";
 import eventpic1 from "./eventpic1.jpg";
-import eventpic2 from "./eventpic2.jpg";
-import eventpic3 from "./eventpic3.jpg";
+import eventpic2 from "./aboutUsPic1.jpg";
+import eventpic3 from "./aboutUsPic2.jpg";
 
 import supportwithborder from "./supportwithborder.jpg";
 import empowermentwithborder from "./empowermentwithborder.jpg";

@@ -12,9 +12,9 @@ import Banner from "./Banner/Banner";
 import { useNavigate } from "react-router-dom";
 
 import pic1 from "../assets/midsemester.JPG";
-import pic2 from "../assets/midsemester2.png";
+import pic2 from "../assets/EOS2025.PNG";
 import pic3 from "../assets/groupPic.JPG";
-import pic4 from "../assets/we.jpg";
+import pic4 from "../assets/swe2025.jpg";
 import pic5 from "../assets/galentinesocial.png";
 import pic6 from "../assets/programdetails.png";
 import pic7 from "../assets/menteeinfo.png";
