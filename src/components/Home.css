@@ -68,12 +68,14 @@
   }
 
 .carousel-container {
-    width: 100%;
-    max-width: 520px; 
-    margin: 0 auto;
-    align-self: flex-end;
-    padding-right: 3%;
-  }
+  width: 520px;       /* key change */
+  max-width: 520px;
+  margin: 0 auto;
+  align-self: flex-end;
+  padding-right: 3%;
+  flex-shrink: 0;     /* prevents squeezing intro-text */
+}
+
   
 .carousel-image {
     width: 100%;
