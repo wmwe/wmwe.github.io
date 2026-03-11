@@ -55,16 +55,16 @@ function Events(props) {
         <div className="containerEvents">
         <div className="wrapper">
             <div class="one">
-              <p className="event_font">WMWE bake sale.</p>
+              <p className="event_font">career insights with Cotality.</p>
             </div>
             <div class="two">
               <p className="event_font">
-                &nbsp;&nbsp;&nbsp;&nbsp;10-12
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4
               </p>
             </div>
             <div class="three">
               <p className="event_info">
-                Upper SU Floor
+                7pm @ SCI 3.250
                 <br></br>
               </p>
             </div>
@@ -79,7 +79,7 @@ function Events(props) {
 
           <div className="wrapper">
             <div class="one">
-              <p className="event_font">the kickoff.</p>
+              <p className="event_font">speed skill mentoring.</p>
             </div>
             <div class="two">
               <p className="event_font">
@@ -88,7 +88,7 @@ function Events(props) {
             </div>
             <div class="three">
               <p className="event_info">
-              virtual
+              7pm @ ECSS 2.412
                 <br></br>
               
               </p>
@@ -104,16 +104,16 @@ function Events(props) {
 
           <div className="wrapper">
             <div class="one">
-              <p className="event_font">galentine's social.</p>
+              <p className="event_font">WMWE midsem.</p>
             </div>
             <div class="two">
               <p className="event_font">
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;16
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;25
               </p>
             </div>
             <div class="three">
               <p className="event_info">
-                7:00PM @ FO 1.202
+                7:00PM @ SCI 3.320
                 
               </p>
             </div>
@@ -128,16 +128,16 @@ function Events(props) {
 
           { <div className="wrapper">
             <div class="one">
-              <p className="event_font">arduino workshop.</p>
+              <p className="event_font">friendship bracelet social.</p>
             </div>
             <div class="two">
               <p className="event_font">
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;23
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;30
               </p>
             </div>
             <div class="three">
               <p className="event_info">
-                virtual @ 6pm.
+                7pm @ GR 4.428
                 <br></br>
                 
               </p>
