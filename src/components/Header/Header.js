@@ -6,12 +6,11 @@ import { useNavigate } from "react-router-dom";
 
 function Header(props) {
     const navigate = useNavigate();
+
     const navigateToHome = () => {
         navigate('/');
     };
-    const navigateToAbout = () => {
-        navigate('/about');
-    };
+
     const navigateToEvents = () => {
         navigate('/events');
     };
@@ -50,7 +49,7 @@ function Header(props) {
 
                 <ul className={state.clicked ? 'nav-menu active' : 'nav-menu'}>
                             <li>
-                                <button className="nav-links" onClick={navigateToAbout}>
+                                <button className="nav-links" onClick={navigateToHome}>
                                     about
                                 </button>
                             </li>

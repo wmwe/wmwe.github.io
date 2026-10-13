@@ -7,6 +7,8 @@
     margin-right: 15%;
     text-align: left;
     color: #1B3A5D;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
 }
 
 p {
@@ -15,9 +17,11 @@ p {
 }
     
 .pic1, .pic2, .pic3 {
+    width: 100%;
     max-width: 256px;
-    max-height: 170.625px;
-    padding: 40px;
+    height: auto;
+    display: block;
+    padding: 0;
 }
 
 .support, .empowerment, .mentorship {
@@ -27,15 +31,18 @@ p {
 }
     
 .missionpics {
-    display: flex, inline-block;
-    position: relative;
-    margin-left: 10%;
-    margin-right: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: nowrap;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 
 
 .pillarpics {
-    display: flex, inline-block;
+    display: flex;
     position: relative;
 }
 

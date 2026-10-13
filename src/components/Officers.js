@@ -12,11 +12,11 @@ function Officers(props) {
 
       <div className="item-1">
       <OfficerCard
-            name={"Uma Uppuloori"}
+            name={"Soujanya Kamalapur"}
             position={"President"}
-            image={"photos/officer-photos/umaOfficer.JPG"}
+            image={"photos/officer-photos/Soujanya Kamalapur.JPG"}
             description={
-              "Uma is a senior CS major who has been with WMWE for the past 3 years. She joined WMWE to build a network of like-minded people and gain valuable feedback from supportive industry professionals."
+              "Soujanya is a senior majoring in Computer Science. She loves WMWE because it given her some amazing connections and allowed her to make some of her best friends. In her free time, she enjoys watching movies, working out, and reading."
             }
             linkedin={"https://www.linkedin.com/in/uma-uppuloori/"}
             font={"1.1"}
@@ -25,11 +25,11 @@ function Officers(props) {
 
         <div className="item-2">
           <OfficerCard
-            name={"Soujanya Kamalapur"}
+            name={"Ankita Saha"}
             position={"Vice President"}
-            image={"photos/officer-photos/soujanyaOfficer.png"}
+            image={"photos/officer-photos/Ankita Saha.jpg"}
             description={
-              "Soujanya is a junior majoring in Computer Science. She loves WMWE because it gives women the opportunity to build connections and network with like-minded peers. In her free time, she enjoys watching movies, working out, and reading."
+              "Ankita is a junior majoring in Computer Engineering. She loves WMWE because she's able to engage with people from different backgrounds and make meaningful connections for life with mentors and peers. Fun fact: her hair used to be 3 feet long and she's also vice president of another club!"
             }
             linkedin={"https://www.linkedin.com/in/soujanya-kamalapur/"}
             font={"1.1"}
@@ -40,9 +40,9 @@ function Officers(props) {
           <OfficerCard
             name={"Tamanna Khurana"}
             position={"Secretary"}
-            image={"photos/officer-photos/Tammy.jpeg"}
+            image={"photos/officer-photos/Tamanna Khurana.jpeg"}
             description={
-              "Hi! I’m a junior majoring in Data Science with a strong passion for healthcare data and research. I’ve been with WMWE since my sophomore year, and I truly value how welcoming the community is and all the meaningful mentorship I’ve received through this organization. Outside of academics, I enjoy painting and exploring new cafes in my free time."
+              "Tammy is a senior Data Science major with a strong passion for data and research. She’s been with WMWE since sophomore year, and truly values how welcoming the community is and all the meaningful mentorship received through this organization. Outside of academics, she enjoys enjoy painting and exploring new cafes."
             }
             linkedin={"https://www.linkedin.com/in/tamanna-k-48a6a1230/"}
             font={"1.1"}
@@ -51,11 +51,11 @@ function Officers(props) {
 
         <div className="item-4">
           <OfficerCard
-            name={"Ankita Saha"}
+            name={"Anusha Patel"}
             position={"Mentoring Team Coordinator"}
-            image={"photos/officer-photos/ankitaOfficer.JPG"}
+            image={"photos/officer-photos/Anusha Patel.JPG"}
             description={
-              "Hi, my name is Ankita Saha, and I am a computer engineering sophomore. I love participating in extracurriculars such as music, dance, and digital art. Fun fact: my hair used to be three feet long!"
+              "Anusha is a senior in cs and am one of the current MTCs for WMWE. I’m also the director for acm events and acm developerment under sage. I love ranking places on beli and casually playing tennis."
             }
             linkedin={"https://www.linkedin.com/in/ankitasaha-ce"}
             font={"0.9"}
@@ -64,11 +64,11 @@ function Officers(props) {
 
         <div className="item-5">
           <OfficerCard
-            name={"Anusha Patel"}
+            name={"Sana Dantulwar"}
             position={"Mentoring Team Coordinator"}
-            image={"photos/officer-photos/anushaOfficer.JPG"}
+            image={"photos/officer-photos/Sana Dantulwar.JPG"}
             description={
-              "Hi, I’m a junior in cs and am one of the current MTCs for WMWE. I’m also an officer for acm events and acm developerment under sage. I love ranking places on beli and casually playing tennis."
+              "Sana is a sophomore majoring in Biomedical Engineering. She joined WMWE to learn from a group of like minded individuals, gain mentorship from professionals, and support the growth of others. In her free time, she likes to listen to audiobooks, play badminton, and sleep."
             }
             linkedin={"https://www.linkedin.com/in/anushapatel6571/"}
             font={"0.9"}
@@ -77,11 +77,11 @@ function Officers(props) {
 
         <div className="item-6">
           <OfficerCard
-            name={"Charitha Sarraju"}
+            name={"Devika Viju"}
             position={"Marketing Chair"}
-            image={"photos/officer-photos/charithaOfficerPic.JPG"}
+            image={"photos/officer-photos/Devika Viju.JPG"}
             description={
-              "Charitha is a junior in Computer Science. She joined WMWE to gain mentorship, guidance, and build meaningful connections. In her free time she likes read and crochet."
+              "Devika is a junior majoring in Computer Science. She joined WMWE because she loves to connect with like-minded women, grow her skills, and be part of a supportive community that encourages women in engineering. In her free time, she enjoys watching movies, playing guitar, and playing tennis."
             }
             linkedin={"https://www.linkedin.com/in/charitha-sarraju/"}
             font={"1.1"}
@@ -92,9 +92,9 @@ function Officers(props) {
           <OfficerCard
             name={"Taylor Beers"}
             position={"Marketing Chair"}
-            image={"photos/officer-photos/TaylorBeers.jpg"}
+            image={"photos/officer-photos/Taylor B.jpg"}
             description={
-              "Hello! I am a senior in Computer Engineering, graduating in August 2026. I have been a mentee twice, Fall 2023, Spring 2024. I have also been a MTM, Fall 2024. Fun fact: I am from Houston and I grew up on a farm."
+              "Taylor is a senior in Computer Engineering, graduating in August 2026. I have been a mentee twice, Fall 2023, Spring 2024. I have also been a MTM, Fall 2024. Fun fact: I am from Houston and I grew up on a farm."
             }
             linkedin={"https://www.tinkercad.com/things/lBNrKkOVNFY-two-bit-counter-framework-public-taylor-and-edgar"}
             font={"1.1"}
@@ -103,11 +103,11 @@ function Officers(props) {
 
         <div className="item-8">
           <OfficerCard
-            name={"Shannon Carter"}
+            name={"Krista Caparas"}
             position={"Treasury Chair"}
-            image={"photos/officer-photos/shannonOfficer.JPG"}
+            image={"photos/officer-photos/Krista Isabelle Caparas.JPG"}
             description={
-              "Shannon is a senior studying Computer Science and has been part of WMWE since her freshman year. She is passionate about empowering women in technology through mentorship and networking. Outside of WMWE, Shannon loves spending time with her friends and exploring new restaurants."
+              "Krista is an undergraduate student majoring in Biomedical Engineering and is in her third semester with WMWE. She loves WMWE because it helps women in engineering obtain guidance from mentors in their field in navigating their careers. Outside of WMWE and academics, she loves doing origami and playing the oboe."
             }
             linkedin={"https://www.linkedin.com/in/shannon-carter-690035254/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"}
             font={"1.1"}
@@ -116,11 +116,11 @@ function Officers(props) {
 
         <div className="item-9">
           <OfficerCard
-            name={"Rose"}
+            name={"Mercedes Xiong"}
             position={"Treasury Chair"}
-            image={"photos/officer-photos/roseOfficerPic.JPG"}
+            image={"photos/officer-photos/Mercedes Xiong.jpeg"}
             description={
-              "Rose Nguyen is a senior majoring in Mechanical Engineering at UT Dallas. She joined WMWE after building meaningful connections through the mentoring program and was inspired by the supportive officer team. With prior experience as a small business owner and CRM consultant, Rose brings strong organizational and financial skills to her role as Treasurer. In her free time, she enjoys cooking with her pressure cooker."
+              "Mercedes is a senior majoring in computer science. She loves WMWE because it gives her an opportunity to build connections with women in engineering and and help assist a team with their finances. In her free time, she enjoys reading, designing websites, and working out. Fun fact about her: she's afraid of birds."
             }
             linkedin={"https://www.linkedin.com/in/crmqueen/"}
             font={"1.1"}
@@ -131,9 +131,9 @@ function Officers(props) {
           <OfficerCard
             name={"Tasneem Akram"}
             position={"Events Chair"}
-            image={"photos/officer-photos/Tasneem.jpg"}
+            image={"photos/officer-photos/tasneem akram.jpg"}
             description={
-              "Tasneem is a Sophomore in biomedical engineering.  She joined WMWE to make friends and gain guidance in mentorship and her industry of study.  In her free time she likes to crochet, hang out with friends, and bake."
+              "Tasneem is a junior majoring in Biomedical Engineering.  She loves WMWE because it creates a supportive community where women in engineering can connect, grow, and encourage each other to succeed.  In her free time, she enjoys walking, hanging out with her friends, and going to different cafes."
             }
             linkedin={"https://www.linkedin.com/in/tasneem-akram-83b09a297/"}
             font={"1.1"}
@@ -144,9 +144,9 @@ function Officers(props) {
           <OfficerCard
             name={"Alison Kao"}
             position={"Events Chair"}
-            image={"photos/officer-photos/AlisonKao.jpg"}
+            image={"photos/officer-photos/Alison Kao.jpeg"}
             description={
-              "Alison is a sophomore majoring in Computer Science. She joined WMWE to gain guidance from mentors and build meaningful relationships within a supportive community. In her free time, she loves jigsaw puzzling and dancing."
+              "Alison is a junior majoring in Computer Science. She joined WMWE to gain guidance from mentors and build meaningful relationships within a supportive community. In her free time, she loves jigsaw puzzling and dancing."
             }
             linkedin={"https://www.linkedin.com/in/alison-kao/"}
             font={"0.9"}
@@ -157,9 +157,9 @@ function Officers(props) {
           <OfficerCard
             name={"Arya Rane"}
             position={"Outreach Chair"}
-            image={"photos/officer-photos/Arya.jpeg"}
+            image={"photos/officer-photos/ARYA.jpg"}
             description={
-              "Hi! My name is Arya, and I’m a sophomore majoring in computer engineering. I joined WMWE for the supportive community and the opportunity to be surrounded by women in engineering while exploring different paths in tech. Outside of WMWE, I love going to concerts, traveling, and playing sports. Fun Fact: I’ve travelled to 20 different countries."
+              "Arya is a junior majoring in computer engineering. I joined WMWE for the supportive community and the opportunity to be surrounded by women in engineering while exploring different paths in tech. Outside of WMWE, I love going to concerts, traveling, and playing sports. Fun Fact: I’ve travelled to 20 different countries."
             }
             linkedin={
               "https://www.linkedin.com/in/aryarane/"
@@ -172,9 +172,9 @@ function Officers(props) {
           <OfficerCard
             name={"Tramanh Trinh"}
             position={"Media Chair"}
-            image={"photos/officer-photos/TramanhHeadshot.png"}
+            image={"photos/officer-photos/tramanh.jpg"}
             description={
-              "Hi! This is Tramanh, a current sophomore in Software Engineering. I joined WMWE last year to join a supportive community of women engineers and gain mentorship. Outside of WMWE, I’m a Project Manager under ACM and love journaling & trying restaurants :)"
+              "Tramanh is a junior majoring in Software Engineering & Business Analytics. She's made some of her closest friends through WMWE and joined freshman year as an MTM. Outside of classes, she loves to try new coffees and teas."
             }
             linkedin={
               "https://www.linkedin.com/in/tramanhtrinh/"

@@ -215,7 +215,7 @@
     flex-direction: row;
     justify-content: space-between;
     padding-top: 6%;
-    padding-bottom: 10%;
+    padding-bottom: 0;
 }
 
 .buttons-div{
@@ -233,8 +233,8 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-top: -3%;
     flex-wrap: wrap;
+    margin-top: -3%;
 }
 
 .home-page-intro-image{
@@ -263,6 +263,54 @@
     max-width: 100%;
     width: 100%;
     height: auto;
+}
+
+/* ---------- Homepage spacing system ---------- */
+:root {
+  --space-section: 3rem;   /* between sections */
+  --space-content: 1.5rem;
+}
+
+.home-section {
+  padding: 0 5%;
+  margin-top: var(--space-section);
+}
+
+.home-section:last-child {
+  padding-bottom: var(--space-section);
+}
+
+/* Remove browser-default and .body1 margins so the parent controls spacing */
+.home-section h2,
+.home-section h3 {
+  margin: 0;
+}
+
+/* Every child after the first gets the same gap */
+.home-section > :not(:first-child),
+.home-section .pillar > :not(:first-child) {
+  margin-top: var(--space-content);
+}
+
+/* AboutStyle.css adds a bottom margin to .missionpics; cancel it here only */
+.home-section .missionpics {
+  margin-bottom: 0;
+}
+
+.pillars-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pillar {
+  flex: 1;
+  max-width: 180px;
+  padding: 0 40px; /* horizontal only; this was adding 40px of extra vertical space */
+}
+
+.homepage-events {
+  display: block; /* removes the small inline-image gap under the picture */
 }
 
 @media (max-width: 768px) {
@@ -361,6 +409,5 @@
 
     .homepage-events{
         max-height:40px;
-        margin-bottom: -10%;
     }
 }

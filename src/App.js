@@ -10,7 +10,6 @@ import logo from "./logo.svg";
 import "./App.css";
 
 //import the pages
-import About from "./components/About";
 import Contact from "./components/Contact";
 import Events from "./components/Events";
 import Home from "./components/Home";
@@ -39,7 +38,6 @@ function App() {
         <Header></Header>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/events" element={<Events />} />
           <Route path="/m-points" element={<MPointTracker />} />

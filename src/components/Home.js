@@ -1,6 +1,9 @@
 import React from "react";
-import Slider from "react-slick"; 
+import Slider from "react-slick";
+import { useNavigate } from "react-router-dom";
 import "./Home.css";
+import "./AboutStyle.css";
+
 import eventsImg from "../assets/events.png"
 import jpmorgan from "../assets/jpmorgan.png";
 import c1 from "../assets/CapitalOneLogo.png";
@@ -9,7 +12,6 @@ import ti from "../assets/TILogo.png";
 import mathworks from "../assets/MathWorksLogo.png";
 import { Button } from "./Button/Button.js";
 import Banner from "./Banner/Banner";
-import { useNavigate } from "react-router-dom";
 
 import pic1 from "../assets/midsemester.JPG";
 import pic2 from "../assets/EOS2025.PNG";
@@ -23,12 +25,17 @@ import pic9 from "../assets/capitalonetourpost.png";
 import pic10 from "../assets/ssmxstatefarm.png";
 import pic11 from "../assets/wmwexostem.png";
 
+// About Images
+import eventpic1 from "./eventpic1.jpg";
+import eventpic2 from "./aboutUsPic1.jpg";
+import eventpic3 from "./aboutUsPic2.jpg";
+
+import supportwithborder from "./supportwithborder.jpg";
+import empowermentwithborder from "./empowermentwithborder.jpg";
+import mentorshipwithborder from "./mentorshipwithborder.jpg";
+
 function Home(props) {
   const navigate = useNavigate();
-  
-  const navigateToAbout = () => {
-    navigate('/about');
-  };
 
   const carouselSettings = {
     dots: true,
@@ -110,13 +117,20 @@ function Home(props) {
                           Texas at Dallas that is focused on helping women in STEM fields do their ultimate best. 
                           We want to help you make connections with people out in the industry.
               </h2>
-              <Button
-              onClick={navigateToAbout}
-                children={"learn more about wmwe"}
-                buttonColor={"#6DCFF6"}
-                textColor={"#1C3A5C"}
-              >
-              </Button>
+              {/*
+              <div className="textbody" style={{}}>
+                <div className="mission" style={{textAlign:"center",paddingBottom: "3%"}}>
+                  <h2 className="section_header">our mission.</h2>
+                  <h3 className="body1" style={{textAlign:"center",paddingBottom: "3%"}}>
+                    WMWE aims to improve the retention rates of women in tech and STEM
+                    fields by giving them a head start on making valuable connections and
+                    gaining advice from seasoned professionals who know their way around
+                    the industry. We are firm believers in empowered women empowering
+                    women!
+                  </h3>
+                </div>
+              </div>
+              */}
           </div>
 
           <div className="carousel-container">
@@ -133,8 +147,72 @@ function Home(props) {
             </Slider>
           </div>
         </div>
+        {/* <section className="home-section">
+          <h2 className="subheading1">our mission.</h2>
+          <h2 className="body1"> 
+          WMWE aims to improve the retention rates of women in tech and STEM
+          fields by giving them a head start on making valuable connections and
+          gaining advice from seasoned professionals who know their way around
+          the industry. We are firm believers in empowered women empowering
+          women! 
+          </h2>
+        </section> */}
 
-        <div style={{paddingLeft:"5%", paddingRight:"5%", marginTop: "-3%"}}>
+        <section className="home-section">
+          <h2 className="subheading1">about us.</h2>
+          <h2 className="body1"> 
+          WMWE aims to improve the retention rates of women in tech and STEM
+          fields by giving them a head start on making valuable connections and
+          gaining advice from seasoned professionals who know their way around
+          the industry. We are firm believers in empowered women empowering
+          women! 
+          </h2>
+          
+          <div className="missionpics">
+            {/* images for mission */}
+            <img className="pic1" src={eventpic1} />
+            <img className="pic2" src={eventpic2} />
+            <img className="pic3" src={eventpic3} />
+          </div>
+        </section>
+
+        <section className="home-section">
+          <h2 className="subheading1">our pillars.</h2>
+        <div
+          style={{ display: "flex", flexWrap: "wrap", justifyContent: "center" }}
+        >
+          <div className="pillar">
+            <img className="support" src={supportwithborder} />
+            <h3 className="body1">
+              We strive to provide support for all women through each other. Your
+              mentor, team, and everyone in WMWE is there to help you out whenever
+              you need it. Before we are a University Wide Organization, we are
+              just a group of people that want to help!
+            </h3>
+          </div>
+          <div className="pillar">
+            <img className="empowerment" src={empowermentwithborder} />
+            <h3 className="body1">
+              In the STEM field, women make up only 24% of the entire workforce,
+              with the percentage only decreasing with higher positions. In WMWE,
+              we strive to empower everyone and help make them stronger and more
+              confident in whatever they do. After all, our slogan is “Empowered
+              Women Empowering Women”.
+            </h3>
+          </div>
+          <div className="pillar">
+            <img className="mentorship" src={mentorshipwithborder} />
+            <h3 className="body1">
+              By linking you up with a professional woman who is working in the
+              STEM field in a semester long mentorship, you will learn everything
+              you wanted to know. From professionalism in the workplace, to things
+              you can do to upstart your career.
+              knowledge!
+            </h3>
+          </div>
+        </div>
+        </section>
+        <section className="home-section">
           <h2 className="subheading1">what we do.</h2>
           <h2 className="body1"> 
           WMWE organizes a semesterly mentoring program between undergraduate female students and 
@@ -153,7 +231,7 @@ function Home(props) {
           “Intro to Python”, and so much more. These events are not limited to the members of the mentoring 
           program, but are open to the public. So feel free to swing by! 
             </h2>
-        </div>
+        </section>
 
         <div style={{paddingLeft:"5%", paddingRight:"5%", paddingTop:"3%"}}>
           <h2 className="subheading1">our current and past sponsors.</h2>
@@ -165,11 +243,11 @@ function Home(props) {
             <img src={mathworks} className="sponsor-img"></img>
           </div>
 
-          <h2 className="body1" style={{textAlign:"right", marginTop:"-3%", fontSize:"0.8rem", marginBottom:"1%",}}>
+            <h2 className="body1" style={{textAlign:"right", marginTop:"-3%", fontSize:"0.8rem", marginBottom:"1%"}}>
             Interested in sponsoring? Reach out to us at wmweatutd@gmail.com</h2>
         </div>
 
-        <div style={{ paddingLeft: "5%", paddingRight: "5%", paddingTop: "3%", paddingBottom: "5%" }}>
+        <section className="home-section">
           <h2 className="subheading1">follow us on social media!</h2>
           
           <div className="social-media-carousel">
@@ -183,7 +261,7 @@ function Home(props) {
               ))}
             </Slider>
           </div>
-        </div>
+        </section>
 
         
       </div>
