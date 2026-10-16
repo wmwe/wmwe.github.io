@@ -18,7 +18,7 @@ function Officers(props) {
             description={
               "Soujanya is a senior majoring in Computer Science. She loves WMWE because it given her some amazing connections and allowed her to make some of her best friends. In her free time, she enjoys watching movies, working out, and reading."
             }
-            linkedin={"https://www.linkedin.com/in/uma-uppuloori/"}
+            linkedin={"https://www.linkedin.com/in/soujanya-kamalapur/"}
             font={"1.1"}
           ></OfficerCard>
         </div>
@@ -31,7 +31,7 @@ function Officers(props) {
             description={
               "Ankita is a junior majoring in Computer Engineering. She loves WMWE because she's able to engage with people from different backgrounds and make meaningful connections for life with mentors and peers. Fun fact: her hair used to be 3 feet long and she's also vice president of another club!"
             }
-            linkedin={"https://www.linkedin.com/in/soujanya-kamalapur/"}
+            linkedin={"https://www.linkedin.com/in/ankitasaha-ce"}
             font={"1.1"}
           ></OfficerCard>
         </div>
@@ -57,7 +57,7 @@ function Officers(props) {
             description={
               "Anusha is a senior in cs and am one of the current MTCs for WMWE. I’m also the director for acm events and acm developerment under sage. I love ranking places on beli and casually playing tennis."
             }
-            linkedin={"https://www.linkedin.com/in/ankitasaha-ce"}
+            linkedin={"https://www.linkedin.com/in/anushapatel6571/"}
             font={"0.9"}
           ></OfficerCard>
         </div>
@@ -70,7 +70,7 @@ function Officers(props) {
             description={
               "Sana is a sophomore majoring in Biomedical Engineering. She joined WMWE to learn from a group of like minded individuals, gain mentorship from professionals, and support the growth of others. In her free time, she likes to listen to audiobooks, play badminton, and sleep."
             }
-            linkedin={"https://www.linkedin.com/in/anushapatel6571/"}
+            linkedin={"https://www.linkedin.com/in/sana-dantulwar/"}
             font={"0.9"}
           ></OfficerCard>
         </div>
@@ -83,7 +83,7 @@ function Officers(props) {
             description={
               "Devika is a junior majoring in Computer Science. She joined WMWE because she loves to connect with like-minded women, grow her skills, and be part of a supportive community that encourages women in engineering. In her free time, she enjoys watching movies, playing guitar, and playing tennis."
             }
-            linkedin={"https://www.linkedin.com/in/charitha-sarraju/"}
+            linkedin={"https://www.linkedin.com/in/devikaviju"}
             font={"1.1"}
           ></OfficerCard>
         </div>
@@ -109,7 +109,7 @@ function Officers(props) {
             description={
               "Krista is an undergraduate student majoring in Biomedical Engineering and is in her third semester with WMWE. She loves WMWE because it helps women in engineering obtain guidance from mentors in their field in navigating their careers. Outside of WMWE and academics, she loves doing origami and playing the oboe."
             }
-            linkedin={"https://www.linkedin.com/in/shannon-carter-690035254/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"}
+            linkedin={"https://www.linkedin.com/in/krista-caparas/"}
             font={"1.1"}
           ></OfficerCard>
         </div>
@@ -122,7 +122,7 @@ function Officers(props) {
             description={
               "Mercedes is a senior majoring in computer science. She loves WMWE because it gives her an opportunity to build connections with women in engineering and and help assist a team with their finances. In her free time, she enjoys reading, designing websites, and working out. Fun fact about her: she's afraid of birds."
             }
-            linkedin={"https://www.linkedin.com/in/crmqueen/"}
+            linkedin={"https://www.linkedin.com/in/mercedes-xiong/"}
             font={"1.1"}
           ></OfficerCard>
         </div>
