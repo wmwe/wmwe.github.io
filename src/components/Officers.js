@@ -14,7 +14,7 @@ function Officers(props) {
       <OfficerCard
             name={"Soujanya Kamalapur"}
             position={"President"}
-            image={"photos/officer-photos/Soujanya Kamalapur.JPG"}
+            image={"photos/officer-photos/Soujanya Kamalapur.jpg"}
             description={
               "Soujanya is a senior majoring in Computer Science. She loves WMWE because it given her some amazing connections and allowed her to make some of her best friends. In her free time, she enjoys watching movies, working out, and reading."
             }
