@@ -2,15 +2,15 @@
 import React from 'react';
 import { OfficerCard } from './Wmwe-ui';
 import './Members.js'
-import './Members.css';
+// import './Members.css';
 import './Home.css';
 import { useNavigate } from 'react-router-dom';
 
 function Mentees(props) {
     const navigate = useNavigate();
-    const navigateToMembers = () => {
-        navigate('/members');
-    };
+    // const navigateToMembers = () => {
+    //     navigate('/members');
+    // };
     const navigateToMentees = () => {
         navigate('/mentees');
     };
@@ -18,7 +18,7 @@ function Mentees(props) {
         <div style={{position:'relative'}}>
 
         <div className='mini__nav'>
-            <button className="navButton" onClick={navigateToMembers}><h2 className='header-text3'>mentors</h2></button>
+            {/* <button className="navButton" onClick={navigateToMembers}><h2 className='header-text3'>mentors</h2></button> */}
             <button className="navButton" onClick={navigateToMentees}><h2 className='header-text4'>mentees</h2></button>
             </div>
             <section className='mentees-container'>

@@ -18,7 +18,7 @@ import MPointTracker from "./components/MPointTracker";
 import Login from "./components/Login";
 import SignUp from "./components/SignUp";
 import Forgot from "./components/Forgot";
-import Members from "./components/Members";
+// import Members from "./components/Members";
 import Mentees from "./components/Mentees";
 import Officers from "./components/Officers";
 
@@ -41,7 +41,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/events" element={<Events />} />
           <Route path="/m-points" element={<MPointTracker />} />
-          <Route path="/members" element={<Members />} />
+          {/* <Route path="/members" element={<Members />} /> */}
           <Route path="/mentees" element={<Mentees />} />
           <Route path="/officers" element={<Officers />} />
         </Routes>

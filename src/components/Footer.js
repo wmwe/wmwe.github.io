@@ -23,9 +23,9 @@ function Footer(props) {
     const navigateToOfficers = () => {
         navigate('/officers');
     };
-    const navigateToMembers = () => {
-        navigate('/members');
-    };
+    // const navigateToMembers = () => {
+    //     navigate('/members');
+    // };
     const navigateToContact = () => {
         navigate('/contact');
     };
@@ -61,11 +61,11 @@ function Footer(props) {
                             </button>
                         </li>
 
-                        <li>
+                        {/* <li>
                             <button className="footer-links" onClick={navigateToMembers}>
                                 members
                             </button>
-                        </li>
+                        </li> */}
 
                         <li>
                             <button className="footer-links" onClick={navigateToContact}>

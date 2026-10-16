@@ -20,9 +20,9 @@ function Header(props) {
     const navigateToOfficers = () => {
         navigate('/officers');
     };
-    const navigateToMembers = () => {
-        navigate('/members');
-    };
+    // const navigateToMembers = () => {
+    //     navigate('/members');
+    // };
     const navigateToContact= () => {
         navigate('/contact');
     };    
@@ -72,11 +72,11 @@ function Header(props) {
                                 </button>
                             </li>
 
-                            <li>
+                            {/* <li>
                                 <button className="nav-links" onClick={navigateToMembers}>
                                     members
                                 </button>
-                            </li>
+                            </li> */}
 
                             <li>
                                 <button className="nav-links" onClick={navigateToContact}>

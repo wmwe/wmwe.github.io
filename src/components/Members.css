@@ -1,4 +1,4 @@
-.container {
+/* .container {
     display: grid;
     grid-template-columns:23% 23% 23%;
     grid-template-rows: auto auto auto auto;
@@ -8,7 +8,7 @@
     justify-content: center;
     margin-bottom: 10%;
     height: fit-content !important;
-    /* overflow: hidden; */
+    
   }
 
   .mentees-container {
@@ -21,7 +21,7 @@
    justify-content: center;
    margin-bottom: 30%;
    height: fit-content !important;
-   /* overflow: hidden; */
+
   }
 
   .navButton{
@@ -33,7 +33,6 @@
   }
 
   .container div {
-    /* padding: 5%;  */
     position:relative;
  }
 
@@ -43,7 +42,6 @@
     justify-content: center !important;
     align-items: center;
     padding-right: 1rem;
-    /* align-items: top; */
  }
 
  .header-text1, .header-text3 {
@@ -104,4 +102,4 @@
    }
 
 
-}
+} */
