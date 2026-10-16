@@ -53,7 +53,7 @@ function Officers(props) {
           <OfficerCard
             name={"Anusha Patel"}
             position={"Mentoring Team Coordinator"}
-            image={"photos/officer-photos/Anusha Patel.JPG"}
+            image={"photos/officer-photos/Anusha Patel.jpg"}
             description={
               "Anusha is a senior in cs and am one of the current MTCs for WMWE. I’m also the director for acm events and acm developerment under sage. I love ranking places on beli and casually playing tennis."
             }
@@ -66,7 +66,7 @@ function Officers(props) {
           <OfficerCard
             name={"Sana Dantulwar"}
             position={"Mentoring Team Coordinator"}
-            image={"photos/officer-photos/Sana Dantulwar.JPG"}
+            image={"photos/officer-photos/Sana Dantulwar.jpg"}
             description={
               "Sana is a sophomore majoring in Biomedical Engineering. She joined WMWE to learn from a group of like minded individuals, gain mentorship from professionals, and support the growth of others. In her free time, she likes to listen to audiobooks, play badminton, and sleep."
             }
@@ -79,7 +79,7 @@ function Officers(props) {
           <OfficerCard
             name={"Devika Viju"}
             position={"Marketing Chair"}
-            image={"photos/officer-photos/Devika Viju.JPG"}
+            image={"photos/officer-photos/Devika Viju.jpg"}
             description={
               "Devika is a junior majoring in Computer Science. She joined WMWE because she loves to connect with like-minded women, grow her skills, and be part of a supportive community that encourages women in engineering. In her free time, she enjoys watching movies, playing guitar, and playing tennis."
             }
@@ -105,7 +105,7 @@ function Officers(props) {
           <OfficerCard
             name={"Krista Caparas"}
             position={"Treasury Chair"}
-            image={"photos/officer-photos/Krista Isabelle Caparas.JPG"}
+            image={"photos/officer-photos/Krista Isabelle Caparas.jpg"}
             description={
               "Krista is an undergraduate student majoring in Biomedical Engineering and is in her third semester with WMWE. She loves WMWE because it helps women in engineering obtain guidance from mentors in their field in navigating their careers. Outside of WMWE and academics, she loves doing origami and playing the oboe."
             }
