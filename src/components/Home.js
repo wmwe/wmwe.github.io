@@ -2,7 +2,11 @@ import React from "react";
 import Slider from "react-slick";
 import { useNavigate } from "react-router-dom";
 import "./Home.css";
-import "./AboutStyle.css";
+
+import { Button } from "./Button/Button.js";
+import Banner from "./Banner/Banner";
+// Claude
+//import Pillars from "./Pillars";
 
 import eventsImg from "../assets/events.png"
 import jpmorgan from "../assets/jpmorgan.png";
@@ -10,20 +14,19 @@ import c1 from "../assets/CapitalOneLogo.png";
 import statefarm from "../assets/StateFarmLogo.png";
 import ti from "../assets/TILogo.png";
 import mathworks from "../assets/MathWorksLogo.png";
-import { Button } from "./Button/Button.js";
-import Banner from "./Banner/Banner";
+
 
 import pic1 from "../assets/midsemester.JPG";
 import pic2 from "../assets/EOS2025.PNG";
 import pic3 from "../assets/groupPic.JPG";
 import pic4 from "../assets/swe2025.jpg";
-import pic5 from "../assets/galentinesocial.png";
-import pic6 from "../assets/programdetails.png";
-import pic7 from "../assets/menteeinfo.png";
-import pic8 from "../assets/bakesale.png";
-import pic9 from "../assets/capitalonetourpost.png";
-import pic10 from "../assets/ssmxstatefarm.png";
-import pic11 from "../assets/wmwexostem.png";
+import pic5 from "../assets/studysocial.png";
+import pic6 from "../assets/noodleday.png";
+import pic7 from "../assets/artsandcrafts.png";
+import pic8 from "../assets/bs.png";
+import pic9 from "../assets/midsem.png";
+import pic10 from "../assets/ssm.png";
+import pic11 from "../assets/aiworkshop.png";
 
 // About Images
 import eventpic1 from "./eventpic1.jpg";
@@ -34,19 +37,40 @@ import supportwithborder from "./supportwithborder.jpg";
 import empowermentwithborder from "./empowermentwithborder.jpg";
 import mentorshipwithborder from "./mentorshipwithborder.jpg";
 
-function Home(props) {
-  const navigate = useNavigate();
+// Claude
+const MENTEE_FORM = "https://forms.gle/t3MQ2Hy96QMiBVh79";
+const MENTOR_FORM = "https://forms.gle/Qxg4JEP6fPNrkPw47";
+const SPONSOR_EMAIL = "wmweatutd@gmail.com";
 
-  const carouselSettings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 2500,
-    arrows: true,
-  };
+const images = [
+    pic1,
+    pic2,
+    pic3,
+    pic4,
+];
+
+const carouselSettings = {
+  dots: true,
+  infinite: true,
+  speed: 500,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: true,
+  //autoplaySpeed: 2500,
+  //arrows: true,
+  autoplaySpeed: 3500,
+  arrows: false,
+};
+
+const socialMediaImages = [
+  { src: pic7, link: "https://www.instagram.com/p/DFDoPACOCnZ/?img_index=1"},
+  { src: pic6, link: "https://www.instagram.com/p/DFDoPACOCnZ/?img_index=2"},
+  { src: pic5, link: "https://www.instagram.com/p/DF-2fVCOFDI/"},
+  { src: pic8, link: "https://www.instagram.com/p/DGEACbeOTMJ/"},
+  { src: pic9, link: "https://www.instagram.com/p/DGVz388ujp3/"},
+  { src: pic10},
+  { src: pic11, link: "https://www.instagram.com/p/DG9W8JuvqHW/"}
+];
 
   const socialMediaCarouselSettings = {
     dots: false,
@@ -56,44 +80,35 @@ function Home(props) {
     slidesToScroll: 1,
     arrows: true,
     autoplay: true,
-    autoplaySpeed: 2500,
-    centerMode: false,
-    variableWidth: false,
+    autoplaySpeed: 3000,
+    responsive: [
+      { breakpoint: 900, settings: { slidesToShow: 2 } },
+      { breakpoint: 600, settings: { slidesToShow: 1 } },
+    ],
+    // autoplaySpeed: 2500,
+    // centerMode: false,
+    // variableWidth: false,
   };
 
-  const images = [
-    pic1,
-    pic2,
-    pic3,
-    pic4,
-  ];
+  
 
-  const socialMediaImages = [
-    { src: pic7, link: "https://www.instagram.com/p/DFDoPACOCnZ/?img_index=1"},
-    { src: pic6, link: "https://www.instagram.com/p/DFDoPACOCnZ/?img_index=2"},
-    { src: pic5, link: "https://www.instagram.com/p/DF-2fVCOFDI/"},
-    { src: pic8, link: "https://www.instagram.com/p/DGEACbeOTMJ/"},
-    { src: pic9, link: "https://www.instagram.com/p/DGVz388ujp3/"},
-    { src: pic10},
-    { src: pic11, link: "https://www.instagram.com/p/DG9W8JuvqHW/"}
-  ];
-
-  const navigateToEvents = () => {
-    navigate('/events');
-  };
+//function Home(props) {
+function Home() {
+  const navigate = useNavigate();
+  const navigateToEvents = () => navigate('/events');
 
   const handleMenteeClick = (e) => {
     e.preventDefault();
     window.open('https://forms.gle/t3MQ2Hy96QMiBVh79', '_blank');
   };
-  
+
   const handleMentorClick = (e) => {
     e.preventDefault();
     window.open('https://forms.gle/Qxg4JEP6fPNrkPw47', '_blank');
   };
   
   return (
-    <div style={{width: "100vw"}}>
+    <div>
       <Banner
         children={"Check out our upcoming events this month!"}
         buttons={
@@ -106,17 +121,24 @@ function Home(props) {
           </Button>
         }
       />
-      <div className="format">
         <div className="homepage-intro">
           <div className="intro-text">
             <h1  className="heading">
-              empowered women empowering women.
+              empowered women <span>empowering women.</span>
               </h1>
-              <h2 className="body1" style={{textAlign:"center",paddingBottom: "3%"}}>
-              Women Mentoring Women in Engineering is an organization formed at the University of 
-                          Texas at Dallas that is focused on helping women in STEM fields do their ultimate best. 
+              <h2 className="body1" style={{ textAlign: "center" }}>
+              Women Mentoring Women in Engineering is an organization formed at the University of
+                          Texas at Dallas that is focused on helping women in STEM fields do their ultimate best.
                           We want to help you make connections with people out in the industry.
               </h2>
+              <div className="buttons-div">
+                <Button onClick={handleMenteeClick} buttonColor="#1B3A5D" textColor="white">
+                  apply as a mentee
+                </Button>
+                <Button onClick={handleMentorClick} buttonColor="#1B3A5D" textColor="white">
+                  become a mentor
+                </Button>
+              </div>
               {/*
               <div className="textbody" style={{}}>
                 <div className="mission" style={{textAlign:"center",paddingBottom: "3%"}}>
@@ -149,25 +171,35 @@ function Home(props) {
         </div>
         {/* <section className="home-section">
           <h2 className="subheading1">our mission.</h2>
-          <h2 className="body1"> 
+          <h2 className="body1">
           WMWE aims to improve the retention rates of women in tech and STEM
           fields by giving them a head start on making valuable connections and
           gaining advice from seasoned professionals who know their way around
           the industry. We are firm believers in empowered women empowering
-          women! 
+          women!
           </h2>
         </section> */}
 
-        <section className="home-section">
-          <h2 className="subheading1">about us.</h2>
-          <h2 className="body1"> 
-          WMWE aims to improve the retention rates of women in tech and STEM
-          fields by giving them a head start on making valuable connections and
-          gaining advice from seasoned professionals who know their way around
-          the industry. We are firm believers in empowered women empowering
-          women! 
-          </h2>
-          
+        <section className="home-section home-section--white" id="about">
+          <div className="layout1">
+            <div>
+              <h2 className="subheading1">about us.</h2>
+              <h2 className="body1">
+              WMWE aims to improve the retention rates of women in tech and STEM
+              fields by giving them a head start on making valuable connections and
+              gaining advice from seasoned professionals who know their way around
+              the industry. We are firm believers in empowered women empowering
+              women!
+              </h2>
+            </div>
+            <div className="home-stat">
+              <div className="heading">24%</div>
+              <h3 className="body1">
+                of the STEM workforce is women — and that share drops at higher positions.
+              </h3>
+            </div>
+          </div>
+
           <div className="missionpics">
             {/* images for mission */}
             <img className="pic1" src={eventpic1} />
@@ -178,9 +210,7 @@ function Home(props) {
 
         <section className="home-section">
           <h2 className="subheading1">our pillars.</h2>
-        <div
-          style={{ display: "flex", flexWrap: "wrap", justifyContent: "center" }}
-        >
+        <div className="pillars-row">
           <div className="pillar">
             <img className="support" src={supportwithborder} />
             <h3 className="body1">
@@ -212,28 +242,36 @@ function Home(props) {
           </div>
         </div>
         </section>
-        <section className="home-section">
-          <h2 className="subheading1">what we do.</h2>
-          <h2 className="body1"> 
-          WMWE organizes a semesterly mentoring program between undergraduate female students and 
-          working professionals. Once you are accepted into the program, we will place you on a 
-          team of 4 mentees and 2 mentors that best suits you. From here on, you will be responsible 
-          to meet with your team at least twice a month and cover topics such as resumes, interview 
-          tips, and workplace advice. 
-          </h2>
-          
-          <img className="homepage-events" src={eventsImg} ></img>
+        <section className="home-section home-section--navy">
+          <div className="layout1">
+            <div>
+              <h2 className="subheading1">what we do.</h2>
+              <h2 className="body1 what-we-do-intro">
+              WMWE organizes a semesterly mentoring program between undergraduate female students and
+              working professionals. Once you are accepted into the program, we will place you on a
+              team of 4 mentees and 2 mentors that best suits you. From here on, you will be responsible
+              to meet with your team at least twice a month and cover topics such as resumes, interview
+              tips, and workplace advice.
+              </h2>
+            </div>
 
-          <h2 className="body1">
-          In addition to the mentoring program, WMWE also hosts events. We have sponsor events such as “
-          A Day in the Life of Software Engineer” and “Resume Tips and Tricks” in addition to Technical 
-          workshops led by our officers such as “Firebasics: All about Firebase”, “Intro to Figma and UI/UX”, 
-          “Intro to Python”, and so much more. These events are not limited to the members of the mentoring 
-          program, but are open to the public. So feel free to swing by! 
-            </h2>
+            <div>
+              <h2 className="body1">
+              In addition to the mentoring program, WMWE also hosts events. We have sponsor events such as “
+              A Day in the Life of Software Engineer” and “Resume Tips and Tricks” in addition to Technical
+              workshops led by our officers such as “Firebasics: All about Firebase”, “Intro to Figma and UI/UX”,
+              “Intro to Python”, and so much more. These events are not limited to the members of the mentoring
+              program, but are open to the public. So feel free to swing by!
+                </h2>
+              <Button onClick={navigateToEvents} buttonColor="white" textColor="#1B3A5D">
+                see upcoming events
+              </Button>
+            </div>
+          </div>
+          <img className="homepage-events" src={eventsImg} />
         </section>
 
-        <div style={{paddingLeft:"5%", paddingRight:"5%", paddingTop:"3%"}}>
+        <section className="home-section">
           <h2 className="subheading1">our current and past sponsors.</h2>
           <div className="sponsors-flex">
             <img src={jpmorgan} className="sponsor-img"></img>
@@ -243,13 +281,13 @@ function Home(props) {
             <img src={mathworks} className="sponsor-img"></img>
           </div>
 
-            <h2 className="body1" style={{textAlign:"right", marginTop:"-3%", fontSize:"0.8rem", marginBottom:"1%"}}>
+            <h2 className="body1" style={{textAlign:"right", fontSize:"0.8rem"}}>
             Interested in sponsoring? Reach out to us at wmweatutd@gmail.com</h2>
-        </div>
+        </section>
 
         <section className="home-section">
           <h2 className="subheading1">follow us on social media!</h2>
-          
+
           <div className="social-media-carousel">
             <Slider {...socialMediaCarouselSettings}>
               {socialMediaImages.map((item, index) => (
@@ -263,8 +301,6 @@ function Home(props) {
           </div>
         </section>
 
-        
-      </div>
     </div>
   );
 }
