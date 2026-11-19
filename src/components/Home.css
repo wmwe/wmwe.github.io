@@ -10,8 +10,9 @@
 .social-media-img {
     max-width: 280px;
     width: 100%;
-    height: auto;
-    border-radius: 8px;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 16px;
     transition: transform 0.2s ease-in-out;
     display: block;
     margin: 0 auto;
@@ -42,6 +43,14 @@
 .social-media-carousel .slick-list {
     margin: 0 -15px;
     overflow: hidden;
+}
+
+/* Slick arrows default to white, which is invisible on this background */
+.social-media-carousel .slick-prev:before,
+.social-media-carousel .slick-next:before,
+.carousel-container .slick-prev:before,
+.carousel-container .slick-next:before {
+    color: #1B3A5D;
 }
 
 .social-media-carousel .slick-track {
@@ -80,6 +89,7 @@
 .carousel-image {
     width: 100%;
     height: auto;
+    border-radius: 20px;
 }
 
 
@@ -87,7 +97,7 @@
 .subheading1{
     font-family: 'League Spartan', sans-serif;
     font-weight: 600;
-    font-size: 28px;
+    font-size: 30px;
     text-align: left;
     color: #1B3A5D;
     
@@ -121,6 +131,10 @@
     display: flex;
     flex-direction: row;
     margin-top: 5rem;
+}
+
+.layout1 > div{
+    flex: 1;
 }
 
 .layout2{
@@ -234,7 +248,10 @@
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    margin-top: -3%;
+    gap: 2rem;
+    padding: 2rem 0;
+    border-top: 1px solid #CDE6F3;
+    border-bottom: 1px solid #CDE6F3;
 }
 
 .home-page-intro-image{
@@ -247,6 +264,10 @@
     font-size: 60px;
     font-family: 'League Spartan', sans-serif;
     color: #1B3A5D
+}
+
+.heading span{
+    color: #0077B6;
 }
 
 .intro-text{
@@ -272,8 +293,42 @@
 }
 
 .home-section {
-  padding: 0 5%;
+  padding: 0 max(5%, calc((100% - 1200px) / 2));
   margin-top: var(--space-section);
+}
+
+/* Full-width white and navy bands */
+.home-section--white,
+.home-section--navy {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.home-section--white {
+  background: #FFFFFF;
+}
+
+.home-section--navy {
+  background: #1B3A5D;
+  padding-bottom: 2.5rem;
+}
+
+.home-section--navy .subheading1,
+.home-section--navy .body1 {
+  color: #FFFFFF;
+}
+
+/* 24% stat next to the about text */
+.home-stat {
+  align-self: flex-end;
+  border-left: 2px solid #CDE6F3;
+  padding-left: 2rem;
+}
+
+.home-stat .heading {
+  font-size: 96px;
+  line-height: 0.9;
+  color: #0077B6;
 }
 
 .home-section:last-child {
@@ -288,29 +343,434 @@
 
 /* Every child after the first gets the same gap */
 .home-section > :not(:first-child),
-.home-section .pillar > :not(:first-child) {
+.home-section .pillar > :not(:first-child),
+.home-section .layout1 > div > :not(:first-child) {
   margin-top: var(--space-content);
 }
 
-/* AboutStyle.css adds a bottom margin to .missionpics; cancel it here only */
+
+
+@import '~slick-carousel/slick/slick.css';
+@import '~slick-carousel/slick/slick-theme.css';
+
+.format{
+    margin-left: 10rem;
+    margin-right: 10rem;
+    
+}
+
+.social-media-img {
+    max-width: 280px;
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 16px;
+    transition: transform 0.2s ease-in-out;
+    display: block;
+    margin: 0 auto;
+}
+  
+.social-media-img:hover {
+    transform: scale(1.05);
+}
+
+/* Social media carousel container */
+.social-media-carousel {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Social media carousel slide styling - scoped to only affect this carousel */
+.social-media-carousel .slick-slide > div {
+    padding: 0 15px;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.social-media-carousel .slick-slide {
+    padding: 0;
+    height: 100%;
+}
+
+.social-media-carousel .slick-list {
+    margin: 0 -15px;
+    overflow: hidden;
+}
+
+/* Slick arrows default to white, which is invisible on this background */
+.social-media-carousel .slick-prev:before,
+.social-media-carousel .slick-next:before,
+.carousel-container .slick-prev:before,
+.carousel-container .slick-next:before {
+    color: #1B3A5D;
+}
+
+.social-media-carousel .slick-track {
+    display: flex;
+    align-items: stretch;
+}
+
+/* Ensure each slide container has proper width */
+.social-media-carousel .slick-slide > div > a {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+  
+.instagram-media {
+    max-width: 400px;
+    margin: 0 auto; 
+    border: none; 
+  }
+  
+  .instagram-media a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+.carousel-container {
+  width: 520px;       /* key change */
+  max-width: 520px;
+  margin: 0 auto;
+  align-self: flex-end;
+  padding-right: 3%;
+  flex-shrink: 0;     /* prevents squeezing intro-text */
+}
+
+  
+.carousel-image {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+
+
+.subheading1{
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    text-align: left;
+    color: #1B3A5D;
+    
+}
+
+.body1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    text-align: left;
+    color:#1B3A5D;
+    
+    margin-top: 1.5rem;
+    width: 100%
+}
+
+.homepage-image1{ 
+    max-width: 80%;
+    height: auto;
+    float: right;
+
+}
+
+.homepage-image2{ 
+    max-width: 100%;
+    height: auto;
+    float: left;  
+}
+
+.layout1{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.layout1 > div{
+    flex: 1;
+}
+
+.layout2{
+    margin-top: 5rem;
+}
+
+.textlayout2{
+    margin-left: 10rem;
+}
+
+.sponsorslayout{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: auto auto;
+}
+
+.banner1{
+    background-color: #00B1F5;
+    width: 100%;
+    height: 3.5rem;
+    column-gap: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    padding-right: 75px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, 5vw);
+    grid-gap: 15px;
+}
+.gallery__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gallery__item--1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.gallery__item--2 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.gallery__item--3 {
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.gallery__item--4 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+
+.gallery__item--5 {
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+
+.section__headers {
+    text-align: left;
+    font-family: 'League Spartan';
+    color: #1B3A5D;
+    font-size: 2rem;
+}
+
+.homepage-intro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 6%;
+    padding-bottom: 0;
+    padding-left: max(5%, calc((100% - 1200px) / 2));
+    padding-right: max(5%, calc((100% - 1200px) / 2));
+    column-gap: 3rem;
+}
+
+.buttons-div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    column-gap: 12px;
+    row-gap: 12px;
+}
+
+.sponsors-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2rem 0;
+    border-top: 1px solid #CDE6F3;
+    border-bottom: 1px solid #CDE6F3;
+}
+
+.home-page-intro-image{
+    align-self: flex-end;
+    max-width: 320px;
+    padding-right: 3%;
+}
+
+.heading{
+    font-size: 60px;
+    font-family: 'League Spartan', sans-serif;
+    color: #1B3A5D
+}
+
+.heading span{
+    color: #0077B6;
+}
+
+.intro-text{
+    width: 55%;
+}
+
+.sponsor-img{
+    max-width: 175px;
+}
+
+.homepage-events{
+    visibility: visible;
+    max-height: 220px;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+/* ---------- Homepage spacing system ---------- */
+:root {
+  --space-section: 3rem;   /* between sections */
+  --space-content: 1.5rem;
+}
+
+.home-section {
+  padding: 0 max(5%, calc((100% - 1200px) / 2));
+  margin-top: var(--space-section);
+}
+
+/* Full-width white and navy bands */
+.home-section--white,
+.home-section--navy {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.home-section--white {
+  background: #FFFFFF;
+}
+
+.home-section--navy {
+  background: #1B3A5D;
+}
+
+.home-section--navy .subheading1,
+.home-section--navy .body1 {
+  color: #FFFFFF;
+}
+
+/* 24% stat next to the about text */
+.home-stat {
+  align-self: flex-end;
+  border-left: 2px solid #CDE6F3;
+  padding-left: 2rem;
+}
+
+.home-stat .heading {
+  font-size: 96px;
+  line-height: 0.9;
+  color: #0077B6;
+}
+
+.home-section:last-child {
+  padding-bottom: var(--space-section);
+}
+
+/* Remove browser-default and .body1 margins so the parent controls spacing */
+.home-section h2,
+.home-section h3 {
+  margin: 0;
+}
+
+/* Every child after the first gets the same gap */
+.home-section > :not(:first-child),
+.home-section .pillar > :not(:first-child),
+.home-section .layout1 > div > :not(:first-child) {
+  margin-top: var(--space-content);
+}
+
+.home-section--navy .layout1 > div > .what-we-do-intro {
+  margin-top: 0.75rem;
+}
+
+.home-section--navy .layout1 {
+  margin-top: 0;
+}
+
+.home-section--navy > .homepage-events {
+  width: 100%;
+  height: auto;
+  max-height: none;
+  max-width: none;
+  /* margin-top: 1.5rem; */
+  padding: 0px 32px 0;
+  background: #F5FCFF;
+  box-sizing: border-box;
+}
+
+
+/* AboutStyle.css adds a bottom margin to .missionpics; cancel it here only.
+   Home page shows the photos as three even columns; About page is unchanged. */
 .home-section .missionpics {
   margin-bottom: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.home-section .missionpics img {
+  max-width: none;
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.events-strip {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  margin-top: 1.5rem;
+}
+.events-strip img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 12px;
 }
 
 .pillars-row {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  gap: 2.5rem;
 }
 
 .pillar {
   flex: 1;
-  max-width: 180px;
-  padding: 0 40px; /* horizontal only; this was adding 40px of extra vertical space */
+  min-width: 220px;
+  padding-top: 1.5rem;
+  border-top: 3px solid #0077B6;
 }
 
 .homepage-events {
   display: block; /* removes the small inline-image gap under the picture */
+  border-radius: 16px;
 }
 
 @media (max-width: 768px) {
@@ -372,7 +832,7 @@
     .subheading1{
         font-family: 'League Spartan', sans-serif;
         font-weight: 600;
-        font-size: 28px;
+        font-size: 30px;
         text-align: left;
         color: #1B3A5D;
         overflow-wrap: break-word;
@@ -410,4 +870,50 @@
     .homepage-events{
         max-height:40px;
     }
+
+    .homepage-events{
+        max-height:40px;
+    }
+
+    .layout1{
+        flex-direction: column;
+    }
+
+    .home-stat{
+        border-left: none;
+        padding-left: 0;
+    }
+
+    .home-section .missionpics{
+        grid-template-columns: 1fr;
+    }
+}
+
+.pic1, .pic2, .pic3 {
+    width: 100%;
+    max-width: 256px;
+    height: auto;
+    display: block;
+    padding: 0;
+}
+
+.support, .empowerment, .mentorship {
+    max-width: 180px;
+    max-height: 180px;
+    padding: 0px;
+}
+    
+.missionpics {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: nowrap;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+p {
+    font-size: 80%;
+    font-family: 'Montserrat', sans-serif;
 }

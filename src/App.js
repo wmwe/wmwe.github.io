@@ -1,9 +1,10 @@
-import React, { Component } from "react";
+import React, { useEffect } from "react";
 import {
   BrowserRouter as Router,
   Route,
   Routes,
   Switch,
+  useLocation,
 } from "react-router-dom";
 
 import logo from "./logo.svg";
@@ -31,10 +32,21 @@ import Navbar from "./components/Navbar";
 import Navbar2 from "./components/Navbar2";
 import Header from "./components/Header/Header";
 
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+}
+
 function App() {
   return (
     <div className="App">
       <Router>
+        <ScrollToTop />
         <Header></Header>
         <Routes>
           <Route path="/" element={<Home />} />
