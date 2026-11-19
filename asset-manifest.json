@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.4248b311.css",
-    "main.js": "/static/js/main.92d0d29f.js",
+    "main.css": "/static/css/main.8e4e2842.css",
+    "main.js": "/static/js/main.2d9137ed.js",
     "static/js/453.c2a22ff2.chunk.js": "/static/js/453.c2a22ff2.chunk.js",
     "static/media/EOS2025.PNG": "/static/media/EOS2025.c7b4653583699017a684.PNG",
+    "static/media/events.png": "/static/media/events.f71e4ab1c74543dc82d4.png",
     "static/media/groupPic.JPG": "/static/media/groupPic.86a8aa0d660d879a54b2.JPG",
-    "static/media/events.png": "/static/media/events.e6fcaf9683991d627d75.png",
     "static/media/midsemester.JPG": "/static/media/midsemester.8975d623d38059f6a38f.JPG",
-    "static/media/wmwexostem.png": "/static/media/wmwexostem.0b6edbeb247e04f3e3fb.png",
     "static/media/eventpic1.jpg": "/static/media/eventpic1.70a78112833b5053a727.jpg",
     "static/media/aboutUsPic2.jpg": "/static/media/aboutUsPic2.8b973f92637637e3d4bd.jpg",
+    "static/media/studysocial.png": "/static/media/studysocial.2a10b6e955353ad86bac.png",
+    "static/media/ssm.png": "/static/media/ssm.d29a963b935b33ee0b55.png",
     "static/media/aboutUsPic1.jpg": "/static/media/aboutUsPic1.770ffb050966b087a4ea.jpg",
+    "static/media/artsandcrafts.png": "/static/media/artsandcrafts.4b198f99ad9fc78b3fdc.png",
+    "static/media/noodleday.png": "/static/media/noodleday.3a2e63ba1da50c09e1e3.png",
     "static/media/swe2025.jpg": "/static/media/swe2025.e077788021b209277ab9.jpg",
-    "static/media/galentinesocial.png": "/static/media/galentinesocial.9fbf805333093d5782e3.png",
-    "static/media/ssmxstatefarm.png": "/static/media/ssmxstatefarm.95eba65267bdebf02a15.png",
+    "static/media/aiworkshop.png": "/static/media/aiworkshop.88c739de79aa55d66090.png",
+    "static/media/midsem.png": "/static/media/midsem.88c3427d48dab3547d76.png",
+    "static/media/bs.png": "/static/media/bs.8a11bc05d5c55b1fa058.png",
     "static/media/empowermentwithborder.jpg": "/static/media/empowermentwithborder.7c2dbf6af28623140f1a.jpg",
     "static/media/mentorshipwithborder.jpg": "/static/media/mentorshipwithborder.595935440c4e195742d0.jpg",
     "static/media/supportwithborder.jpg": "/static/media/supportwithborder.e7a81a6f4d2aae4feca0.jpg",
-    "static/media/capitalonetourpost.png": "/static/media/capitalonetourpost.3b493bc7bfa58feaaf76.png",
-    "static/media/bakesale.png": "/static/media/bakesale.dc807fdf65e3405ab54d.png",
-    "static/media/menteeinfo.png": "/static/media/menteeinfo.39cb8efc07af0b05e335.png",
-    "static/media/programdetails.png": "/static/media/programdetails.6afb08bd058600119f56.png",
     "static/media/women.png": "/static/media/women.a4c39e2def53639c3b89.png",
     "static/media/wmwelogo.png": "/static/media/wmwelogo.09452a025745767ecfd4.png",
     "static/media/CapitalOneLogo.png": "/static/media/CapitalOneLogo.a9d574a1ba02a0e42e47.png",
@@ -35,12 +35,12 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "index.html": "/index.html",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "main.4248b311.css.map": "/static/css/main.4248b311.css.map",
-    "main.92d0d29f.js.map": "/static/js/main.92d0d29f.js.map",
+    "main.8e4e2842.css.map": "/static/css/main.8e4e2842.css.map",
+    "main.2d9137ed.js.map": "/static/js/main.2d9137ed.js.map",
     "453.c2a22ff2.chunk.js.map": "/static/js/453.c2a22ff2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4248b311.css",
-    "static/js/main.92d0d29f.js"
+    "static/css/main.8e4e2842.css",
+    "static/js/main.2d9137ed.js"
   ]
 }
